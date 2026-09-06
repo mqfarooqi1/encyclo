@@ -304,6 +304,61 @@ Stations unlock in order. Clearing one (half marks or better) opens the next and
 awards its badge. Adding a station is a JSON edit — the board renders whatever
 the data describes.
 
+## Two kinds of pack
+
+**Authored packs** (`content/packs/core/`) keep one JSON file per article, which
+reviews and diffs cleanly. Everything above describes these.
+
+**Imported packs** (`content/packs/wikipedia/`) keep every article in one
+gzipped JSONL file — `articles.jsonl.gz`, one JSON object per line. Thousands of
+loose files make a repository and a download unpleasant to handle. The loader
+reads both layouts, and a pack may contain both.
+
+The two are held to the same validator. The only difference is scale and
+provenance:
+
+| | Authored | Imported |
+|---|---|---|
+| Reading levels | Four, each written for its audience | `adult` and `teen`, from two different wikis |
+| Source tier | 1–2, the institution that produced the data | 3, a tertiary reference |
+| Citation | Per claim | Per article, to a permanent revision |
+| Kids Mode | Yes, once reviewed | **No** — see below |
+| Shown as | The project's own writing | Labelled as imported, in the app |
+
+### Why imported articles are not kids-safe
+
+An import is `kids_safe: false` and offers no `age6_8` or `age9_12` band. This
+is a deliberate default, not an oversight.
+
+Kids Mode is a promise that a person has read the page. Nobody has read these,
+and the harvest reaches into wars, battles, diseases and human anatomy. The
+Simple English text is real simplified prose, but it is written for readers with
+limited English — adult learners included — rather than for children, so it goes
+in at `teen`.
+
+The validator enforces the pairing: a children's reading band on a
+`kids_safe=false` article is an error. So the flag and the levels cannot drift
+apart, whichever one someone edits.
+
+If you have read an imported article and it belongs in Kids Mode, promote it —
+that is a review decision, made by a named person, and it is recorded like any
+other. The default runs the safe way because it is the one that can still be
+changed afterwards.
+
+To rebuild an imported pack:
+
+```bash
+ENCARTA_ALLOW_NETWORK=1 python run.py import-wikipedia
+```
+
+Add `--subjects "Mammals,Volcanoes"` to restrict the harvest, or `--limit 200`
+to cap it. The harvest plan lives in `src/encarta/pipeline/wikipedia.py` as a
+list of `Subject` entries mapping a Wikipedia category onto one of our
+categories and article types — extend that list to broaden coverage.
+
+An imported article never overwrites an authored one: the importer is handed the
+set of slugs already in `core` and skips them.
+
 ## Media
 
 Only add media whose licence you have verified.

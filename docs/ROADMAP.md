@@ -18,7 +18,7 @@
 | 11 · Quiz engine | **Done** | 22 quizzes, 125 questions, four question types; two Explorer Trails, 14 stations, 18 badges |
 | 12 · AI assistant | **Done** | Grounded RAG, citation verification, honest no-AI mode |
 | 13 · Update pipeline | **Schema and review queue done** | Proposal/diff/audit tables enforced; generating agent not written |
-| 14 · Offline content packs | **Loader done** | Multi-pack loading, versioning, inventory; no distribution format |
+| 14 · Offline content packs | **Done** | Multi-pack loading, versioning, inventory, and a compressed bulk format for imported packs |
 | 15 · Local AI | **Done** | Ollama-compatible provider, no key or internet needed |
 | 16 · Admin CMS | **Read-only dashboard** | Stats, issues, review queue, packs; no editing UI |
 | 17 · Testing, security, performance | **Done** | 137 tests, CSP, traversal guard, redacted logs, indexed queries |
@@ -26,11 +26,12 @@
 
 ## Next, in order
 
-**1 · Continue growing the library.** 57 articles is a real encyclopaedia but a
-small one. The engine scales; authoring at four levels with real citations is
-the cost. Obvious next subjects: the United Kingdom, United States, China,
-India, Japan, more dinosaurs, more mathematics, the arts, and the remaining
-body systems.
+**1 · Keep authoring the core pack.** The imported pack gives breadth; the
+authored pack gives the project its point of view. Every subject worth teaching
+carefully deserves the four-level, claim-by-claim treatment, and the imported
+article for that subject should eventually be replaced by a written one.
+Obvious next subjects: the United Kingdom, United States, China, India, Japan,
+more mathematics and the remaining body systems.
 
 **2 · Source link verification.** A `verify-sources` command that checks each
 URL with `ENCARTA_ALLOW_NETWORK=1`, records HTTP status, and moves sources out
@@ -39,7 +40,9 @@ on every source.
 
 **3 · Media ingest.** An importer for Wikimedia Commons, NASA and museum
 open-access sets that refuses to import anything whose licence it cannot
-determine, storing checksum and provenance per item.
+determine, storing checksum and provenance per item. The text importer
+establishes the pattern; images differ only in that the licence check must be
+per file.
 
 **4 · The update pipeline agent.** The tables and review gates exist. What is
 missing is the component that retrieves from approved sources, diffs against the
@@ -73,3 +76,5 @@ worksheets. All are additive; none should shape the schema now.
 - Content and user data stay in separate database files.
 - The application keeps working with no network and no AI provider.
 - No media ships without a verified licence.
+- Imported text is never presented as the project's own writing, and is never
+  paraphrased or simplified by machine.

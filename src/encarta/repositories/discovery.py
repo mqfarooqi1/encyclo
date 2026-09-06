@@ -75,12 +75,45 @@ class DiscoveryRepository:
             limit,
         )
 
+    #: Articles below this score are in the library but not in the shop window.
+    #: Without it, importing thousands of reference extracts would statistically
+    #: guarantee the home page showcased one of them rather than the
+    #: encyclopaedia's own work.
+    #:
+    #: 70 is not arbitrary. The two populations do not overlap: an authored
+    #: article scores 81-95 (four written levels, structured facts, tier-1
+    #: citations, a quiz, relations), an imported lead section 39-62 — it has
+    #: none of those and cannot score higher however good the prose is. 70 sits
+    #: in the empty gap between them, so the floor is a statement about
+    #: editorial completeness rather than a threshold tuned to one import.
+    SHOWCASE_FLOOR = 70
+
+    def _showcase(self, where: str, order: str, limit: int,
+                  params: tuple[Any, ...] = ()) -> list[dict[str, Any]]:
+        """A card query that prefers editorially complete articles.
+
+        Tops up from the rest of the library when too little clears the floor,
+        so a fresh install with a small pack still has a full home page — and
+        keeps the good rows it did find rather than discarding them.
+        """
+        rows = self._card_query(
+            f"({where}) AND a.quality_score >= {self.SHOWCASE_FLOOR}", order, limit, params)
+        if len(rows) >= limit:
+            return rows
+        seen = {r["slug"] for r in rows}
+        for row in self._card_query(where, order, limit, params):
+            if len(rows) >= limit:
+                break
+            if row["slug"] not in seen:
+                rows.append(row)
+        return rows
+
     def daily_discovery(self, kids_only: bool = False) -> dict[str, Any] | None:
         """A deterministic pick of the day, so the home page is stable all day
         but different tomorrow."""
         seed = date.today().toordinal()
         kids = "a.kids_safe = 1 AND " if kids_only else ""
-        rows = self._card_query(f"{kids}1 = 1", f"(a.id * 7919 + {seed}) % 10007", 1)
+        rows = self._showcase(f"{kids}1 = 1", f"(a.id * 7919 + {seed}) % 10007", 1)
         return rows[0] if rows else None
 
     def random(self, category: str | None = None, kids_only: bool = False) -> dict[str, Any] | None:
@@ -96,8 +129,10 @@ class DiscoveryRepository:
         return rows[0] if rows else None
 
     def recently_updated(self, limit: int = 6, kids_only: bool = False) -> list[dict[str, Any]]:
+        # Bulk-loading a content pack stamps every row with the same timestamp,
+        # so this must also be quality-gated or an import erases the section.
         kids = "a.kids_safe = 1 AND " if kids_only else ""
-        return self._card_query(f"{kids}1 = 1", "a.updated_at DESC, a.title", limit)
+        return self._showcase(f"{kids}1 = 1", "a.updated_at DESC, a.title", limit)
 
     def did_you_know(self, limit: int = 5, kids_only: bool = False) -> list[dict[str, Any]]:
         """Surprising quick-facts, always carrying their article and status."""

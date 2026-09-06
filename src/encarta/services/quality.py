@@ -198,7 +198,11 @@ class QualityService:
             ).fetchall()
         ]
         scores: list[int] = []
-        for article_id in ids:
+        for index, article_id in enumerate(ids, start=1):
+            # At library scale this is the slowest step in setup; without a
+            # progress line it looks like a hang.
+            if len(ids) > 500 and index % 1000 == 0:
+                log.info("  scored %d/%d articles", index, len(ids))
             breakdown = self.score_article(article_id)
             if breakdown:
                 scores.append(breakdown.total())
@@ -267,27 +271,40 @@ class FactChecker:
         return len(rows)
 
     def _dangling_markers(self) -> int:
-        found = 0
-        rows = self.conn.execute(
-            "SELECT a.id, a.slug, a.current_revision_id AS rev FROM article a "
+        """Find citation markers in body text with no matching citation.
+
+        Two streaming queries rather than two per article: at a few dozen
+        articles the per-article loop was invisible, at tens of thousands it is
+        26,000 round trips. Rows are consumed as they arrive, so only the marker
+        numbers are ever held in memory, never the body text.
+        """
+        used: dict[int, set[int]] = {}
+        slugs: dict[int, str] = {}
+        for row in self.conn.execute(
+            "SELECT a.id, a.slug, ic.body_md FROM article a "
+            "JOIN article_content ic ON ic.revision_id = a.current_revision_id "
             "WHERE a.status = 'published'"
-        ).fetchall()
-        for row in rows:
-            bodies = self.conn.execute(
-                "SELECT body_md FROM article_content WHERE revision_id = ?", (row["rev"],)
-            ).fetchall()
-            used = set()
-            for body in bodies:
-                used |= {int(m) for m in CITATION_MARKER_RE.findall(body["body_md"] or "")}
-            defined = {
-                int(r["marker"])
-                for r in self.conn.execute(
-                    "SELECT marker FROM citation WHERE revision_id = ?", (row["rev"],)
-                ).fetchall()
-            }
-            for missing in sorted(used - defined):
-                self._raise(row["id"], "unsupported_claim", "error",
-                            f"{row['slug']} cites [{missing}] but no such citation exists")
+        ):
+            markers = CITATION_MARKER_RE.findall(row["body_md"] or "")
+            if not markers:
+                continue
+            slugs[row["id"]] = row["slug"]
+            used.setdefault(row["id"], set()).update(int(m) for m in markers)
+
+        defined: dict[int, set[int]] = {}
+        for row in self.conn.execute(
+            "SELECT a.id, c.marker FROM article a "
+            "JOIN citation c ON c.revision_id = a.current_revision_id "
+            "WHERE a.status = 'published'"
+        ):
+            defined.setdefault(row["id"], set()).add(int(row["marker"]))
+
+        found = 0
+        for article_id, cited in used.items():
+            for missing in sorted(cited - defined.get(article_id, set())):
+                self._raise(article_id, "unsupported_claim", "error",
+                            f"{slugs[article_id]} cites [{missing}] "
+                            "but no such citation exists")
                 found += 1
         return found
 

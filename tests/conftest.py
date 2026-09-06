@@ -60,3 +60,24 @@ def empty_conn(tmp_path) -> sqlite3.Connection:
 @pytest.fixture
 def config(loaded_db) -> Config:
     return Config(data_dir=loaded_db, content_dir=project_root() / "content")
+
+
+@pytest.fixture
+def writable_db(loaded_db, tmp_path) -> Path:
+    """A private copy of the loaded database, for tests that mutate rows.
+
+    The `loaded_db` fixture is session-scoped and shared; anything that writes
+    needs its own copy or it silently changes the world for later tests.
+    """
+    import shutil
+
+    for name in ("content.db", "user.db"):
+        shutil.copy2(loaded_db / name, tmp_path / name)
+    return tmp_path
+
+
+@pytest.fixture
+def writable_conn(writable_db) -> sqlite3.Connection:
+    connection = connect(writable_db / "content.db", writable_db / "user.db")
+    yield connection
+    connection.close()

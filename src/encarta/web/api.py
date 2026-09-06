@@ -115,16 +115,27 @@ def create_router(db: Database, config: Config) -> Router:
     @router.get("/api/category/{key}")
     def category(req: Request) -> Response:
         key = req.params["key"]
+        limit = req.get_int("limit", 60, high=200)
+        offset = req.get_int("offset", 0, high=100_000)
+        kids = req.get_bool("kids")
+        sort = req.get("sort") or "quality"
         rows = articles().by_category(
-            key,
-            limit=req.get_int("limit", 60, high=200),
-            offset=req.get_int("offset", 0, high=100_000),
-            kids_only=req.get_bool("kids"),
-        )
+            key, limit=limit, offset=offset, kids_only=kids, sort=sort)
         meta = db.one("SELECT key, label, icon, description FROM category WHERE key = ?", (key,))
         if not meta:
             raise HttpError(404, f"Unknown category {key!r}")
-        return Response.json({"category": meta, "articles": rows, "total": len(rows)})
+        # The real total, not len(rows): a category can hold thousands, and the
+        # reader needs to know there is more behind the first page.
+        total = articles().count_by_category(key, kids_only=kids)
+        return Response.json({
+            "category": meta,
+            "articles": rows,
+            "total": total,
+            "offset": offset,
+            "limit": limit,
+            "sort": sort if sort in ArticleRepository.CATEGORY_ORDERS else "quality",
+            "has_more": offset + len(rows) < total,
+        })
 
     # -- search ---------------------------------------------------------------
 
@@ -479,6 +490,14 @@ def create_router(db: Database, config: Config) -> Router:
                 "recent_audit": db.query(
                     "SELECT at, actor, action, entity, entity_id FROM audit_log "
                     "ORDER BY at DESC LIMIT 15"
+                ),
+                # Grouped counts, so a few thousand findings of one routine kind
+                # cannot bury a handful of errors of another.
+                "issue_kinds": db.query(
+                    "SELECT kind, severity, COUNT(*) AS n FROM issue WHERE status = 'open' "
+                    "GROUP BY kind, severity "
+                    "ORDER BY CASE severity WHEN 'error' THEN 0 WHEN 'warning' THEN 1 "
+                    "ELSE 2 END, n DESC"
                 ),
             }
         )

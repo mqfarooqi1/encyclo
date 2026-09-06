@@ -255,3 +255,12 @@ a.station:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); bor
   .confetti-dot { display: none; }
   .award { animation: none; }
 }
+
+/* Provenance banner for imported articles. Deliberately distinct from the
+   amber "something is missing" notice: this is information, not a warning. */
+.notice.provenance {
+  background: var(--violet-soft);
+  color: var(--violet);
+  border-color: color-mix(in srgb, var(--violet) 32%, transparent);
+}
+.notice.provenance strong { color: inherit; }

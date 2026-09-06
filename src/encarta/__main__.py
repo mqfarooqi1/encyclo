@@ -7,13 +7,12 @@
 from __future__ import annotations
 
 import argparse
-import json
 import logging
 import sys
 from pathlib import Path
 
 from .config import Config
-from .content.loader import LoaderError, PackLoader
+from .content.loader import LoaderError, PackLoader, read_pack_articles
 from .content.validate import ContentValidator, has_errors
 from .db import Database, connect
 from .db.migrate import migrate_all
@@ -70,13 +69,14 @@ def cmd_load(config: Config, args: argparse.Namespace) -> int:
 
 def cmd_validate(config: Config, args: argparse.Namespace) -> int:
     exit_code = 0
+    from .content.loader import read_pack_json
+
     for pack in _packs(config, args.pack):
-        taxonomy = json.loads((pack / "taxonomy.json").read_text(encoding="utf-8"))
-        sources = json.loads((pack / "sources.json").read_text(encoding="utf-8"))
-        media_path = pack / "media.json"
-        media = json.loads(media_path.read_text(encoding="utf-8")) if media_path.is_file() else []
-        files = sorted((pack / "articles").glob("*.json"))
-        articles = [json.loads(f.read_text(encoding="utf-8")) for f in files]
+        taxonomy = read_pack_json(pack / "taxonomy.json", {})
+        sources = read_pack_json(pack / "sources.json", [])
+        media = read_pack_json(pack / "media.json", [])
+        labelled = read_pack_articles(pack)
+        articles = [art for _, art in labelled]
 
         validator = ContentValidator(
             known_sources={s["uid"] for s in sources},
@@ -86,8 +86,8 @@ def cmd_validate(config: Config, args: argparse.Namespace) -> int:
             known_categories={c["key"] for c in taxonomy.get("categories", [])},
         )
         findings = []
-        for path, art in zip(files, articles, strict=True):
-            findings.extend(validator.validate_article(art, where=path.name))
+        for label, art in labelled:
+            findings.extend(validator.validate_article(art, where=label))
 
         by_severity = {"error": 0, "warning": 0, "info": 0}
         for finding in findings:
@@ -102,6 +102,49 @@ def cmd_validate(config: Config, args: argparse.Namespace) -> int:
         if has_errors(findings):
             exit_code = 1
     return exit_code
+
+
+def cmd_import_wikipedia(config: Config, args: argparse.Namespace) -> int:
+    """Import openly licensed reference text to scale the library.
+
+    Requires network access, which the application otherwise never uses.
+    """
+    from .content.loader import read_pack_articles
+    from .pipeline.wikipedia import PLAN, WikipediaImporter
+
+    if not config.allow_network:
+        print(
+            "This needs network access, which is off by default.\n"
+            "Re-run with:  ENCARTA_ALLOW_NETWORK=1 python run.py import-wikipedia\n"
+            "(on Windows PowerShell:  $env:ENCARTA_ALLOW_NETWORK=1)",
+            file=sys.stderr,
+        )
+        return 1
+
+    # Hand-written articles always win: never overwrite authored text with an
+    # imported extract of the same subject.
+    core = config.content_dir / "packs" / "core"
+    existing = {art.get("slug", "") for _, art in read_pack_articles(core)} if core.is_dir() else set()
+
+    out_dir = config.content_dir / "packs" / args.pack
+    plan = PLAN
+    if args.subjects:
+        wanted = {s.strip().lower() for s in args.subjects.split(",")}
+        plan = tuple(s for s in PLAN if s.category.lower() in wanted)
+        if not plan:
+            print(f"no subjects matched {args.subjects!r}", file=sys.stderr)
+            return 1
+
+    importer = WikipediaImporter(config, exclude_slugs=existing)
+    report = importer.run(out_dir, plan=plan, limit=args.limit)
+    print(report.summary())
+    if report.errors:
+        print(f"{len(report.errors)} non-fatal errors, first few:")
+        for message in report.errors[:5]:
+            print(f"  {message}")
+    print(f"\nwrote {out_dir}")
+    print("Now run:  python run.py load && python run.py index && python run.py score")
+    return 0
 
 
 def cmd_index(config: Config, _: argparse.Namespace) -> int:
@@ -217,6 +260,15 @@ def build_parser() -> argparse.ArgumentParser:
     validate.add_argument("pack", nargs="?")
     validate.add_argument("-v", "--verbose", action="store_true", help="include info findings")
 
+    wiki = sub.add_parser(
+        "import-wikipedia",
+        help="import openly licensed reference articles (needs ENCARTA_ALLOW_NETWORK=1)",
+    )
+    wiki.add_argument("--pack", default="wikipedia", help="pack directory name to write")
+    wiki.add_argument("--limit", type=int, default=None, help="cap the number of articles")
+    wiki.add_argument("--subjects", default=None,
+                      help="comma-separated Wikipedia categories to restrict the harvest to")
+
     sub.add_parser("index", help="rebuild the full-text search index")
     sub.add_parser("score", help="recompute article quality scores")
     sub.add_parser("check", help="run automated fact and integrity checks")
@@ -237,6 +289,7 @@ COMMANDS = {
     "migrate": cmd_migrate,
     "load": cmd_load,
     "validate": cmd_validate,
+    "import-wikipedia": cmd_import_wikipedia,
     "index": cmd_index,
     "score": cmd_score,
     "check": cmd_check,

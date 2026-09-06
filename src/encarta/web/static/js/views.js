@@ -110,7 +110,11 @@ export async function homeView() {
         el('a', { class: 'card', href: `#/article/${f.slug}`, 'data-link': '' },
           el('div', { class: 'card-body' },
             el('div', { class: 'eyebrow' }, f.label),
-            el('h3', { style: { fontSize: '18px' } }, f.value_text + (f.unit ? ` ${f.unit}` : '')),
+            // `value_text` is the human-readable rendering and already carries its
+            // unit where one belongs ("Up to about 70 years"). `unit` is comparison
+            // metadata for value_num, used by the scale strips; appending it here
+            // produced "70 years years" and, worse, "About 3100 BCE years".
+            el('h3', { style: { fontSize: '18px' } }, f.value_text),
             el('div', { class: 'meta' },
               el('span', {}, f.title),
               f.epistemic !== 'fact' && el('span', { class: 'badge amber' }, 'Estimate'),
@@ -261,7 +265,11 @@ async function kidsHomeView(data) {
         el('a', { class: 'card', href: `#/article/${f.slug}`, 'data-link': '' },
           el('div', { class: 'card-body' },
             el('div', { class: 'eyebrow' }, f.label),
-            el('h3', { style: { fontSize: '18px' } }, f.value_text + (f.unit ? ` ${f.unit}` : '')),
+            // `value_text` is the human-readable rendering and already carries its
+            // unit where one belongs ("Up to about 70 years"). `unit` is comparison
+            // metadata for value_num, used by the scale strips; appending it here
+            // produced "70 years years" and, worse, "About 3100 BCE years".
+            el('h3', { style: { fontSize: '18px' } }, f.value_text),
             el('div', { class: 'meta' }, el('span', {}, f.title)))))),
     ) : null,
 
@@ -374,6 +382,17 @@ export async function articleView(slug) {
     main.append(el('div', { class: 'notice' },
       `This article is not written at ${levelLabel(data.requested_level)} yet, `
       + `so you are reading the ${levelLabel(data.reading_level)} version.`));
+  }
+
+  // Imported reference text is labelled as such. Presenting it as the project's
+  // own writing would be exactly the kind of unearned authority this
+  // encyclopaedia is built to avoid.
+  if (data.pack && data.pack.key !== 'core') {
+    main.append(el('div', { class: 'notice provenance' },
+      el('strong', {}, 'Imported reference text. '),
+      'This article was brought in from an openly licensed encyclopaedia rather than '
+      + 'written for this project. The sources below name the exact revision it came '
+      + 'from and its licence.'));
   }
 
   /* prose */
@@ -591,19 +610,85 @@ export async function historyView(slug) {
 }
 
 /* -------------------------------------------------------------- category -- */
-export async function categoryView(key) {
-  const data = await api.category(key);
-  return wrap(el('div', { style: { padding: '34px 0 60px' } },
-    el('div', { style: { fontSize: '40px' } }, data.category.icon || '📚'),
+export async function categoryView(key, sort = 'quality') {
+  const PAGE = 60;
+  const data = await api.category(key, { limit: PAGE, offset: 0, sort });
+  const icon = data.category.icon || '📚';
+
+  const grid = el('div', { class: 'grid cols-4' },
+    data.articles.map((a) => articleCard({ ...a, icon })));
+  const counter = el('p', { class: 'cat-count' });
+  const more = el('button', { class: 'btn ghost', type: 'button' }, 'Show more');
+  const footer = el('div', { style: { textAlign: 'center', marginTop: '26px' } }, more);
+
+  let shown = data.articles.length;
+  let order = data.sort;
+  const sortButtons = [];
+
+  const paint = () => {
+    counter.textContent = shown >= data.total
+      ? `${data.total.toLocaleString()} article${data.total === 1 ? '' : 's'}`
+      : `Showing ${shown.toLocaleString()} of ${data.total.toLocaleString()} articles`;
+    footer.hidden = shown >= data.total;
+    for (const [button, value] of sortButtons) {
+      button.classList.toggle('on', order === value);
+      button.setAttribute('aria-pressed', order === value ? 'true' : 'false');
+    }
+  };
+
+  more.addEventListener('click', async () => {
+    more.disabled = true;
+    more.textContent = 'Loading…';
+    try {
+      const next = await api.category(key, { limit: PAGE, offset: shown, sort: order });
+      grid.append(...next.articles.map((a) => articleCard({ ...a, icon })));
+      shown += next.articles.length;
+      if (!next.articles.length) data.total = shown;   // guard against a stale count
+      paint();
+    } finally {
+      more.disabled = false;
+      more.textContent = 'Show more';
+    }
+  });
+
+  // Re-sorting replaces the grid in place rather than re-routing: the sort is a
+  // view preference, not a different page, and rebuilding here keeps the
+  // reader's scroll position and avoids a second round trip for the header.
+  const applySort = async (value) => {
+    if (order === value) return;
+    order = value;
+    paint();
+    const fresh = await api.category(key, { limit: PAGE, offset: 0, sort: order });
+    grid.replaceChildren(...fresh.articles.map((a) => articleCard({ ...a, icon })));
+    shown = fresh.articles.length;
+    data.total = fresh.total;
+    paint();
+  };
+
+  const sortLink = (value, label) => {
+    const button = el('button', {
+      class: 'sort-opt', type: 'button',
+      onclick: () => { applySort(value); },
+    }, label);
+    sortButtons.push([button, value]);
+    return button;
+  };
+
+  const view = wrap(el('div', { style: { padding: '34px 0 60px' } },
+    el('div', { style: { fontSize: '40px' } }, icon),
     el('h1', { style: { fontSize: '36px', margin: '6px 0 8px' } }, data.category.label),
     data.category.description && el('p', {
-      style: { color: 'var(--ink-2)', maxWidth: '60ch', marginBottom: '26px' } },
+      style: { color: 'var(--ink-2)', maxWidth: '60ch', marginBottom: '10px' } },
       data.category.description),
-    data.articles.length
-      ? el('div', { class: 'grid cols-4' }, data.articles.map((a) => articleCard(
-        { ...a, icon: data.category.icon })))
+    data.articles.length ? frag(
+      el('div', { class: 'cat-bar' }, counter,
+        el('div', { class: 'sort-group', role: 'group', 'aria-label': 'Sort articles' },
+          sortLink('quality', 'Best evidenced'), sortLink('title', 'A–Z'))),
+      grid, footer)
       : el('div', { class: 'empty' }, el('h2', {}, 'No articles here yet')),
   ));
+  paint();   // after the tree exists, so the sort buttons show their state
+  return view;
 }
 
 export async function categoriesView() {
@@ -958,8 +1043,18 @@ export async function adminView() {
             el('span', {}, a.title),
             el('span', { class: 'rel-kind' }, a.next_review_at))))),
     ),
+    dash.issue_kinds?.length ? frag(
+      el('h2', { style: { fontSize: '21px', margin: '32px 0 12px' } }, 'Findings by kind'),
+      el('div', { class: 'panel' }, el('div', { class: 'rel-list' }, dash.issue_kinds.map((k) =>
+        el('div', { class: 'rel-item' },
+          el('span', { class: `badge ${k.severity === 'error' ? 'rose' : k.severity === 'warning' ? 'amber' : ''}` },
+            k.severity),
+          el('span', {}, k.kind.replace(/_/g, ' ')),
+          el('span', { class: 'rel-kind' }, `${k.n}`))))),
+    ) : null,
+
     el('h2', { style: { fontSize: '21px', margin: '32px 0 12px' } },
-      `Open issues (${issues.length})`),
+      `Most urgent open issues (${issues.length} shown)`),
     issues.length
       ? el('div', { class: 'panel' }, el('div', { class: 'rel-list' }, issues.slice(0, 40).map((i) =>
         el('div', { class: 'rel-item' },

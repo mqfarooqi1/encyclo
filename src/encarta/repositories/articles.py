@@ -9,7 +9,7 @@ from __future__ import annotations
 
 import json
 import sqlite3
-from typing import Any
+from typing import Any, ClassVar
 
 from ..domain.models import (
     EPISTEMIC_LABELS,
@@ -169,6 +169,15 @@ class ArticleRepository:
             (article_id,),
         ).fetchone()
 
+        # Which pack the article came from. This is how the reader can tell
+        # hand-written text from imported reference text — a distinction the app
+        # must never blur.
+        pack = self.conn.execute(
+            "SELECT p.key, p.title, p.description FROM pack_article pa "
+            "JOIN content_pack p ON p.id = pa.pack_id WHERE pa.article_id = ? LIMIT 1",
+            (article_id,),
+        ).fetchone()
+
         return {
             "slug": base["slug"],
             "title": base["title"],
@@ -193,6 +202,7 @@ class ArticleRepository:
             "timeline": timeline,
             "places": places,
             "quiz": quiz,
+            "pack": pack,
             "related": self.related(article_id),
             "version": f"{base['version_major']}.{base['version_minor']}"
             if base["version_major"] is not None
@@ -321,10 +331,22 @@ class ArticleRepository:
 
     # -- listings -----------------------------------------------------------
 
+    #: Category browse orderings. Best-evidenced first by default, for the same
+    #: reason the featured strip is: opening "Space" alphabetically across
+    #: 951 articles begins at "15 Ursae Majoris" and "2MASS J11193254-1137466",
+    #: so a reader looking for the planets never sees one. A-Z remains available
+    #: because looking up a known title is a real thing people do.
+    CATEGORY_ORDERS: ClassVar[dict[str, str]] = {
+        "quality": "a.quality_score DESC, a.title",
+        "title": "a.title",
+    }
+
     def by_category(
-        self, category_key: str, limit: int = 60, offset: int = 0, kids_only: bool = False
+        self, category_key: str, limit: int = 60, offset: int = 0,
+        kids_only: bool = False, sort: str = "quality",
     ) -> list[dict[str, Any]]:
         kids = " AND a.kids_safe = 1" if kids_only else ""
+        order = self.CATEGORY_ORDERS.get(sort, self.CATEGORY_ORDERS["quality"])
         return self.conn.execute(
             f"""
             SELECT a.slug, a.title, a.summary, a.quality_score, t.label AS type_label,
@@ -338,11 +360,25 @@ class ArticleRepository:
             JOIN article_category ac ON ac.article_id = a.id
             JOIN category c ON c.id = ac.category_id
             WHERE c.key = ? AND a.status = 'published'{kids}
-            ORDER BY a.title
+            ORDER BY {order}
             LIMIT ? OFFSET ?
             """,
             (category_key, limit, offset),
         ).fetchall()
+
+    def count_by_category(self, category_key: str, kids_only: bool = False) -> int:
+        kids = " AND a.kids_safe = 1" if kids_only else ""
+        row = self.conn.execute(
+            f"""
+            SELECT COUNT(*) AS n
+            FROM article a
+            JOIN article_category ac ON ac.article_id = a.id
+            JOIN category c ON c.id = ac.category_id
+            WHERE c.key = ? AND a.status = 'published'{kids}
+            """,
+            (category_key,),
+        ).fetchone()
+        return int(row["n"]) if row else 0
 
     def compare(self, slugs: list[str]) -> dict[str, Any]:
         """Side-by-side comparison built from `comparable_key` facts."""

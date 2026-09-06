@@ -91,7 +91,8 @@ export const api = {
   graph: (slug, depth = 2) => request(`/api/article/${encodeURIComponent(slug)}/graph${qs({ depth })}`),
   versions: (slug) => request(`/api/article/${encodeURIComponent(slug)}/versions`),
   quality: (slug) => request(`/api/article/${encodeURIComponent(slug)}/quality`),
-  category: (key) => request(`/api/category/${encodeURIComponent(key)}${qs(kids())}`),
+  category: (key, opts = {}) => request(
+    `/api/category/${encodeURIComponent(key)}${qs({ ...opts, ...kids() })}`),
   categories: () => request(`/api/categories${qs(kids())}`),
   timeline: (params = {}) => request(`/api/timeline${qs(params)}`),
   places: () => request(`/api/places${qs(kids())}`),

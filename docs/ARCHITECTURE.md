@@ -141,13 +141,14 @@ own short-lived connection during migration, and
 ## Search ranking
 
 Lexical relevance alone would rank a passing mention above an authoritative
-article. The final score blends four signals:
+article. The final score blends five signals:
 
 ```
 score = -bm25(weighted columns)      # lexical relevance
       + 100  if title == query        # exact title wins outright
       +  40  if title startswith query
       +  15  if all terms in title
+      +  25  if the article matches EVERY query term
       + 3 × mean(5 - source_tier)     # better-sourced articles rank higher
       + quality_score / 20            # editorial completeness
 ```
@@ -158,10 +159,38 @@ categories 2` — a title hit should beat a passing mention in a long body.
 Ranking is deliberately **not** influenced by view counts. Popularity is not
 evidence.
 
-One subtlety worth stating: SQL orders by `bm25` alone, so the results must be
-re-sorted in Python after the trust signals are folded in. Skipping that step
-leaves the extra signals computed but inert — a bug this project shipped
-briefly, and `test_results_are_ordered_by_final_score_not_raw_bm25` now prevents.
+**Titles are compared with any leading `the`/`a`/`an` removed.** Otherwise "The
+Moon" earns neither the exact-title nor the prefix bonus for the query *moon*,
+and every short article merely starting with the word outranks it. With 57
+articles nothing started with "moon"; with 13,646 imported ones, *Moondial*,
+*Moonlet* and *Moon Duchin* all did, and the encyclopaedia's own Moon article
+fell off the first page entirely.
+
+**Coverage is scored, because OR matching alone answers the wrong question.**
+Browsing search matches with `OR` so a partial match still surfaces. But a
+strong hit on one rare word then beats an article answering the whole query:
+*what killed the dinosaurs* returned a biography of someone who was killed,
+because "killed" is rarer than "dinosaurs" and bm25 rewards rarity. A second
+indexed `AND` query says which articles contain every term, and those get +25 —
+below the title bonuses, well above the few points that separate raw bm25
+scores.
+
+Two subtleties are worth stating, because both were bugs here first.
+
+SQL orders by `bm25` alone, so the results must be re-sorted in Python after the
+trust signals are folded in. Skipping that step leaves the extra signals
+computed but inert — `test_results_are_ordered_by_final_score_not_raw_bm25`
+now prevents it.
+
+Re-ranking can only reorder rows SQL actually returned, so the candidate pool
+must be wider than the page: `POOL_FACTOR × limit`, capped at `MAX_POOL`, then
+sliced in Python. When the pool equalled the page, asking for one result gave
+the best *bm25* row while asking for twenty gave the best *re-ranked* row, and
+paging showed different articles than a single larger request. That is mildly
+wrong across 57 articles and badly wrong across tens of thousands, where a
+common word matches hundreds of thin extracts and a strong article sitting
+just outside the window can never be promoted no matter how well sourced it is.
+`test_top_hit_does_not_depend_on_how_many_results_were_asked_for` pins it.
 
 ---
 
@@ -176,6 +205,88 @@ Requiring every salient term is what makes "the encyclopaedia does not cover
 this" an outcome that actually happens. See [AI_SAFETY.md](AI_SAFETY.md).
 
 ---
+
+## Scaling the library
+
+Hand-authoring four reading levels per subject produces good articles at roughly
+a dozen a day. It does not reach thousands. The importer
+(`pipeline/wikipedia.py`) exists because that is the only honest way to close
+the gap: bring in text someone else has already written, under a licence that
+permits it, and say so.
+
+**What the importer refuses to do** is as important as what it does. It does not
+paraphrase, summarise or simplify. Rewriting source text produces sentences no
+source supports — the exact failure the validator, the epistemic labels and the
+grounded assistant all exist to prevent, arriving through the back door.
+
+So the two reading levels come from two different wikis rather than from one
+text processed twice:
+
+| Level | Source | Why it is legitimate |
+|---|---|---|
+| `adult` | English Wikipedia lead section | Written for a general adult reader |
+| `teen` | Simple English Wikipedia lead section | Independently written for limited-English readers |
+
+Where no Simple English article exists, the article ships with the adult level
+only. The reading-level resolver already handles partial coverage, and the
+quality score reflects the gap rather than hiding it.
+
+**Imported articles are not kids-safe, and carry no children's reading band.**
+Simple English Wikipedia is written for readers with limited English — adult
+learners included — not for children specifically, so the simplified text lands
+at `teen`, not `age9_12`. Kids Mode stays what it claims to be: a subset a
+person has actually read. The harvest spans wars, battles, diseases and human
+anatomy; marking it safe because it imported cleanly would be precisely the
+unearned claim the epistemic labels, the validator and the grounded assistant
+all exist to refuse. The validator enforces the pairing — a children's reading
+band on a `kids_safe=false` article is an error — so the two decisions cannot
+drift apart. A reviewer can promote an imported article after reading it; the
+opposite default cannot be undone once a child has seen the page.
+
+**Precedence.** The importer receives the set of slugs already present in the
+authored pack and skips them, so imported text can never displace written text
+on the same subject.
+
+**Pack formats.** Authored packs keep one file per article, which diffs cleanly
+in review. Imported packs keep `articles.jsonl.gz` and `sources.json.gz`,
+because tens of thousands of loose files make a repository unusable.
+`read_pack_articles()` and `read_pack_json()` accept either, and a pack may mix
+both.
+
+**Where the cost lands.** Measured on the shipped library of 13,703 articles
+(57 authored, 13,646 imported), from an empty database:
+
+| Step | Time |
+|---|---|
+| migrate | < 0.1 s |
+| load (validate + insert both packs) | ~5 s |
+| index (FTS5 rebuild + optimize) | ~11.8 s |
+| score (8 components × 13,703) | ~1.3 s |
+| check (7 integrity checks) | ~0.3 s |
+| **`setup`, end to end** | **~18.6 s** |
+
+Loading and scoring log progress, because a step that takes ten seconds with no
+output is indistinguishable from a hang. This is a one-off cost on first run and
+after a content update, not a per-request cost — reads stay fast because they
+are indexed lookups against a single current revision. Search returns in
+2–30 ms across the full library; the slowest path is a did-you-mean correction
+for a word in no article at all (~70 ms), which only runs when there are no
+results to show anyway.
+
+**What scale silently rigs.** Importing thousands of articles changes no single
+article, but it changes the statistics behind every ranking that was not
+explicitly defended, because the imports are numerous and all arrive at once:
+
+| Surface | What breaks by default | Defence |
+|---|---|---|
+| Home page daily pick | Imports outnumber authored work ~200:1, so the shop window is almost surely a two-sentence extract | `SHOWCASE_FLOOR`, with a fallback so a small library still has a home page |
+| "Recently updated" | A pack load stamps every row with one timestamp, handing the section to the import | Same floor |
+| Category browse | `total` returned the page size, so a category holding 2,000 articles advertised 60 and hid the rest | Real `COUNT`, `has_more`, and paging in the UI |
+| Search ranking | Re-ranking a 20-row window cannot promote a strong article ranked 21st by raw relevance | Wider candidate pool (above) |
+| Admin dashboard | Thousands of routine findings of one kind bury a handful of errors of another | Findings grouped by kind and severity |
+
+None of these are import-specific rules; they are properties the app should
+have had at any size. Scale is what made them visible.
 
 ## Extension points
 

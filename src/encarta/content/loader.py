@@ -20,6 +20,7 @@ Pack layout::
 
 from __future__ import annotations
 
+import gzip
 import hashlib
 import json
 import logging
@@ -80,7 +81,21 @@ class LoadReport:
         )
 
 
-def _read_json(path: Path, default: Any = None) -> Any:
+def read_pack_json(path: Path, default: Any = None) -> Any:
+    """Read a pack JSON file, transparently accepting a gzipped sibling.
+
+    An imported pack's source catalogue runs to tens of thousands of records —
+    one per article, because CC BY-SA attribution needs a permanent revision
+    link for each. Storing that compressed keeps the repository and the download
+    a sensible size.
+    """
+    gz = path.with_suffix(path.suffix + ".gz")
+    if gz.is_file():
+        try:
+            with gzip.open(gz, "rt", encoding="utf-8") as handle:
+                return json.load(handle)
+        except (json.JSONDecodeError, OSError) as exc:
+            raise LoaderError(f"{gz.name} could not be read: {exc}") from exc
     if not path.is_file():
         if default is not None:
             return default
@@ -89,6 +104,38 @@ def _read_json(path: Path, default: Any = None) -> Any:
         return json.loads(path.read_text(encoding="utf-8"))
     except json.JSONDecodeError as exc:
         raise LoaderError(f"{path.name} is not valid JSON: {exc}") from exc
+
+
+_read_json = read_pack_json
+
+
+def read_pack_articles(pack_dir: Path) -> list[tuple[str, dict[str, Any]]]:
+    """Read a pack's articles, labelled by where each came from.
+
+    Two layouts are supported. Hand-authored packs keep one JSON file per
+    article, which reviews and diffs cleanly. Bulk imported packs keep a single
+    gzipped JSONL file, because thousands of loose files make a repository and a
+    download unpleasant to handle.
+    """
+    out: list[tuple[str, dict[str, Any]]] = []
+
+    for path in sorted((pack_dir / "articles").glob("*.json")):
+        out.append((path.name, _read_json(path)))
+
+    for name, opener in (("articles.jsonl.gz", gzip.open), ("articles.jsonl", open)):
+        bulk = pack_dir / name
+        if not bulk.is_file():
+            continue
+        with opener(bulk, "rt", encoding="utf-8") as handle:
+            for number, line in enumerate(handle, start=1):
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    out.append((f"{name}:{number}", json.loads(line)))
+                except json.JSONDecodeError as exc:
+                    raise LoaderError(f"{name} line {number} is not valid JSON: {exc}") from exc
+    return out
 
 
 def _content_hash(article: dict[str, Any]) -> str:
@@ -109,6 +156,26 @@ class PackLoader:
     def __init__(self, conn: sqlite3.Connection, *, strict: bool = True) -> None:
         self.conn = conn
         self.strict = strict
+        # Type and category ids are looked up once per article otherwise, which
+        # is a measurable cost at ten thousand articles.
+        self._type_ids: dict[str, int] = {}
+        self._category_ids: dict[str, int] = {}
+
+    def _type_id(self, key: str) -> int:
+        if key not in self._type_ids:
+            row = self.conn.execute("SELECT id FROM article_type WHERE key = ?", (key,)).fetchone()
+            if not row:
+                raise LoaderError(f"unknown article type {key!r}")
+            self._type_ids[key] = int(row["id"])
+        return self._type_ids[key]
+
+    def _category_id(self, key: str) -> int:
+        if key not in self._category_ids:
+            row = self.conn.execute("SELECT id FROM category WHERE key = ?", (key,)).fetchone()
+            if not row:
+                raise LoaderError(f"unknown category {key!r}")
+            self._category_ids[key] = int(row["id"])
+        return self._category_ids[key]
 
     # -- taxonomy ---------------------------------------------------------
 
@@ -244,11 +311,10 @@ class PackLoader:
     # -- articles -----------------------------------------------------------
 
     def _upsert_article_shell(self, art: dict[str, Any]) -> int:
-        type_id = self.conn.execute(
-            "SELECT id FROM article_type WHERE key = ?", (art["type"],)
-        ).fetchone()
-        if not type_id:
-            raise LoaderError(f"{art['slug']}: unknown article type {art['type']!r}")
+        try:
+            type_id = self._type_id(art["type"])
+        except LoaderError as exc:
+            raise LoaderError(f"{art['slug']}: {exc}") from exc
 
         levels = set(art.get("content", {}))
         min_level = next((lv.value for lv in READING_LEVELS if lv.value in levels), None)
@@ -267,7 +333,7 @@ class PackLoader:
             {
                 "slug": art["slug"],
                 "title": art["title"],
-                "type_id": type_id["id"],
+                "type_id": type_id,
                 "summary": art.get("summary", ""),
                 "status": art.get("status", "published"),
                 "ipa": art.get("pronunciation_ipa"),
@@ -292,15 +358,14 @@ class PackLoader:
         self.conn.execute("DELETE FROM article_category WHERE article_id = ?", (article_id,))
         primary = art.get("primary_category")
         for cat in art.get("categories", []):
-            cat_row = self.conn.execute(
-                "SELECT id FROM category WHERE key = ?", (cat,)
-            ).fetchone()
-            if not cat_row:
-                raise LoaderError(f"{art['slug']}: unknown category {cat!r}")
+            try:
+                category_id = self._category_id(cat)
+            except LoaderError as exc:
+                raise LoaderError(f"{art['slug']}: {exc}") from exc
             self.conn.execute(
                 "INSERT OR IGNORE INTO article_category (article_id, category_id, is_primary) "
                 "VALUES (?, ?, ?)",
-                (article_id, cat_row["id"], 1 if cat == primary else 0),
+                (article_id, category_id, 1 if cat == primary else 0),
             )
         return article_id
 
@@ -595,10 +660,10 @@ class PackLoader:
         sources = _read_json(pack_dir / "sources.json", [])
         media = _read_json(pack_dir / "media.json", [])
 
-        article_files = sorted((pack_dir / "articles").glob("*.json"))
-        articles = [_read_json(p) for p in article_files]
-        if not articles:
+        labelled = read_pack_articles(pack_dir)
+        if not labelled:
             raise LoaderError(f"pack {pack_dir} contains no articles")
+        articles = [art for _, art in labelled]
 
         report = LoadReport(pack_key=meta["key"], pack_version=meta["version"])
 
@@ -609,8 +674,8 @@ class PackLoader:
             known_types={t["key"] for t in taxonomy.get("types", [])},
             known_categories={c["key"] for c in taxonomy.get("categories", [])},
         )
-        for path, art in zip(article_files, articles, strict=True):
-            report.findings.extend(validator.validate_article(art, where=path.name))
+        for label, art in labelled:
+            report.findings.extend(validator.validate_article(art, where=label))
 
         if has_errors(report.findings) and self.strict:
             errors = [f for f in report.findings if f.severity == "error"]
@@ -625,7 +690,9 @@ class PackLoader:
             report.sources = self._load_sources(sources)
             report.media = self._load_media(media)
 
-            for art in articles:
+            for index, art in enumerate(articles, start=1):
+                if len(articles) > 500 and index % 1000 == 0:
+                    log.info("  loaded %d/%d articles", index, len(articles))
                 article_id = self._upsert_article_shell(art)
                 digest = _content_hash(art)
                 existing = self.conn.execute(

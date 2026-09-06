@@ -93,6 +93,22 @@ def build_match_expression(
     return (" AND " if require_all else " OR ").join(parts)
 
 
+#: Leading words that carry no distinguishing meaning in an article title.
+#: Kept deliberately short: only the definite and indefinite articles, so
+#: "Of Mice and Men" or "A Tale of Two Cities" keep everything that identifies
+#: them and only the grammatical opener is set aside for matching.
+_LEADING_ARTICLE_RE = re.compile(r"^(?:the|a|an)\s+")
+
+
+def _drop_leading_article(text: str) -> str:
+    """Strip a leading "the"/"a"/"an" for title comparison.
+
+    Never applied to the stored title, only to the comparison, so what the
+    reader sees is unchanged.
+    """
+    return _LEADING_ARTICLE_RE.sub("", text, count=1)
+
+
 def _damerau_levenshtein(a: str, b: str, max_distance: int = 2) -> int:
     """Bounded edit distance, used only for short dictionary terms."""
     if abs(len(a) - len(b)) > max_distance:
@@ -148,6 +164,7 @@ class SearchIndexer:
         ).fetchall()
 
     def rebuild(self) -> int:
+        log.info("collecting indexable text")
         rows = self._indexable_rows()
         self.conn.execute("DELETE FROM article_fts")
         self.conn.executemany(
@@ -241,6 +258,20 @@ class SearchService:
 
     # -- search -------------------------------------------------------------
 
+    #: How many candidates to pull per requested result before re-ranking.
+    #: Wide enough that trust signals can promote a strong article from outside
+    #: the raw-relevance window, small enough to stay a single indexed query.
+    POOL_FACTOR = 8
+    MAX_POOL = 400
+
+    #: The pool must not shrink with the page. bm25 normalises by document
+    #: length, so an authored article with four reading levels sits *below*
+    #: hundreds of short imported extracts on raw relevance alone — "The Moon"
+    #: is 79th of 321 for the query *moon*. Asking for three results must not
+    #: mean re-ranking only the first 24 rows and never seeing it. The top hit
+    #: has to be the same whether the caller wants 3 results or 30.
+    MIN_POOL = 150
+
     def search(
         self,
         query: str,
@@ -266,10 +297,17 @@ class SearchService:
         expanded = terms if require_all else self._expand(terms)
         match_expr = build_match_expression(expanded, require_all=require_all)
 
+        # Re-ranking can only reorder rows SQL actually returned, so the
+        # candidate pool has to be wider than the page. With a small library the
+        # two were nearly the same; with tens of thousands of articles a common
+        # word matches hundreds, and a well-sourced article sitting just outside
+        # a 20-row bm25 window could never be promoted no matter how good it was.
+        pool = min(max(offset + limit * self.POOL_FACTOR, self.MIN_POOL), self.MAX_POOL)
+
         corrected: str | None = None
         try:
             rows = self._run(
-                match_expr, limit, offset, category, type_key, reading_level, kids_only
+                match_expr, pool, 0, category, type_key, reading_level, kids_only
             )
         except sqlite3.OperationalError as exc:
             log.warning("FTS query failed for %r: %s", query, exc)
@@ -282,8 +320,8 @@ class SearchService:
                 try:
                     rows = self._run(
                         build_match_expression(self._expand(corrected_terms)),
-                        limit,
-                        offset,
+                        pool,
+                        0,
                         category,
                         type_key,
                         reading_level,
@@ -292,17 +330,39 @@ class SearchService:
                 except sqlite3.OperationalError:
                     rows = []
 
+        # Which of these articles contain *every* query term, not just one.
+        #
+        # Browsing search matches with OR, because a partial match is still a
+        # useful result. But OR alone lets a strong hit on one common word beat
+        # an article that answers the whole question: "what killed the
+        # dinosaurs" returned a biography of someone who was killed, because
+        # "killed" is rarer than "dinosaurs" and bm25 rewards that. Coverage is
+        # a genuine relevance signal, and it costs one extra indexed query.
+        covers_all: set[str] = set()
+        if len(terms) > 1 and not require_all and rows:
+            try:
+                covers_all = {
+                    r["slug"] for r in self._run(
+                        build_match_expression(terms, require_all=True),
+                        pool, 0, category, type_key, reading_level, kids_only,
+                    )
+                }
+            except sqlite3.OperationalError:
+                covers_all = set()
+
         # SQL orders by bm25 alone, which is only the lexical component. The
-        # final score also folds in exact-title match, source strength and
-        # article quality, so the ranking must be re-sorted here or those
-        # signals never actually affect the order the reader sees.
-        hits = sorted(
-            (self._to_hit(r, terms) for r in rows), key=lambda h: -h.score
+        # final score also folds in exact-title match, term coverage, source
+        # strength and article quality, so the ranking must be re-sorted here or
+        # those signals never actually affect the order the reader sees.
+        ranked = sorted(
+            (self._to_hit(r, terms, covers_all=covers_all) for r in rows),
+            key=lambda h: -h.score,
         )
+        hits = ranked[offset:offset + limit]
         return SearchResponse(
             query=query,
             hits=hits,
-            total=len(hits),
+            total=len(ranked),
             corrected_query=corrected,
             expanded_terms=[t for t in expanded if t not in terms],
             took_ms=round((time.perf_counter() - started) * 1000, 2),
@@ -363,19 +423,35 @@ class SearchService:
         """
         return self.conn.execute(sql, params).fetchall()
 
-    def _to_hit(self, row: dict[str, Any], terms: list[str]) -> SearchHit:
+    def _to_hit(self, row: dict[str, Any], terms: list[str], *,
+                covers_all: frozenset[str] | set[str] = frozenset()) -> SearchHit:
         # bm25 returns negative numbers, more negative meaning a better match.
         relevance = -float(row["bm25_score"] or 0.0)
         title_lower = (row["title"] or "").lower()
         query_join = " ".join(terms)
 
+        # Compare titles with any leading article removed. "The Moon" must count
+        # as an exact match for "moon", or a leading "The" silently forfeits both
+        # the exact-title and prefix bonuses — and a thin "Moondial" that happens
+        # to start with the query outranks the article the reader wanted. This is
+        # invisible in a small library and glaring in a large one.
+        bare_title = _drop_leading_article(title_lower)
+        bare_query = _drop_leading_article(query_join)
+
         score = relevance
-        if title_lower == query_join:
+        if query_join in (title_lower, bare_title) or bare_query == bare_title:
             score += 100.0          # exact title wins outright
-        elif title_lower.startswith(query_join):
+        elif title_lower.startswith(query_join) or bare_title.startswith(bare_query):
             score += 40.0
         elif all(t in title_lower for t in terms):
             score += 15.0
+
+        # Answering the whole query beats answering one word of it well. Sized
+        # below the title bonuses — an exact title match should still win — but
+        # well above the spread of raw bm25 scores, which is only a few points
+        # across an entire result set.
+        if row["slug"] in covers_all:
+            score += 25.0
 
         # Trust signals: better-sourced and higher-quality articles rank above
         # equally-relevant but thinly-sourced ones.

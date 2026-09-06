@@ -100,3 +100,43 @@ def test_shared_comparable_keys_use_one_unit(conn):
         "HAVING COUNT(DISTINCT COALESCE(f.unit,'')) > 1"
     ).fetchall()
     assert not conflicts, [r["comparable_key"] for r in conflicts]
+
+
+def test_fact_checker_finds_a_citation_marker_with_no_citation(writable_conn):
+    """A claim marked [99] with no citation [99] is an unsupported claim.
+
+    The check reads every published body in two streaming passes rather than
+    two queries per article, so it needs a test that the batching still pairs
+    each marker with its own article.
+    """
+    from encarta.services import FactChecker
+
+    row = writable_conn.execute(
+        "SELECT a.id, a.slug, a.current_revision_id AS rev FROM article a "
+        "WHERE a.status = 'published' LIMIT 1"
+    ).fetchone()
+    writable_conn.execute(
+        "UPDATE article_content SET body_md = body_md || ' Dangling claim.[99]' "
+        "WHERE revision_id = ?",
+        (row["rev"],),
+    )
+    writable_conn.commit()
+
+    FactChecker(writable_conn).run()
+    issues = writable_conn.execute(
+        "SELECT article_id, detail FROM issue "
+        "WHERE kind = 'unsupported_claim' AND status = 'open'"
+    ).fetchall()
+
+    assert len(issues) == 1, "exactly one article was tampered with"
+    assert issues[0]["article_id"] == row["id"]
+    assert "[99]" in issues[0]["detail"]
+    assert row["slug"] in issues[0]["detail"]
+
+
+def test_fact_checker_is_quiet_on_a_clean_library(writable_conn):
+    from encarta.services import FactChecker
+
+    counts = FactChecker(writable_conn).run()
+    assert counts["unsupported_claim"] == 0
+    assert counts["missing_citation"] == 0, "every published article must cite something"

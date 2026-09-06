@@ -14,6 +14,46 @@ text and keeps derived article text open. Mixing the two is standard practice �
 the code does not become CC BY-SA by shipping alongside content, and the content
 does not become Apache by living in the same repository.
 
+## Imported Wikipedia text
+
+The `wikipedia` content pack is imported reference text, not original writing,
+and the project is explicit about that in three places: the pack description,
+the article page itself (a banner marks any article not from the `core` pack),
+and the per-article citation.
+
+**What is imported.** Lead sections from English Wikipedia (adult reading level)
+and Simple English Wikipedia (ages 9–12). No text is paraphrased, rewritten or
+simplified by the importer — doing so would produce sentences no source
+supports, which is precisely the failure this project exists to avoid.
+
+**Licence.** Wikipedia text is CC BY-SA 4.0. This project's original article
+text is also CC BY-SA 4.0, so the share-alike condition is satisfied by
+construction.
+
+**Attribution.** Every imported article carries a citation to a *permanent
+revision link* of the form:
+
+```
+https://en.wikipedia.org/w/index.php?curid=<pageid>&oldid=<revid>
+```
+
+This is the accepted way to credit Wikipedia authors: the linked revision's
+history names them. A link to the live article would not, because the article
+will have changed.
+
+**Tier.** Imported sources are recorded at **tier 3** — a reputable secondary
+reference — never tier 1. An encyclopaedia is a tertiary source, and the source
+policy applies to Wikipedia exactly as it applies to anything else. Where an
+article needs a stronger claim, it needs a stronger source.
+
+**Precedence.** Hand-written articles always win. The importer is given the set
+of slugs already present in `core` and refuses to produce an article for any of
+them, so imported text never overwrites authored text on the same subject.
+
+**API terms.** The importer identifies itself by User-Agent, batches requests to
+the documented limits, rate-limits itself, and backs off on error. It uses the
+official MediaWiki API rather than scraping rendered pages.
+
 ## Content categories
 
 Every content item falls into exactly one, and the schema records which.

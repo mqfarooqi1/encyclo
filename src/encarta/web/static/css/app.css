@@ -377,6 +377,19 @@ a.card:hover {
   margin-bottom: 20px;
 }
 
+/* Provenance is a statement of origin, not a warning. Amber would tell the
+   reader something is wrong with the article; nothing is. It is honest about
+   where the text came from, and should read that way — neutral, and clearly
+   set apart from the encyclopaedia's own prose by the leading rule. */
+.notice.provenance {
+  background: var(--surface-2, var(--surface));
+  color: var(--ink-2);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 var(--r-md) var(--r-md) 0;
+}
+.notice.provenance strong { color: var(--ink); }
+
 /* prose */
 .prose { max-width: var(--read); font-family: var(--serif); font-size: 18px; line-height: 1.72; }
 .prose h2 {
@@ -544,6 +557,30 @@ a.card:hover {
 .btn:hover { filter: brightness(1.08); }
 .btn.ghost { background: var(--surface); color: var(--accent-ink); }
 .btn.ghost:hover { background: var(--accent-soft); }
+
+/* Category paging: the count sits above the grid so a reader can see at a
+   glance that a category holds thousands, not the sixty on screen. */
+.cat-count {
+  color: var(--ink-3); font-size: 12.5px; letter-spacing: .04em;
+  text-transform: uppercase; margin: 0;
+  font-variant-numeric: tabular-nums;
+}
+.cat-bar {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 16px; flex-wrap: wrap; margin: 0 0 18px;
+}
+.sort-group { display: inline-flex; gap: 2px; padding: 2px;
+  background: var(--surface-2); border: 1px solid var(--line);
+  border-radius: var(--r-md); }
+.sort-opt {
+  appearance: none; border: 0; background: transparent; cursor: pointer;
+  font: inherit; font-size: 12.5px; color: var(--ink-2);
+  padding: 5px 12px; border-radius: calc(var(--r-md) - 3px);
+}
+.sort-opt:hover { color: var(--ink); }
+.sort-opt.on { background: var(--paper); color: var(--ink); font-weight: 600;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 8%); }
+.sort-opt:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
 
 .empty {
   padding: 60px 24px; text-align: center; color: var(--ink-3);

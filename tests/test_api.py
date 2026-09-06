@@ -213,6 +213,68 @@ def test_admin_dashboard_and_issues(app):
     assert isinstance(issues, list)
 
 
+def test_category_total_counts_the_category_not_the_page(app):
+    """`total` must be the real size, or paging silently hides the library.
+
+    With a few dozen articles a page and the whole category were the same
+    number, which is exactly why returning len(rows) went unnoticed.
+    """
+    status, first, _ = call(app, "/api/categories")
+    assert status == 200
+    biggest = max(first, key=lambda c: c["article_count"])
+
+    status, page, _ = call(app, f"/api/category/{biggest['key']}?limit=2&offset=0")
+    assert status == 200
+    assert len(page["articles"]) <= 2
+    assert page["total"] == biggest["article_count"]
+    assert page["has_more"] is (page["total"] > len(page["articles"]))
+
+
+def test_category_paging_walks_the_whole_category_without_repeating(app):
+    _, meta, _ = call(app, "/api/categories")
+    biggest = max(meta, key=lambda c: c["article_count"])
+
+    seen, offset = [], 0
+    while True:
+        _, page, _ = call(app, f"/api/category/{biggest['key']}?limit=3&offset={offset}")
+        seen.extend(a["slug"] for a in page["articles"])
+        if not page["has_more"]:
+            break
+        offset += len(page["articles"])
+        assert offset < 10_000, "paging failed to terminate"
+
+    assert len(seen) == len(set(seen)), "an article appeared on two pages"
+    assert len(seen) == biggest["article_count"]
+
+
+def test_category_browse_leads_with_the_best_evidenced(app):
+    """Alphabetical order buries the good articles once a category is large.
+
+    Browsing "Space" A-Z across 951 articles opens on catalogue designations
+    like "15 Ursae Majoris"; a reader looking for the planets never reaches
+    one. Quality-first is the default, A-Z stays available.
+    """
+    _, meta, _ = call(app, "/api/categories")
+    biggest = max(meta, key=lambda c: c["article_count"])
+    key = biggest["key"]
+
+    _, best, _ = call(app, f"/api/category/{key}?limit=10")
+    assert best["sort"] == "quality"
+    scores = [a["quality_score"] for a in best["articles"]]
+    assert scores == sorted(scores, reverse=True)
+
+    _, az, _ = call(app, f"/api/category/{key}?limit=10&sort=title")
+    assert az["sort"] == "title"
+    names = [a["title"] for a in az["articles"]]
+    assert names == sorted(names)
+
+
+def test_an_unknown_sort_falls_back_rather_than_erroring(app):
+    _, data, _ = call(app, "/api/category/space?limit=3&sort=; DROP TABLE article")
+    assert data["sort"] == "quality"
+    assert data["articles"]
+
+
 def test_method_not_allowed(app):
     status, _, _ = call(app, "/api/health", "POST")
     assert status == 405

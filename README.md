@@ -7,10 +7,10 @@ fact from an estimate or a contested interpretation, is written independently at
 four reading levels, and keeps a full append-only revision history. The whole
 application runs locally with no internet connection and no cloud account.
 
-> **Status:** the engine is complete and tested. 57 articles, each written at
-> four reading levels and cited to authoritative sources.
-> **Website:** [`site/`](site/) — a landing page with a download link,
-> published to GitHub Pages by [`.github/workflows/pages.yml`](.github/workflows/pages.yml).
+> **Download:** [get the app](https://github.com/mqfarooqi1/encyclo/archive/refs/heads/main.zip)
+> · needs only Python 3.11+ · then `python run.py setup` and `python run.py serve`.
+> The landing page lives in [`site/`](site/) and is published to GitHub Pages by
+> [`.github/workflows/pages.yml`](.github/workflows/pages.yml).
 
 ---
 
@@ -34,6 +34,42 @@ search index, scores article quality and runs the fact checker. It is safe to
 re-run at any time.
 
 ---
+
+## Two tiers of content, kept visibly separate
+
+The library has two kinds of article, and the app never blurs them.
+
+**Authored** (`content/packs/core/`). Written for this project, four reading
+levels each, cited claim by claim to the institution that produced the data —
+NASA, USGS, the Smithsonian, the IUCN Red List, IPCC. Slow to produce and the
+reason the project has a point of view.
+
+**Imported** (`content/packs/wikipedia/`). Lead sections brought in from English
+and Simple English Wikipedia under CC BY-SA 4.0, giving the two reading levels
+from two genuinely different texts. Every imported article cites the exact
+revision it came from, is recorded at source **tier 3** (a tertiary reference,
+never tier 1), and carries a banner in the app saying it is imported rather than
+written here.
+
+Authored always wins: the importer is handed the slugs already in `core` and
+refuses to produce an article for any of them. No text is paraphrased or
+simplified by the importer — inventing sentences no source supports is the exact
+failure this project exists to prevent.
+
+**Kids Mode contains only authored articles.** An import is not marked kids-safe
+and carries no children's reading band, because nobody has read it and the
+harvest reaches into wars, battles, diseases and anatomy. The Simple English
+text is offered at `teen`: it is written for readers with limited English, adult
+learners included, rather than for children. A reviewer can promote an imported
+article after reading it — the opposite default cannot be undone once a child
+has seen the page.
+
+```bash
+ENCARTA_ALLOW_NETWORK=1 python run.py import-wikipedia
+```
+
+Network access is off by default and is needed only for this command; the
+application itself never uses it.
 
 ## Why it is built this way
 
@@ -113,16 +149,34 @@ SOURCE → EVIDENCE → ARTICLE → CITATION → VERSION → REVIEW
 search, knowledge graph, timeline, quizzes, Explorer Trails, badges, learning
 paths, comparison, reading levels, read-aloud, quality scoring, fact checking,
 admin dashboard, HTTP API, frontend, AI grounding layer.
-**137 tests, `ruff` and `mypy` clean.**
+**187 tests, `ruff` and `mypy` clean.**
 
-**Content:** 57 articles (228 individually written reading levels), 64 sources,
-187 graph relations, 123 timeline events, 22 quizzes with 125 questions,
-2 Explorer Trails with 14 stations, 18 badges, 5 learning paths. Every article
-has all four reading levels and cited sources, and the pack validates with zero
-errors and zero warnings.
+**Content: 13,703 articles and 15,786 sources**, across fifteen categories —
+space, dinosaurs, animals, the human body, science, history, geography,
+countries, people, technology, the environment, arts, ideas, engineering and
+mathematics. `setup` builds the whole thing from empty in about 19 seconds.
 
-Coverage spans space, dinosaurs, animals, the human body, science, history,
-geography, countries, people, technology and the environment.
+| | Authored | Imported | Total |
+|---|---:|---:|---:|
+| Articles | 57 | 13,646 | **13,703** |
+| Sources | 64 | 15,722 | **15,786** |
+| Reading levels written | 228 | — | — |
+| In Kids Mode | 57 | 0 | **57** |
+
+The 57 authored articles carry all four reading levels, structured facts with
+epistemic labels, per-claim citations to tier-1 sources, 187 graph relations,
+123 timeline events, 22 quizzes with 125 questions, 2 Explorer Trails with
+14 stations, 18 badges and 5 learning paths. They score 81–95 for quality.
+
+The 13,646 imported articles are lead sections under CC BY-SA 4.0, each citing
+the exact revision it came from. 2,076 of them carry a second, independently
+written reading level from Simple English Wikipedia. They score 39–62, because
+they have no structured facts, no tier-1 citation and no quiz — and the score
+says so rather than hiding it.
+
+Both packs validate with **zero errors**. The 150 warnings are all
+`reading_level_too_hard`: Wikipedia lead sections use long sentences, and the
+validator says so instead of pretending otherwise.
 
 ### A note on rewards
 
@@ -137,7 +191,7 @@ behaviour the product wants.
 
 | Gap | Why |
 |---|---|
-| 57 articles, not thousands | Each is genuinely authored at four levels with real citations. Mass-producing thin stubs would violate the project's own trust rules — the validator rejects them. The pipeline scales; the writing is the cost. |
+| Only 57 articles are authored | The other 13,646 are imported reference text, labelled as such on every page and excluded from Kids Mode. Writing an article at four levels with per-claim citations is the cost; importing under a licence is the honest way to have a library as well. |
 | No bundled imagery | The media *schema* is complete, but shipping images means verifying licences. Articles use generated covers rather than unverified third-party media. |
 | Source links show "unverified" | Correct and intentional. A URL is only promoted to `verified` by the link checker, which needs network access (`ENCARTA_ALLOW_NETWORK=1`). |
 | Maps show places, not vector basemaps | Place data and R-Tree spatial indexing are in place; an offline basemap needs a licensed tile set. |
