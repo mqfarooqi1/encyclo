@@ -23,6 +23,9 @@ log = logging.getLogger(__name__)
 # A station is "cleared" at half marks; stars reward doing better than that.
 PASS_RATIO = 0.5
 
+# Distinct stations attempted before the breadth badge is awarded.
+CURIOUS_STATIONS = 3
+
 
 def stars_for(score: int, total: int) -> int:
     if total <= 0:
@@ -216,6 +219,16 @@ class TrailService:
 
         if score == total:
             badge = self._award("perfect-round", detail)
+            if badge:
+                awarded.append(badge)
+
+        # Breadth rather than score: attempted, not necessarily cleared, so it
+        # rewards looking around rather than only being right.
+        visited = self.conn.execute(
+            "SELECT COUNT(*) AS n FROM usr.trail_progress"
+        ).fetchone()
+        if int(visited["n"]) >= CURIOUS_STATIONS:
+            badge = self._award("curious-mind", detail)
             if badge:
                 awarded.append(badge)
 

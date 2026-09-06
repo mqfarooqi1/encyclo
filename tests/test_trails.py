@@ -85,6 +85,34 @@ def test_full_marks_awards_the_clean_sweep_badge(trails):
     assert "perfect-round" in {b["key"] for b in result["badges_awarded"]}
 
 
+def test_every_badge_in_the_pack_is_actually_obtainable(conn, trails):
+    """A badge shown in the cabinet that no code can ever award is decoration
+    pretending to be a goal."""
+    defined = {r["key"] for r in conn.execute("SELECT key FROM badge").fetchall()}
+
+    awarded: set[str] = set()
+    for trail in trails.list_trails():
+        detail = trails.get_trail(trail["key"])
+        for station in detail["stations"]:
+            result = trails.record_result(
+                trail["key"], station["key"], station["questions"], station["questions"]
+            )
+            awarded |= {b["key"] for b in result["badges_awarded"]}
+
+    unreachable = defined - awarded
+    assert not unreachable, f"badges that can never be earned: {sorted(unreachable)}"
+
+
+def test_breadth_badge_rewards_trying_several_stations(trails):
+    trail = trails.get_trail("first-steps")
+    awarded: set[str] = set()
+    for station in trail["stations"][:3]:
+        result = trails.record_result("first-steps", station["key"], 1, 6)  # all failed
+        awarded |= {b["key"] for b in result["badges_awarded"]}
+    # Earned for looking around, not for being right.
+    assert "curious-mind" in awarded
+
+
 def test_a_badge_is_only_awarded_once(trails):
     trails.record_result("first-steps", "dino-dig", 6, 6)
     again = trails.record_result("first-steps", "dino-dig", 6, 6)

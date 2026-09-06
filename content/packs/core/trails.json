@@ -45,8 +45,8 @@
       "description": "Every single question right, first time.",
       "criteria": "Score full marks on any station", "sort_order": 200 },
     { "key": "curious-mind", "title": "Curious Mind", "icon": "🔍",
-      "description": "You read the explanation even when you got it right.",
-      "criteria": "Read ten answer explanations", "sort_order": 210 }
+      "description": "You went looking in three different corners of the encyclopaedia.",
+      "criteria": "Try questions at three different stations", "sort_order": 210 }
   ],
 
   "trails": [
