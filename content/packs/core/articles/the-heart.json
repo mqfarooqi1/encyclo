@@ -1,0 +1,149 @@
+{
+  "slug": "the-heart",
+  "title": "The Heart",
+  "type": "body_system",
+  "categories": [
+    "human-body",
+    "science"
+  ],
+  "primary_category": "human-body",
+  "aliases": [
+    {
+      "text": "heart",
+      "kind": "alternative"
+    },
+    {
+      "text": "cardiac",
+      "kind": "scientific"
+    }
+  ],
+  "summary": "The muscular pump that pushes blood around the body, delivering oxygen and nutrients to every living cell.",
+  "facts": [
+    {
+      "key": "size",
+      "label": "Size",
+      "value": "About the size of your closed fist",
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "chambers",
+      "label": "Chambers",
+      "value": "Four — two atria and two ventricles",
+      "value_num": 4,
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "beats_day",
+      "label": "Beats per day",
+      "value": "Around 100,000",
+      "value_num": 100000,
+      "epistemic": "estimate",
+      "confidence": 0.8,
+      "group": "Numbers",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "resting_rate",
+      "label": "Resting rate in adults",
+      "value": "About 60 to 100 beats a minute",
+      "value_num": 70,
+      "unit": "bpm",
+      "epistemic": "estimate",
+      "confidence": 0.9,
+      "group": "Numbers",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "output",
+      "label": "Blood pumped each day",
+      "value": "Roughly 7,000 litres",
+      "value_num": 7000,
+      "unit": "litres",
+      "epistemic": "estimate",
+      "confidence": 0.6,
+      "group": "Numbers",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "muscle",
+      "label": "Type of muscle",
+      "value": "Cardiac muscle, which never tires",
+      "group": "Basics",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "pacemaker",
+      "label": "What sets the rhythm",
+      "value": "The sinoatrial node, the heart's own pacemaker",
+      "group": "Basics",
+      "cite": [
+        2
+      ]
+    }
+  ],
+  "content": {
+    "age6_8": {
+      "summary": "The muscle in your chest that pumps blood around your body.",
+      "body": "Put your hand on your chest. You can feel a thump, thump, thump. That is your heart [1].\n\nYour heart is a muscle. Its job is to push blood all around your body [1].\n\nBlood carries food and air to every part of you, so your heart has to keep going all the time — even when you are asleep [1].\n\nYour heart is about the size of your fist. Make a fist and look at it — that is roughly how big it is [1].\n\nWhen you run about, your heart beats faster, because your muscles need more blood [1]."
+    },
+    "age9_12": {
+      "summary": "A four-chambered pump that never stops, and how it keeps blood moving in the right direction.",
+      "body": "The heart is a muscular pump in the middle of your chest, tilted slightly to the left [1].\n\n## Four chambers\n\nThe heart has four rooms, called chambers. The two at the top are atria; the two at the bottom are ventricles.\n\nThe right side takes blood that has already been round the body and sends it to the lungs to pick up oxygen. The left side takes that fresh blood from the lungs and pushes it out to the rest of you [1].\n\nSo blood actually goes through the heart twice on each full lap of your body.\n\n## Valves\n\nBetween the chambers are valves — flaps that open one way only. They stop blood flowing backwards.\n\nThat lub-dub sound a doctor hears is not the muscle squeezing. It is the valves snapping shut [1].\n\n## Its own pacemaker\n\nYour heart does not wait for your brain to tell it to beat. A small patch of cells called the sinoatrial node fires off an electrical signal by itself, and that signal spreads through the muscle and makes it squeeze [2].\n\nThis is why a heart can keep beating for a short time outside the body, and it is what makes heart transplants possible.\n\n## Never resting\n\nAn adult heart beats around 100,000 times a day and pumps something like 7,000 litres of blood — enough to fill a small swimming pool [1].\n\nCardiac muscle is built differently from the muscle in your arms. It does not get tired, and it repairs itself far less well, which is why heart damage is serious [2]."
+    },
+    "teen": {
+      "summary": "A four-chambered muscular pump driving two circuits in series, with intrinsic electrical automaticity.",
+      "body": "The heart is a hollow muscular organ that drives circulation through two circuits arranged in series [1].\n\n## Circulation\n\nDeoxygenated blood returns from the body to the right atrium, passes to the right ventricle, and is pumped through the pulmonary circuit to the lungs. Oxygenated blood returns to the left atrium, passes to the left ventricle, and is driven into the systemic circuit.\n\nBecause the circuits are in series, both sides must move the same volume per unit time. The left ventricle nonetheless has a far thicker wall, because it generates roughly five times the pressure required of the right — the systemic circuit is a much longer, higher-resistance path [1].\n\n## Valves and heart sounds\n\nAtrioventricular valves (tricuspid and mitral) separate atria from ventricles; semilunar valves (pulmonary and aortic) guard the ventricular outlets. All are passive, opening and closing in response to pressure gradients rather than muscular action.\n\nThe first and second heart sounds correspond to closure of the atrioventricular and semilunar valves respectively. Murmurs generally indicate turbulent flow, often from a valve that fails to close or open properly [1].\n\n## Electrical conduction\n\nCardiac muscle exhibits automaticity: it initiates its own contractions. The sinoatrial node depolarises spontaneously, setting the intrinsic rate. The impulse spreads across the atria, is briefly delayed at the atrioventricular node — allowing ventricular filling to complete — and then propagates rapidly through the bundle of His and Purkinje fibres to coordinate ventricular contraction [2].\n\nThe electrocardiogram records this sequence at the body surface. Autonomic input modulates rate but does not initiate it.\n\n## Cardiac muscle\n\nCardiomyocytes are joined by intercalated discs containing gap junctions, allowing the myocardium to contract as a functional syncytium. They are densely packed with mitochondria and rely almost entirely on aerobic metabolism.\n\nThat dependence explains why interruption of coronary blood supply causes rapid, irreversible damage. Adult human cardiomyocyte turnover is very low — on the order of one percent per year in early adulthood, declining with age — so lost myocardium is largely replaced by scar rather than by new muscle [2]."
+    },
+    "adult": {
+      "summary": "A four-chambered myogenic pump driving pulmonary and systemic circuits in series, with intrinsic conduction and minimal regenerative capacity.",
+      "body": "The heart is a muscular pump comprising four chambers that drive the pulmonary and systemic circulations in series [1].\n\n## Haemodynamics\n\nSeries arrangement requires equal output from both ventricles over time. Asymmetry in wall thickness reflects afterload rather than volume: systemic vascular resistance substantially exceeds pulmonary resistance, so the left ventricle generates peak systolic pressures around 120 mmHg against roughly 25 mmHg on the right.\n\nStroke volume is governed by preload, afterload and contractility. The Frank-Starling relationship — increased end-diastolic fibre length producing increased force of contraction — provides intrinsic beat-to-beat matching of output between the two ventricles without neural input [1].\n\nResting cardiac output is approximately 5 L/min, rising several-fold in exercise, giving a daily throughput commonly quoted near 7,000 litres. That figure is an order-of-magnitude estimate and varies widely with activity.\n\n## Valvular mechanics\n\nAll four valves are passive structures responding to transvalvular pressure gradients. Atrioventricular valves are tethered by chordae tendineae to papillary muscles, which contract during systole to prevent prolapse rather than to close the valve.\n\nAuscultatory findings map onto this mechanics: S1 to atrioventricular closure, S2 to semilunar closure with physiological splitting on inspiration. Murmurs localise to turbulent flow, and their timing and character identify the lesion [1].\n\n## Electrophysiology\n\nSinoatrial nodal cells lack a stable resting potential, undergoing spontaneous diastolic depolarisation driven principally by the funny current and calcium handling. This confers automaticity: the heart is myogenic, and denervated hearts — as in transplantation — beat autonomously.\n\nAtrioventricular nodal delay of approximately 100 ms permits atrial contribution to ventricular filling. Rapid His-Purkinje conduction synchronises ventricular depolarisation, producing efficient ejection. Loss of that synchrony, as in bundle branch block, measurably reduces efficiency.\n\nAutonomic innervation modulates rate and contractility: sympathetic stimulation via beta-1 adrenoceptors increases both, parasympathetic vagal tone slows the sinoatrial node [2].\n\n## Myocardial biology and clinical significance\n\nCardiomyocytes couple electrically through gap junctions at intercalated discs, functioning as a syncytium. Their mitochondrial density and near-obligate aerobic metabolism make them exceptionally intolerant of ischaemia.\n\nCarbon-14 dating of cardiomyocyte DNA, exploiting the atmospheric bomb pulse, established that human cardiomyocytes do renew, but at approximately one percent annually at age 25, falling below half a percent by age 75. Fewer than half the cardiomyocytes present at birth are replaced across a normal lifespan.\n\nThe practical consequence is that infarcted myocardium heals by fibrosis rather than regeneration, and lost contractile function is not recovered. This underlies the clinical emphasis on rapid reperfusion, and motivates regenerative cardiology research [2]."
+    }
+  },
+  "citations": [
+    {
+      "marker": 1,
+      "source": "nih-nhlbi",
+      "claim": "Heart size, four-chamber anatomy, the pulmonary and systemic circuits, valve function and heart sounds, resting heart rate and daily output.",
+      "supports": "supports"
+    },
+    {
+      "marker": 2,
+      "source": "nih-nlm",
+      "claim": "Cardiac conduction and sinoatrial automaticity, cardiac muscle structure and metabolism, and the low rate of cardiomyocyte renewal.",
+      "supports": "supports"
+    }
+  ],
+  "relations": [
+    {
+      "to": "blood",
+      "kind": "related"
+    },
+    {
+      "to": "the-lungs",
+      "kind": "related"
+    },
+    {
+      "to": "the-brain",
+      "kind": "contrasts_with",
+      "weight": 0.4
+    }
+  ],
+  "review": {
+    "last_reviewed": "2026-09-06",
+    "review_months": 24
+  }
+}

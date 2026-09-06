@@ -1,0 +1,199 @@
+{
+  "slug": "climate-change",
+  "title": "Climate Change",
+  "type": "environment_topic",
+  "categories": [
+    "environment",
+    "science",
+    "geography"
+  ],
+  "primary_category": "environment",
+  "aliases": [
+    {
+      "text": "global warming",
+      "kind": "alternative"
+    },
+    {
+      "text": "the climate crisis",
+      "kind": "alternative"
+    }
+  ],
+  "summary": "The long-term warming of Earth's climate caused mainly by greenhouse gases released by human activity, and the changes that follow from it.",
+  "facts": [
+    {
+      "key": "warming",
+      "label": "Warming since the late 1800s",
+      "value": "About 1.1 °C",
+      "value_num": 1.1,
+      "unit": "°C",
+      "epistemic": "estimate",
+      "confidence": 0.9,
+      "group": "Measurements",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "co2_now",
+      "label": "Carbon dioxide in the air today",
+      "value": "Over 420 parts per million",
+      "value_num": 420,
+      "unit": "ppm",
+      "epistemic": "estimate",
+      "confidence": 0.9,
+      "group": "Measurements",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "co2_before",
+      "label": "Carbon dioxide before industry",
+      "value": "About 280 parts per million",
+      "value_num": 280,
+      "unit": "ppm",
+      "epistemic": "estimate",
+      "confidence": 0.9,
+      "group": "Measurements",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "cause",
+      "label": "Main cause",
+      "value": "Burning fossil fuels, plus deforestation and agriculture",
+      "group": "Cause",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "confidence",
+      "label": "Scientific position",
+      "value": "Human influence on warming is described as unequivocal by the IPCC",
+      "group": "Cause",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "sea_level",
+      "label": "Sea level rise since 1900",
+      "value": "About 20 cm",
+      "value_num": 20,
+      "unit": "cm",
+      "epistemic": "estimate",
+      "confidence": 0.85,
+      "group": "Effects",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "ocean_heat",
+      "label": "Share of extra heat taken up by the ocean",
+      "value": "More than 90%",
+      "value_num": 90,
+      "unit": "%",
+      "epistemic": "estimate",
+      "confidence": 0.85,
+      "group": "Effects",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "paris",
+      "label": "Paris Agreement",
+      "value": "2015 — aims to limit warming well below 2 °C, pursuing 1.5 °C",
+      "value_num": 2015,
+      "group": "Response",
+      "cite": [
+        1
+      ]
+    }
+  ],
+  "content": {
+    "age6_8": {
+      "summary": "The Earth is slowly getting warmer, and this is changing the weather.",
+      "body": "The air around the Earth works like a blanket. It keeps us warm [1].\n\nWhen people burn coal, oil and gas — for cars, factories and electricity — it puts extra gases into the air [1].\n\nThose gases make the blanket thicker. So the Earth is slowly getting warmer [1].\n\nBecause of this, ice at the poles is melting, the sea is rising a little, and the weather is changing [1].\n\nPeople all over the world are working on it. Using less fuel, planting trees and getting power from the wind and the Sun all help [1]."
+    },
+    "age9_12": {
+      "summary": "Why the Earth is warming, how we know it is us, and what is happening as a result.",
+      "body": "Climate change is the long-term warming of Earth's climate, driven mainly by gases people have added to the atmosphere [1].\n\n## The greenhouse effect\n\nSome gases in the air — carbon dioxide, methane, water vapour — let sunlight through but absorb heat trying to escape back to space. This is the greenhouse effect, and it is entirely natural. Without it, Earth would be far too cold for life [1].\n\nThe problem is not the greenhouse effect. It is that we have strengthened it.\n\n## What has changed\n\nBefore the industrial era, air contained about 280 parts of carbon dioxide per million. Today it is over 420 — the highest in at least 800,000 years, which we know from air bubbles trapped in ancient ice [2].\n\nGlobal average temperature has risen by about 1.1 degrees Celsius since the late 1800s [1].\n\n## How we know it is us\n\nSeveral independent lines of evidence point the same way:\n\n- The extra carbon dioxide has a chemical fingerprint matching fossil fuels rather than volcanoes or the ocean.\n- The upper atmosphere is cooling while the lower atmosphere warms. Extra sunlight would warm both; extra greenhouse gases produce exactly this pattern.\n- Nights are warming faster than days, which is what heat-trapping predicts.\n\nThe IPCC, which reviews the world's climate research, describes human influence on the warming as unequivocal [1].\n\n## What is happening\n\nGlaciers and ice sheets are losing mass, sea level has risen about 20 centimetres since 1900, heatwaves are more frequent and more intense, and the ocean has become more acidic as it absorbs carbon dioxide [1].\n\nThe ocean has absorbed more than 90 percent of the extra heat. Without it, the air would have warmed far more [2].\n\n## What is being done\n\nUnder the 2015 Paris Agreement, countries agreed to hold warming well below 2 °C and to try for 1.5 °C. Progress is uneven, and current policies are not yet enough to meet those goals [1]."
+    },
+    "teen": {
+      "summary": "Anthropogenic radiative forcing of the climate system, the evidence attributing it to human activity, and its observed and projected consequences.",
+      "body": "Climate change refers to long-term shifts in temperature and weather patterns; the current episode is dominated by radiative forcing from human greenhouse gas emissions [1].\n\n## Physical basis\n\nGreenhouse gases are transparent to incoming shortwave solar radiation but absorb and re-emit outgoing longwave infrared. This raises equilibrium surface temperature. The mechanism was described by Tyndall and quantified by Arrhenius in the nineteenth century — it is not a recent or speculative idea [1].\n\nAtmospheric CO2 has risen from approximately 280 ppm pre-industrially to over 420 ppm, exceeding the range of the last 800,000 years established from Antarctic ice cores [2].\n\n## Attribution\n\nAttribution rests on multiple independent lines rather than on models alone:\n\n**Isotopic fingerprint.** Fossil carbon is depleted in carbon-13 and contains no carbon-14. Atmospheric CO2 shows both signatures, identifying fossil sources.\n\n**Vertical temperature structure.** Stratospheric cooling accompanies tropospheric warming. Increased solar output would warm both layers; enhanced greenhouse trapping produces precisely the observed pattern.\n\n**Diurnal asymmetry.** Minimum temperatures have risen faster than maxima, consistent with reduced nocturnal radiative loss.\n\n**Energy budget closure.** Satellite measurements of top-of-atmosphere radiation show an imbalance matching the observed accumulation of heat in the ocean.\n\nThe IPCC Sixth Assessment states that human influence on warming of the atmosphere, ocean and land is unequivocal — the strongest attribution language the process has used [1].\n\n## Observed changes\n\nGlobal mean surface temperature has risen approximately 1.1 °C relative to 1850-1900. Sea level has risen about 20 cm since 1900, driven by thermal expansion and land ice loss, with the rate accelerating.\n\nThe ocean has taken up over 90 percent of the excess energy, buffering atmospheric warming while driving marine heatwaves, deoxygenation, and acidification from CO2 uptake — a change in seawater chemistry independent of temperature [2].\n\n## Uncertainty, honestly stated\n\nThe direction and human cause of warming are not scientifically contested. Genuine uncertainty concerns climate sensitivity at the margins, regional precipitation responses, ice sheet dynamics and tipping point thresholds, and the emissions pathway humanity will actually follow — which is a political and economic question, not a physical one [1]."
+    },
+    "adult": {
+      "summary": "Anthropogenically forced warming of the climate system, robustly attributed by multiple independent observational fingerprints, with well-characterised consequences and residual uncertainty concentrated in sensitivity and regional response.",
+      "body": "Contemporary climate change denotes the response of the Earth system to radiative forcing from anthropogenic greenhouse gas emissions and associated land-use change [1].\n\n## Forcing and the carbon record\n\nThe radiative properties of CO2, methane, nitrous oxide and water vapour are established from laboratory spectroscopy and confirmed by satellite observation of outgoing longwave spectra. Arrhenius produced a quantitative estimate of CO2-driven warming in 1896.\n\nAtmospheric CO2 concentration has risen from a pre-industrial 280 ppm to above 420 ppm. Antarctic ice core records extend the constraint to roughly 800,000 years, over which the concentration oscillated between approximately 180 and 300 ppm; the present value lies well outside that envelope, and the rate of increase is without precedent in the record [2].\n\n## Attribution\n\nAttribution does not depend on general circulation models alone. The observational fingerprints are individually diagnostic and jointly decisive:\n\nDeclining atmospheric delta-13C and the Suess effect (dilution of radiocarbon) identify fossil carbon as the source. Simultaneous stratospheric cooling and tropospheric warming discriminates greenhouse forcing from solar forcing, which would warm both. Reduction in outgoing longwave radiation at CO2 absorption wavelengths has been measured directly from satellites and downward longwave flux measured at the surface. Narrowing of the diurnal temperature range, poleward amplification and ocean heat content accumulation all match greenhouse expectations.\n\nThe IPCC AR6 characterisation — that human influence is unequivocal — reflects convergence across these independent lines rather than model consensus [1].\n\n## Observed and projected impacts\n\nWarming of approximately 1.1 °C relative to 1850-1900 is accompanied by roughly 20 cm of global mean sea level rise since 1900, at an accelerating rate, from thermosteric expansion and mass loss from glaciers and the Greenland and Antarctic ice sheets.\n\nOcean heat uptake exceeding 90 percent of the total energy imbalance buffers surface warming while producing marine heatwaves, stratification and deoxygenation. Independently, oceanic CO2 uptake has lowered surface pH by roughly 0.1 units since pre-industrial times — a chemical change, not a thermal one, with distinct consequences for calcifying organisms [2].\n\nAttribution science now permits probabilistic statements about individual extreme events, quantifying how far anthropogenic forcing altered their likelihood or intensity.\n\n## Where uncertainty actually lies\n\nIt is important to locate uncertainty accurately rather than to imply it is general.\n\nThe existence, direction and dominant cause of warming are not in scientific dispute. Substantive uncertainty concentrates in: equilibrium climate sensitivity, constrained by AR6 to a likely range of 2.5-4 °C with cloud feedback the largest contributor; regional precipitation and circulation responses; marine ice sheet instability and consequent sea level rise at the upper tail; and threshold behaviour in components such as the Atlantic Meridional Overturning Circulation.\n\nThe largest single uncertainty in projections is the emissions trajectory itself, which is determined by policy and economics rather than by geophysics [1]."
+    }
+  },
+  "citations": [
+    {
+      "marker": 1,
+      "source": "ipcc-ar6",
+      "claim": "Observed global temperature rise, the attribution of warming to human influence as unequivocal, sea level rise since 1900, climate sensitivity ranges, and the Paris Agreement targets.",
+      "supports": "supports"
+    },
+    {
+      "marker": 2,
+      "source": "noaa-climate",
+      "claim": "Atmospheric carbon dioxide concentrations past and present from ice core and instrumental records, ocean heat uptake share, and ocean acidification.",
+      "supports": "supports"
+    }
+  ],
+  "relations": [
+    {
+      "to": "earth",
+      "kind": "related"
+    },
+    {
+      "to": "the-ocean",
+      "kind": "causes"
+    },
+    {
+      "to": "venus",
+      "kind": "contrasts_with"
+    },
+    {
+      "to": "glacier",
+      "kind": "causes"
+    },
+    {
+      "to": "emperor-penguin",
+      "kind": "causes",
+      "weight": 0.5
+    }
+  ],
+  "timeline": [
+    {
+      "title": "Arrhenius calculates CO2 warming",
+      "start": 1896,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 4
+    },
+    {
+      "title": "Continuous CO2 measurements begin at Mauna Loa",
+      "start": 1958,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 4
+    },
+    {
+      "title": "Paris Agreement adopted",
+      "start": 2015,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 5
+    }
+  ],
+  "review": {
+    "last_reviewed": "2026-09-06",
+    "review_months": 12
+  }
+}

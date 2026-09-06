@@ -1,0 +1,191 @@
+{
+  "slug": "apollo-11",
+  "title": "Apollo 11",
+  "type": "historical_event",
+  "categories": [
+    "space",
+    "history"
+  ],
+  "primary_category": "space",
+  "aliases": [
+    {
+      "text": "the Moon landing",
+      "kind": "alternative"
+    },
+    {
+      "text": "first Moon landing",
+      "kind": "alternative"
+    }
+  ],
+  "summary": "The 1969 spaceflight that carried the first people to land on the Moon, and the first to walk on a world other than Earth.",
+  "facts": [
+    {
+      "key": "launch",
+      "label": "Launched",
+      "value": "16 July 1969",
+      "value_num": 1969,
+      "group": "Mission",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "landing",
+      "label": "Landed on the Moon",
+      "value": "20 July 1969",
+      "group": "Mission",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "crew",
+      "label": "Crew",
+      "value": "Neil Armstrong, Buzz Aldrin, Michael Collins",
+      "group": "Mission",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "site",
+      "label": "Landing site",
+      "value": "The Sea of Tranquillity",
+      "group": "Mission",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "first_step",
+      "label": "First step onto the surface",
+      "value": "Neil Armstrong, 21 July 1969 (02:56 UTC)",
+      "group": "Mission",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "surface_time",
+      "label": "Time spent on the surface",
+      "value": "About 21.5 hours",
+      "value_num": 21.5,
+      "unit": "hours",
+      "epistemic": "estimate",
+      "confidence": 0.9,
+      "group": "Mission",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "samples",
+      "label": "Rock and soil brought back",
+      "value": "About 21.5 kg",
+      "value_num": 21.5,
+      "unit": "kg",
+      "epistemic": "estimate",
+      "confidence": 0.9,
+      "group": "Science",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "return",
+      "label": "Returned to Earth",
+      "value": "24 July 1969",
+      "group": "Mission",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "computer",
+      "label": "Guidance computer memory",
+      "value": "About 72 kilobytes of read-only memory",
+      "epistemic": "estimate",
+      "confidence": 0.85,
+      "group": "Technology",
+      "cite": [
+        2
+      ]
+    }
+  ],
+  "content": {
+    "age6_8": {
+      "summary": "The first time people landed on the Moon.",
+      "body": "In 1969, three people flew a spaceship to the Moon [1].\n\nTwo of them, Neil Armstrong and Buzz Aldrin, landed on the Moon in a small spacecraft. The third, Michael Collins, stayed above in the main ship [1].\n\nNeil Armstrong was the first person ever to step onto the Moon [1].\n\nThey collected Moon rocks to bring home. Scientists still study those rocks today [1].\n\nThey also left footprints. With no wind or rain up there, the footprints are still there now [1]."
+    },
+    "age9_12": {
+      "summary": "How three people reached the Moon in 1969, and what they brought back.",
+      "body": "Apollo 11 was the mission that first landed people on the Moon [1].\n\n## The crew\n\nThree astronauts flew: Neil Armstrong, Buzz Aldrin and Michael Collins.\n\nArmstrong and Aldrin descended to the surface in the lunar module *Eagle*. Collins stayed in orbit in the command module *Columbia*, alone, circling the Moon and waiting. His part is often forgotten, but without it nobody was getting home [1].\n\n## The landing\n\nThey launched on 16 July 1969 and landed on 20 July, in a flat plain called the Sea of Tranquillity.\n\nThe landing was much closer to failure than most people realise. The guidance computer began raising alarms because it was being given more work than it could handle. Mission Control had to decide within seconds whether the alarms were fatal. They were not, and the landing continued.\n\nThe planned site turned out to be strewn with boulders, so Armstrong flew on manually to find clear ground. *Eagle* touched down with roughly 25 seconds of landing fuel left [1].\n\n## On the surface\n\nArmstrong stepped out first, on 21 July 1969 by the clock used in space. They spent about two and a half hours outside, and about 21 and a half hours on the Moon in total [1].\n\nThey planted a flag, took photographs, set up experiments, and collected 21.5 kilograms of rock and soil [1].\n\n## What it left behind\n\nThe rocks transformed our understanding of the Moon and of the early Solar System, and scientists still study them.\n\nThe astronauts also left a mirror. Scientists on Earth still bounce lasers off it to measure the Moon's distance precisely — which is how we know it is drifting away by about 3.8 centimetres a year [1]."
+    },
+    "teen": {
+      "summary": "The first crewed lunar landing, its narrow operational margins, and its lasting scientific legacy.",
+      "body": "Apollo 11 launched on 16 July 1969 and achieved the first crewed landing on the Moon on 20 July, with Neil Armstrong, Buzz Aldrin and Michael Collins [1].\n\n## Mission profile\n\nA Saturn V placed the spacecraft on a translunar trajectory. In lunar orbit, the lunar module *Eagle* separated from the command and service module *Columbia*, carrying Armstrong and Aldrin to the surface while Collins remained in orbit.\n\nCollins spent extended periods on the far side, out of radio contact with Earth and with the surface — a position sometimes described as the most isolated any human has occupied [1].\n\n## The descent\n\nThe descent was far less routine than public memory suggests.\n\nThe Apollo Guidance Computer issued repeated 1201 and 1202 program alarms, indicating executive overflow — it was receiving more tasks than it could schedule. The computer had been designed to shed low-priority work and restart cleanly rather than fail, so the alarms indicated the system was handling overload as intended. Mission Control judged them non-fatal within seconds [2].\n\nThe automatic system was also steering toward terrain scattered with boulders. Armstrong took semi-manual control and extended the flight to reach a clear area, landing with a margin later estimated at around 25 seconds of usable descent propellant [1].\n\n## Surface operations\n\nExtravehicular activity lasted approximately two and a half hours, within a total surface stay of about 21.5 hours. The crew deployed a solar wind collector, a seismometer and a laser retroreflector, photographed the site, and collected 21.5 kg of samples [1].\n\n## Scientific legacy\n\nThe returned samples established that the lunar surface is ancient, dry and depleted in volatiles, and that the Moon's composition closely resembles Earth's mantle. These findings directly informed the giant-impact hypothesis of lunar origin.\n\nThe retroreflector remains in use. Lunar laser ranging against Apollo-era reflectors measures the Earth-Moon distance to centimetre precision, yielding the recession rate of about 3.8 cm per year and providing tests of general relativity [1].\n\n## Context\n\nApollo 11 was the culmination of a programme initiated in response to a national commitment made in 1961, and pursued in direct competition with the Soviet space programme. Five further crewed landings followed through 1972 [1]."
+    },
+    "adult": {
+      "summary": "The first crewed lunar landing (16-24 July 1969), notable for its narrow operational margins, its sample return, and instrumentation still in scientific use.",
+      "body": "Apollo 11 was the fifth crewed mission of the Apollo programme and the first to land humans on the Moon, crewed by Neil Armstrong (commander), Michael Collins (command module pilot) and Edwin \"Buzz\" Aldrin (lunar module pilot) [1].\n\n## Profile and execution\n\nLaunch occurred on 16 July 1969 aboard Saturn V AS-506. Following trans-lunar injection and lunar orbit insertion, the lunar module *Eagle* undocked and executed powered descent on 20 July, touching down in Mare Tranquillitatis at 20:17 UTC.\n\nCollins remained in *Columbia* throughout, including repeated passes behind the Moon during which he was without communication with either Earth or the surface.\n\n## Powered descent anomalies\n\nThe descent is instructive as an engineering case study rather than merely as a historical event.\n\nThe Apollo Guidance Computer raised 1202 and 1201 alarms indicating executive overflow. The proximate cause was traced to the rendezvous radar being left in a configuration that consumed spare processor cycles. The AGC's priority-scheduled executive was designed to discard low-priority tasks and restart while preserving critical guidance state, so the alarms signalled correct behaviour under overload rather than impending failure. Mission Control's judgement to continue rested on that design property [2].\n\nSeparately, the automatic guidance was targeting terrain populated with boulders. Armstrong assumed manual attitude control with automatic throttle, extending downrange flight to reach an acceptable surface. Landing occurred with propellant margin commonly cited as roughly 25 seconds to the mandatory abort call, though reconstructions of remaining usable propellant vary and the figure should be treated as approximate.\n\n## Surface operations and instrumentation\n\nExtravehicular activity of approximately 2 hours 31 minutes occurred within a total surface stay near 21.5 hours. Deployed instrumentation comprised the Early Apollo Scientific Experiments Package, including a passive seismic experiment and a laser ranging retroreflector, together with a solar wind composition experiment.\n\nSample return totalled approximately 21.5 kg of regolith and rock [1].\n\n## Scientific consequences\n\nAnalysis of returned material established the antiquity of the lunar surface, the absence of hydrated minerals and the depletion of volatile elements, and — critically — an oxygen isotopic composition indistinguishable from terrestrial values. Together these constrained models of lunar origin and were foundational to the giant-impact hypothesis.\n\nThe retroreflector array remains operational more than five decades later. Lunar laser ranging determines the Earth-Moon distance at centimetre-level precision, yielding a secular recession rate of approximately 3.8 cm/yr, constraining tidal dissipation in Earth's oceans, and providing tests of the equivalence principle and of general relativity [1].\n\n## Historical context\n\nThe mission fulfilled a national objective articulated in 1961 and prosecuted under conditions of geopolitical competition. Five subsequent landings through Apollo 17 in December 1972 extended surface duration, mobility and scientific return; no crewed lunar landing has occurred since [1]."
+    }
+  },
+  "citations": [
+    {
+      "marker": 1,
+      "source": "nasa-apollo",
+      "claim": "Apollo 11 crew, launch, landing and return dates, landing site, surface duration, sample mass, deployed instruments, and the lunar laser ranging results.",
+      "supports": "supports"
+    },
+    {
+      "marker": 2,
+      "source": "computer-history-museum",
+      "claim": "The Apollo Guidance Computer's memory, its priority-scheduled executive, and the program alarms raised during powered descent.",
+      "supports": "partially"
+    }
+  ],
+  "relations": [
+    {
+      "to": "moon",
+      "kind": "related"
+    },
+    {
+      "to": "gravity",
+      "kind": "related",
+      "weight": 0.5
+    },
+    {
+      "to": "computer",
+      "kind": "related",
+      "weight": 0.5
+    }
+  ],
+  "timeline": [
+    {
+      "title": "Apollo 11 launches",
+      "start": 1969,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 5
+    },
+    {
+      "title": "First humans walk on the Moon",
+      "start": 1969,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 5
+    }
+  ],
+  "places": [
+    {
+      "name": "Tranquillity Base",
+      "kind": "site",
+      "lat": 0.674,
+      "lon": 23.473
+    }
+  ],
+  "review": {
+    "last_reviewed": "2026-09-06",
+    "review_months": 60
+  }
+}

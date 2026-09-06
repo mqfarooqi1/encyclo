@@ -1,0 +1,214 @@
+{
+  "slug": "australia",
+  "title": "Australia",
+  "type": "country",
+  "categories": [
+    "countries",
+    "geography"
+  ],
+  "primary_category": "countries",
+  "aliases": [
+    {
+      "text": "Commonwealth of Australia",
+      "kind": "alternative"
+    }
+  ],
+  "summary": "An island continent and country in the southern hemisphere, home to the world's oldest continuous living cultures and to species found nowhere else.",
+  "facts": [
+    {
+      "key": "capital",
+      "label": "Capital",
+      "value": "Canberra",
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "largest_city",
+      "label": "Largest city",
+      "value": "Sydney",
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "population",
+      "label": "Population",
+      "value": "About 27 million",
+      "value_num": 27000000,
+      "epistemic": "estimate",
+      "confidence": 0.8,
+      "comparable_key": "population",
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "area",
+      "label": "Area",
+      "value": "About 7.69 million km²",
+      "value_num": 7690000,
+      "unit": "km²",
+      "comparable_key": "area",
+      "group": "Basics",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "size_rank",
+      "label": "Size",
+      "value": "The sixth largest country by area",
+      "value_num": 6,
+      "group": "Basics",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "first_peoples",
+      "label": "First peoples",
+      "value": "Aboriginal and Torres Strait Islander peoples, here at least 65,000 years",
+      "value_num": 65000,
+      "unit": "years",
+      "epistemic": "estimate",
+      "confidence": 0.75,
+      "group": "History",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "federation",
+      "label": "Federation",
+      "value": "1 January 1901",
+      "value_num": 1901,
+      "group": "History",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "languages",
+      "label": "Language",
+      "value": "English, with hundreds of Aboriginal languages historically spoken",
+      "comparable_key": "official_language",
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "reef",
+      "label": "Great Barrier Reef",
+      "value": "The world's largest coral reef system",
+      "group": "Nature",
+      "cite": [
+        2
+      ]
+    }
+  ],
+  "content": {
+    "age6_8": {
+      "summary": "A big country that is also a whole continent, with animals found nowhere else.",
+      "body": "Australia is a country. It is also a whole continent all by itself [1].\n\nIt is in the southern half of the world, so its seasons are the other way round. Christmas there is in summer [1].\n\nAustralia has animals you will not find living wild anywhere else — kangaroos, koalas, wombats and platypuses [2].\n\nMost of the middle of Australia is hot dry desert. Most people live near the sea, around the edges [1].\n\nAboriginal and Torres Strait Islander peoples have lived in Australia for tens of thousands of years — longer than almost anyone anywhere [1].\n\nOff the coast is the Great Barrier Reef, the biggest coral reef in the world [2]."
+    },
+    "age9_12": {
+      "summary": "An island continent of deserts and reefs, and the home of the world's oldest continuing cultures.",
+      "body": "Australia is both a country and a continent, in the southern hemisphere. It is the sixth largest country by area, at about 7.69 million square kilometres [2].\n\n## Where people live\n\nDespite its size, Australia has only around 27 million people [1].\n\nMost of the interior — the outback — is arid or semi-arid, so the great majority live in cities along the coast, especially in the south-east. Australia is one of the most urbanised countries in the world [1].\n\nThe capital is Canberra. It was purpose-built as a compromise because Sydney and Melbourne both wanted the honour [1].\n\n## The oldest continuing cultures\n\nAboriginal and Torres Strait Islander peoples have lived in Australia for at least 65,000 years, and archaeologists continue to push that date back. These are generally regarded as the oldest continuing cultures on Earth [1].\n\nBefore Europeans arrived there were hundreds of distinct nations, with their own languages, laws and territories. Many of those languages have been lost, and communities are working to revive them [1].\n\nBritish colonisation from 1788 caused catastrophic loss of life through disease, violence and dispossession. Australia federated into a single country on 1 January 1901 [1].\n\n## Unusual wildlife\n\nAustralia separated from other landmasses tens of millions of years ago, and its animals evolved in isolation.\n\nThat is why marsupials — mammals that raise young in a pouch — dominate here while they are rare elsewhere. And why the platypus exists: a mammal that lays eggs, has a bill, and detects prey using electricity. When the first specimen reached Britain, scientists assumed it was a hoax [2].\n\n## The Great Barrier Reef\n\nOff the north-east coast lies the Great Barrier Reef, the largest coral reef system in the world and visible from orbit.\n\nIt is built by tiny animals called coral polyps over thousands of years. It is under serious pressure from ocean warming, which causes coral bleaching, and has suffered repeated mass bleaching events [2]."
+    },
+    "teen": {
+      "summary": "An island continent with an arid interior, a highly urbanised coastal population, endemic biota, and the world's longest continuing human occupation.",
+      "body": "Australia occupies an entire continent, with a land area of approximately 7.69 million km², making it the sixth largest country [2].\n\n## Geography and settlement\n\nAridity dominates: much of the interior receives low and unreliable rainfall, and soils are ancient and nutrient-poor, having escaped both recent glaciation and significant mountain building.\n\nThe consequence is one of the world's most urbanised populations, concentrated in coastal cities, with around 27 million people at very low overall density [1].\n\nCanberra was established as a purpose-built capital following the Sydney-Melbourne rivalry at federation, a solution comparable to Washington DC and Brasília.\n\n## Human history\n\nArchaeological evidence establishes Aboriginal occupation from at least 65,000 years ago, with the Madjedbebe rock shelter in Arnhem Land providing key dating. These are the longest continuous cultures known [1].\n\nPre-colonial Australia supported hundreds of distinct language groups with sophisticated land management, including systematic use of fire to shape vegetation and maintain resources. Recognition of the extent of that management has substantially revised earlier characterisations of the continent as unmodified wilderness.\n\nBritish colonisation from 1788 proceeded on the doctrine of *terra nullius* — land belonging to no one — which was overturned by the High Court in the 1992 Mabo decision, recognising native title. Colonisation caused catastrophic population decline through introduced disease, frontier violence and dispossession, and the consequences persist in measurable disparities in health, life expectancy and incarceration [1].\n\nFederation of the six colonies occurred on 1 January 1901.\n\n## Biogeography\n\nAustralia's separation from Antarctica and prolonged isolation produced exceptional endemism. Marsupials radiated into niches filled by placental mammals elsewhere, a case of convergent evolution: the thylacine, now extinct, closely resembled a canid despite the deep divergence.\n\nMonotremes — the platypus and echidnas — are egg-laying mammals surviving only here and in New Guinea. The platypus additionally possesses electroreception in its bill, and produces venom in males. Early European naturalists suspected the first specimen of being a fabrication [2].\n\nIsolation also produced acute vulnerability. Introduced species — rabbits, foxes, cats, cane toads — have caused among the highest mammal extinction rates of any continent in the modern era [2].\n\n## The Great Barrier Reef\n\nExtending over 2,300 km, the reef is the largest structure built by living organisms and a World Heritage site.\n\nCoral bleaching occurs when thermal stress causes corals to expel their symbiotic algae. Repeated mass bleaching events since 1998 have caused substantial mortality, and reef futures under continued warming are a subject of serious scientific concern rather than speculation [2]."
+    },
+    "adult": {
+      "summary": "An island continent characterised by aridity, ancient nutrient-poor soils, exceptional endemism, extreme coastal urbanisation, and the longest documented continuous human occupation.",
+      "body": "Australia is an island continent and federal parliamentary democracy of approximately 7.69 million km², the sixth largest country by area [2].\n\n## Physical setting\n\nThe continent's defining characteristics follow from its geological history. Long tectonic quiescence has produced low relief and deeply weathered, nutrient-depleted soils; the absence of recent glaciation over most of the landmass has denied it the fresh mineral substrate that renews soils elsewhere.\n\nThese conditions, combined with rainfall variability driven substantially by ENSO, constrain agriculture and account for settlement concentration on the temperate coastal margins. Australia is among the most urbanised nations by population share [1].\n\n## Occupation history\n\nOccupation from at least 65,000 years before present is established by optically stimulated luminescence dating at Madjedbebe, with the date subject to ongoing methodological debate but broadly supported. This constitutes the longest continuous cultural occupation documented anywhere.\n\nPre-colonial land management, including fire-stick farming, structured vegetation communities across the continent. The scale of this intervention has been progressively recognised, displacing earlier framings of the landscape as untouched and complicating simple restoration baselines.\n\nColonisation from 1788 under the doctrine of *terra nullius* denied prior sovereignty and property rights. *Mabo v Queensland (No 2)* (1992) rejected the doctrine and recognised native title at common law, followed by the Native Title Act 1993. Demographic collapse from introduced disease, frontier conflict and dispossession, and the subsequent policies of child removal, produce disparities in health, life expectancy, education and incarceration that remain substantial and are the subject of continuing policy attention [1].\n\nFederation on 1 January 1901 united six self-governing colonies under a constitution combining Westminster responsible government with a federal structure influenced by the United States.\n\n## Biogeographic significance\n\nProlonged isolation following separation from Gondwana produced high endemism across taxa. Marsupial radiation into diverse ecological roles offers among the clearest available demonstrations of convergent evolution, with the thylacine's craniodental convergence on canids being frequently cited.\n\nMonotremes represent the earliest-diverging extant mammalian lineage. *Ornithorhynchus anatinus* combines oviparity, electroreception, venom production in males and a sex-determination system involving multiple chromosome pairs — a combination that made the type specimen initially suspect to European anatomists.\n\nThe same isolation produced naivety to introduced predators and competitors. Australia's post-1788 mammal extinction record is among the worst globally, and predation by introduced cats and foxes is the dominant identified driver [2].\n\n## The Great Barrier Reef\n\nThe reef system extends approximately 2,300 km and is the largest biogenic structure on Earth.\n\nMass bleaching, driven by thermal anomalies exceeding coral thermal tolerance, has recurred with increasing frequency since 1998, with severe events in 2016, 2017, 2020 and subsequently. Recovery intervals are shortening relative to the return period of thermal stress.\n\nThe scientific position is not that reef loss is certain but that reef persistence in current form is inconsistent with continued warming at projected rates, and that adaptation and intervention research is proceeding under time constraint [2]."
+    }
+  },
+  "citations": [
+    {
+      "marker": 1,
+      "source": "abs",
+      "claim": "Australian population, urbanisation and settlement distribution, the capital and largest city, the antiquity of Aboriginal and Torres Strait Islander occupation, colonial history and federation in 1901.",
+      "supports": "partially"
+    },
+    {
+      "marker": 2,
+      "source": "ga-australia",
+      "claim": "Australia's land area and global size ranking, geological and soil characteristics, endemic biota including marsupials and monotremes, introduced species impacts, and the Great Barrier Reef and coral bleaching.",
+      "supports": "partially"
+    }
+  ],
+  "relations": [
+    {
+      "to": "the-ocean",
+      "kind": "related"
+    },
+    {
+      "to": "climate-change",
+      "kind": "related"
+    }
+  ],
+  "timeline": [
+    {
+      "title": "Aboriginal occupation of Australia begins",
+      "start": -65000,
+      "precision": "estimate",
+      "era": "Prehistory",
+      "importance": 5,
+      "epistemic": "estimate"
+    },
+    {
+      "title": "British colonisation begins",
+      "start": 1788,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 5
+    },
+    {
+      "title": "Federation of Australia",
+      "start": 1901,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 5
+    },
+    {
+      "title": "Mabo decision recognises native title",
+      "start": 1992,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 5
+    }
+  ],
+  "places": [
+    {
+      "name": "Canberra",
+      "kind": "city",
+      "lat": -35.28,
+      "lon": 149.13,
+      "country": "AU"
+    },
+    {
+      "name": "Sydney",
+      "kind": "city",
+      "lat": -33.87,
+      "lon": 151.21,
+      "country": "AU"
+    },
+    {
+      "name": "Great Barrier Reef",
+      "kind": "site",
+      "lat": -18.29,
+      "lon": 147.7,
+      "country": "AU"
+    }
+  ],
+  "review": {
+    "last_reviewed": "2026-09-06",
+    "review_months": 12
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "slug": "jupiter",
+  "title": "Jupiter",
+  "type": "planet",
+  "categories": [
+    "space"
+  ],
+  "primary_category": "space",
+  "aliases": [
+    {
+      "text": "the giant planet",
+      "kind": "alternative"
+    }
+  ],
+  "summary": "The largest planet in the Solar System, a gas giant more than twice as massive as all the other planets combined.",
+  "facts": [
+    {
+      "key": "position",
+      "label": "Position from the Sun",
+      "value": "Fifth",
+      "group": "Orbit",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "diameter",
+      "label": "Diameter",
+      "value": "About 139,800 km",
+      "value_num": 139820,
+      "unit": "km",
+      "comparable_key": "diameter",
+      "group": "Size",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "mass",
+      "label": "Mass compared with Earth",
+      "value": "About 318 times Earth's",
+      "value_num": 318,
+      "epistemic": "estimate",
+      "confidence": 0.95,
+      "group": "Size",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "day_length",
+      "label": "Day length",
+      "value": "About 9 hours 56 minutes",
+      "value_num": 9.93,
+      "unit": "hours",
+      "comparable_key": "day_length",
+      "group": "Orbit",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "orbital_period",
+      "label": "Year length",
+      "value": "About 11.9 Earth years",
+      "value_num": 4333,
+      "unit": "days",
+      "comparable_key": "orbital_period",
+      "group": "Orbit",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "distance_from_sun",
+      "label": "Average distance from the Sun",
+      "value": "About 778 million km",
+      "value_num": 778000000,
+      "unit": "km",
+      "comparable_key": "distance_from_sun",
+      "group": "Orbit",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "moons",
+      "label": "Confirmed moons",
+      "value": "At least 95",
+      "value_num": 95,
+      "epistemic": "estimate",
+      "confidence": 0.7,
+      "comparable_key": "moons",
+      "group": "Physical",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "surface",
+      "label": "Surface",
+      "value": "None — it has no solid ground",
+      "comparable_key": "atmosphere",
+      "group": "Physical",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "great_red_spot",
+      "label": "Great Red Spot",
+      "value": "A storm wider than Earth, watched for over 150 years",
+      "epistemic": "estimate",
+      "confidence": 0.8,
+      "group": "Features",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "life",
+      "label": "Known life",
+      "value": "None found",
+      "comparable_key": "life",
+      "group": "Physical",
+      "cite": [
+        2
+      ]
+    }
+  ],
+  "content": {
+    "age6_8": {
+      "summary": "The biggest planet. It has a giant storm with red swirls.",
+      "body": "Jupiter is the biggest planet in our Solar System [1].\n\nIt is so big that all the other planets could fit inside it with room to spare [1].\n\nJupiter is not made of rock like Earth. It is mostly gas. If you tried to land on it, there would be nothing to stand on [1].\n\nThere is a huge red storm on Jupiter called the Great Red Spot. It is wider than the whole Earth [2].\n\nJupiter has lots of moons — more than ninety that we know about [2]."
+    },
+    "age9_12": {
+      "summary": "The Solar System's largest planet, its famous storm, and its family of moons.",
+      "body": "Jupiter is the fifth planet from the Sun and by far the largest [1].\n\n## An enormous planet\n\nJupiter is about 139,800 kilometres across and has 318 times Earth's mass. It is more than twice as massive as all the other planets put together [1].\n\nDespite its size it spins faster than any other planet, turning once in under ten hours. That fast spin squashes it slightly, so it is a little wider across the middle than from pole to pole [1].\n\n## No ground to land on\n\nJupiter is a gas giant, made mostly of hydrogen and helium. Going down through it, the gas simply gets denser and hotter until it behaves like a liquid. There is no surface to stand on [1].\n\n## The Great Red Spot\n\nThe Great Red Spot is a storm larger than Earth. Astronomers have been watching a storm in that position for more than 150 years, and possibly much longer. It has been shrinking in recent decades [2].\n\n## Moons\n\nJupiter has at least 95 confirmed moons, and the count keeps rising as smaller ones are found [2].\n\nThe four largest — Io, Europa, Ganymede and Callisto — were spotted by Galileo in 1610. Seeing objects orbiting something other than Earth was powerful evidence that not everything went around us [2].\n\nEuropa is especially interesting: beneath its icy shell there is very likely a salty ocean, which makes it one of the best places to look for life beyond Earth [2]."
+    },
+    "teen": {
+      "summary": "The Solar System's most massive planet: a hydrogen-helium gas giant with a powerful magnetosphere and a large satellite system.",
+      "body": "Jupiter is the fifth planet from the Sun and the most massive, at approximately 318 Earth masses — more than double the combined mass of every other planet [1].\n\n## Structure\n\nJupiter is composed principally of hydrogen and helium in roughly solar proportions. It has no surface in any useful sense: with depth, gas transitions smoothly to supercritical fluid, and at extreme pressure hydrogen becomes metallic and electrically conducting [1].\n\nWhether Jupiter has a compact rocky core or a diffuse, partially dissolved one is genuinely uncertain. Gravity measurements from the Juno mission favour a fuzzy core extending over a substantial fraction of the interior, which was not the expectation beforehand [2].\n\n## Rotation and magnetism\n\nJupiter completes a rotation in under 10 hours, the fastest of any planet, producing noticeable equatorial bulging. Circulation in metallic hydrogen generates a magnetic field roughly 20,000 times stronger than Earth's, driving the largest magnetosphere of any planet and intense radiation belts [2].\n\n## Atmosphere\n\nBanded cloud structure arises from alternating zonal jets. The Great Red Spot is an anticyclonic storm exceeding Earth's diameter; continuous observations date from the nineteenth century, and whether earlier seventeenth-century reports describe the same feature is not settled. It has measurably contracted over recent decades [2].\n\n## The Galilean moons\n\nGalileo's 1610 observation of four moons orbiting Jupiter provided direct evidence that not all celestial bodies circle Earth, and was consequential for the acceptance of heliocentrism [2].\n\nIo is the most volcanically active body known, heated by tidal flexing. Europa very likely holds a subsurface saltwater ocean beneath its ice shell, making it a priority target in the search for habitable environments. Ganymede is the largest moon in the Solar System and the only one with its own magnetic field."
+    },
+    "adult": {
+      "summary": "A hydrogen-helium gas giant of 318 Earth masses whose interior structure, magnetosphere and satellite system make it a system in miniature.",
+      "body": "Jupiter is the fifth planet from the Sun and the most massive body in the Solar System after the Sun, at approximately 1.898 x 10^27 kg — some 2.5 times the combined mass of the remaining planets [1].\n\n## Interior\n\nBulk composition approximates solar abundances, dominated by hydrogen and helium with enrichment in heavier elements relative to the Sun. There is no solid surface; the atmosphere grades continuously into a supercritical fluid envelope, and beyond roughly a megabar hydrogen transitions to a metallic, electrically conducting state.\n\nThe Juno mission's gravity science substantially revised the interior picture. Rather than a compact heavy-element core, the data are best fit by a dilute or fuzzy core extending across a considerable fraction of the planetary radius, with heavy elements partially mixed into the envelope. This has implications for formation models, since core accretion had generally predicted a more concentrated core [2].\n\n## Magnetosphere\n\nDynamo action in metallic hydrogen produces a surface field roughly an order of magnitude stronger than Earth's and a magnetosphere that, were it visible, would subtend several times the angular diameter of the Moon from Earth. Io's volcanism supplies a plasma torus that dominates magnetospheric dynamics, and the resulting radiation environment is severe enough to constrain spacecraft design.\n\n## Atmospheric dynamics\n\nThe banded appearance reflects alternating zonal jets of remarkable stability. Juno's microwave radiometry demonstrated that these structures extend to depths of thousands of kilometres rather than being shallow weather-layer phenomena.\n\nThe Great Red Spot is a long-lived anticyclone. Continuous observational records extend to 1878; whether Cassini's seventeenth-century observations of a Permanent Spot describe the same vortex is unresolved and should not be asserted. Systematic shrinkage in its longitudinal extent is well documented over the twentieth and twenty-first centuries [2].\n\n## Satellite system\n\nAt least 95 satellites are confirmed, with the total continuing to rise as survey sensitivity improves; any stated count should be treated as a lower bound at a given date rather than a fixed property [2].\n\nThe Galilean satellites are of first-order scientific importance. Io exhibits the highest volcanic heat flux of any known body, powered by tidal dissipation in the Laplace resonance. Europa's induced magnetic response provides strong evidence for a global subsurface saline ocean, and it is a principal target of astrobiological interest. Ganymede is the largest satellite in the Solar System and uniquely possesses an intrinsic magnetic field.\n\nGalileo's 1610 detection of these four bodies is historically decisive: it demonstrated the existence of a centre of motion other than Earth, undermining a core objection to heliocentrism [2]."
+    }
+  },
+  "citations": [
+    {
+      "marker": 1,
+      "source": "nasa-solar-system",
+      "claim": "Jupiter's orbital position, diameter, mass, rotation and orbital periods, distance from the Sun, and gas giant composition without a solid surface.",
+      "supports": "supports"
+    },
+    {
+      "marker": 2,
+      "source": "nasa-science",
+      "claim": "Confirmed moon count, the Great Red Spot and its observed shrinkage, Juno gravity results on the interior, the magnetosphere, and the Galilean moons including Europa's subsurface ocean.",
+      "supports": "supports"
+    }
+  ],
+  "relations": [
+    {
+      "to": "solar-system",
+      "kind": "part_of"
+    },
+    {
+      "to": "the-sun",
+      "kind": "related"
+    },
+    {
+      "to": "saturn",
+      "kind": "contrasts_with"
+    },
+    {
+      "to": "earth",
+      "kind": "contrasts_with",
+      "weight": 0.5
+    }
+  ],
+  "timeline": [
+    {
+      "title": "Galileo observes Jupiter's four largest moons",
+      "start": 1610,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 5,
+      "description": "Evidence that not everything orbits the Earth."
+    },
+    {
+      "title": "Juno enters orbit around Jupiter",
+      "start": 2016,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 3
+    }
+  ],
+  "review": {
+    "last_reviewed": "2026-09-06"
+  }
+}

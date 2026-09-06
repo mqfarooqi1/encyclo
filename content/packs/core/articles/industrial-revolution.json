@@ -1,0 +1,162 @@
+{
+  "slug": "industrial-revolution",
+  "title": "The Industrial Revolution",
+  "type": "historical_event",
+  "categories": [
+    "history",
+    "technology",
+    "engineering"
+  ],
+  "primary_category": "history",
+  "aliases": [
+    {
+      "text": "industrialisation",
+      "kind": "alternative"
+    }
+  ],
+  "summary": "The transformation, beginning in Britain around 1760, from hand production and animal power to machines, factories and fossil fuel — and the social upheaval that followed.",
+  "facts": [
+    {
+      "key": "period",
+      "label": "Main period",
+      "value": "About 1760 to 1840 in Britain",
+      "epistemic": "estimate",
+      "confidence": 0.7,
+      "group": "Timing",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "where",
+      "label": "Where it began",
+      "value": "Britain",
+      "group": "Timing",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "power",
+      "label": "Key power source",
+      "value": "Coal, burned to raise steam",
+      "group": "Technology",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "steam",
+      "label": "Watt's improved steam engine",
+      "value": "Patented 1769, widely adopted from the 1770s",
+      "value_num": 1769,
+      "group": "Technology",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "textiles",
+      "label": "First industry transformed",
+      "value": "Textiles — spinning and weaving",
+      "group": "Technology",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "urbanisation",
+      "label": "Biggest social change",
+      "value": "Mass movement from countryside to cities",
+      "group": "Society",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "child_labour",
+      "label": "Child labour",
+      "value": "Widespread in early factories and mines, restricted by law from the 1830s",
+      "group": "Society",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "co2",
+      "label": "Long-term consequence",
+      "value": "The start of large-scale fossil fuel burning",
+      "group": "Legacy",
+      "cite": [
+        1
+      ]
+    }
+  ],
+  "content": {
+    "age6_8": {
+      "summary": "The time when machines and factories changed how things were made.",
+      "body": "A long time ago, almost everything was made by hand, at home or in small workshops [1].\n\nThen people invented machines that could do the work much faster [1].\n\nThe machines needed power, so people burned coal to boil water and make steam. Steam engines drove the machines [1].\n\nThe machines were big, so they were put in large buildings called factories. People moved from villages into towns to work in them [2].\n\nLife in the early factories was hard. People worked very long hours, and even children worked. Later, laws were made to stop that [2]."
+    },
+    "age9_12": {
+      "summary": "How machines, coal and factories changed work, cities and daily life — for better and worse.",
+      "body": "The Industrial Revolution was the shift from making things by hand to making them with machines. It began in Britain around 1760 and spread from there [1].\n\n## Why Britain first?\n\nHistorians still argue about this, but several things came together: plentiful coal near the surface, a good canal and later rail network, capital from trade, a legal system that protected inventions, and a large workforce leaving the countryside [1].\n\nNo single cause explains it, and the debate is genuinely unsettled.\n\n## Steam\n\nEarly steam engines were used to pump water out of mines. They were extremely inefficient.\n\nJames Watt's improvements from 1769 — especially adding a separate condenser so the cylinder did not have to be cooled and reheated each stroke — made steam engines efficient enough to power factories and, later, trains and ships [1].\n\nThis mattered enormously. For the first time, power did not have to come from muscles, wind or a river. It could be put wherever it was needed.\n\n## Textiles first\n\nSpinning and weaving were transformed first. Machines like the spinning jenny and the power loom multiplied how much one worker could produce.\n\nCloth became far cheaper. Skilled hand-weavers lost their livelihoods, and some destroyed the machines in protest — the Luddites [1].\n\n## Cities\n\nFactories needed workers in one place, so people moved to towns in huge numbers. Cities like Manchester grew faster than anyone could build for them.\n\nEarly industrial cities were overcrowded and filthy, with no sewers and contaminated water. Disease spread easily, and life expectancy in the worst districts was shockingly low [2].\n\n## Working conditions\n\nWorking days of twelve to sixteen hours were common. Children worked in factories and mines, sometimes from the age of five, because they were small enough to reach into machinery.\n\nFrom the 1830s a series of Factory Acts began limiting hours and child labour. These were fought for, not granted [2].\n\n## The long tail\n\nIndustrialisation eventually raised living standards enormously. It also began the large-scale burning of fossil fuels, which is the origin of today's climate change [1]."
+    },
+    "teen": {
+      "summary": "The transition to mechanised, fossil-fuelled production beginning in Britain, and the social and environmental transformations that followed.",
+      "body": "The Industrial Revolution denotes the transition from craft and agrarian production to mechanised factory manufacture, beginning in Britain around 1760 [1].\n\n## Explaining British primacy\n\nNo consensus explanation exists, and the question remains actively debated.\n\nProposed factors include accessible coal deposits near navigable water, agricultural productivity gains freeing labour, capital accumulation from commerce and colonial trade, patent protection creating returns to invention, comparatively high wages incentivising labour-saving machinery, and institutional arrangements limiting arbitrary expropriation.\n\nThe high-wage economy argument, associated with Robert Allen, holds that mechanisation was profitable in Britain specifically because labour was expensive relative to capital and fuel. It has been influential and also criticised on the reliability of the wage series. This is a live scholarly disagreement rather than a settled account [1].\n\n## The steam engine\n\nNewcomen's atmospheric engine (1712) was thermally very inefficient, viable only where fuel was effectively free — at pitheads.\n\nWatt's separate condenser, patented in 1769, removed the need to cool and reheat the working cylinder each cycle, roughly trebling efficiency. Subsequent rotative motion adaptation enabled application beyond pumping.\n\nThe decisive consequence was locational freedom. Water power tied production to river gradients; steam permitted concentration of production wherever coal could be delivered, which restructured industrial geography [1].\n\n## Mechanisation and displacement\n\nTextiles mechanised first. Productivity gains in spinning were extreme, and the resulting collapse in cloth prices was a genuine welfare gain for consumers.\n\nIt was not a gain for the displaced. Handloom weavers experienced sustained real wage collapse over decades. Machine-breaking by the Luddites was not irrational technophobia but a response to specific, severe and unremedied economic harm — a reading now standard among historians [1].\n\n## Urbanisation and living standards\n\nUrban populations grew faster than sanitation and housing. Manchester's population increased several-fold within decades, with correspondingly severe mortality in working districts.\n\nThe standard-of-living debate — whether early industrialisation raised or lowered workers' welfare — has run since the nineteenth century. Current evidence suggests real wages stagnated or fell for several decades before rising substantially, while mortality and urban conditions worsened before improving. Long-run gains were large; short-run costs fell heavily on those least able to bear them [2].\n\n## Regulation\n\nChild labour was widespread and, in mining and textiles, hazardous. The Factory Acts from 1833 onwards progressively restricted hours and ages and introduced inspection.\n\nThese followed sustained agitation, parliamentary inquiry and campaigning rather than voluntary reform [2].\n\n## Environmental legacy\n\nSystematic fossil fuel combustion at scale begins here. The atmospheric CO2 baseline against which modern climate change is measured is the pre-industrial value precisely because this is the transition point [1]."
+    },
+    "adult": {
+      "summary": "The transition to mechanised fossil-fuelled production, its contested causal explanation, and its distributional and environmental consequences.",
+      "body": "The Industrial Revolution designates the transition, initiated in Britain from approximately 1760, from organic-economy production constrained by land, muscle and water power to a mineral-energy economy of mechanised factory manufacture [1].\n\n## Causal explanation\n\nExplanations remain contested and the field has moved considerably.\n\nInstitutional accounts emphasise secure property rights, patent regimes and constraints on arbitrary state extraction following 1688. Resource accounts emphasise coal accessibility and its co-location with navigable water. Factor-price accounts, notably Allen's, argue that Britain's unusually high wage-to-energy price ratio made labour-saving, fuel-consuming technology uniquely profitable there.\n\nCritiques of the factor-price argument question the representativeness of the London-centred wage series and the treatment of skill. Global-comparative work has additionally challenged Eurocentric framings by documenting comparable Asian commercial sophistication before divergence.\n\nThe honest position is that a multi-causal account is favoured with no agreed weighting, and confident single-factor explanations should be treated with suspicion [1].\n\n## Thermodynamic significance\n\nThe Newcomen engine's efficiency was of order one percent, tolerable only where fuel had near-zero opportunity cost. Watt's separate condenser addressed the dominant loss — cyclic reheating of the cylinder — and subsequent developments in expansive working and high pressure improved matters further.\n\nThe deeper significance is the removal of a binding constraint. Pre-industrial economies were limited by annual solar flux mediated through land: food for muscle, timber for heat, water and wind for mechanical work. Coal represented an accumulated stock rather than a flow, lifting that ceiling.\n\nSteam's locational independence then permitted agglomeration economies unavailable under water power, restructuring settlement and industrial organisation [1].\n\n## Distributional consequences\n\nAggregate productivity gains were unambiguous; their distribution was not.\n\nThe standard-of-living debate has been conducted with increasing quantitative rigour. Current syntheses indicate broadly stagnant real wages from the 1780s to the 1820s with substantial gains thereafter, alongside deteriorating urban mortality, heights and morbidity during the transition — the so-called early-industrial growth puzzle in which anthropometric measures decline while incomes do not.\n\nHandloom weaver displacement is among the best-documented instances of technological unemployment, with real earnings falling by a large multiple across a generation. Machine-breaking is now interpreted as targeted collective bargaining by riot in the absence of legal alternatives, rather than as irrational resistance to progress [2].\n\n## Regulation and its politics\n\nFactory legislation from 1833, and the Mines Act of 1842, restricted hours and employment of children and introduced inspectorates. Parliamentary commissions produced detailed and damning evidence, and reform followed extended public campaigning.\n\nThe sequence is historically instructive: hazardous conditions were neither self-correcting through competition nor voluntarily remedied, and improvement followed documentation, agitation and statutory enforcement [2].\n\n## Environmental legacy\n\nThe onset of sustained fossil carbon combustion at scale dates from this transition, and the pre-industrial atmospheric CO2 concentration of approximately 280 ppm is the reference baseline for anthropogenic climate forcing. The causal line from this period to contemporary climate change is direct [1]."
+    }
+  },
+  "citations": [
+    {
+      "marker": 1,
+      "source": "science-museum-uk",
+      "claim": "The chronology and location of early industrialisation, steam engine development and Watt's separate condenser, textile mechanisation, competing explanations for British primacy, and the onset of fossil fuel use at scale.",
+      "supports": "partially"
+    },
+    {
+      "marker": 2,
+      "source": "nat-archives-uk",
+      "claim": "Urbanisation and living conditions in industrial cities, the standard-of-living debate, child labour, and the Factory Acts and their enforcement.",
+      "supports": "partially"
+    }
+  ],
+  "relations": [
+    {
+      "to": "climate-change",
+      "kind": "causes"
+    },
+    {
+      "to": "electricity",
+      "kind": "preceded_by"
+    },
+    {
+      "to": "computer",
+      "kind": "preceded_by",
+      "weight": 0.4
+    }
+  ],
+  "timeline": [
+    {
+      "title": "Watt patents the separate condenser",
+      "start": 1769,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 5
+    },
+    {
+      "title": "First Factory Act restricting child labour",
+      "start": 1833,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 4
+    }
+  ],
+  "review": {
+    "last_reviewed": "2026-09-06",
+    "review_months": 60
+  }
+}

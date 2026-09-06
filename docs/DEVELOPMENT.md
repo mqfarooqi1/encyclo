@@ -25,7 +25,7 @@ python -m ruff check src tests run.py
 python -m mypy
 ```
 
-Current state: 100 tests, ruff clean, mypy clean across 31 source files.
+Current state: 137 tests, ruff clean, mypy clean across 32 source files.
 
 ## Layout
 
@@ -42,7 +42,7 @@ src/encarta/
   pipeline/          update and review machinery
   web/               WSGI app, API, static frontend
 content/packs/core/  the seed content
-tests/               100 tests
+tests/               137 tests
 ```
 
 ## Conventions

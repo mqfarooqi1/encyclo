@@ -1,0 +1,215 @@
+{
+  "slug": "the-sun",
+  "title": "The Sun",
+  "type": "astronomical_object",
+  "categories": [
+    "space",
+    "science"
+  ],
+  "primary_category": "space",
+  "aliases": [
+    {
+      "text": "Sol",
+      "kind": "alternative"
+    },
+    {
+      "text": "our star",
+      "kind": "alternative"
+    }
+  ],
+  "summary": "The star at the centre of the Solar System, and the source of almost all the energy that reaches Earth.",
+  "facts": [
+    {
+      "key": "type",
+      "label": "Type of star",
+      "value": "G-type main-sequence star (a yellow dwarf)",
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "diameter",
+      "label": "Diameter",
+      "value": "About 1,392,000 km",
+      "value_num": 1392000,
+      "unit": "km",
+      "comparable_key": "diameter",
+      "group": "Size",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "earths_across",
+      "label": "Earths across its width",
+      "value": "About 109",
+      "value_num": 109,
+      "epistemic": "estimate",
+      "confidence": 0.9,
+      "group": "Size",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "mass_share",
+      "label": "Share of the Solar System's mass",
+      "value": "About 99.86%",
+      "value_num": 99.86,
+      "unit": "%",
+      "epistemic": "estimate",
+      "confidence": 0.95,
+      "group": "Size",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "surface_temp",
+      "label": "Surface temperature",
+      "value": "About 5,500 °C",
+      "value_num": 5500,
+      "unit": "°C",
+      "epistemic": "estimate",
+      "confidence": 0.9,
+      "comparable_key": "temperature",
+      "group": "Physical",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "core_temp",
+      "label": "Core temperature",
+      "value": "About 15 million °C",
+      "value_num": 15000000,
+      "unit": "°C",
+      "epistemic": "estimate",
+      "confidence": 0.85,
+      "group": "Physical",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "composition",
+      "label": "Made mostly of",
+      "value": "Hydrogen (about 73%) and helium (about 25%)",
+      "comparable_key": "atmosphere",
+      "group": "Physical",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "age",
+      "label": "Age",
+      "value": "About 4.6 billion years",
+      "value_num": 4600000000,
+      "unit": "years",
+      "epistemic": "estimate",
+      "confidence": 0.9,
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "light_time",
+      "label": "Time for its light to reach Earth",
+      "value": "8 minutes 20 seconds",
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "remaining",
+      "label": "Time left as it is now",
+      "value": "About 5 billion years",
+      "value_num": 5000000000,
+      "unit": "years",
+      "epistemic": "estimate",
+      "confidence": 0.8,
+      "group": "Basics",
+      "cite": [
+        2
+      ]
+    }
+  ],
+  "content": {
+    "age6_8": {
+      "summary": "The star that gives us light and warmth.",
+      "body": "The Sun is a star. It is the closest star to us [1].\n\nIt looks small because it is very far away. Really it is enormous. You could fit more than a million Earths inside it [1].\n\nThe Sun is not on fire like a bonfire. It makes its heat deep inside, in a way that is much more powerful than burning [2].\n\nSunlight takes about eight minutes to reach us. So when you look at the Sun, you see how it looked eight minutes ago [1].\n\nNever look straight at the Sun. It can hurt your eyes badly."
+    },
+    "age9_12": {
+      "summary": "Our nearest star, how it makes energy, and why it matters to everything on Earth.",
+      "body": "The Sun is the star at the centre of our Solar System. Everything else — the planets, the moons, the asteroids — goes around it [1].\n\n## How big\n\nThe Sun is about 1,392,000 kilometres across, roughly 109 times Earth's width. It holds about 99.86 percent of all the mass in the Solar System, so everything else added together is a tiny leftover [1].\n\n## Where the energy comes from\n\nThe Sun is not burning. Burning is a chemical reaction, and it would have used the Sun up long ago.\n\nInstead, the Sun's core is squeezed so hard and heated so much — around 15 million degrees Celsius — that hydrogen atoms fuse together to make helium. This is nuclear fusion, and it releases enormous amounts of energy [2].\n\nThat energy takes a very long time to work its way out from the core. Once it leaves the surface, it reaches Earth in 8 minutes and 20 seconds [1].\n\n## Why it matters\n\nAlmost every food chain on Earth begins with sunlight captured by plants. The weather, the winds and the ocean currents are all driven by heat from the Sun [1].\n\n## The future\n\nThe Sun is about 4.6 billion years old and roughly halfway through its life as it is now. In about 5 billion years it will swell into a red giant and later shrink into a white dwarf. It is far too small ever to become a black hole [2]."
+    },
+    "teen": {
+      "summary": "A G-type main-sequence star powered by hydrogen fusion, and the energy source for essentially all processes at Earth's surface.",
+      "body": "The Sun is a G-type main-sequence star, informally a yellow dwarf, and contains approximately 99.86 percent of the mass of the Solar System [1].\n\n## Structure\n\nThe Sun has no solid surface. It is layered: a core where fusion occurs, a radiative zone where energy travels outward as photons, a convective zone where hot plasma physically rises and falls, and the photosphere — the visible surface, at around 5,500 °C [1].\n\nAbove that lie the chromosphere and the corona. The corona is far hotter than the photosphere, reaching over a million degrees. Why the outer atmosphere is hotter than the surface below it is the coronal heating problem, and it is not fully solved [2].\n\n## Nuclear fusion\n\nIn the core, at roughly 15 million °C and immense pressure, hydrogen nuclei fuse into helium through the proton-proton chain. A small fraction of the mass is converted into energy, following the mass-energy equivalence Einstein described [2].\n\nEnergy released in the core does not escape quickly. Photons are absorbed and re-emitted so many times in the radiative zone that the journey outward takes many thousands of years. The final 150 million kilometres to Earth takes 8 minutes 20 seconds [1].\n\n## Activity\n\nThe Sun's magnetic field drives sunspots, flares and coronal mass ejections on a roughly 11-year cycle. Large ejections can disturb Earth's magnetosphere, producing aurorae and, occasionally, disrupting power grids and satellites [2].\n\n## Life cycle\n\nThe Sun formed about 4.6 billion years ago and has roughly 5 billion years of core hydrogen fusion remaining. It will then expand into a red giant, shed its outer layers, and leave a white dwarf. Its mass is far below the threshold for a supernova or a black hole [2]."
+    },
+    "adult": {
+      "summary": "A G2V main-sequence star of approximately one solar mass, powered by proton-proton chain fusion, and the dominant energy input to the terrestrial system.",
+      "body": "The Sun is a G2V main-sequence star at the barycentre of the Solar System, comprising approximately 99.86 percent of the system's mass and effectively governing all orbital dynamics within it [1].\n\n## Composition and structure\n\nBy mass the Sun is roughly 73 percent hydrogen and 25 percent helium, with the remainder consisting of heavier elements — principally oxygen, carbon, neon and iron — whose presence marks it as a population I star formed from material already enriched by earlier stellar generations [1].\n\nIt is radially stratified into a core extending to about a quarter of the solar radius, a radiative zone, a tachocline, a convective zone, and the photosphere. The photosphere at approximately 5,772 K constitutes the visible surface, though the Sun has no solid boundary; density falls continuously outward.\n\nThe chromosphere and corona lie above. Coronal temperatures exceed 10^6 K, one to two orders of magnitude hotter than the photosphere beneath. This inversion — the coronal heating problem — is attributed to some combination of magnetic reconnection and wave dissipation, but no single mechanism has been established as dominant, and it remains an open question in solar physics [2].\n\n## Energy generation and transport\n\nFusion proceeds principally via the proton-proton chain, converting hydrogen to helium at a rate of roughly 600 million tonnes per second, with approximately 4 million tonnes of that converted to energy. The CNO cycle contributes a small percentage at solar core temperatures.\n\nEnergy transport outward is radiative through the inner region, with photon mean free paths so short that the diffusion time from core to convective zone is estimated in the tens of thousands to hundreds of thousands of years — the figure is model-dependent and frequently misquoted as a precise value. Transport becomes convective in the outer third, producing the granulation observed at the photosphere.\n\n## Magnetic activity\n\nA dynamo operating near the tachocline generates the solar magnetic field, which reverses polarity on an approximately 11-year cycle (22 years for full magnetic periodicity). Sunspots, flares and coronal mass ejections track this cycle.\n\nSpace weather consequences are practical rather than theoretical: geomagnetic storms induce currents in long conductors, and the 1859 Carrington event caused documented failures in telegraph systems. An equivalent event today would affect satellites, aviation and power distribution [2].\n\n## Evolution\n\nStandard stellar evolution models place the Sun at approximately 4.6 Ga with a further 5 Ga of core hydrogen burning. Subsequent evolution proceeds through the red giant branch, a helium flash, the asymptotic giant branch and planetary nebula ejection, terminating as a carbon-oxygen white dwarf of roughly half the present mass. The Sun is well below the Chandrasekhar-related thresholds for core collapse, so neither a supernova nor a black hole is a possible outcome [2]."
+    }
+  },
+  "citations": [
+    {
+      "marker": 1,
+      "source": "nasa-sun",
+      "claim": "The Sun's classification, diameter, mass share, composition, photospheric temperature, age, and light travel time to Earth.",
+      "supports": "supports"
+    },
+    {
+      "marker": 2,
+      "source": "nasa-science",
+      "claim": "Core temperature and proton-proton fusion, the coronal heating problem, the solar magnetic activity cycle and space weather, and the Sun's projected evolution.",
+      "supports": "supports"
+    }
+  ],
+  "relations": [
+    {
+      "to": "solar-system",
+      "kind": "part_of"
+    },
+    {
+      "to": "earth",
+      "kind": "related"
+    },
+    {
+      "to": "photosynthesis",
+      "kind": "causes",
+      "weight": 0.7
+    },
+    {
+      "to": "black-hole",
+      "kind": "contrasts_with",
+      "weight": 0.4
+    }
+  ],
+  "timeline": [
+    {
+      "title": "The Sun forms",
+      "start": -4600000000,
+      "precision": "million_years",
+      "era": "Hadean",
+      "importance": 5,
+      "epistemic": "estimate",
+      "description": "A collapsing cloud of gas ignites nuclear fusion."
+    },
+    {
+      "title": "The Carrington Event",
+      "start": 1859,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 3,
+      "description": "The largest recorded geomagnetic storm disrupts telegraph networks."
+    }
+  ],
+  "review": {
+    "last_reviewed": "2026-09-06"
+  }
+}

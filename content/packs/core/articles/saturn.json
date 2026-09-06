@@ -1,0 +1,205 @@
+{
+  "slug": "saturn",
+  "title": "Saturn",
+  "type": "planet",
+  "categories": [
+    "space"
+  ],
+  "primary_category": "space",
+  "aliases": [
+    {
+      "text": "the ringed planet",
+      "kind": "alternative"
+    }
+  ],
+  "summary": "The sixth planet from the Sun and the second largest, famous for the brightest and most extensive ring system in the Solar System.",
+  "facts": [
+    {
+      "key": "position",
+      "label": "Position from the Sun",
+      "value": "Sixth",
+      "group": "Orbit",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "diameter",
+      "label": "Diameter",
+      "value": "About 116,500 km",
+      "value_num": 116460,
+      "unit": "km",
+      "comparable_key": "diameter",
+      "group": "Size",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "day_length",
+      "label": "Day length",
+      "value": "About 10 hours 42 minutes",
+      "value_num": 10.7,
+      "unit": "hours",
+      "comparable_key": "day_length",
+      "group": "Orbit",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "orbital_period",
+      "label": "Year length",
+      "value": "About 29.4 Earth years",
+      "value_num": 10759,
+      "unit": "days",
+      "comparable_key": "orbital_period",
+      "group": "Orbit",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "distance_from_sun",
+      "label": "Average distance from the Sun",
+      "value": "About 1.43 billion km",
+      "value_num": 1430000000,
+      "unit": "km",
+      "comparable_key": "distance_from_sun",
+      "group": "Orbit",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "density",
+      "label": "Density",
+      "value": "Less than water",
+      "group": "Physical",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "rings",
+      "label": "Rings",
+      "value": "Mostly water ice, spanning about 280,000 km",
+      "value_num": 280000,
+      "unit": "km",
+      "epistemic": "estimate",
+      "confidence": 0.85,
+      "group": "Rings",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "ring_thickness",
+      "label": "Ring thickness",
+      "value": "Usually less than a kilometre",
+      "epistemic": "estimate",
+      "confidence": 0.8,
+      "group": "Rings",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "moons",
+      "label": "Confirmed moons",
+      "value": "At least 146",
+      "value_num": 146,
+      "epistemic": "estimate",
+      "confidence": 0.7,
+      "comparable_key": "moons",
+      "group": "Physical",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "titan",
+      "label": "Largest moon",
+      "value": "Titan, which has a thick atmosphere and liquid methane lakes",
+      "group": "Physical",
+      "cite": [
+        2
+      ]
+    }
+  ],
+  "content": {
+    "age6_8": {
+      "summary": "The planet with beautiful rings around it.",
+      "body": "Saturn is the planet with rings [1].\n\nThe rings are not solid. They are made of billions of pieces of ice and rock, all going around Saturn together [2].\n\nSome pieces are as small as a grain of sugar. Some are as big as a house [2].\n\nSaturn is very big, but it is also very light for its size. If you had a bath big enough, Saturn would float [1].\n\nSaturn has lots of moons. The biggest is called Titan, and it has lakes — but they are not made of water [2]."
+    },
+    "age9_12": {
+      "summary": "The ringed planet: what the rings are made of, and the strange moon Titan.",
+      "body": "Saturn is the sixth planet from the Sun and the second largest after Jupiter [1].\n\n## Surprisingly light\n\nSaturn is about 116,500 kilometres across, but it is mostly hydrogen and helium and is not very dense. Its average density is lower than water, so in a big enough ocean it would float [1].\n\n## The rings\n\nThe rings are Saturn's most famous feature. They are made almost entirely of water ice, with some rock and dust mixed in [2].\n\nThey are astonishingly wide and astonishingly thin. The main rings stretch about 280,000 kilometres across, but in most places they are less than a kilometre thick. If you shrank the rings to the width of a football pitch, they would be thinner than a sheet of paper [2].\n\nThe rings are not solid. They are billions of separate chunks, from grains of dust to boulders, each on its own orbit.\n\nGalileo first saw them in 1610 but his telescope was too weak to show what they were — he described Saturn as having 'ears'. Christiaan Huygens worked out they were a ring in 1655 [2].\n\n## Titan\n\nSaturn has at least 146 known moons. Titan, the largest, is bigger than the planet Mercury [2].\n\nTitan has a thick, hazy atmosphere and it rains on its surface — but the rain is liquid methane, not water, because Titan is far too cold for liquid water. It has rivers and lakes of methane and ethane. It is the only place besides Earth known to have standing liquid on its surface [2]."
+    },
+    "teen": {
+      "summary": "A low-density gas giant with an extensive ice ring system and a satellite family including the atmospherically unique Titan.",
+      "body": "Saturn is the sixth planet from the Sun, the second most massive, and the least dense planet in the Solar System — its mean density is below that of water [1].\n\n## Composition\n\nLike Jupiter, Saturn is predominantly hydrogen and helium with no solid surface. It radiates significantly more energy than it receives from the Sun; the excess is attributed partly to gravitational contraction and partly to helium differentiation, in which helium droplets condense and sink, releasing gravitational energy [1].\n\n## Ring system\n\nThe rings consist of roughly 95 percent water ice by mass, in particles ranging from micrometres to metres across. The main system spans about 280,000 km radially yet is typically well under a kilometre thick — an extreme aspect ratio maintained by collisions damping vertical motion [2].\n\nRing structure is shaped by resonances with moons. Gaps such as the Cassini Division arise where orbital periods are in simple ratios with those of moons, and shepherd moons confine narrow ringlets.\n\nThe rings' age and origin are debated. Cassini measurements of ring mass and of infalling material suggest they may be geologically young — perhaps only tens to hundreds of millions of years — rather than dating from the planet's formation. That conclusion is contested, and it should be presented as an active question [2].\n\n## Titan\n\nTitan is larger than Mercury and is the only moon with a substantial atmosphere, roughly 95 percent nitrogen at a surface pressure about 1.5 times Earth's.\n\nSurface temperatures near 94 K place methane near its triple point, producing a methane cycle analogous to Earth's water cycle: clouds, rainfall, rivers and hydrocarbon lakes concentrated near the poles. The Huygens probe landed there in 2005, the most distant landing achieved [2].\n\n## Enceladus\n\nEnceladus vents water-rich plumes from fractures near its south pole. Cassini flew through them and detected salts, silica and organic molecules — evidence for a subsurface liquid ocean in contact with rock, and one of the most promising known settings for habitability beyond Earth [2]."
+    },
+    "adult": {
+      "summary": "The least dense planet in the Solar System, distinguished by an extensive water-ice ring system of contested age and by the satellites Titan and Enceladus.",
+      "body": "Saturn is the sixth planet from the Sun and the second most massive, with a mean density of approximately 0.687 g/cm3 — the only planet less dense than water [1].\n\n## Interior and energy budget\n\nBulk composition is hydrogen-helium dominated with a heavy-element core of uncertain extent and definition. Saturn radiates roughly twice the energy it absorbs from insolation. Kelvin-Helmholtz contraction alone is insufficient to account for the excess, and helium rain — immiscible helium condensing and sinking through metallic hydrogen, releasing gravitational potential energy — is the leading supplementary mechanism, consistent with the observed helium depletion of the upper atmosphere [1].\n\nRing seismology using Cassini data has provided independent constraints on interior structure, indicating stable stratification in the deep interior and a differentially rotating core.\n\n## Rings\n\nThe ring system is compositionally dominated by water ice, with particle sizes spanning micrometres to metres. Radial extent of the main rings approaches 280,000 km against vertical thicknesses generally of order tens of metres to a kilometre; the aspect ratio is among the most extreme structures known.\n\nMorphology is governed by resonant interactions with the satellite system. The Cassini Division corresponds to a 2:1 mean-motion resonance with Mimas; density waves, bending waves and shepherded ringlets are all resolved in Cassini imaging.\n\nRing age is unresolved. Estimates of low ring mass from Cassini's Grand Finale gravity measurements, combined with measured rates of exogenic pollution and of ring material infalling into Saturn, favour an age of order 10^7 to 10^8 years, implying formation long after the planet. Counterarguments concerning pollution rates and viscous evolution have been advanced. The honest statement is that a young ring system is currently favoured by several independent lines of evidence but is not established [2].\n\n## Titan\n\nTitan possesses a dense nitrogen atmosphere at approximately 1.45 bar surface pressure, with a few percent methane. At surface temperatures near 94 K, methane exists in solid, liquid and vapour phases, sustaining an active hydrological cycle in hydrocarbons: convective clouds, precipitation, fluvial erosion, and polar lakes and seas confirmed by radar altimetry.\n\nThe Huygens probe descent in January 2005 returned in-situ atmospheric profiles and surface imagery showing rounded cobbles consistent with fluvial transport. Titan's organic chemistry and subsurface water ocean make it a target of substantial astrobiological interest [2].\n\n## Enceladus\n\nCryovolcanic plumes emanating from the south polar terrain were sampled directly by Cassini, yielding sodium salts, silica nanoparticles and complex organics. The silica in particular implies hydrothermal interaction between liquid water and a rocky seafloor at elevated temperature. Enceladus consequently ranks with Europa among the most compelling candidate habitable environments in the Solar System [2]."
+    }
+  },
+  "citations": [
+    {
+      "marker": 1,
+      "source": "nasa-solar-system",
+      "claim": "Saturn's orbital position, diameter, rotation and orbital periods, distance from the Sun, low mean density, and internal heat excess.",
+      "supports": "supports"
+    },
+    {
+      "marker": 2,
+      "source": "nasa-science",
+      "claim": "Ring composition, dimensions and structure, the debate over ring age, confirmed moon count, and the properties of Titan and Enceladus including Cassini and Huygens results.",
+      "supports": "supports"
+    }
+  ],
+  "relations": [
+    {
+      "to": "solar-system",
+      "kind": "part_of"
+    },
+    {
+      "to": "jupiter",
+      "kind": "contrasts_with"
+    },
+    {
+      "to": "the-sun",
+      "kind": "related"
+    }
+  ],
+  "timeline": [
+    {
+      "title": "Galileo sees Saturn's odd shape",
+      "start": 1610,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 3,
+      "description": "His telescope was too weak to resolve the rings."
+    },
+    {
+      "title": "Huygens identifies the rings",
+      "start": 1655,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 4
+    },
+    {
+      "title": "Cassini-Huygens arrives at Saturn",
+      "start": 2004,
+      "end": 2017,
+      "precision": "year",
+      "era": "Modern",
+      "importance": 4,
+      "description": "Thirteen years of observations, ending in a deliberate plunge into the planet."
+    }
+  ],
+  "review": {
+    "last_reviewed": "2026-09-06"
+  }
+}

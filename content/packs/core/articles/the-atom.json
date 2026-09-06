@@ -1,0 +1,184 @@
+{
+  "slug": "the-atom",
+  "title": "The Atom",
+  "type": "science_concept",
+  "categories": [
+    "science"
+  ],
+  "primary_category": "science",
+  "aliases": [
+    {
+      "text": "atom",
+      "kind": "alternative"
+    },
+    {
+      "text": "atoms",
+      "kind": "alternative"
+    },
+    {
+      "text": "atomic structure",
+      "kind": "scientific"
+    }
+  ],
+  "summary": "The smallest unit of a chemical element, made of a tiny dense nucleus surrounded by electrons — and almost entirely empty space.",
+  "facts": [
+    {
+      "key": "parts",
+      "label": "Made of",
+      "value": "Protons and neutrons in a nucleus, with electrons around it",
+      "group": "Structure",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "size",
+      "label": "Size",
+      "value": "About one ten-billionth of a metre across",
+      "value_num": 1e-10,
+      "unit": "m",
+      "epistemic": "estimate",
+      "confidence": 0.9,
+      "group": "Structure",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "nucleus_size",
+      "label": "Size of the nucleus",
+      "value": "About 100,000 times smaller than the atom",
+      "value_num": 100000,
+      "epistemic": "estimate",
+      "confidence": 0.85,
+      "group": "Structure",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "empty",
+      "label": "How much is empty space",
+      "value": "Almost all of it",
+      "group": "Structure",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "identity",
+      "label": "What decides which element it is",
+      "value": "The number of protons",
+      "group": "Structure",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "charge",
+      "label": "Charges",
+      "value": "Protons positive, electrons negative, neutrons neutral",
+      "group": "Structure",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "rutherford",
+      "label": "Nucleus discovered",
+      "value": "1911, by Ernest Rutherford's team",
+      "value_num": 1911,
+      "group": "History",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "name",
+      "label": "Where the name comes from",
+      "value": "Greek 'atomos', meaning uncuttable — which turned out to be wrong",
+      "group": "History",
+      "cite": [
+        2
+      ]
+    }
+  ],
+  "content": {
+    "age6_8": {
+      "summary": "The tiny building blocks that everything is made of.",
+      "body": "Everything around you is made of tiny pieces called atoms [1].\n\nThey are far too small to see. Millions of them would fit across a full stop [1].\n\nAn atom has a heavy middle bit, and even tinier things called electrons whizzing around outside it [1].\n\nHere is the strange part. An atom is almost entirely empty space. If an atom were the size of a football stadium, the middle would be about the size of a pea [1].\n\nDifferent numbers of pieces make different materials. That is why gold, iron and oxygen are all different [2]."
+    },
+    "age9_12": {
+      "summary": "What atoms are made of, how we found out, and why they are mostly nothing.",
+      "body": "An atom is the smallest piece of a chemical element that still counts as that element [1].\n\n## The parts\n\nAt the centre is the nucleus, containing protons (positively charged) and neutrons (no charge). Around it are electrons, which are negatively charged and far lighter [1].\n\nThe number of protons decides which element it is. One proton is hydrogen. Six is carbon. Seventy-nine is gold. Change the proton number and you have changed the substance entirely [2].\n\n## Mostly empty\n\nAn atom is about a ten-billionth of a metre across. The nucleus is about 100,000 times smaller still.\n\nIf you scaled an atom up to the size of a large sports stadium, the nucleus would be roughly a pea in the centre. Everything else is empty [1].\n\nAlmost all the mass is in that pea. So the ground you are standing on is very nearly nothing at all — you do not fall through it because of electrical forces between electrons, not because matter is solid [1].\n\n## How we found out\n\nIn 1909 Rutherford's team fired alpha particles at a very thin sheet of gold, expecting them all to pass through with only slight deflection.\n\nAlmost all did. But a tiny number bounced almost straight back. Rutherford said it was as astonishing as firing a shell at tissue paper and having it come back at you [1].\n\nThe only explanation was that the atom's positive charge and nearly all its mass were concentrated in a very small, dense centre. That is how the nucleus was discovered, in 1911 [1].\n\n## A misleading name\n\nThe word atom comes from a Greek word meaning uncuttable, because the idea was that it was the smallest possible piece of matter.\n\nThe name stuck, but it is wrong. Atoms can be split, and protons and neutrons are themselves made of smaller particles called quarks [2]."
+    },
+    "teen": {
+      "summary": "The smallest unit retaining an element's identity: a dense nucleus of protons and neutrons surrounded by electrons in quantised orbitals.",
+      "body": "An atom is the smallest unit of matter retaining the chemical identity of an element [1].\n\n## Composition\n\nThe nucleus contains protons and neutrons, together accounting for over 99.9 percent of atomic mass. Electrons occupy the surrounding volume.\n\nProton number (atomic number) determines the element. Varying neutron number produces isotopes of the same element with identical chemistry but different mass and nuclear stability. Varying electron number produces ions [2].\n\n## Scale\n\nAtomic diameters are of order 10^-10 m; nuclear diameters of order 10^-15 m. The nucleus therefore occupies roughly 10^-15 of the atomic volume.\n\nThe solidity of matter is not a consequence of space being filled. It follows from electromagnetic repulsion between electron clouds and from the Pauli exclusion principle, which forbids electrons occupying identical quantum states — a quantum-mechanical effect with no classical analogue [1].\n\n## Discovery of the nucleus\n\nThe Geiger-Marsden experiments of 1909 directed alpha particles at gold foil. Thomson's prevailing plum pudding model, with charge distributed diffusely, predicted only small deflections.\n\nA small fraction of alphas scattered through large angles, including near-backscattering. Rutherford's 1911 analysis showed this required the positive charge and nearly all the mass to be concentrated within a region orders of magnitude smaller than the atom.\n\nThe episode is a clean example of a decisive experiment: the observation was incompatible with the accepted model, and the incompatibility was quantitative rather than a matter of interpretation [1].\n\n## From orbits to orbitals\n\nRutherford's planetary picture had a fatal problem — a classically orbiting charge radiates energy and would spiral into the nucleus within nanoseconds.\n\nBohr's 1913 model postulated quantised orbits, successfully predicting hydrogen's spectral lines but resisting extension to larger atoms. Quantum mechanics replaced orbits with orbitals: probability distributions describing where an electron is likely to be found, with no definite trajectory.\n\nChemical behaviour follows from this structure. Elements in the same periodic group share outer-shell electron configurations, which is why the periodic table's pattern exists [2].\n\n## Substructure\n\nProtons and neutrons are not fundamental: each comprises three valence quarks bound by gluons. Most of their mass arises from the binding energy of that interaction rather than from the quark masses themselves [1]."
+    },
+    "adult": {
+      "summary": "The smallest unit preserving elemental identity: a nucleus of nucleons surrounded by electrons in quantised orbitals, with substructure at the quark level.",
+      "body": "An atom is the smallest quantity of an element retaining its chemical identity, comprising a nucleus of protons and neutrons with a surrounding electron distribution [1].\n\n## Structure and scale\n\nAtomic radii span roughly 0.3-3 x 10^-10 m; nuclear radii scale as A^(1/3) with magnitudes of order 10^-15 m. Nuclear density is approximately 2 x 10^17 kg/m3, essentially uniform across nuclides.\n\nThe apparent solidity of bulk matter derives from electrostatic repulsion between electron distributions and from degeneracy pressure arising from the Pauli exclusion principle. The latter is not a force in the conventional sense but a consequence of fermionic antisymmetry, and it is what prevents matter from collapsing to nuclear density — the same principle supporting white dwarfs against gravity [1].\n\n## The Geiger-Marsden experiments\n\nAlpha scattering from thin gold foil produced large-angle deflections at rates incompatible with Thomson's diffuse-charge model by many orders of magnitude. Rutherford's 1911 derivation of the scattering cross-section for a point-like Coulomb centre reproduced the angular distribution, establishing nuclear concentration of positive charge and mass.\n\nThe result illustrates a general methodological point: the model was not adjusted to accommodate the anomaly, because no parameter choice within the diffuse-charge framework could produce backscattering. The falsification was structural [1].\n\n## Electronic structure\n\nThe classical Rutherford atom is radiatively unstable on nanosecond timescales. Bohr's quantisation postulate reproduced the hydrogen Rydberg formula but lacked justification and failed for multi-electron systems.\n\nQuantum mechanics resolves this: stationary states are solutions of the Schrödinger equation, with orbitals representing probability amplitude distributions characterised by quantum numbers n, l, m_l and m_s. The exclusion principle, together with the aufbau and Hund rules, generates the shell structure from which periodicity follows.\n\nThe periodic table is therefore not an empirical taxonomy but a direct consequence of quantum mechanics applied to a Coulomb potential with fermionic electrons — one of the more striking cases of an organising principle in chemistry being explained by underlying physics [2].\n\n## Nuclear structure and stability\n\nNucleons are bound by the residual strong interaction. Binding energy per nucleon peaks near iron-56, which explains why both fusion of light nuclei and fission of heavy nuclei release energy, and why stellar nucleosynthesis terminates at iron in exothermic terms.\n\nIsotopic stability depends on neutron-proton ratio; nuclides outside the valley of stability decay by alpha, beta or other modes with characteristic half-lives, providing the basis for radiometric dating [1].\n\n## Substructure\n\nDeep inelastic scattering established nucleon substructure. Protons and neutrons comprise three valence quarks in a sea of gluons and virtual quark-antiquark pairs; the constituent quark masses account for only a few percent of nucleon mass, the remainder arising from quantum chromodynamic binding energy.\n\nThe etymological claim embedded in the word atom — indivisibility — is therefore false at two successive levels [1]."
+    }
+  },
+  "citations": [
+    {
+      "marker": 1,
+      "source": "nist",
+      "claim": "Atomic and nuclear dimensions and densities, the composition of atoms, the Geiger-Marsden scattering experiments and Rutherford's 1911 nuclear model, and nucleon substructure.",
+      "supports": "partially"
+    },
+    {
+      "marker": 2,
+      "source": "iupac",
+      "claim": "Atomic number as the determinant of elemental identity, isotopes and ions, and the relationship between electron configuration and the periodic table.",
+      "supports": "partially"
+    }
+  ],
+  "relations": [
+    {
+      "to": "marie-curie",
+      "kind": "studied_by"
+    },
+    {
+      "to": "albert-einstein",
+      "kind": "studied_by",
+      "weight": 0.6
+    },
+    {
+      "to": "electricity",
+      "kind": "related"
+    },
+    {
+      "to": "light",
+      "kind": "related"
+    }
+  ],
+  "timeline": [
+    {
+      "title": "Gold foil experiment",
+      "start": 1909,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 5
+    },
+    {
+      "title": "Rutherford proposes the nuclear atom",
+      "start": 1911,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 5
+    },
+    {
+      "title": "Bohr's quantised model of the atom",
+      "start": 1913,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 4
+    }
+  ],
+  "review": {
+    "last_reviewed": "2026-09-06",
+    "review_months": 60
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "slug": "lion",
+  "title": "Lion",
+  "type": "animal",
+  "categories": [
+    "animals"
+  ],
+  "primary_category": "animals",
+  "aliases": [
+    {
+      "text": "Panthera leo",
+      "kind": "scientific"
+    },
+    {
+      "text": "lions",
+      "kind": "alternative"
+    }
+  ],
+  "summary": "The only cat that lives in permanent social groups, and a species that has lost most of its historical range.",
+  "facts": [
+    {
+      "key": "scientific_name",
+      "label": "Scientific name",
+      "value": "Panthera leo",
+      "group": "Classification",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "weight",
+      "label": "Weight",
+      "value": "Males about 190 kg, females about 130 kg",
+      "value_num": 190,
+      "unit": "kg",
+      "epistemic": "estimate",
+      "confidence": 0.8,
+      "comparable_key": "body_mass",
+      "group": "Size",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "diet",
+      "label": "Diet",
+      "value": "Carnivore",
+      "comparable_key": "diet",
+      "group": "Biology",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "social",
+      "label": "Social structure",
+      "value": "Prides — the only truly social cat",
+      "group": "Biology",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "roar",
+      "label": "Roar",
+      "value": "Can be heard up to about 8 km away",
+      "value_num": 8,
+      "unit": "km",
+      "epistemic": "estimate",
+      "confidence": 0.75,
+      "group": "Biology",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "hunters",
+      "label": "Who hunts",
+      "value": "Mostly the females, often cooperatively",
+      "group": "Biology",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "sleep",
+      "label": "Rest",
+      "value": "Up to 20 hours a day",
+      "value_num": 20,
+      "unit": "hours",
+      "epistemic": "estimate",
+      "confidence": 0.7,
+      "group": "Biology",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "conservation_status",
+      "label": "Conservation status",
+      "value": "Vulnerable (IUCN)",
+      "comparable_key": "conservation_status",
+      "group": "Conservation",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "range_loss",
+      "label": "Historical range lost",
+      "value": "More than 90%",
+      "value_num": 90,
+      "unit": "%",
+      "epistemic": "estimate",
+      "confidence": 0.8,
+      "group": "Conservation",
+      "cite": [
+        2
+      ]
+    }
+  ],
+  "content": {
+    "age6_8": {
+      "summary": "A big cat that lives in a family group called a pride.",
+      "body": "Lions are big cats. They live in Africa, in grassy places [1].\n\nMost cats live alone, but lions do not. They live in families called prides [1].\n\nThe males have a thick fluffy mane around their heads. The females do not [1].\n\nThe females do most of the hunting, and they often hunt together as a team [1].\n\nA lion's roar is very loud. You can hear it from many kilometres away [1].\n\nLions sleep a lot — sometimes twenty hours a day. Hunting takes a lot of energy, so they rest between meals [1]."
+    },
+    "age9_12": {
+      "summary": "Why lions live in groups when other cats do not, and why their numbers have fallen.",
+      "body": "Lions are large cats native to Africa, with a small remaining population in India [2].\n\n## The only social cat\n\nAlmost every other cat species is solitary. Lions are the exception, living in prides of related females, their cubs, and a small number of adult males [1].\n\nWhy? The likely answer is the open habitat. On grassland, prey is large and hard to hide, and a kill is difficult to defend from hyenas and other lions. Working as a group helps both to bring down big prey and to keep it [1].\n\n## Division of labour\n\nFemales do most of the hunting, often coordinating so that some drive prey towards others waiting in cover.\n\nMales are heavier and slower, and their manes make them conspicuous — poor traits for stalking. Their role is mainly defending the pride's territory and its cubs from rival males [1].\n\n## The mane\n\nOnly male lions grow manes. Darker, fuller manes are associated with older, better-fed males, and lionesses appear to prefer them. The mane may also protect the neck in fights, though that idea is debated [1].\n\n## The roar\n\nA lion's roar can carry around 8 kilometres. It is produced by unusually shaped vocal folds that vibrate easily, letting the animal make a very loud sound without straining [1].\n\nRoaring advertises territory and helps scattered pride members locate one another.\n\n## Decline\n\nLions once ranged across Africa, southern Europe, the Middle East and into India. Today they occupy less than a tenth of that range [2].\n\nThe IUCN lists them as Vulnerable. The main pressures are loss of habitat, loss of the wild prey they depend on, and conflict with farmers protecting livestock [2].\n\nOne population of Asiatic lions survives in the Gir Forest in India — the last of the lions that once lived across Asia [2]."
+    },
+    "teen": {
+      "summary": "A large felid distinguished by obligate sociality, marked sexual dimorphism, and extensive range contraction.",
+      "body": "*Panthera leo* is the second largest living cat and the only felid with a permanently social organisation [1].\n\n## Sociality\n\nPrides typically comprise related females, dependent offspring, and a coalition of one to several adult males holding tenure. Female philopatry maintains matrilineal continuity; males disperse and compete for pride tenure, which is generally short.\n\nThe leading explanation for sociality centres on resource defence. In open habitat, kills are conspicuous and subject to kleptoparasitism by spotted hyenas and rival lions, and group defence of both carcasses and territory yields fitness benefits. Cooperative hunting of large prey is a contributing but probably secondary factor, since per-capita intake does not always increase with group size [1].\n\nCommunal cub rearing, including allosuckling among synchronously breeding females, further supports the kin-selection account.\n\n## Sexual dimorphism\n\nMales are substantially heavier and bear manes. Mane characteristics function as signals of condition: darker manes correlate with higher testosterone and better nutrition, and both females and rival males respond to them. The competing hypothesis that manes protect the neck during combat has weaker support, and thermoregulatory costs of a dark mane are measurable [1].\n\n## Infanticide\n\nIncoming male coalitions commonly kill unweaned cubs. This terminates lactational anoestrus and returns females to reproductive condition sooner, increasing the new males' reproductive output during a short tenure. It is a well-documented behaviour and is a significant determinant of population dynamics rather than an aberration [1].\n\n## Vocalisation\n\nLion vocal folds have a flattened, square profile with a substantial fat and collagen composition, allowing them to deform under low airflow. This produces high-amplitude, low-frequency roaring at reduced physiological cost, carrying several kilometres across open habitat [1].\n\n## Conservation\n\nHistorical range extended across Africa, southeastern Europe, the Middle East and into the Indian subcontinent. Present occupancy is under ten percent of that extent, and the species is assessed Vulnerable [2].\n\nPrincipal drivers are habitat conversion, depletion of the wild ungulate prey base, and retaliatory killing following livestock predation. Populations in fenced, intensively managed reserves are often stable or increasing while unfenced populations decline — an outcome that raises difficult questions about what conservation success means.\n\n*P. l. persica* survives as a single population in and around the Gir Forest, Gujarat, recovered from a nineteenth-century bottleneck of very few individuals and consequently carrying low genetic diversity [2]."
+    },
+    "adult": {
+      "summary": "A social pantherine felid whose group living, sexual dimorphism and infanticidal male turnover are closely linked, and whose range has contracted by over ninety percent.",
+      "body": "*Panthera leo* is a large pantherine felid and the only extant cat with obligate social organisation [1].\n\n## Social evolution\n\nPride structure comprises philopatric related females with dependent young and a resident male coalition of variable size and typically short tenure.\n\nThe adaptive basis of sociality has been extensively tested. Cooperative hunting explanations are weakened by evidence that per-capita food intake does not increase monotonically with group size and can decline at intermediate sizes. Resource and territory defence explanations perform better: high-quality territories, particularly those including river confluences, are contested, and larger female groups retain them more successfully.\n\nCub defence against infanticidal males provides a further selective pressure favouring grouping. The current synthesis treats lion sociality as multiply determined rather than attributable to a single benefit [1].\n\n## Sexual selection\n\nMane expression is condition-dependent, integrating testosterone status and nutrition. Experimental work using life-sized models demonstrated that females preferentially approached dark-maned models and males avoided them, establishing a dual signalling function.\n\nThe thermoregulatory cost is measurable, with dark-maned males exhibiting elevated surface temperatures, consistent with an honest-signal interpretation in which the handicap guarantees reliability. The alternative combat-protection hypothesis is not well supported by injury distribution data [1].\n\n## Infanticide and population dynamics\n\nTakeover-associated infanticide is a predictable consequence of the mismatch between male tenure length and female interbirth interval. Killing unweaned cubs terminates lactational anoestrus, advancing female return to oestrus by roughly eight months.\n\nThe behaviour has direct management implications: trophy hunting of pride males can induce artificial turnover cascades, and age-restricted harvest criteria were developed specifically to mitigate this [1].\n\n## Bioacoustics\n\nRoaring is enabled by vocal fold morphology departing markedly from the typical mammalian condition: a flat, square-profiled fold with a thick lamina propria rich in fat and collagen. This permits large-amplitude vibration at low subglottal pressure, generating source levels around 114 dB and effective communication ranges of several kilometres in open habitat [1].\n\n## Conservation status and management\n\nThe species is assessed Vulnerable, with contraction to under ten percent of historical range and continuing decline across much of West, Central and East Africa, against stability or increase in parts of southern Africa.\n\nThe divergence is largely explained by management intensity. Small fenced reserves with active population management maintain densities near carrying capacity but require metapopulation-level genetic management to avoid inbreeding — an approach whose ecological and ethical status is debated within the conservation community.\n\nThe Asiatic subspecies persists as a single Gir population descended from an extreme bottleneck, with correspondingly low heterozygosity and acute vulnerability to epizootic disease. Establishment of a second population has been recommended for decades and repeatedly delayed [2]."
+    }
+  },
+  "citations": [
+    {
+      "marker": 1,
+      "source": "wwf",
+      "claim": "Lion size, pride structure and the division of hunting and defence roles, mane signalling, infanticide following pride takeover, and roar production and range.",
+      "supports": "partially"
+    },
+    {
+      "marker": 2,
+      "source": "iucn-redlist",
+      "claim": "Vulnerable conservation status, extent of historical range contraction, principal threats, and the status of the Asiatic population in the Gir Forest.",
+      "supports": "supports"
+    }
+  ],
+  "relations": [
+    {
+      "to": "african-elephant",
+      "kind": "related"
+    },
+    {
+      "to": "great-white-shark",
+      "kind": "contrasts_with",
+      "weight": 0.4
+    }
+  ],
+  "review": {
+    "last_reviewed": "2026-09-06",
+    "review_months": 36
+  }
+}

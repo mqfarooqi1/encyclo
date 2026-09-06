@@ -1,0 +1,179 @@
+{
+  "slug": "the-internet",
+  "title": "The Internet",
+  "type": "technology",
+  "categories": [
+    "technology"
+  ],
+  "primary_category": "technology",
+  "aliases": [
+    {
+      "text": "internet",
+      "kind": "alternative"
+    },
+    {
+      "text": "the net",
+      "kind": "alternative"
+    }
+  ],
+  "summary": "A global network of networks that lets computers exchange data, and the infrastructure on which the World Wide Web and almost everything else online runs.",
+  "facts": [
+    {
+      "key": "what",
+      "label": "What it is",
+      "value": "A network of networks that agree to speak the same protocols",
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "not_web",
+      "label": "Internet is not the Web",
+      "value": "The Web is one service running on the internet, not the internet itself",
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "packets",
+      "label": "How data travels",
+      "value": "Split into packets that travel separately and are reassembled",
+      "group": "How it works",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "arpanet",
+      "label": "ARPANET's first link",
+      "value": "1969",
+      "value_num": 1969,
+      "group": "History",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "tcpip",
+      "label": "TCP/IP adopted",
+      "value": "1 January 1983",
+      "value_num": 1983,
+      "group": "History",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "web",
+      "label": "World Wide Web proposed",
+      "value": "1989, by Tim Berners-Lee at CERN",
+      "value_num": 1989,
+      "group": "History",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "web_free",
+      "label": "The Web was given away",
+      "value": "CERN placed the technology in the public domain in 1993",
+      "value_num": 1993,
+      "group": "History",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "owner",
+      "label": "Who owns it",
+      "value": "Nobody owns the internet as a whole",
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    }
+  ],
+  "content": {
+    "age6_8": {
+      "summary": "A way for computers all over the world to send messages to each other.",
+      "body": "The internet joins computers all over the world together [1].\n\nWhen you send a message or watch a video, information travels between computers — often through cables under the sea [1].\n\nThe information does not travel in one lump. It is chopped into small pieces called packets. The pieces travel separately and get put back together at the other end [1].\n\nIf one route is busy or broken, the pieces just go a different way. That is why the internet keeps working even when parts of it break [1].\n\nNobody owns the whole internet. It works because everyone agrees to follow the same rules [1]."
+    },
+    "age9_12": {
+      "summary": "Packets, protocols, and the difference between the internet and the Web.",
+      "body": "The internet is a global network of networks. Different networks, run by different organisations, connect to one another and agree to use the same rules [1].\n\n## The internet is not the Web\n\nThese are often confused.\n\nThe **internet** is the infrastructure — the cables, routers and agreed rules that move data.\n\nThe **World Wide Web** is one service that runs on top of it, made of pages linked together. Email, video calls and games are other services using the same internet [1].\n\nThe internet came first, by about twenty years.\n\n## Packet switching\n\nEarly telephone systems worked by circuit switching: a dedicated line was reserved for your whole call. It worked, but it wasted capacity and broke completely if a link failed.\n\nThe internet uses packet switching instead. Data is chopped into small packets, each labelled with its destination. Packets travel independently, possibly by different routes, and are reassembled at the far end [1].\n\nThis is more efficient, because many conversations share the same links, and far more robust, because packets simply route around a broken link.\n\n## A common language\n\nFor different networks to interconnect they must agree on rules, called protocols.\n\nTCP/IP does two jobs: IP handles addressing and getting packets to the right place, and TCP checks nothing is missing and puts things back in order.\n\nARPANET switched to TCP/IP on 1 January 1983, and that date is often taken as the birth of the internet as we know it [1].\n\n## The Web\n\nIn 1989, Tim Berners-Lee at CERN proposed a system for linking documents so physicists could share research. It combined three ideas: a way to address a document (URL), a way to request it (HTTP), and a way to write it (HTML) [2].\n\nIn 1993 CERN put the technology in the public domain, free for anyone to use. That decision is a large part of why the Web spread so quickly rather than fragmenting into competing paid systems [2].\n\n## Nobody in charge\n\nNo single organisation owns or runs the internet. Some coordination bodies manage names and numbers, but the network works because independent operators choose to interconnect and follow shared protocols [1]."
+    },
+    "teen": {
+      "summary": "A packet-switched internetwork built on open protocols, distinct from the applications such as the Web that run over it.",
+      "body": "The internet is a global system of interconnected networks communicating through the Internet Protocol suite [1].\n\n## Layering\n\nThe architecture is layered: link, internet, transport and application. Each layer relies on the one below and provides service to the one above, without needing to know the others' internals.\n\nThis is the central design decision. It means new applications can be deployed without changing the network, and new link technologies can be adopted without changing applications. The internet supported the Web, streaming video and messaging without redesign because none of those required the lower layers to know what they were [1].\n\n## Packet switching\n\nCircuit switching reserves end-to-end capacity for a session's duration. Packet switching multiplexes independently routed datagrams over shared links.\n\nThe efficiency argument is statistical multiplexing: bursty traffic shares capacity well. The robustness argument is that routing is recomputed dynamically, so failures are routed around rather than terminating sessions.\n\nThe frequent claim that the internet was designed to survive nuclear attack is an oversimplification. Baran's work on distributed communications at RAND did address survivability, but ARPANET's motivating requirement was resource sharing among research sites. The two strands are related but not identical, and the nuclear-survival origin story is repeated far more confidently than the record supports [1].\n\n## The end-to-end principle\n\nApplication-specific intelligence belongs at endpoints; the network provides best-effort delivery and little else.\n\nThis kept the core simple and permitted permissionless innovation — a new application requires no change to and no approval from network operators. Much of the internet's growth is attributable to this property, and debates over network neutrality, deep packet inspection and middleboxes are in substance debates about eroding it [1].\n\n## Protocol history\n\nARPANET's first host-to-host connection was made in 1969. Cerf and Kahn's TCP design, published in 1974, enabled interconnection of heterogeneous networks — the internetworking problem the name refers to.\n\nThe flag day transition to TCP/IP on 1 January 1983 is conventionally taken as the internet's formal beginning. DNS followed, replacing a manually distributed hosts file [1].\n\n## The Web\n\nBerners-Lee's 1989 proposal at CERN combined URIs for addressing, HTTP for transfer and HTML for markup, over the existing internet.\n\nHypertext was not new — Bush's memex and Nelson's Xanadu preceded it. What Berners-Lee got right was permitting broken links. Earlier systems required referential integrity, which does not scale across independent administrative domains. Accepting that links may break is what allowed the Web to grow without central coordination.\n\nCERN's 1993 release of the technology into the public domain removed licensing as a barrier to adoption, and is plausibly as important to the outcome as the technical design [2].\n\n## Governance\n\nNo entity owns the internet. ICANN coordinates names and addresses, the IETF develops protocols through rough consensus and running code, and physical infrastructure is owned by many independent operators who interconnect voluntarily [1]."
+    },
+    "adult": {
+      "summary": "A layered, packet-switched internetwork whose architectural choices — end-to-end design and open protocols — largely account for its capacity to absorb unanticipated applications.",
+      "body": "The internet is a global internetwork of autonomous systems interoperating through the Internet Protocol suite [1].\n\n## Architectural principles\n\nProtocol layering with narrow interfaces produces an hourglass: many link technologies below, many applications above, and IP as the single narrow waist. Anything that can carry IP joins the network; anything expressible over IP can be deployed on it.\n\nThe end-to-end argument, articulated by Saltzer, Reed and Clark, holds that functions requiring application knowledge should be implemented at endpoints, since the network cannot implement them completely and duplicating them is wasteful. The consequence is a simple core and a permissionless application layer.\n\nThis is the architectural basis of the internet's generativity. It is also the property under pressure from carrier-grade NAT, deep packet inspection, and traffic management — technical developments whose policy salience follows directly from the architecture [1].\n\n## Origins, accurately stated\n\nPaul Baran's RAND work on distributed adaptive message block switching (1964) was explicitly motivated by communications survivability under attack. Donald Davies independently developed packet switching at NPL with efficiency motivations, and supplied the terminology.\n\nARPANET's own requirement, as documented by Roberts and Taylor, was resource sharing among expensive research computers. The nuclear-survivability narrative conflates Baran's separate work with ARPANET's purpose, and is stated with a confidence the historical record does not support [1].\n\n## Internetworking\n\nCerf and Kahn's 1974 paper addressed interconnection of heterogeneous networks with differing packet sizes, error characteristics and delays. The gateway concept and a common addressing scheme resolved it, with subsequent separation of TCP from IP allowing unreliable datagram service (UDP) for applications not requiring ordered reliable delivery.\n\nThe 1 January 1983 transition was a coordinated flag day, feasible at the network's then-scale and inconceivable subsequently — a fact that explains much of the difficulty of IPv6 deployment, which has required decades of dual-stack coexistence rather than a transition date [1].\n\n## The Web\n\nBerners-Lee's contribution rests less on novelty of components than on a specific design tradeoff. Prior hypertext systems, including Nelson's Xanadu, sought bidirectional links and referential integrity. These require coordination across document owners and do not scale across independent administrative domains.\n\nAccepting unidirectional links that may dangle removed the coordination requirement, permitting unilateral publication. The Web scaled because it tolerated a form of brokenness its predecessors were designed to prevent.\n\nCERN's April 1993 placement of the World Wide Web software in the public domain removed licensing friction at the critical adoption moment, in contrast to contemporaneous systems such as Gopher whose licensing announcement measurably impeded uptake [2].\n\n## Governance and its tensions\n\nCoordination is distributed: ICANN and the IANA functions for names and numbers, RIRs for address allocation, the IETF for protocol standardisation under rough consensus, and bilateral or multilateral interconnection agreements among operators.\n\nNo body holds authority over the network as a whole. This has proved durable but produces recurring friction over jurisdiction, content regulation, encryption policy and infrastructure sovereignty, none of which the architecture was designed to adjudicate [1]."
+    }
+  },
+  "citations": [
+    {
+      "marker": 1,
+      "source": "internet-society",
+      "claim": "Internet architecture and protocol layering, packet switching and its origins in Baran and Davies, ARPANET's purpose and the 1983 TCP/IP transition, the end-to-end principle, and distributed governance.",
+      "supports": "supports"
+    },
+    {
+      "marker": 2,
+      "source": "cern",
+      "claim": "Berners-Lee's 1989 World Wide Web proposal at CERN, its combination of URI, HTTP and HTML, and CERN's 1993 release of the technology into the public domain.",
+      "supports": "supports"
+    }
+  ],
+  "relations": [
+    {
+      "to": "computer",
+      "kind": "part_of"
+    },
+    {
+      "to": "artificial-intelligence",
+      "kind": "related"
+    },
+    {
+      "to": "silk-road",
+      "kind": "contrasts_with",
+      "weight": 0.3
+    }
+  ],
+  "timeline": [
+    {
+      "title": "First ARPANET host-to-host connection",
+      "start": 1969,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 5
+    },
+    {
+      "title": "TCP/IP becomes the standard protocol",
+      "start": 1983,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 5
+    },
+    {
+      "title": "The World Wide Web is proposed",
+      "start": 1989,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 5
+    },
+    {
+      "title": "CERN releases the Web into the public domain",
+      "start": 1993,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 5
+    }
+  ],
+  "review": {
+    "last_reviewed": "2026-09-06",
+    "review_months": 12
+  }
+}

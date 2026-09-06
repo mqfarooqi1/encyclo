@@ -1,0 +1,190 @@
+{
+  "slug": "ancient-greece",
+  "title": "Ancient Greece",
+  "type": "civilisation",
+  "categories": [
+    "history",
+    "ideas",
+    "arts"
+  ],
+  "primary_category": "history",
+  "aliases": [
+    {
+      "text": "Greek civilisation",
+      "kind": "alternative"
+    },
+    {
+      "text": "Hellas",
+      "kind": "native"
+    }
+  ],
+  "summary": "A network of independent city-states around the Aegean whose ideas about politics, philosophy, mathematics and drama shaped later European thought.",
+  "facts": [
+    {
+      "key": "period",
+      "label": "Main period",
+      "value": "About 800 BCE to 146 BCE",
+      "epistemic": "estimate",
+      "confidence": 0.8,
+      "group": "Timing",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "structure",
+      "label": "Political structure",
+      "value": "Independent city-states, not one country",
+      "group": "Politics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "democracy",
+      "label": "Athenian democracy",
+      "value": "Established around 508 BCE",
+      "value_num": -508,
+      "unit": "years",
+      "epistemic": "estimate",
+      "confidence": 0.8,
+      "group": "Politics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "who_voted",
+      "label": "Who could vote in Athens",
+      "value": "Only free adult male citizens — perhaps 10-20% of the population",
+      "epistemic": "estimate",
+      "confidence": 0.6,
+      "group": "Politics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "olympics",
+      "label": "First Olympic Games",
+      "value": "Traditionally 776 BCE",
+      "value_num": -776,
+      "unit": "years",
+      "epistemic": "estimate",
+      "confidence": 0.6,
+      "group": "Culture",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "philosophers",
+      "label": "Best-known philosophers",
+      "value": "Socrates, Plato and Aristotle",
+      "group": "Ideas",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "theatre",
+      "label": "Theatre",
+      "value": "Tragedy and comedy as we know them began here",
+      "group": "Culture",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "end",
+      "label": "Absorbed by Rome",
+      "value": "146 BCE",
+      "value_num": -146,
+      "unit": "years",
+      "group": "Timing",
+      "cite": [
+        1
+      ]
+    }
+  ],
+  "content": {
+    "age6_8": {
+      "summary": "A land of separate cities long ago, where big new ideas began.",
+      "body": "Ancient Greece was not one country. It was lots of separate cities, each with its own rules [1].\n\nThe two most famous were Athens and Sparta. Athens loved learning and art. Sparta was famous for its soldiers [1].\n\nIn Athens, ordinary men could vote on what the city should do. That idea is called democracy, and lots of countries use it today [1].\n\nThe Greeks started the Olympic Games. They held them every four years, just like now [2].\n\nThey also invented the kind of plays we still watch, with actors on a stage telling a story [2]."
+    },
+    "age9_12": {
+      "summary": "City-states, the first democracy, and ideas that are still argued about today.",
+      "body": "Ancient Greece was not a single country. It was a collection of independent city-states, each with its own government, laws and army [1].\n\nThey shared a language, gods and customs, and often fought each other. The rivalry between Athens and Sparta shaped much of their history [1].\n\n## Athenian democracy\n\nAround 508 BCE Athens developed a system where citizens voted directly on laws rather than electing representatives.\n\nIt was genuinely new, and genuinely limited. Only free adult men born in Athens could take part. Women, enslaved people and foreign residents — the great majority — were excluded. Estimates suggest perhaps 10 to 20 percent of the population could vote [1].\n\nSo it deserves credit as the first known experiment in citizen government, and honesty about how narrow that citizenship was.\n\n## Philosophy\n\nGreek thinkers asked questions that had not been asked systematically before: What is a good life? How do we know anything? What is the world made of?\n\nSocrates asked relentless questions and wrote nothing; we know him through Plato. Plato founded a school and wrote dialogues. Aristotle studied almost everything — biology, physics, logic, politics — and his method of careful observation and classification shaped science for centuries [1].\n\n## Maths and science\n\nGreek mathematicians did something unusual: they demanded proof. Earlier civilisations had excellent practical mathematics, but the Greeks insisted a statement be shown true by reasoning from agreed starting points. Euclid's geometry was still a standard textbook two thousand years later [1].\n\nEratosthenes measured the Earth's circumference around 240 BCE using shadow lengths in two cities, and got remarkably close [1].\n\n## Theatre and games\n\nGreek theatre gave us tragedy and comedy, performed in huge open-air theatres, some of which still have superb acoustics [2].\n\nThe Olympic Games, traditionally dated to 776 BCE, were held every four years and were important enough that wars were paused for them [2].\n\n## The end\n\nGreece was conquered by Rome in 146 BCE. But the Romans admired Greek culture and absorbed much of it, which is one reason so much survived [1]."
+    },
+    "teen": {
+      "summary": "A decentralised civilisation of poleis whose innovations in politics, deductive mathematics and philosophy proved disproportionately influential.",
+      "body": "Ancient Greece was a civilisation of independent city-states, or *poleis*, sharing language and religion but rarely political unity [1].\n\n## The polis system\n\nGeography contributed: mountainous terrain and dispersed islands favoured small autonomous units over centralised control.\n\nPolitical forms varied widely — Athens developed direct democracy, Sparta a dual monarchy with an oligarchic council, others tyranny or oligarchy. This variation itself mattered, producing comparative political thought as Greeks analysed constitutions against each other, most systematically in Aristotle's *Politics* [1].\n\n## Athenian democracy in proportion\n\nCleisthenes' reforms of about 508 BCE established direct participation, with the Assembly open to all citizens and many offices filled by lot rather than election — a mechanism intended to prevent elite capture.\n\nThe franchise excluded women, enslaved persons and metics. Estimates of participation range around 10-20 percent of the resident population, with substantial uncertainty in the underlying demography.\n\nAthenian society was also slave-holding on a large scale, and the leisure enabling citizen participation depended partly on that. Presenting Athenian democracy as an unqualified antecedent of modern democracy obscures both its radicalism — direct rule, selection by lot — and its exclusions [1].\n\n## Deductive mathematics\n\nEgyptian and Mesopotamian mathematics were computationally sophisticated but procedural. The Greek innovation was axiomatic deduction: theorems established by proof from stated postulates.\n\nEuclid's *Elements* systematised this and remained in use as a teaching text into the nineteenth century. The demand for proof rather than demonstration is arguably the foundational move of mathematics as a discipline [1].\n\nEratosthenes' measurement of Earth's circumference around 240 BCE, using the angular difference in solar elevation between Syene and Alexandria, produced a figure within a few percent of the modern value — depending on the length of the *stadion* used, which is itself uncertain.\n\n## Philosophy\n\nPre-Socratic thinkers sought natural rather than mythological explanations of the cosmos. Socrates redirected attention to ethics and epistemology through dialectical questioning. Plato's theory of forms and Aristotle's empirical and logical systematisation between them framed the agenda of Western philosophy for two millennia [1].\n\n## Drama\n\nTragedy and comedy developed as civic institutions, performed at religious festivals with the state subsidising attendance. Surviving works by Aeschylus, Sophocles, Euripides and Aristophanes are a fraction of what was written, but shaped subsequent dramatic form directly [2].\n\n## Absorption\n\nRoman conquest completed in 146 BCE ended Greek political independence, but Roman elite culture adopted Greek philosophy, literature and art extensively — the principal mechanism by which Greek thought reached later Europe [1]."
+    },
+    "adult": {
+      "summary": "A decentralised Aegean civilisation whose political experimentation, axiomatic mathematics and systematic philosophy exerted influence disproportionate to its scale and duration.",
+      "body": "Ancient Greece denotes the civilisation of the Aegean world from approximately the eighth century BCE to Roman annexation in 146 BCE, organised as autonomous *poleis* rather than a unified state [1].\n\n## Political fragmentation and its consequences\n\nThe polis system produced sustained institutional variation. Comparative analysis of constitutions became a recognised intellectual activity, and Aristotle's school reportedly compiled descriptions of over 150 constitutions, of which only the *Athenaion Politeia* survives.\n\nThis empirical comparative method — treating political arrangements as objects of systematic study rather than as given — is itself a durable Greek contribution [1].\n\n## Athenian democracy: mechanism and limits\n\nThe Cleisthenic reforms restructured the citizen body into demes and tribes designed to cut across existing kinship and regional loyalties, deliberately engineering the constituency of political participation.\n\nSortition, not election, filled most magistracies. The rationale was explicit in ancient sources: election was regarded as oligarchic because it favours the notable, while the lot treats citizens as interchangeable. Modern representative democracy is closer to what Athenians would have classified as oligarchy.\n\nThe demographic base was narrow. Adult male citizens have been estimated at roughly 30,000-60,000 within a total Attic population plausibly exceeding 300,000 including slaves and metics; the ranges are contested and rest on limited evidence. Chattel slavery was extensive, and the relationship between slave labour and citizen leisure is a substantive rather than incidental feature of the system [1].\n\n## Mathematics and the demand for proof\n\nNear Eastern mathematical traditions achieved considerable computational sophistication, including accurate approximations and problem-solving algorithms, without a general concept of demonstrative proof.\n\nThe Greek development of axiomatic deduction, culminating in Euclid's *Elements*, established a standard of justification that defines mathematics as distinct from calculation. The *Elements* served as a pedagogical standard into the nineteenth century, and its axiomatic structure provided the model that non-Euclidean geometry later revealed as one option among several.\n\nEratosthenes' geodetic measurement is frequently cited with more precision than the evidence supports: the accuracy attributed depends on which value of the *stadion* is assumed, and that remains unresolved. The methodological achievement — inferring planetary dimensions from local angular measurement plus a geometric model — stands independently of the numerical outcome [1].\n\n## Philosophy\n\nMilesian natural philosophy sought material principles underlying phenomena, initiating explanation by natural cause. The Socratic turn relocated inquiry to ethics, definition and the conditions of knowledge.\n\nPlato and Aristotle established the two poles — rationalist and empiricist, transcendent forms versus immanent substance — around which subsequent philosophy repeatedly reorganised itself. Aristotle's logic remained essentially unchallenged until the nineteenth century, and his biological observation was substantially more accurate than later commentators allowed [1].\n\n## Transmission\n\nRoman conquest ended political autonomy while accelerating cultural transmission, as Greek philosophy, rhetoric and literature were adopted by Roman elites. Preservation subsequently depended heavily on Byzantine copying and on translation and commentary in the Islamic world, from which many texts returned to Latin Europe. The narrative of direct Greek-to-European inheritance omits that route [2]."
+    }
+  },
+  "citations": [
+    {
+      "marker": 1,
+      "source": "british-museum",
+      "claim": "The polis system and political variation, Cleisthenic reforms and the mechanisms and limits of Athenian democracy, Greek deductive mathematics, and the principal philosophical schools.",
+      "supports": "partially"
+    },
+    {
+      "marker": 2,
+      "source": "met-museum",
+      "claim": "Greek theatre as a civic institution, the Olympic Games and their traditional dating, and the routes by which Greek texts were preserved and transmitted.",
+      "supports": "partially"
+    }
+  ],
+  "relations": [
+    {
+      "to": "roman-empire",
+      "kind": "succeeded_by"
+    },
+    {
+      "to": "ancient-egypt",
+      "kind": "contrasts_with"
+    }
+  ],
+  "timeline": [
+    {
+      "title": "Traditional date of the first Olympic Games",
+      "start": -776,
+      "precision": "estimate",
+      "era": "Ancient",
+      "importance": 3,
+      "epistemic": "uncertain"
+    },
+    {
+      "title": "Athenian democracy established",
+      "start": -508,
+      "precision": "estimate",
+      "era": "Ancient",
+      "importance": 5,
+      "epistemic": "estimate"
+    },
+    {
+      "title": "Rome annexes Greece",
+      "start": -146,
+      "precision": "exact",
+      "era": "Ancient",
+      "importance": 4
+    }
+  ],
+  "places": [
+    {
+      "name": "Athens",
+      "kind": "city",
+      "lat": 37.98,
+      "lon": 23.73,
+      "country": "GR"
+    }
+  ],
+  "review": {
+    "last_reviewed": "2026-09-06",
+    "review_months": 60
+  }
+}

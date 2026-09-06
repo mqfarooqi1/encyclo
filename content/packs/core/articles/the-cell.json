@@ -1,0 +1,187 @@
+{
+  "slug": "the-cell",
+  "title": "The Cell",
+  "type": "science_concept",
+  "categories": [
+    "science",
+    "human-body"
+  ],
+  "primary_category": "science",
+  "aliases": [
+    {
+      "text": "cell",
+      "kind": "alternative"
+    },
+    {
+      "text": "cells",
+      "kind": "alternative"
+    },
+    {
+      "text": "cell biology",
+      "kind": "scientific"
+    }
+  ],
+  "summary": "The smallest unit that counts as living, and the building block from which every organism is made.",
+  "facts": [
+    {
+      "key": "definition",
+      "label": "What it is",
+      "value": "The smallest unit of life",
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "types",
+      "label": "Two main types",
+      "value": "Prokaryotic (no nucleus) and eukaryotic (with a nucleus)",
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "human_count",
+      "label": "Cells in a human body",
+      "value": "Roughly 30 trillion",
+      "value_num": 30000000000000,
+      "epistemic": "estimate",
+      "confidence": 0.6,
+      "group": "Numbers",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "size",
+      "label": "Typical size of a human cell",
+      "value": "About 10 to 100 micrometres",
+      "value_num": 30,
+      "unit": "µm",
+      "epistemic": "estimate",
+      "confidence": 0.8,
+      "group": "Numbers",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "discovery",
+      "label": "First seen and named",
+      "value": "1665, by Robert Hooke looking at cork",
+      "value_num": 1665,
+      "group": "History",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "powerhouse",
+      "label": "Mitochondria",
+      "value": "Release energy, and were once free-living bacteria",
+      "epistemic": "interpretation",
+      "confidence": 0.9,
+      "group": "Inside a cell",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "instructions",
+      "label": "Where the instructions are",
+      "value": "In DNA, inside the nucleus in eukaryotes",
+      "group": "Inside a cell",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "origin",
+      "label": "All cells come from",
+      "value": "Other cells — none form from nothing",
+      "group": "Basics",
+      "cite": [
+        2
+      ]
+    }
+  ],
+  "content": {
+    "age6_8": {
+      "summary": "The tiny building blocks that all living things are made from.",
+      "body": "Every living thing is made of cells [1].\n\nCells are far too small to see without a microscope. You are made of trillions of them [1].\n\nDifferent cells do different jobs. Some carry oxygen in your blood. Some help you think. Some make your muscles pull [1].\n\nInside each cell there are even smaller parts, each with its own job — a bit like rooms in a house [1].\n\nSome living things are just one single cell all by themselves. Germs are like that [1].\n\nNew cells are made when a cell splits into two [2]."
+    },
+    "age9_12": {
+      "summary": "What is inside a cell, the two main types, and the surprising origin of mitochondria.",
+      "body": "The cell is the smallest unit that is properly alive. Every living thing is made of one or more of them [1].\n\n## Two main kinds\n\n**Prokaryotic** cells, like bacteria, have no nucleus. Their DNA floats loose inside. They are small and simple.\n\n**Eukaryotic** cells, like yours, keep their DNA in a nucleus and contain many separate compartments called organelles. Plants, animals, fungi and many microorganisms are eukaryotes [1].\n\n## Inside a eukaryotic cell\n\n- The **nucleus** holds the DNA — the instructions.\n- **Mitochondria** release energy from food.\n- **Ribosomes** build proteins by reading instructions copied from DNA.\n- The **cell membrane** controls what goes in and out.\n- Plant cells also have a rigid **cell wall** and **chloroplasts** for photosynthesis [1].\n\n## The strangest fact about your cells\n\nMitochondria have their own DNA, separate from the DNA in the nucleus. They also have a double membrane, and they divide by themselves rather than being built by the cell.\n\nThe explanation is that mitochondria were once free-living bacteria. More than a billion years ago, one cell engulfed another and, instead of digesting it, kept it. The two became a single organism.\n\nThis is called endosymbiosis. Chloroplasts in plants have the same kind of origin [1].\n\nSo every complex living thing on Earth, including you, is descended from a merger between two different organisms.\n\n## Where cells come from\n\nEvery cell is made by another cell dividing. None ever appears from non-living material.\n\nThis was not obvious. For centuries people believed maggots simply arose from meat and mice from grain. Careful experiments in the 1600s and 1800s showed that living things always come from other living things [2]."
+    },
+    "teen": {
+      "summary": "The fundamental unit of life: compartmentalised, self-replicating, and in eukaryotes the product of ancient endosymbiosis.",
+      "body": "The cell is the smallest structural and functional unit of life, and the subject of cell theory: all organisms are composed of cells, the cell is the basic unit of life, and all cells arise from pre-existing cells [1].\n\n## Prokaryotes and eukaryotes\n\nProkaryotic cells lack a membrane-bound nucleus and internal organelles, with a typically circular chromosome in the nucleoid region. Bacteria and archaea are prokaryotic.\n\nEukaryotic cells enclose DNA within a nuclear envelope and compartmentalise function into organelles. Compartmentalisation permits incompatible chemical environments to coexist — lysosomal acidity alongside cytosolic neutrality, for instance — and allows a much larger cell size to remain viable [1].\n\n## Core components\n\nThe plasma membrane is a phospholipid bilayer with embedded proteins, selectively permeable and maintaining electrochemical gradients essential to signalling and transport.\n\nThe nucleus houses chromatin and is the site of transcription. Ribosomes translate mRNA into protein. Endoplasmic reticulum and Golgi apparatus process and route proteins. Mitochondria conduct oxidative phosphorylation. The cytoskeleton provides structure, intracellular transport and division machinery [1].\n\n## Endosymbiosis\n\nMitochondria and chloroplasts possess their own circular genomes, double membranes, bacterial-type ribosomes, and divide by fission independently of the host cell cycle.\n\nThe endosymbiotic theory holds that these organelles derive from free-living bacteria engulfed by an ancestral host cell — alphaproteobacteria for mitochondria, cyanobacteria for chloroplasts. Phylogenetic analysis of organellar genes places them within those bacterial groups.\n\nThe theory was proposed in the nineteenth century, revived and argued in detail by Lynn Margulis in 1967 against considerable resistance, and is now standard. It means eukaryotic complexity originated in a merger rather than by gradual divergence [1].\n\n## Cell division\n\nMitosis produces two genetically identical daughter cells and underlies growth and repair. Meiosis halves chromosome number and, through independent assortment and recombination, generates genetic variation for sexual reproduction.\n\nCell cycle checkpoints monitor DNA integrity and division readiness; their failure is central to cancer, in which cells divide without regard to normal controls [1].\n\n## Historical development\n\nHooke named cells in 1665 from cork's compartments; Leeuwenhoek observed living microorganisms shortly afterwards. Schleiden and Schwann articulated cell theory in the 1830s, and Virchow added *omnis cellula e cellula* in 1855.\n\nSpontaneous generation was not decisively refuted until Pasteur's swan-neck flask experiments demonstrated that sterilised broth remained sterile while exposed to air but protected from airborne particles [2]."
+    },
+    "adult": {
+      "summary": "The fundamental unit of life: a compartmentalised, self-replicating system whose eukaryotic form originated through endosymbiotic acquisition of bacterial lineages.",
+      "body": "The cell is the minimal unit exhibiting the properties of life, and the organising principle of cell theory: organisms are cellular, the cell is the basic unit of structure and function, and cells arise only from pre-existing cells [1].\n\n## Domain-level organisation\n\nProkaryotic organisation, spanning Bacteria and Archaea, lacks nuclear compartmentalisation and membrane-bound organelles. Eukaryotic organisation partitions function among organelles bounded by membranes.\n\nCompartmentalisation confers several capabilities: maintenance of incompatible chemical microenvironments, spatial separation of transcription from translation permitting extensive RNA processing, and relaxation of the surface-area-to-volume constraint that limits prokaryotic size. Eukaryotic cells are typically one to two orders of magnitude larger in linear dimension [1].\n\n## Energetics and the eukaryotic transition\n\nMitochondrial oxidative phosphorylation generates ATP via chemiosmotic coupling — Mitchell's proposal that the proton motive force across the inner membrane drives ATP synthase, initially resisted and subsequently recognised with the 1978 Nobel Prize.\n\nThe availability of internalised bioenergetic membranes has been argued to underpin the energetic feasibility of large genomes and proteomes in eukaryotes, since prokaryotes bear membrane bioenergetics only at the cell surface. This energetics-first account of eukaryogenesis is influential but not universally accepted [1].\n\n## Endosymbiotic origin\n\nMitochondria and plastids retain reduced circular genomes, 70S ribosomes sensitive to bacterial antibiotics, double membranes with prokaryotic lipid composition in the inner leaflet, and independent fission.\n\nMolecular phylogenetics places mitochondrial genes within Alphaproteobacteria and plastid genes within Cyanobacteria. Extensive endosymbiotic gene transfer to the nucleus explains genome reduction, and secondary and tertiary endosymbioses account for plastid distribution across eukaryotic lineages.\n\nMargulis's 1967 argument met sustained resistance before becoming consensus. The identity of the host lineage remains under investigation, with Asgard archaea currently the strongest candidate sister group [1].\n\n## Division and its control\n\nThe cell cycle proceeds through G1, S, G2 and M phases under regulation by cyclin-dependent kinases, with checkpoints assessing DNA integrity, replication completion and spindle attachment.\n\nMeiotic reduction with crossing over and independent assortment generates the variation on which sexual selection and adaptation operate. Errors in meiotic segregation produce aneuploidy.\n\nOncogenesis reflects accumulated dysregulation of proliferation, apoptosis and genome maintenance. The mechanistic understanding of checkpoint control has translated directly into targeted therapeutics, including CDK inhibitors [1].\n\n## Historiography\n\nHooke's 1665 *Micrographia* named cells from the compartments of cork; van Leeuwenhoek reported motile microorganisms shortly after. Schleiden and Schwann generalised cellular composition in the 1830s, and Virchow's *omnis cellula e cellula* in 1855 closed the theory.\n\nThe refutation of spontaneous generation required Pasteur's swan-neck flask design, which admitted air while excluding particulates — an experimental control that isolated the variable at issue and settled a debate that Redi's earlier work had not conclusively ended [2]."
+    }
+  },
+  "citations": [
+    {
+      "marker": 1,
+      "source": "nih-nlm",
+      "claim": "Cell theory, prokaryotic and eukaryotic organisation, organelle structure and function, endosymbiotic origin of mitochondria and chloroplasts, and cell cycle control.",
+      "supports": "supports"
+    },
+    {
+      "marker": 2,
+      "source": "royal-society",
+      "claim": "Hooke's 1665 naming of cells, the historical development of cell theory, and the experimental refutation of spontaneous generation.",
+      "supports": "partially"
+    }
+  ],
+  "relations": [
+    {
+      "to": "dna",
+      "kind": "related"
+    },
+    {
+      "to": "photosynthesis",
+      "kind": "related"
+    },
+    {
+      "to": "the-immune-system",
+      "kind": "related"
+    },
+    {
+      "to": "human-evolution",
+      "kind": "related",
+      "weight": 0.4
+    }
+  ],
+  "timeline": [
+    {
+      "title": "Hooke names the cell",
+      "start": 1665,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 4
+    },
+    {
+      "title": "Cell theory formulated",
+      "start": 1839,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 4
+    },
+    {
+      "title": "Endosymbiotic theory argued in detail",
+      "start": 1967,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 4
+    }
+  ],
+  "review": {
+    "last_reviewed": "2026-09-06",
+    "review_months": 48
+  }
+}

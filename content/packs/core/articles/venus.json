@@ -1,0 +1,204 @@
+{
+  "slug": "venus",
+  "title": "Venus",
+  "type": "planet",
+  "categories": [
+    "space",
+    "environment"
+  ],
+  "primary_category": "space",
+  "aliases": [
+    {
+      "text": "the morning star",
+      "kind": "alternative"
+    },
+    {
+      "text": "the evening star",
+      "kind": "alternative"
+    }
+  ],
+  "summary": "The second planet from the Sun, almost the same size as Earth, and the hottest planet in the Solar System because of a runaway greenhouse effect.",
+  "facts": [
+    {
+      "key": "position",
+      "label": "Position from the Sun",
+      "value": "Second",
+      "group": "Orbit",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "diameter",
+      "label": "Diameter",
+      "value": "12,104 km",
+      "value_num": 12104,
+      "unit": "km",
+      "comparable_key": "diameter",
+      "group": "Size",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "temperature",
+      "label": "Surface temperature",
+      "value": "About 465 °C",
+      "value_num": 465,
+      "unit": "°C",
+      "epistemic": "estimate",
+      "confidence": 0.9,
+      "comparable_key": "temperature",
+      "group": "Physical",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "pressure",
+      "label": "Surface pressure",
+      "value": "About 92 times Earth's",
+      "value_num": 92,
+      "epistemic": "estimate",
+      "confidence": 0.9,
+      "group": "Physical",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "atmosphere",
+      "label": "Atmosphere",
+      "value": "About 96% carbon dioxide",
+      "comparable_key": "atmosphere",
+      "group": "Physical",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "day_length",
+      "label": "Day length",
+      "value": "243 Earth days — longer than its year",
+      "value_num": 5832,
+      "unit": "hours",
+      "comparable_key": "day_length",
+      "group": "Orbit",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "orbital_period",
+      "label": "Year length",
+      "value": "225 Earth days",
+      "value_num": 225,
+      "unit": "days",
+      "comparable_key": "orbital_period",
+      "group": "Orbit",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "rotation",
+      "label": "Direction of spin",
+      "value": "Backwards compared with most planets",
+      "group": "Orbit",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "clouds",
+      "label": "Clouds",
+      "value": "Sulfuric acid",
+      "group": "Physical",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "life",
+      "label": "Known life",
+      "value": "None found",
+      "comparable_key": "life",
+      "group": "Physical",
+      "cite": [
+        2
+      ]
+    }
+  ],
+  "content": {
+    "age6_8": {
+      "summary": "A planet almost the same size as Earth, but far too hot to visit.",
+      "body": "Venus is the planet next door, closer to the Sun than we are [1].\n\nVenus is almost exactly the same size as Earth. People once hoped it might be a bit like Earth too [1].\n\nIt is not. Venus is the hottest planet of all — hot enough to melt lead [1].\n\nThe air on Venus is thick and heavy, and the clouds are made of acid. Nothing could live there [1].\n\nVenus is very bright in our sky. People often see it in the evening and think it is a star [1]."
+    },
+    "age9_12": {
+      "summary": "Earth's near-twin in size, and a warning about what a greenhouse effect can do.",
+      "body": "Venus is the second planet from the Sun and the closest planet to Earth [1].\n\n## Almost Earth's twin\n\nVenus is 12,104 kilometres across — only a few hundred kilometres smaller than Earth — and made of similar rocky material. For a long time people imagined it might have jungles and oceans under its clouds [1].\n\n## The hottest planet\n\nThe surface of Venus is about 465 degrees Celsius. That is hotter than an oven, hot enough to melt lead, and hotter than Mercury even though Mercury is much closer to the Sun [1].\n\nThe reason is its atmosphere. Venus is wrapped in a thick blanket of carbon dioxide, about 96 percent of the air. Sunlight gets in, warms the ground, and the heat cannot escape. This is a runaway greenhouse effect [1].\n\nThe air is also crushingly heavy — about 92 times the pressure at Earth's surface, like being 900 metres underwater [1].\n\nThe clouds are not water. They are sulfuric acid [1].\n\n## A strange day\n\nVenus spins very slowly and in the opposite direction to most planets. One spin takes 243 Earth days, while one trip around the Sun takes only 225. On Venus, a day is longer than a year [1].\n\n## Why it matters\n\nVenus and Earth started out similar. Something went very differently. Studying why is one way scientists learn how climate works, and what makes a planet stay habitable [2]."
+    },
+    "teen": {
+      "summary": "A terrestrial planet of near-Earth size rendered uninhabitable by a runaway greenhouse effect, and a natural experiment in planetary climate.",
+      "body": "Venus is the second planet from the Sun, with a diameter of 12,104 km and a bulk composition closely comparable to Earth's [1].\n\n## Atmosphere and surface conditions\n\nThe atmosphere is approximately 96 percent carbon dioxide with about 3.5 percent nitrogen, at a surface pressure near 92 bar — equivalent to roughly 900 metres of ocean depth on Earth.\n\nMean surface temperature is about 737 K (465 °C), higher than Mercury's despite Venus receiving less than half the solar flux at Mercury's distance. The cause is greenhouse trapping by the dense CO2 atmosphere, not proximity to the Sun [1].\n\nCloud decks between roughly 45 and 70 km altitude consist of sulfuric acid droplets, giving Venus its high albedo and its brightness in Earth's sky.\n\n## The runaway greenhouse\n\nThe standard account holds that Venus may once have had liquid surface water. As solar luminosity increased, water evaporated; water vapour is itself a strong greenhouse gas, driving further warming and further evaporation. Water vapour reaching the upper atmosphere was photodissociated, and hydrogen escaped to space.\n\nThe strongest evidence for large water loss is the deuterium-to-hydrogen ratio, which is enriched roughly a hundredfold relative to Earth — the signature expected when lighter hydrogen escapes preferentially [1].\n\nWhether Venus ever actually had surface oceans remains debated; the D/H evidence establishes substantial water loss but does not by itself settle the question of liquid oceans [2].\n\n## Rotation\n\nVenus rotates retrograde with a sidereal period of about 243 Earth days, longer than its 225-day orbital period. Explanations invoke tidal interactions with the Sun combined with atmospheric torques, and possibly a large early impact; no single account is established [1].\n\n## Geology and exploration\n\nRadar mapping, principally by Magellan, revealed extensive volcanic plains, tesserae and large volcanic constructs, with a low and relatively uniform crater density suggesting a comparatively young surface. Evidence of ongoing volcanic activity has been reported from archival Magellan data.\n\nSoviet Venera landers returned surface images and composition data in the 1970s and 1980s, surviving between minutes and around two hours before succumbing to heat and pressure [2]."
+    },
+    "adult": {
+      "summary": "A terrestrial planet of near-Earth mass and radius whose dense CO2 atmosphere sustains surface conditions of approximately 737 K and 92 bar, and the archetypal runaway greenhouse.",
+      "body": "Venus is the second planet from the Sun, with a radius and mass within a few percent of Earth's, yet with surface conditions among the most extreme in the Solar System [1].\n\n## Atmospheric state\n\nThe atmosphere is dominated by carbon dioxide (about 96.5 percent) with nitrogen making up most of the remainder, at a surface pressure of approximately 9.2 MPa and a mean surface temperature near 737 K. The vertical temperature structure is near-adiabatic through the troposphere, and surface temperature is nearly uniform in latitude and between day and night — a consequence of the enormous atmospheric heat capacity and efficient transport.\n\nSulfuric acid cloud decks between roughly 45 and 70 km yield a Bond albedo near 0.77. Venus consequently absorbs less solar energy than Earth despite its closer orbit, which sharpens the point: its surface temperature is a greenhouse effect, not an insolation effect [1].\n\nThe atmosphere super-rotates, circulating in about four Earth days against a 243-day solid-body rotation. The angular momentum budget sustaining this is not fully closed and remains an active problem.\n\n## Runaway greenhouse and water history\n\nThe canonical model posits early water inventories lost through a moist or runaway greenhouse: rising luminosity drives evaporation, water vapour amplifies warming, and vapour reaching the upper atmosphere is photodissociated with subsequent hydrogen escape.\n\nThe principal observational constraint is the deuterium-to-hydrogen ratio, enriched by approximately two orders of magnitude relative to terrestrial values, consistent with preferential loss of the lighter isotope from a much larger initial reservoir [1].\n\nWhether Venus sustained surface liquid water for any extended period is genuinely unresolved. General circulation modelling has produced both habitable-past and never-habitable outcomes depending on assumptions about early rotation, cloud feedback and initial water inventory. The D/H evidence constrains total loss, not surface phase [2].\n\n## Rotational state\n\nVenus rotates retrograde with a sidereal period of approximately 243.02 days, exceeding its 224.7-day orbital period, giving a solar day of about 117 Earth days. Proposed explanations combine solar gravitational tides, atmospheric thermal tides acting on the dense atmosphere, and core-mantle friction, with a giant impact invoked in some accounts. No consensus exists [1].\n\n## Surface geology\n\nMagellan radar mapping at global coverage revealed volcanic plains, coronae, tesserae and shield constructs, with an impact crater population that is sparse, near-randomly distributed and largely unmodified. This has been interpreted as indicating a globally young surface, with catastrophic resurfacing and equilibrium resurfacing models both advanced; the question is not settled.\n\nVenus lacks plate tectonics in the terrestrial sense and possesses no detectable intrinsic magnetic field. Recent reanalysis of Magellan imagery has identified changes interpreted as active volcanism, and forthcoming missions are designed in part to test this [2].\n\n## Exploration record\n\nThe Venera programme achieved the first successful landings on another planet, returning surface panoramas and geochemical measurements. Operational lifetimes on the surface ranged from roughly 20 minutes to slightly over two hours, limited by thermal and pressure failure — a durable illustration of the engineering constraint the surface environment imposes [2]."
+    }
+  },
+  "citations": [
+    {
+      "marker": 1,
+      "source": "nasa-solar-system",
+      "claim": "Venus's diameter, surface temperature and pressure, atmospheric composition, sulfuric acid clouds, retrograde rotation, orbital and rotational periods, and the deuterium-to-hydrogen enrichment.",
+      "supports": "supports"
+    },
+    {
+      "marker": 2,
+      "source": "nasa-science",
+      "claim": "Magellan radar mapping and surface geology, the debate over Venus's water history and surface age, reported evidence of active volcanism, and the Venera landings.",
+      "supports": "supports"
+    }
+  ],
+  "relations": [
+    {
+      "to": "solar-system",
+      "kind": "part_of"
+    },
+    {
+      "to": "earth",
+      "kind": "contrasts_with"
+    },
+    {
+      "to": "mars",
+      "kind": "contrasts_with"
+    },
+    {
+      "to": "climate-change",
+      "kind": "related",
+      "weight": 0.6
+    }
+  ],
+  "timeline": [
+    {
+      "title": "Venera 7 lands on Venus",
+      "start": 1970,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 4,
+      "description": "The first successful landing on another planet."
+    },
+    {
+      "title": "Magellan maps Venus by radar",
+      "start": 1990,
+      "end": 1994,
+      "precision": "year",
+      "era": "Modern",
+      "importance": 4
+    }
+  ],
+  "review": {
+    "last_reviewed": "2026-09-06"
+  }
+}

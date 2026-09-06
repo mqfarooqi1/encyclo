@@ -1,0 +1,195 @@
+{
+  "slug": "world-war-ii",
+  "title": "World War II",
+  "type": "war",
+  "categories": [
+    "history"
+  ],
+  "primary_category": "history",
+  "aliases": [
+    {
+      "text": "Second World War",
+      "kind": "alternative"
+    },
+    {
+      "text": "WWII",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "WW2",
+      "kind": "abbreviation"
+    }
+  ],
+  "kids_safe": true,
+  "summary": "The deadliest conflict in history, fought between 1939 and 1945, which reshaped the world's borders, institutions and understanding of human rights.",
+  "facts": [
+    {
+      "key": "began",
+      "label": "Began in Europe",
+      "value": "1 September 1939, with the invasion of Poland",
+      "value_num": 1939,
+      "group": "Timing",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "ended",
+      "label": "Ended",
+      "value": "2 September 1945",
+      "value_num": 1945,
+      "group": "Timing",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "sides",
+      "label": "The two sides",
+      "value": "The Allies and the Axis powers",
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "deaths",
+      "label": "Total deaths",
+      "value": "Estimated 70 to 85 million",
+      "value_num": 75000000,
+      "epistemic": "estimate",
+      "confidence": 0.5,
+      "group": "Cost",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "civilian",
+      "label": "Civilian share of deaths",
+      "value": "Most of those killed were civilians",
+      "epistemic": "estimate",
+      "confidence": 0.8,
+      "group": "Cost",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "holocaust",
+      "label": "The Holocaust",
+      "value": "Around six million Jewish people were murdered",
+      "value_num": 6000000,
+      "epistemic": "estimate",
+      "confidence": 0.85,
+      "group": "Cost",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "un",
+      "label": "United Nations founded",
+      "value": "1945, to try to prevent another such war",
+      "value_num": 1945,
+      "group": "Aftermath",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "countries",
+      "label": "Countries involved",
+      "value": "More than 50",
+      "value_num": 50,
+      "epistemic": "estimate",
+      "confidence": 0.7,
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    }
+  ],
+  "content": {
+    "age6_8": {
+      "summary": "A very big and very sad war that involved most of the world.",
+      "body": "World War II was a war that most countries in the world were caught up in. It lasted from 1939 to 1945 [1].\n\nIt was the biggest and saddest war there has ever been. Many, many people died, including ordinary families who were not soldiers [1].\n\nChildren in some cities were sent to live in the countryside to keep them safe [1].\n\nTerrible things were done during the war. Millions of people were killed simply because of who they were. We remember them so that it is never forgotten [2].\n\nAfter the war, countries made an organisation called the United Nations to help them talk instead of fight [1]."
+    },
+    "age9_12": {
+      "summary": "Why the war started, who fought, what it cost, and what changed afterwards.",
+      "body": "World War II was fought from 1939 to 1945 and involved more than fifty countries. It was the deadliest conflict in human history [1].\n\n## How it started\n\nAfter World War I, Germany was left with heavy debts and deep resentment. Economic collapse in the 1930s helped Adolf Hitler and the Nazi Party take power.\n\nHitler broke international agreements and took over neighbouring territory while other countries, hoping to avoid another war, allowed it. When Germany invaded Poland on 1 September 1939, Britain and France declared war [1].\n\n## The two sides\n\nThe **Axis** powers were led by Germany, Italy and Japan.\n\nThe **Allies** were led by Britain, the Soviet Union, the United States and China, joined by many others [1].\n\n## A war everywhere\n\nUnlike earlier wars, this one reached almost everywhere: Europe, North Africa, the Atlantic, and across Asia and the Pacific.\n\nIt also reached civilians directly. Cities were bombed from the air, and far more civilians died than soldiers [1].\n\n## The Holocaust\n\nThe Nazi government deliberately murdered around six million Jewish people, along with Roma, disabled people, political opponents and others.\n\nThis was not a side effect of the fighting. It was organised, planned and carried out using records, railways and factories. The word genocide was created afterwards to describe crimes of this kind [2].\n\nMuseums and memorials exist so that survivors' testimony is preserved and the evidence is never in doubt [2].\n\n## The end\n\nGermany surrendered in May 1945. In August, the United States dropped atomic bombs on Hiroshima and Nagasaki, and Japan surrendered. The war formally ended on 2 September 1945 [1].\n\n## What changed\n\nThe United Nations was founded in 1945 to prevent another such war. The Universal Declaration of Human Rights followed in 1948.\n\nEmpires began to break up, the map of Europe was redrawn, and the United States and Soviet Union emerged as rival superpowers — the start of the Cold War [1]."
+    },
+    "teen": {
+      "summary": "A global conflict of unprecedented scale and civilian cost, whose outcomes shaped the postwar international order.",
+      "body": "World War II was fought between 1939 and 1945 between the Allied and Axis powers, and remains the deadliest conflict in recorded history [1].\n\n## Origins\n\nThe Versailles settlement imposed reparations and territorial losses on Germany that fostered lasting grievance, though historians dispute how directly this caused what followed. The Great Depression radicalised European politics and enabled the Nazi seizure of power in 1933.\n\nThe policy of appeasement, permitting successive German territorial expansions, reflected both a genuine desire to avoid repeating 1914-18 and military unpreparedness. Its failure is now the standard historical reference point for the risks of conceding to aggression, though the counterfactual is not straightforward [1].\n\n## Scope\n\nThe conflict spanned Europe, North Africa, the Atlantic, the Soviet Union, China and the Pacific. The Eastern Front was by a wide margin the largest theatre: Soviet losses alone are estimated at 24-27 million, the majority civilian, and the great bulk of German army casualties occurred there.\n\nWestern popular memory substantially underweights this, which distorts understanding of how the war in Europe was actually decided [1].\n\n## Total war and civilians\n\nStrategic bombing, siege, forced labour, famine and deliberate extermination made civilians the majority of the dead. Total deaths are estimated at 70-85 million; the wide range reflects incomplete records, contested definitions of war-related death, and the deliberate destruction of evidence [1].\n\n## The Holocaust\n\nThe systematic murder of approximately six million Jews was pursued as state policy, using census records, railway networks and purpose-built extermination camps. Additional victims included Roma and Sinti, disabled people murdered under the T4 programme, Soviet prisoners of war, Polish civilians, political prisoners and gay men.\n\nThe Holocaust is not merely an atrocity within a war but a distinct programme of industrialised genocide, and it is documented by perpetrator records, physical evidence, and extensive survivor and liberator testimony. Denial is not a historical position but a demonstrable falsification of an exceptionally well-evidenced record [2].\n\n## Conclusion and consequences\n\nGermany surrendered in May 1945. Atomic bombs were used against Hiroshima and Nagasaki in August; Japan's surrender was formalised on 2 September. Whether the bombings were militarily necessary remains genuinely debated among historians, with evidence adduced on multiple sides.\n\nOutcomes included the United Nations (1945), the Nuremberg trials establishing individual criminal liability for crimes against humanity, the Universal Declaration of Human Rights (1948), the Genocide Convention, accelerated decolonisation, and the bipolar Cold War order [1]."
+    },
+    "adult": {
+      "summary": "A global total war of unprecedented lethality whose settlement produced the postwar international legal and institutional order.",
+      "body": "World War II was fought from 1939 to 1945 between the Allied and Axis coalitions, and constitutes the deadliest armed conflict in recorded history [1].\n\n## Historiographical framing of origins\n\nThe relationship between the Versailles settlement and the outbreak of war is contested. Structuralist accounts emphasise economic dislocation and the systemic instability of the interwar order; intentionalist accounts emphasise the specific ideological programme of the Nazi leadership, including the *Lebensraum* objective articulated well before 1933.\n\nThe contemporary balance favours accounts assigning substantial weight to ideology while recognising that the Depression created the conditions for its political success. Appeasement is better understood as a policy reflecting military weakness, imperial overextension and public aversion to repetition of 1914-18 than as simple failure of nerve [1].\n\n## Theatre asymmetry\n\nThe Eastern Front dominated the European conflict by any quantitative measure. Soviet military and civilian deaths are estimated at 24-27 million; the Wehrmacht sustained the majority of its casualties there; and the decisive attritional engagements occurred on that front.\n\nAnglophone popular memory disproportionately emphasises Western theatres. The distortion has analytic consequences, since it obscures the demographic and industrial basis on which the European war was decided [1].\n\n## Mortality estimation\n\nThe 70-85 million range reflects genuine methodological difficulty rather than imprecision alone: incomplete or destroyed civil registration, contested attribution of famine and disease deaths, boundary changes complicating national accounting, and definitional disagreement about war-related mortality.\n\nCivilian deaths exceeded military deaths, a reversal of earlier conflict patterns attributable to strategic bombing, siege warfare, occupation policy, induced famine and genocide [1].\n\n## The Holocaust\n\nThe murder of approximately six million Jews proceeded through escalating stages — legal exclusion, ghettoisation, mass shooting by *Einsatzgruppen*, and industrialised killing at extermination camps.\n\nIts documentation is exceptionally thorough: perpetrator administrative records, transport manifests, camp construction and procurement documents, physical and forensic evidence, contemporaneous Allied intelligence, liberator documentation, and tens of thousands of survivor testimonies. The evidentiary base is stronger than for most historical events of comparable period.\n\nHistorical debate concerns mechanism and decision-making — the functionalist-intentionalist question of how and when systematic extermination was decided — not whether it occurred. Denial has no evidentiary standing and is legally proscribed in several jurisdictions [2].\n\n## Termination and settlement\n\nGerman capitulation followed in May 1945. Atomic weapons were employed against Hiroshima and Nagasaki in August, with Japanese surrender formalised on 2 September.\n\nThe necessity and morality of the atomic bombings remain subject to substantive historical debate, weighing projected invasion casualties, the effect of Soviet entry into the Pacific war, and Japanese internal decision-making. Contemporary scholarship treats this as genuinely unresolved rather than settled in either direction.\n\nInstitutional consequences were far-reaching: the United Nations system, the Nuremberg and Tokyo tribunals establishing individual criminal responsibility for aggression and crimes against humanity, the Universal Declaration of Human Rights, the Genocide and refugee conventions, the Bretton Woods economic order, accelerated decolonisation, and the bipolar structure of the Cold War [1]."
+    }
+  },
+  "citations": [
+    {
+      "marker": 1,
+      "source": "iwm",
+      "claim": "The chronology, belligerents and theatres of the Second World War, casualty estimates and their uncertainty, the predominance of civilian deaths, and the postwar institutional settlement.",
+      "supports": "supports"
+    },
+    {
+      "marker": 2,
+      "source": "ushmm",
+      "claim": "The scale, stages and documentation of the Holocaust, the range of groups targeted, and the evidentiary basis of the historical record.",
+      "supports": "supports"
+    }
+  ],
+  "relations": [
+    {
+      "to": "alan-turing",
+      "kind": "related"
+    },
+    {
+      "to": "albert-einstein",
+      "kind": "related",
+      "weight": 0.5
+    },
+    {
+      "to": "the-atom",
+      "kind": "related",
+      "weight": 0.4
+    }
+  ],
+  "timeline": [
+    {
+      "title": "Germany invades Poland; war begins in Europe",
+      "start": 1939,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 5
+    },
+    {
+      "title": "Germany surrenders",
+      "start": 1945,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 5
+    },
+    {
+      "title": "United Nations founded",
+      "start": 1945,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 5
+    },
+    {
+      "title": "Universal Declaration of Human Rights adopted",
+      "start": 1948,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 4
+    }
+  ],
+  "review": {
+    "last_reviewed": "2026-09-06",
+    "review_months": 60
+  }
+}

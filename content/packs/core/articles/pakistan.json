@@ -1,0 +1,234 @@
+{
+  "slug": "pakistan",
+  "title": "Pakistan",
+  "type": "country",
+  "categories": [
+    "countries",
+    "geography",
+    "history"
+  ],
+  "primary_category": "countries",
+  "aliases": [
+    {
+      "text": "Islamic Republic of Pakistan",
+      "kind": "alternative"
+    }
+  ],
+  "summary": "A South Asian country of great mountains and a great river, home to one of the world's earliest urban civilisations and to one of its largest populations.",
+  "facts": [
+    {
+      "key": "capital",
+      "label": "Capital",
+      "value": "Islamabad",
+      "comparable_key": "capital",
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "largest_city",
+      "label": "Largest city",
+      "value": "Karachi",
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "population",
+      "label": "Population",
+      "value": "About 240 million",
+      "value_num": 240000000,
+      "epistemic": "estimate",
+      "confidence": 0.75,
+      "comparable_key": "population",
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "area",
+      "label": "Area",
+      "value": "About 881,900 km²",
+      "value_num": 881913,
+      "unit": "km²",
+      "comparable_key": "area",
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "independence",
+      "label": "Independence",
+      "value": "14 August 1947",
+      "value_num": 1947,
+      "group": "History",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "languages",
+      "label": "Languages",
+      "value": "Urdu and English are official; Punjabi, Sindhi, Pashto and others are widely spoken",
+      "comparable_key": "official_language",
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "river",
+      "label": "Main river",
+      "value": "The Indus, which supports most of the country's agriculture",
+      "group": "Geography",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "k2",
+      "label": "K2",
+      "value": "The world's second highest mountain, at 8,611 m",
+      "value_num": 8611,
+      "unit": "m",
+      "group": "Geography",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "indus_valley",
+      "label": "Indus Valley civilisation",
+      "value": "Cities such as Mohenjo-daro flourished from about 2600 BCE",
+      "value_num": -2600,
+      "unit": "years",
+      "epistemic": "estimate",
+      "confidence": 0.8,
+      "group": "History",
+      "cite": [
+        2
+      ]
+    }
+  ],
+  "content": {
+    "age6_8": {
+      "summary": "A country in South Asia with huge mountains and a very long river.",
+      "body": "Pakistan is a country in the south of Asia [1].\n\nIn the north there are enormous mountains, some of the highest in the whole world [2].\n\nA great river called the Indus flows all the way through the country. Farmers use its water to grow food [2].\n\nA very, very long time ago, people in this area built some of the world's first cities. They had straight streets and drains, which was very clever for the time [2].\n\nLots of people live in Pakistan — more than in most countries [1].\n\nThe capital city is called Islamabad, and the biggest city is Karachi [1]."
+    },
+    "age9_12": {
+      "summary": "Mountains, the Indus, ancient cities, and a country created in 1947.",
+      "body": "Pakistan is a country in South Asia with a population of around 240 million — one of the largest in the world [1].\n\n## The land\n\nThe north holds some of the highest mountains on Earth, where three great ranges meet: the Himalaya, the Karakoram and the Hindu Kush.\n\nK2, in the Karakoram, is the second highest mountain in the world at 8,611 metres. It is considered far more dangerous to climb than Everest [2].\n\nIn contrast, much of the south is arid plain and desert.\n\n## The Indus\n\nRunning the length of the country is the Indus River, fed by snow and glacier melt from the mountains.\n\nPakistan depends on it. It supports one of the largest irrigation systems in the world, and most of the country's farming. Water sharing with neighbouring countries, and the effect of shrinking glaciers, are serious long-term concerns [2].\n\n## One of the first cities\n\nAround 2600 BCE, cities such as Mohenjo-daro and Harappa flourished along the Indus.\n\nThey were remarkably well planned: streets laid out on a grid, brick houses, public wells, bathrooms and covered drains — sanitation better than in many cities thousands of years later [2].\n\nThey also had a writing system. It has never been deciphered, so we still cannot read what they wrote about themselves. That is a genuine gap in our knowledge, not something waiting to be looked up [2].\n\n## A country made in 1947\n\nFor a long time the region was part of the Mughal Empire, and later of British India.\n\nWhen British rule ended in 1947, the territory was partitioned into India and Pakistan. Pakistan became independent on 14 August 1947.\n\nPartition caused one of the largest migrations in human history, with millions of people crossing the new borders, and enormous loss of life in the violence that accompanied it [1].\n\n## Today\n\nUrdu and English are the official languages, but Punjabi, Sindhi, Pashto, Saraiki and Balochi are spoken by many millions.\n\nPakistan is highly exposed to climate change: it depends on glacier-fed rivers, and it suffers severe flooding, most catastrophically in 2022 when a third of the country was affected [2]."
+    },
+    "teen": {
+      "summary": "A South Asian state defined by the Indus basin and the western Himalaya, with deep antiquity of urban settlement and a partition origin in 1947.",
+      "body": "Pakistan is a federal republic in South Asia of approximately 881,900 km² and around 240 million people, making it among the most populous countries in the world [1].\n\n## Physical geography\n\nThe north contains the convergence of the Himalaya, Karakoram and Hindu Kush ranges, including five peaks above 8,000 m. K2 at 8,611 m is the second highest summit globally and has a substantially higher fatality rate among climbers than Everest, reflecting steeper technical ground and more severe weather [2].\n\nThe Indus basin dominates the settled area. The river and its tributaries are fed substantially by snowmelt and glacier melt, and support the Indus Basin Irrigation System — among the largest contiguous irrigation networks in the world.\n\nThis creates acute hydrological dependency. Upstream water allocation is governed by the Indus Waters Treaty of 1960, and glacier retreat introduces long-term supply uncertainty additional to the seasonal variability the system was designed around [2].\n\n## The Indus Valley civilisation\n\nHarappan urbanism, flourishing from roughly 2600 to 1900 BCE, produced cities including Mohenjo-daro and Harappa with grid street plans, standardised fired brick, wells, bathing platforms and covered drainage.\n\nThe standardisation of weights and brick dimensions across a very large area implies administrative coordination, yet the archaeological record shows no monumental palaces, royal burials or unambiguous depictions of rulers — a striking contrast with contemporaneous Egypt and Mesopotamia. What form of authority organised it is genuinely unknown.\n\nThe Indus script remains undeciphered. With no bilingual text and short inscriptions, decipherment may not be achievable, and even whether it encodes language is disputed. Statements about Harappan religion or politics drawn from the script should be treated as speculation [2].\n\n## Partition and statehood\n\nBritish India was partitioned in August 1947, with Pakistan independent on 14 August and India on 15 August.\n\nPartition displaced an estimated 10 to 20 million people and caused deaths estimated between several hundred thousand and two million; the ranges are wide because record-keeping collapsed and because the figures have been politically contested ever since.\n\nThe Kashmir dispute originates in this period and remains unresolved, having contributed to multiple wars [1].\n\n## Contemporary profile\n\nUrdu and English are official; Punjabi is the most widely spoken first language, with Sindhi, Pashto, Saraiki and Balochi also major.\n\nPakistan is among the countries most exposed to climate risk while contributing a very small share of historical emissions. The 2022 floods affected roughly a third of the country and displaced millions, and the combination of glacier-dependent rivers, monsoon variability and dense floodplain settlement makes this exposure structural rather than incidental [2]."
+    },
+    "adult": {
+      "summary": "A South Asian federal republic structured by the Indus basin, holding one of the earliest urban archaeological records and originating in the 1947 partition of British India.",
+      "body": "Pakistan is a federal parliamentary republic of approximately 881,900 km² in South Asia, with a population near 240 million [1].\n\n## Hydrology as a structural determinant\n\nThe state's geography is organised around the Indus system. Precipitation over most of the settled area is insufficient for rainfed agriculture, making the irrigation network the precondition for the current population distribution.\n\nRunoff derives substantially from cryospheric sources in the upper basin, where the Karakoram exhibits anomalous glacier behaviour relative to global trends — the so-called Karakoram anomaly of near-balance or slight gain — the causes and persistence of which are unresolved.\n\nThe Indus Waters Treaty (1960) allocates the eastern rivers to India and western rivers to Pakistan and has survived multiple armed conflicts, but is under increasing strain from hydropower development, changing hydrology and rising demand. Water security is not a peripheral policy issue here but a determinant of national viability [2].\n\n## Harappan archaeology\n\nThe Indus Valley civilisation, mature phase approximately 2600-1900 BCE, extended over an area larger than contemporaneous Egypt or Mesopotamia.\n\nUrban planning at Mohenjo-daro and Harappa exhibits orthogonal street grids, standardised baked brick in fixed ratios, granaries, wells and articulated drainage — infrastructure whose sanitary sophistication was not matched in the region for millennia afterwards.\n\nThe absence of identifiable palaces, royal tombs, large-scale iconography of rulers or evidence of extensive warfare distinguishes it sharply from the other early urban civilisations. Proposals range from decentralised corporate governance to ritual authority; the evidence does not resolve the question, and confident characterisations should be treated with caution.\n\nThe undeciphered script constitutes a hard epistemic limit. Corpus inscriptions are extremely short, no bilingual is known, and the underlying language is unidentified. A minority position holds that the sign system is non-linguistic. Decipherment claims are numerous and none is accepted [2].\n\n## Partition\n\nThe 1947 partition of British India created Pakistan on 14 August. The boundary award was published after independence, contributing to the disorder that followed.\n\nDisplacement estimates of 10-20 million and mortality estimates ranging from several hundred thousand to two million reflect both genuine record failure and sustained politicisation of the numbers. Presenting any single figure as established misrepresents the state of the evidence.\n\nThe accession of Jammu and Kashmir remains disputed, has produced repeated interstate conflict, and continues to structure regional security including in a nuclear context [1].\n\n## Climate exposure\n\nPakistan's climate vulnerability is a function of physical geography and settlement pattern: glacier- and monsoon-dependent hydrology, extensive floodplain habitation, high population density and limited fiscal adaptive capacity.\n\nThe 2022 monsoon floods inundated approximately a third of the country, displaced millions and caused damage estimated in the tens of billions of dollars. The event was influential in international negotiations on loss and damage financing, precisely because the asymmetry between historical emissions contribution and realised harm is unusually stark [2]."
+    }
+  },
+  "citations": [
+    {
+      "marker": 1,
+      "source": "pbs-pakistan",
+      "claim": "Pakistan's population, area, capital and largest city, official and widely spoken languages, and the date of independence in 1947.",
+      "supports": "partially"
+    },
+    {
+      "marker": 2,
+      "source": "unesco-whc",
+      "claim": "The Indus Valley civilisation including Mohenjo-daro's urban planning and the undeciphered script, K2 and the northern ranges, the Indus irrigation system, and Pakistan's climate exposure including the 2022 floods.",
+      "supports": "partially"
+    }
+  ],
+  "relations": [
+    {
+      "to": "silk-road",
+      "kind": "related"
+    },
+    {
+      "to": "climate-change",
+      "kind": "related"
+    },
+    {
+      "to": "glacier",
+      "kind": "related"
+    },
+    {
+      "to": "ancient-egypt",
+      "kind": "contrasts_with",
+      "weight": 0.5
+    }
+  ],
+  "timeline": [
+    {
+      "title": "Indus Valley cities flourish",
+      "start": -2600,
+      "end": -1900,
+      "precision": "century",
+      "era": "Ancient",
+      "importance": 5,
+      "epistemic": "estimate"
+    },
+    {
+      "title": "Pakistan becomes independent",
+      "start": 1947,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 5
+    },
+    {
+      "title": "Indus Waters Treaty signed",
+      "start": 1960,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 4
+    },
+    {
+      "title": "Catastrophic floods affect a third of the country",
+      "start": 2022,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 4
+    }
+  ],
+  "places": [
+    {
+      "name": "Islamabad",
+      "kind": "city",
+      "lat": 33.68,
+      "lon": 73.05,
+      "country": "PK"
+    },
+    {
+      "name": "Karachi",
+      "kind": "city",
+      "lat": 24.86,
+      "lon": 67.01,
+      "country": "PK"
+    },
+    {
+      "name": "Mohenjo-daro",
+      "kind": "site",
+      "lat": 27.33,
+      "lon": 68.14,
+      "country": "PK"
+    },
+    {
+      "name": "K2",
+      "kind": "site",
+      "lat": 35.88,
+      "lon": 76.51,
+      "country": "PK"
+    }
+  ],
+  "review": {
+    "last_reviewed": "2026-09-06",
+    "review_months": 12
+  }
+}

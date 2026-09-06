@@ -1,0 +1,152 @@
+{
+  "slug": "electricity",
+  "title": "Electricity",
+  "type": "science_concept",
+  "categories": [
+    "science",
+    "technology",
+    "engineering"
+  ],
+  "primary_category": "science",
+  "aliases": [
+    {
+      "text": "electric current",
+      "kind": "scientific"
+    },
+    {
+      "text": "electrical energy",
+      "kind": "alternative"
+    }
+  ],
+  "summary": "The movement of electric charge, and the physical phenomenon behind almost every machine, light and computer people use.",
+  "facts": [
+    {
+      "key": "what",
+      "label": "What it is",
+      "value": "The movement of electric charge, usually electrons",
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "current",
+      "label": "Current",
+      "value": "How much charge flows, measured in amperes",
+      "group": "Measurements",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "voltage",
+      "label": "Voltage",
+      "value": "The push that drives the flow, measured in volts",
+      "group": "Measurements",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "resistance",
+      "label": "Resistance",
+      "value": "How much a material opposes the flow, measured in ohms",
+      "group": "Measurements",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "ohms_law",
+      "label": "Ohm's law",
+      "value": "Voltage = current × resistance",
+      "group": "Measurements",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "drift_speed",
+      "label": "How fast electrons actually move",
+      "value": "Very slowly — often less than a millimetre per second",
+      "epistemic": "estimate",
+      "confidence": 0.85,
+      "group": "Surprises",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "signal_speed",
+      "label": "How fast the effect travels",
+      "value": "Close to the speed of light",
+      "group": "Surprises",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "lightning",
+      "label": "Lightning",
+      "value": "A natural electrical discharge, reaching around 30,000 °C",
+      "value_num": 30000,
+      "unit": "°C",
+      "epistemic": "estimate",
+      "confidence": 0.7,
+      "group": "In nature",
+      "cite": [
+        2
+      ]
+    }
+  ],
+  "content": {
+    "age6_8": {
+      "summary": "The energy that makes lights, televisions and computers work.",
+      "body": "Electricity makes your lights come on and your television work [1].\n\nEverything is made of atoms, and atoms have tiny bits called electrons. When electrons move along a wire, that is electricity [1].\n\nElectricity flows easily through metal. That is why wires are made of metal [1].\n\nIt does not flow through plastic. That is why wires are covered in plastic — to keep the electricity safely inside [1].\n\nLightning is electricity too, but an enormous amount of it all at once [2].\n\nNever play with plugs or sockets. Electricity from them is very dangerous."
+    },
+    "age9_12": {
+      "summary": "What is actually flowing in a wire, the three key measurements, and a surprise about speed.",
+      "body": "Electricity is the movement of electric charge. In a wire, the charge is carried by electrons [1].\n\n## Three things to measure\n\n- **Current** is how much charge flows past a point each second, measured in amperes.\n- **Voltage** is the push driving the charge, measured in volts.\n- **Resistance** is how strongly a material opposes the flow, measured in ohms [1].\n\nThey are linked by Ohm's law: voltage equals current times resistance. More push gives more flow; more resistance gives less.\n\nA useful comparison is water in a pipe. Voltage is the pressure, current is the flow rate, resistance is how narrow the pipe is. The comparison is not perfect, but it gets the relationships right.\n\n## Conductors and insulators\n\nIn metals, some electrons are not attached to any one atom and can move freely. That makes metals good conductors.\n\nIn plastic, rubber and glass, electrons are held tightly, so charge cannot move. These are insulators, and they are what keeps electricity where we want it [1].\n\n## A surprise about speed\n\nWhen you flick a switch, the light comes on immediately. So the electrons must be racing along the wire at enormous speed — right?\n\nNo. Individual electrons drift extremely slowly, often less than a millimetre per second.\n\nWhat travels fast is the electric field, which pushes on electrons all along the wire at nearly the speed of light. The wire is already full of electrons; the field simply tells them all to start moving at once.\n\nIt is like a pipe already full of water. Push at one end and water comes out the other immediately, even though no single drop travelled the whole length [2].\n\n## Lightning\n\nInside a storm cloud, ice and water particles collide and charge builds up. When it becomes large enough, it discharges as a lightning bolt.\n\nThe channel heats to around 30,000 degrees Celsius — several times the surface of the Sun. That sudden heating makes air expand explosively, which is thunder [2]."
+    },
+    "teen": {
+      "summary": "The behaviour of electric charge and fields, the circuit quantities describing it, and the distinction between charge drift and signal propagation.",
+      "body": "Electricity encompasses phenomena arising from electric charge, at rest and in motion [1].\n\n## Charge and field\n\nCharge is a fundamental property, quantised in units of the elementary charge and conserved absolutely. Like charges repel and unlike attract, with force following Coulomb's inverse-square law.\n\nCharges create electric fields; fields exert forces on other charges. This field description matters, because it explains how influence propagates and why signals travel far faster than the charges themselves [1].\n\n## Circuit quantities\n\nCurrent is charge flow rate in amperes; potential difference is energy per unit charge in volts; resistance is their ratio in ohms. Ohm's law holds for ohmic materials over limited conditions and is not a universal law — semiconductors and gas discharges depart from it substantially.\n\nPower dissipated is the product of current and voltage; in a resistor this appears as heat, scaling with the square of current. This is why long-distance transmission uses high voltage and low current: for a given power delivered, resistive losses fall as the square of the current [1].\n\n## Conduction\n\nMetallic conduction arises from delocalised electrons in a partially filled conduction band. Insulators have a large band gap between filled valence and empty conduction bands. Semiconductors have an intermediate gap, and their conductivity can be controlled by doping and by applied fields — the basis of every transistor and therefore of all modern computing [1].\n\n## Drift velocity and signal speed\n\nElectron drift velocity in a typical domestic conductor is of order 10^-4 m/s. Yet a circuit responds essentially instantaneously.\n\nThe resolution is that energy and signal are carried by the electromagnetic field, propagating at a substantial fraction of c, not by the transit of individual charges. The conductor guides the field; the drifting electrons are the medium of dissipation rather than of transport.\n\nThis is not a pedantic distinction. It is why transmission line effects matter at high frequency, and why the classical picture of electrons as tiny bullets carrying energy along a wire is misleading [2].\n\n## Generation and distribution\n\nMost electrical generation exploits Faraday's law: a changing magnetic flux induces an electromotive force. Turbines driven by steam, water or wind rotate conductors in magnetic fields.\n\nAlternating current dominates distribution because transformers can change AC voltage efficiently, permitting high-voltage low-loss transmission and low-voltage safe use — the decisive practical argument in the late nineteenth-century AC/DC dispute [1].\n\n## Atmospheric electricity\n\nCharge separation in cumulonimbus clouds, driven by collisions between graupel and ice crystals in updraughts, builds potential differences of hundreds of megavolts. Discharge produces a channel heated to roughly 30,000 K, and the resulting explosive expansion of air is thunder [2]."
+    },
+    "adult": {
+      "summary": "The phenomenology of electric charge and electromagnetic fields, the circuit-level description derived from it, and the field-based account of energy transport.",
+      "body": "Electricity denotes the class of phenomena associated with electric charge, static and in motion, unified with magnetism in classical electromagnetism [1].\n\n## Foundations\n\nCharge is quantised and exactly conserved, with the elementary charge fixed by definition since the 2019 SI redefinition. Coulomb's law describes the electrostatic interaction; Maxwell's equations provide the complete classical description of fields and their sources.\n\nThe field formulation is not merely a calculational convenience. Energy density resides in the field, and the Poynting vector describes energy flux. In a DC circuit, energy flows through the space surrounding the conductor rather than within it — the conductor's role is to guide the field and to dissipate energy where resistive [2].\n\n## Circuit theory and its limits\n\nLumped-element circuit analysis is the low-frequency limit of electromagnetic theory, valid where physical dimensions are small relative to wavelength. Ohm's law is a constitutive relation for ohmic conductors, not a fundamental law; it fails for semiconductors, electrolytes, gas discharges and superconductors.\n\nResistive dissipation scaling as I²R establishes the economics of transmission: delivering fixed power at higher voltage proportionally reduces current and quadratically reduces loss. This single relation determined the architecture of electrical grids [1].\n\n## Solid-state conduction\n\nBand theory accounts for the enormous range of conductivity across materials — some 25 orders of magnitude between good conductors and good insulators. Metals possess partially filled bands; insulators have wide gaps; semiconductors have gaps small enough that carrier populations can be manipulated by doping, temperature and applied field.\n\nField-effect control of semiconductor conductivity underlies the MOSFET, and hence essentially all digital computation. The transition from vacuum tube to solid-state device is the single most consequential application of the physics described here [1].\n\n## Transport versus propagation\n\nDrift velocities in ordinary conductors are of order 10^-4 to 10^-5 m/s, while circuit response times correspond to field propagation at a substantial fraction of c.\n\nThe common mental model — energy carried by electrons travelling along the wire — is quantitatively wrong and pedagogically damaging. Energy transport is described by the Poynting flux in the surrounding field; electron drift accounts for dissipation and for charge continuity. The distinction becomes practically significant in transmission line analysis, signal integrity and antenna theory [2].\n\n## Generation, storage and distribution\n\nElectromagnetic induction underlies rotating machine generation across thermal, hydro and wind sources; photovoltaics generate directly through the photovoltaic effect in semiconductor junctions.\n\nAlternating current prevailed for distribution because transformer-based voltage conversion is efficient and simple, whereas DC conversion required rotary machinery at the time. High-voltage DC transmission has since become competitive over long distances and for submarine links, as power electronics made conversion practical — a reversal that reflects changed technology rather than changed physics.\n\nGrid-scale storage remains the principal constraint on high penetration of variable renewable generation, and is an engineering and economic problem rather than an unsolved physical one [1]."
+    }
+  },
+  "citations": [
+    {
+      "marker": 1,
+      "source": "nist",
+      "claim": "Definitions and units of current, voltage and resistance, Ohm's law and its limits, band-theory conduction, resistive losses and the rationale for high-voltage transmission, and electromagnetic induction.",
+      "supports": "partially"
+    },
+    {
+      "marker": 2,
+      "source": "science-museum-uk",
+      "claim": "Electron drift velocity versus signal propagation speed and field-based energy transport, and the physics of lightning discharge and thunder.",
+      "supports": "partially"
+    }
+  ],
+  "relations": [
+    {
+      "to": "the-atom",
+      "kind": "related"
+    },
+    {
+      "to": "computer",
+      "kind": "causes"
+    },
+    {
+      "to": "light",
+      "kind": "related"
+    }
+  ],
+  "review": {
+    "last_reviewed": "2026-09-06",
+    "review_months": 48
+  }
+}

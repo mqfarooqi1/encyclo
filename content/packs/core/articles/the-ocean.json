@@ -1,0 +1,183 @@
+{
+  "slug": "the-ocean",
+  "title": "The Ocean",
+  "type": "environment_topic",
+  "categories": [
+    "geography",
+    "environment",
+    "animals"
+  ],
+  "primary_category": "geography",
+  "aliases": [
+    {
+      "text": "ocean",
+      "kind": "alternative"
+    },
+    {
+      "text": "the sea",
+      "kind": "alternative"
+    },
+    {
+      "text": "oceans",
+      "kind": "alternative"
+    }
+  ],
+  "summary": "The connected body of salt water covering most of the planet, which drives the climate, produces much of the oxygen we breathe, and remains largely unexplored.",
+  "facts": [
+    {
+      "key": "coverage",
+      "label": "Share of Earth's surface",
+      "value": "About 71%",
+      "value_num": 71,
+      "unit": "%",
+      "comparable_key": "surface_water",
+      "group": "Size",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "water_share",
+      "label": "Share of Earth's water",
+      "value": "About 97%",
+      "value_num": 97,
+      "unit": "%",
+      "epistemic": "estimate",
+      "confidence": 0.9,
+      "group": "Size",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "average_depth",
+      "label": "Average depth",
+      "value": "About 3,700 metres",
+      "value_num": 3700,
+      "unit": "m",
+      "epistemic": "estimate",
+      "confidence": 0.85,
+      "group": "Size",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "deepest",
+      "label": "Deepest known point",
+      "value": "Challenger Deep, about 10,900 metres",
+      "value_num": 10900,
+      "unit": "m",
+      "epistemic": "estimate",
+      "confidence": 0.85,
+      "group": "Size",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "oxygen",
+      "label": "Share of Earth's oxygen it produces",
+      "value": "Roughly half",
+      "value_num": 50,
+      "unit": "%",
+      "epistemic": "estimate",
+      "confidence": 0.7,
+      "group": "Life",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "explored",
+      "label": "How much has been mapped in detail",
+      "value": "Only a fraction of the seafloor",
+      "epistemic": "estimate",
+      "confidence": 0.7,
+      "group": "Exploration",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "salt",
+      "label": "Why it is salty",
+      "value": "Rivers carry dissolved minerals from rock into the sea",
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "co2",
+      "label": "Carbon dioxide absorbed",
+      "value": "About a quarter of what people emit",
+      "value_num": 25,
+      "unit": "%",
+      "epistemic": "estimate",
+      "confidence": 0.75,
+      "group": "Climate",
+      "cite": [
+        2
+      ]
+    }
+  ],
+  "content": {
+    "age6_8": {
+      "summary": "The huge salty water that covers most of our planet.",
+      "body": "Most of the Earth is covered by ocean. There is far more sea than land [1].\n\nThe ocean is salty. The salt was washed off rocks by rivers, over millions and millions of years [1].\n\nIn some places the ocean is very deep — deeper than the tallest mountain is high [1].\n\nTiny plant-like living things float in the sea. They make oxygen, just like plants on land. About half the oxygen you breathe comes from the ocean [1].\n\nWe still have not explored most of the deep sea. There are creatures down there nobody has ever seen [2]."
+    },
+    "age9_12": {
+      "summary": "One connected ocean: how deep it goes, why it is salty, and why it controls the climate.",
+      "body": "The ocean covers about 71 percent of Earth's surface and holds around 97 percent of all its water [1].\n\nWe give different parts different names — Pacific, Atlantic, Indian, Southern, Arctic — but it is really one connected body of water. A drop can travel between all of them [1].\n\n## Depth\n\nThe average depth is about 3,700 metres. The deepest known point, Challenger Deep in the Mariana Trench, is close to 10,900 metres. If you dropped Mount Everest into it, the peak would still be more than 2 kilometres underwater [1].\n\nSunlight only reaches the top 200 metres or so. Below that lies a vast dark region, and it makes up most of the living space on the planet [1].\n\n## Why it is salty\n\nRain is slightly acidic, and it slowly dissolves minerals from rock. Rivers carry those minerals to the sea.\n\nWater then evaporates from the ocean, but the salt does not. Over hundreds of millions of years, the salt has stayed behind and built up [1].\n\n## The ocean and the air\n\nTiny drifting organisms called phytoplankton photosynthesise just like land plants. Together they produce roughly half of the oxygen in Earth's atmosphere [1].\n\nThe ocean also stores enormous amounts of heat and carbon dioxide. It has absorbed more than 90 percent of the extra heat from climate change, and around a quarter of the carbon dioxide people have released [2].\n\nThat has slowed warming of the air, but at a cost: the water is warming, and absorbing CO2 makes it more acidic, which is hard for animals that build shells [2].\n\n## Still unexplored\n\nOnly a fraction of the seafloor has been mapped in detail. We have better maps of the surface of Mars than of the bottom of our own ocean [2]."
+    },
+    "teen": {
+      "summary": "A single connected saline water body governing planetary heat distribution, carbon cycling and oxygen production, and largely unmapped at high resolution.",
+      "body": "The ocean covers approximately 71 percent of Earth's surface and contains about 97 percent of its water. The named basins are administrative divisions of one continuous, circulating system [1].\n\n## Structure\n\nMean depth is around 3,700 m, with the Challenger Deep approaching 10,900 m. The photic zone extends only to about 200 m, below which photosynthesis is impossible; the aphotic ocean nonetheless constitutes the largest habitat volume on the planet.\n\nThe water column is density-stratified by temperature and salinity, with the thermocline separating a warm, wind-mixed surface layer from cold deep water. This stratification limits vertical exchange and is central to how the ocean stores heat and carbon [1].\n\n## Salinity\n\nDissolved salts derive from chemical weathering of continental rock delivered by rivers, supplemented by hydrothermal exchange at mid-ocean ridges. Evaporation removes water but not salt.\n\nSalinity is not simply accumulating without limit: removal processes including sea-spray deposition, evaporite formation and hydrothermal uptake balance inputs, so ocean salinity has been broadly stable over geological time [1].\n\n## Circulation\n\nSurface currents are wind-driven and deflected by the Coriolis effect into large gyres. Beneath them, thermohaline circulation is driven by density: cold, salty water formed at high latitudes sinks and flows along the seafloor, upwelling elsewhere.\n\nThis overturning redistributes heat globally and has a turnover time of order a thousand years. Its northward heat transport in the Atlantic is a substantial factor in northwest European climate, which is why potential weakening under freshwater input from ice melt is closely studied [2].\n\n## Biological and climatic role\n\nPhytoplankton perform roughly half of global primary production and contribute approximately half of atmospheric oxygen. The biological pump — sinking organic matter transporting carbon to depth — is a major long-term carbon sink.\n\nThe ocean has absorbed over 90 percent of anthropogenic excess heat and roughly a quarter of anthropogenic CO2. Both are buffering services with costs: thermal expansion drives sea level rise, warming drives deoxygenation and marine heatwaves, and CO2 uptake has reduced surface pH by about 0.1 units, impairing calcification [2].\n\n## Exploration\n\nA small fraction of the seafloor has been mapped at high resolution by direct sonar survey; most global bathymetry derives from satellite altimetry inferring seafloor topography from sea surface shape, at kilometre-scale resolution. Comparisons with planetary mapping are frequently overstated but the underlying point holds: the deep ocean is poorly characterised relative to accessible planetary surfaces [2]."
+    },
+    "adult": {
+      "summary": "A globally connected saline reservoir controlling planetary heat and carbon budgets through stratified circulation and biological pumping, and characterised at coarse resolution over most of its floor.",
+      "body": "The ocean constitutes a single connected saline water mass covering roughly 71 percent of Earth's surface and holding approximately 97 percent of surface water [1].\n\n## Physical structure\n\nMean depth is approximately 3,700 m with maximum sounded depth near 10,900 m in the Challenger Deep. Vertical structure is dominated by density stratification: a wind-mixed surface layer overlies the pycnocline, below which lies the cold, dense deep ocean.\n\nStratification is the key control on vertical exchange. It sets the timescale over which surface-acquired heat and carbon penetrate to depth, and is itself intensifying under surface warming — a positive feedback reducing the ocean's future uptake efficiency [1].\n\n## Geochemical budget\n\nSalinity derives from continental weathering delivered fluvially and from hydrothermal circulation through oceanic crust at ridge axes, balanced by evaporite deposition, hydrothermal uptake and aerosol return. The near-constancy of the major ion ratios — Marcet's principle — reflects residence times for these species that are long relative to ocean mixing time.\n\n## Circulation\n\nWind-driven surface circulation organises into subtropical and subpolar gyres under Ekman dynamics and Sverdrup balance, with western boundary intensification producing the Gulf Stream and Kuroshio.\n\nThe meridional overturning circulation is driven by density contrasts established by high-latitude cooling and brine rejection, with mixing energy from winds and tides required to close the circuit. Overturning timescales are of order 10^3 years.\n\nAtlantic meridional overturning transports substantial heat northward. Palaeoclimate records demonstrate abrupt past reconfigurations, and freshwater forcing from Greenland melt provides a plausible mechanism for weakening. Observational records are short relative to the variability, so trend detection remains contested, and this should be stated as unresolved rather than either dismissed or asserted [2].\n\n## Biogeochemistry\n\nPhytoplankton account for roughly half of global net primary production despite holding a small standing biomass, reflecting rapid turnover. The biological carbon pump exports particulate and dissolved organic carbon below the mixed layer, sequestering it on centennial to millennial timescales.\n\nAnthropogenic uptake comprises over 90 percent of the Earth system's excess heat and approximately 25 percent of emitted CO2. Consequences include thermosteric sea level rise, expansion of oxygen minimum zones, increased frequency and intensity of marine heatwaves, and a surface pH decline of about 0.1 units corresponding to roughly a 30 percent increase in hydrogen ion concentration.\n\nAcidification acts through carbonate saturation state rather than temperature, and is therefore an independent stressor with distinct thresholds — a distinction often collapsed in general discussion of ocean change [2].\n\n## Bathymetric knowledge\n\nDirect multibeam survey covers a minority of the seafloor. Global bathymetric grids rely substantially on satellite altimetry, which infers topography from geoid undulations at resolutions of order kilometres — adequate for large-scale structure, inadequate for habitat, hazard or resource characterisation. International mapping initiatives aim to close this gap [2]."
+    }
+  },
+  "citations": [
+    {
+      "marker": 1,
+      "source": "noaa",
+      "claim": "Ocean coverage of Earth's surface and share of its water, mean and maximum depth, the photic zone, the origin of salinity, and phytoplankton oxygen production.",
+      "supports": "supports"
+    },
+    {
+      "marker": 2,
+      "source": "ipcc-ar6",
+      "claim": "Ocean heat and carbon uptake, acidification and deoxygenation, overturning circulation and its potential weakening, and the limited high-resolution mapping of the seafloor.",
+      "supports": "partially"
+    }
+  ],
+  "relations": [
+    {
+      "to": "earth",
+      "kind": "part_of"
+    },
+    {
+      "to": "climate-change",
+      "kind": "related"
+    },
+    {
+      "to": "blue-whale",
+      "kind": "related"
+    },
+    {
+      "to": "great-white-shark",
+      "kind": "related"
+    },
+    {
+      "to": "octopus",
+      "kind": "related"
+    }
+  ],
+  "review": {
+    "last_reviewed": "2026-09-06",
+    "review_months": 12
+  }
+}

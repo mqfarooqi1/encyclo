@@ -1,0 +1,152 @@
+{
+  "slug": "the-lungs",
+  "title": "The Lungs",
+  "type": "body_system",
+  "categories": [
+    "human-body",
+    "science"
+  ],
+  "primary_category": "human-body",
+  "aliases": [
+    {
+      "text": "lungs",
+      "kind": "alternative"
+    },
+    {
+      "text": "respiratory system",
+      "kind": "scientific"
+    }
+  ],
+  "summary": "The pair of organs that take oxygen from the air into the blood and release carbon dioxide back out.",
+  "facts": [
+    {
+      "key": "number",
+      "label": "How many",
+      "value": "Two — and they are not the same size",
+      "value_num": 2,
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "alveoli",
+      "label": "Air sacs (alveoli)",
+      "value": "Roughly 300 to 500 million",
+      "value_num": 400000000,
+      "epistemic": "estimate",
+      "confidence": 0.7,
+      "group": "Numbers",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "surface_area",
+      "label": "Surface area for gas exchange",
+      "value": "Roughly 70 square metres",
+      "value_num": 70,
+      "unit": "m²",
+      "epistemic": "estimate",
+      "confidence": 0.6,
+      "group": "Numbers",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "breaths",
+      "label": "Breaths per day",
+      "value": "Around 20,000",
+      "value_num": 20000,
+      "epistemic": "estimate",
+      "confidence": 0.7,
+      "group": "Numbers",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "rate_adult",
+      "label": "Resting breathing rate",
+      "value": "About 12 to 20 breaths a minute in adults",
+      "value_num": 16,
+      "unit": "per minute",
+      "epistemic": "estimate",
+      "confidence": 0.9,
+      "group": "Numbers",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "muscle",
+      "label": "Main breathing muscle",
+      "value": "The diaphragm",
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "trigger",
+      "label": "What makes you breathe",
+      "value": "Rising carbon dioxide, not falling oxygen",
+      "group": "Basics",
+      "cite": [
+        2
+      ]
+    }
+  ],
+  "content": {
+    "age6_8": {
+      "summary": "The two spongy bags in your chest that fill up when you breathe in.",
+      "body": "When you breathe in, air goes down your throat and into your lungs [1].\n\nYou have two lungs, one on each side of your chest. They feel spongy, a bit like a sponge full of air [1].\n\nYour body needs a gas from the air called oxygen. Your lungs take the oxygen out of the air and put it into your blood [1].\n\nAt the same time they get rid of a gas your body does not want, called carbon dioxide. That is what you breathe out [1].\n\nUnder your lungs there is a big flat muscle. When it pulls down, air rushes in. That is how breathing works [1]."
+    },
+    "age9_12": {
+      "summary": "How air gets into the blood, and why the lungs are folded into millions of tiny sacs.",
+      "body": "The lungs sit in your chest, protected by your ribs. Their job is gas exchange: putting oxygen into the blood and taking carbon dioxide out [1].\n\n## The path air takes\n\nAir travels down the trachea (windpipe), which splits into two bronchi, one for each lung. These branch again and again, getting smaller each time — more than twenty times over — like an upside-down tree [1].\n\nAt the very ends are tiny air sacs called alveoli. There are somewhere between 300 and 500 million of them [1].\n\n## Why so many tiny sacs?\n\nGas exchange only happens across surfaces. A pair of simple bags would not have nearly enough surface for a body your size.\n\nSplitting the lungs into millions of tiny sacs packs an enormous surface into a small space. Spread flat, the exchange surface would cover roughly 70 square metres — about a third of a tennis court, folded into your chest [1].\n\nEach alveolus is wrapped in blood vessels so thin that oxygen can cross straight into the blood.\n\n## How you breathe\n\nYour lungs have no muscles of their own. The diaphragm, a dome of muscle underneath, flattens downwards and the rib muscles lift the ribcage. This makes the chest bigger, the pressure inside drops, and air rushes in [1].\n\nBreathing out is mostly passive — the tissue simply springs back.\n\n## A surprise\n\nThe urge to breathe is not triggered by running out of oxygen. It is triggered by carbon dioxide building up in your blood.\n\nThis is why holding your breath becomes uncomfortable long before you are actually short of oxygen — and it is why hyperventilating before swimming underwater is dangerous. It removes the warning signal without adding much oxygen [2].\n\n## Not a matching pair\n\nThe left lung is smaller than the right and has only two lobes instead of three, because the heart takes up space on that side [1]."
+    },
+    "teen": {
+      "summary": "Paired organs whose branching architecture creates roughly 70 m² of gas-exchange surface, ventilated by the diaphragm and regulated by carbon dioxide.",
+      "body": "The lungs are the site of gas exchange between air and blood, transferring oxygen into the pulmonary capillaries and removing carbon dioxide [1].\n\n## Architecture\n\nThe conducting airways divide dichotomously through some 23 generations from trachea to alveolar ducts. The first sixteen or so generations conduct without exchanging gas, constituting anatomical dead space of roughly 150 ml.\n\nDistal generations bear alveoli, of which there are approximately 300-500 million. Their combined surface area is commonly cited near 70 m², though direct morphometric estimates vary substantially with technique, and the figure should be treated as approximate [1].\n\nAlveolar walls and capillary endothelium together form a blood-gas barrier under a micrometre thick, across which oxygen and carbon dioxide diffuse passively down partial pressure gradients.\n\n## Surfactant\n\nThe alveolar surface is lined with fluid, and surface tension would collapse small alveoli into large ones were it not opposed. Type II pneumocytes secrete pulmonary surfactant, a phospholipid-protein mixture that reduces surface tension and does so more strongly as alveoli shrink, stabilising them against collapse.\n\nSurfactant production begins late in gestation. Its deficiency causes neonatal respiratory distress syndrome in preterm infants, and exogenous surfactant therapy is among the clearest examples of a physiological insight translating directly into a life-saving treatment [2].\n\n## Mechanics\n\nThe lungs contain no skeletal muscle. Inspiration is active: diaphragmatic contraction and external intercostal action expand the thoracic cavity, lowering intrapleural pressure and drawing air in. Quiet expiration is passive elastic recoil.\n\nThe pleural space maintains negative pressure coupling lung to chest wall. Breaching it — pneumothorax — allows the lung to recoil away from the chest wall and collapse [1].\n\n## Control of breathing\n\nRespiratory rhythm originates in brainstem centres. The dominant chemical stimulus in health is arterial carbon dioxide, sensed by central chemoreceptors responding to cerebrospinal fluid pH.\n\nPeripheral chemoreceptors in the carotid and aortic bodies respond to oxygen, but only substantially once arterial partial pressure falls markedly. The practical consequence is that hypoxia can develop without a strong urge to breathe — the basis of hypoxic blackout in breath-hold divers who hyperventilate first [2].\n\n## Asymmetry\n\nThe right lung has three lobes, the left two, with the cardiac notch accommodating the heart. The right main bronchus is wider and more vertical, which is why inhaled foreign bodies lodge there preferentially [1]."
+    },
+    "adult": {
+      "summary": "Paired gas-exchange organs whose fractal airway branching yields a blood-gas interface of order 70 m² at sub-micrometre thickness, ventilated by diaphragmatic action and regulated principally by arterial CO2.",
+      "body": "The lungs effect gas exchange between alveolar air and pulmonary capillary blood, and additionally serve metabolic, filtration and acid-base regulatory functions [1].\n\n## Structure and diffusion\n\nAirway branching is approximately dichotomous over some 23 generations, transitioning from purely conducting to respiratory bronchioles and alveolar ducts. The resulting alveolar population of 3-5 x 10^8 presents an exchange surface conventionally estimated at 50-100 m².\n\nThe blood-gas barrier — alveolar epithelium, fused basement membrane and capillary endothelium — measures roughly 0.2-0.6 μm at its thinnest. Fick's law makes the design logic explicit: diffusive flux scales with area and inversely with thickness, so the architecture maximises the former while minimising the latter. The barrier is simultaneously close to the mechanical limit of what can withstand capillary pressures, and stress failure occurs in extreme exercise in some species [1].\n\n## Surfactant and compliance\n\nLaplace's law implies that, at equal surface tension, smaller alveoli generate higher collapsing pressure and would empty into larger ones. Pulmonary surfactant, secreted by type II pneumocytes, lowers surface tension in a manner that varies with alveolar surface area, conferring stability across the alveolar size distribution and markedly increasing compliance.\n\nSurfactant synthesis accelerates after roughly 32 weeks gestation. Its inadequacy underlies neonatal respiratory distress syndrome; antenatal corticosteroids and exogenous surfactant replacement transformed outcomes in preterm infants and represent a direct clinical yield from respiratory physiology [2].\n\n## Ventilation and perfusion\n\nEfficient exchange requires matching of ventilation to perfusion. Gravitational gradients produce regional variation in both, with perfusion varying more steeply, so V/Q ratios are higher apically and lower basally in the upright lung.\n\nHypoxic pulmonary vasoconstriction diverts perfusion away from poorly ventilated regions — the opposite of the systemic circulation's response to hypoxia, and functionally appropriate here. Its generalisation at altitude contributes to pulmonary hypertension [1].\n\n## Respiratory control\n\nRhythmogenesis involves brainstem networks including the pre-Bötzinger complex. Central chemoreceptors in the medulla respond to CSF hydrogen ion concentration, itself governed by arterial PCO2 through the readily diffusible CO2 molecule; this constitutes the dominant drive under normal conditions.\n\nPeripheral chemoreceptor output rises steeply only below arterial PO2 of roughly 60 mmHg, reflecting the sigmoid oxyhaemoglobin dissociation curve. Consequently voluntary hyperventilation, by lowering PCO2, delays the urge to breathe without materially increasing oxygen stores — the mechanism of shallow-water blackout [2].\n\n## Clinical anatomy\n\nLobar asymmetry accommodates the mediastinal position of the heart. The right main bronchus's wider calibre and steeper angle account for the preferential lodgement of aspirated material, a consistent finding in clinical practice [1]."
+    }
+  },
+  "citations": [
+    {
+      "marker": 1,
+      "source": "nih-nhlbi",
+      "claim": "Lung structure and airway branching, alveolar number and exchange surface area, the mechanics of breathing and the role of the diaphragm, and lobar asymmetry.",
+      "supports": "supports"
+    },
+    {
+      "marker": 2,
+      "source": "nih-nlm",
+      "claim": "Pulmonary surfactant and neonatal respiratory distress syndrome, and the control of breathing by carbon dioxide rather than oxygen.",
+      "supports": "supports"
+    }
+  ],
+  "relations": [
+    {
+      "to": "the-heart",
+      "kind": "related"
+    },
+    {
+      "to": "blood",
+      "kind": "related"
+    },
+    {
+      "to": "photosynthesis",
+      "kind": "contrasts_with",
+      "weight": 0.5
+    }
+  ],
+  "review": {
+    "last_reviewed": "2026-09-06",
+    "review_months": 24
+  }
+}

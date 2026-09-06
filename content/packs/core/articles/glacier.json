@@ -1,0 +1,161 @@
+{
+  "slug": "glacier",
+  "title": "Glacier",
+  "type": "environment_topic",
+  "categories": [
+    "geography",
+    "environment"
+  ],
+  "primary_category": "geography",
+  "aliases": [
+    {
+      "text": "glaciers",
+      "kind": "alternative"
+    },
+    {
+      "text": "ice sheet",
+      "kind": "alternative"
+    }
+  ],
+  "summary": "A large mass of ice that flows slowly under its own weight, carving the landscape and holding most of the world's fresh water.",
+  "facts": [
+    {
+      "key": "what",
+      "label": "What it is",
+      "value": "A mass of ice large enough to flow under its own weight",
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "freshwater",
+      "label": "Share of Earth's fresh water held as ice",
+      "value": "About 69%",
+      "value_num": 69,
+      "unit": "%",
+      "epistemic": "estimate",
+      "confidence": 0.8,
+      "group": "Numbers",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "land",
+      "label": "Share of land covered by ice",
+      "value": "About 10%",
+      "value_num": 10,
+      "unit": "%",
+      "epistemic": "estimate",
+      "confidence": 0.8,
+      "group": "Numbers",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "how_forms",
+      "label": "How it forms",
+      "value": "Snow that survives summer, compressed over years into ice",
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "blue",
+      "label": "Why glacier ice looks blue",
+      "value": "Dense ice absorbs red light and scatters blue",
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "speed",
+      "label": "Typical speed",
+      "value": "Usually centimetres to metres a day",
+      "epistemic": "estimate",
+      "confidence": 0.7,
+      "group": "Movement",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "largest",
+      "label": "Largest ice masses",
+      "value": "The Antarctic and Greenland ice sheets",
+      "group": "Where",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "trend",
+      "label": "Current trend",
+      "value": "Most glaciers worldwide are losing mass",
+      "group": "Change",
+      "cite": [
+        2
+      ]
+    }
+  ],
+  "content": {
+    "age6_8": {
+      "summary": "A huge river of ice that moves very, very slowly.",
+      "body": "A glacier is an enormous amount of ice on land [1].\n\nIt forms where snow falls and does not melt away in summer. More snow lands on top, year after year, and squashes the snow underneath into hard ice [1].\n\nGlaciers move. They are so heavy that they slowly slide downhill — but very slowly, often less than a metre a day [1].\n\nAs a glacier moves it scrapes the ground underneath, pushing rocks along and carving out big valleys [1].\n\nGlacier ice often looks blue. That is because thick ice soaks up red light and lets blue light bounce back out [1].\n\nMost glaciers today are getting smaller [2]."
+    },
+    "age9_12": {
+      "summary": "How glaciers form and move, how they shape landscapes, and why they are shrinking.",
+      "body": "A glacier is a mass of ice large enough to flow under its own weight [1].\n\n## How they form\n\nWhere more snow falls in winter than melts in summer, snow accumulates. Fresh snow is mostly air. As more piles on top, the crystals below are compressed and recrystallise, becoming a dense grainy ice called firn and eventually solid glacier ice.\n\nThe process takes years to decades [1].\n\n## Why they move\n\nIce is brittle if you hit it, but under sustained pressure it deforms slowly like extremely thick treacle. So a glacier flows.\n\nMovement happens two ways: the ice deforms internally, and the whole mass slides over meltwater at its base. Speeds are usually centimetres to a few metres a day, though some surge much faster [1].\n\nThe top of a glacier is under less pressure and stays brittle. As the flexible ice below moves, that brittle surface cracks — which is why glaciers are split by deep crevasses [1].\n\n## Shaping the land\n\nGlaciers are powerful eroders. They pluck rock from the bed and drag embedded debris across it, grinding and scratching.\n\nRivers cut V-shaped valleys. Glaciers carve U-shaped ones with steep sides and flat floors. Many famous landscapes — Norwegian fjords, the Lake District, Yosemite — were shaped by ice [1].\n\nWhen a glacier retreats it dumps its cargo of rock as ridges called moraines.\n\n## Why it matters\n\nAbout 69 percent of Earth's fresh water is locked up as ice, and glaciers cover roughly a tenth of land [1].\n\nMountain glaciers act as water towers, storing snow in winter and releasing meltwater in summer, when it is needed most. Hundreds of millions of people depend partly on that seasonal release [2].\n\n## Retreat\n\nMost glaciers worldwide are now losing more mass each year than they gain. Some have disappeared entirely.\n\nThis matters in two ways: melting land ice raises sea level, and shrinking glaciers eventually reduce the summer water supply that communities downstream rely on [2]."
+    },
+    "teen": {
+      "summary": "Perennial ice masses deforming under gravity, acting as major agents of erosion and as the largest reservoir of fresh water.",
+      "body": "A glacier is a perennial mass of ice sufficiently thick to deform and flow under its own weight [1].\n\n## Formation and mass balance\n\nAccumulation of snow exceeding ablation permits burial and progressive densification: snow to firn to glacier ice, with air content decreasing and density rising toward about 830 kg/m3 at pore close-off.\n\nA glacier's behaviour is governed by mass balance — accumulation minus ablation integrated over the glacier. Positive balance produces advance, negative balance retreat. The equilibrium line separates the accumulation and ablation zones, and its altitude is a sensitive climate indicator [1].\n\n## Flow mechanics\n\nIce responds to sustained stress as a non-Newtonian viscoplastic material, described by Glen's flow law in which strain rate varies approximately as the cube of applied stress. This strong non-linearity means thicker or steeper ice flows disproportionately faster.\n\nMotion combines internal deformation with basal sliding, the latter requiring liquid water at the bed and often dominating in fast-flowing glaciers. Subglacial hydrology therefore exerts strong control on velocity, and meltwater reaching the bed can accelerate flow seasonally.\n\nThe upper roughly 50 m is under insufficient pressure to deform ductilely and behaves brittlely, fracturing into crevasses as the ductile ice beneath flows [1].\n\n## Geomorphic work\n\nGlacial erosion proceeds by abrasion, with entrained debris scoring the bed, and by plucking, where meltwater refreezes into bedrock fractures and blocks are removed as ice moves.\n\nDiagnostic landforms include U-shaped troughs, hanging valleys, cirques, arêtes, roches moutonnées and striations, with depositional forms including moraines, drumlins and eskers. Fjords are glacial troughs subsequently drowned by sea level rise [1].\n\n## Hydrological and climatic significance\n\nGlaciers and ice sheets hold approximately 69 percent of global fresh water and cover about 10 percent of land area.\n\nMountain glaciers buffer seasonal water supply, storing winter precipitation and releasing it during warm dry periods. Basins in the Andes, Himalaya, Karakoram and Alps depend on this to varying degrees.\n\nGlacier retreat produces a characteristic sequence: meltwater discharge initially increases as ice volume is drawn down, then declines as the reservoir is exhausted. Communities can therefore experience temporary abundance preceding lasting shortage — a dynamic frequently misread [2].\n\n## Current change\n\nGlobal glacier mass balance has been predominantly negative for decades, with acceleration in recent years. Contributions to sea level rise from glaciers and from the Greenland and Antarctic ice sheets are both increasing.\n\nMarine-terminating outlet glaciers are of particular concern because ice grounded below sea level on inland-sloping beds can be dynamically unstable, permitting retreat rates not achievable by surface melting alone [2]."
+    },
+    "adult": {
+      "summary": "Perennial ice masses deforming viscoplastically under gravity; principal agents of landscape erosion, the dominant freshwater reservoir, and a major contributor to contemporary sea level rise.",
+      "body": "A glacier is a perennial accumulation of ice, firn and entrained debris exhibiting evidence of flow under gravitational stress [1].\n\n## Densification and mass balance\n\nTransformation from snow to glacier ice proceeds through settling, sintering and recrystallisation, with pore close-off near 830 kg/m3 trapping atmospheric gas — the mechanism enabling ice core reconstruction of past atmospheric composition.\n\nSurface mass balance integrates accumulation and ablation; total mass balance additionally includes frontal ablation by calving and submarine melt, which dominates for marine-terminating systems. Equilibrium line altitude serves as a climatic proxy and is widely used in palaeoglaciological reconstruction [1].\n\n## Rheology and dynamics\n\nGlacier ice deforms by dislocation creep, described empirically by Glen's flow law with a stress exponent near 3. The consequent non-linearity concentrates deformation in high-stress regions and produces strong sensitivity of flux to thickness.\n\nBasal motion requires a temperate bed. Subglacial drainage configuration — distributed versus channelised — modulates basal water pressure and hence sliding velocity, producing seasonal velocity cycles and, in some systems, surge behaviour with order-of-magnitude speed increases.\n\nThe brittle-ductile transition at roughly 50 m depth partitions behaviour: crevasse propagation in the upper brittle layer, ductile flow beneath [1].\n\n## Erosional and depositional geomorphology\n\nAbrasion and quarrying operate as the principal erosional mechanisms, with rates strongly dependent on sliding velocity and effective pressure. Glacial erosion is capable of overdeepening, excavating basins below the regional base level — impossible for fluvial systems and diagnostic of glacial origin.\n\nDepositional assemblages record ice extent and dynamics, and terminal moraine sequences provide chronological constraint on past glaciations when combined with cosmogenic nuclide exposure dating [1].\n\n## Cryospheric hydrology\n\nGlacier ice constitutes roughly 69 percent of global freshwater storage. In seasonally arid mountain basins, glacial melt provides disproportionate late-season runoff relative to its share of annual volume, and its buffering function is greatest precisely in dry years.\n\nThe peak water concept describes the trajectory under sustained negative balance: discharge rises as storage is depleted, peaks, then declines below pre-retreat levels. Peak water has already been passed in many smaller and lower-elevation glacier systems, while larger high-elevation systems have not reached it. Aggregate basin statements therefore conceal substantial internal variation [2].\n\n## Contemporary mass loss and sea level\n\nGlobal glacier mass balance has been strongly negative since at least the 1990s, with observational constraint from geodetic methods, GRACE and GRACE-FO gravimetry, and altimetry.\n\nMarine ice sheet instability is the principal source of upper-tail uncertainty in sea level projection: where grounding lines rest on retrograde beds, retreat increases ice thickness at the grounding line and thereby flux, producing self-sustaining retreat. Whether marine ice cliff instability constitutes an additional mechanism is actively debated and not resolved, and it accounts for much of the divergence between published high-end projections [2]."
+    }
+  },
+  "citations": [
+    {
+      "marker": 1,
+      "source": "nsidc",
+      "claim": "Glacier formation and densification, mass balance and the equilibrium line, flow mechanics including Glen's law and basal sliding, crevasse formation, and glacial erosional and depositional landforms.",
+      "supports": "supports"
+    },
+    {
+      "marker": 2,
+      "source": "ipcc-ar6",
+      "claim": "Global glacier freshwater storage, peak water dynamics in glacier-fed basins, observed negative mass balance trends, and marine ice sheet instability in sea level projections.",
+      "supports": "partially"
+    }
+  ],
+  "relations": [
+    {
+      "to": "climate-change",
+      "kind": "related"
+    },
+    {
+      "to": "the-ocean",
+      "kind": "related"
+    },
+    {
+      "to": "earth",
+      "kind": "part_of",
+      "weight": 0.4
+    },
+    {
+      "to": "emperor-penguin",
+      "kind": "related",
+      "weight": 0.3
+    }
+  ],
+  "review": {
+    "last_reviewed": "2026-09-06",
+    "review_months": 12
+  }
+}

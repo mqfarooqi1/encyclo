@@ -1,107 +1,310 @@
 {
   "badges": [
-    { "key": "little-palaeontologist", "title": "Little Palaeontologist", "icon": "🦴",
+    {
+      "key": "little-palaeontologist",
+      "title": "Little Palaeontologist",
+      "icon": "🦴",
       "description": "You worked out how we know dinosaurs were real.",
-      "criteria": "Finish Dinosaur Detectives", "sort_order": 10 },
-    { "key": "moon-walker", "title": "Moon Walker", "icon": "🌙",
+      "criteria": "Finish Dinosaur Detectives",
+      "sort_order": 10
+    },
+    {
+      "key": "moon-walker",
+      "title": "Moon Walker",
+      "icon": "🌙",
       "description": "You know your way around the night sky.",
-      "criteria": "Finish Blast Off!", "sort_order": 20 },
-    { "key": "whale-spotter", "title": "Whale Spotter", "icon": "🐋",
+      "criteria": "Finish Blast Off!",
+      "sort_order": 20
+    },
+    {
+      "key": "whale-spotter",
+      "title": "Whale Spotter",
+      "icon": "🐋",
       "description": "You met the largest animal there has ever been.",
-      "criteria": "Finish Big and Small", "sort_order": 30 },
-    { "key": "planet-keeper", "title": "Planet Keeper", "icon": "🌍",
+      "criteria": "Finish Big and Small",
+      "sort_order": 30
+    },
+    {
+      "key": "planet-keeper",
+      "title": "Planet Keeper",
+      "icon": "🌍",
       "description": "You know what makes our planet work.",
-      "criteria": "Finish Our Planet", "sort_order": 40 },
-    { "key": "gravity-tester", "title": "Gravity Tester", "icon": "🍎",
+      "criteria": "Finish Our Planet",
+      "sort_order": 40
+    },
+    {
+      "key": "gravity-tester",
+      "title": "Gravity Tester",
+      "icon": "🍎",
       "description": "You found out why things fall — and why the Moon does not.",
-      "criteria": "Finish Why Things Fall", "sort_order": 50 },
-    { "key": "first-explorer", "title": "First Explorer", "icon": "🧭",
+      "criteria": "Finish Why Things Fall",
+      "sort_order": 50
+    },
+    {
+      "key": "first-explorer",
+      "title": "First Explorer",
+      "icon": "🧭",
       "description": "You finished your very first trail. Every station, all the way.",
-      "criteria": "Finish every station on the First Steps Trail", "sort_order": 60 },
-
-    { "key": "bone-hunter", "title": "Bone Hunter", "icon": "🦕",
+      "criteria": "Finish every station on the First Steps Trail",
+      "sort_order": 60
+    },
+    {
+      "key": "bone-hunter",
+      "title": "Bone Hunter",
+      "icon": "🦕",
       "description": "You can tell what fossils prove from what they only suggest.",
-      "criteria": "Finish Dinosaur Valley", "sort_order": 110 },
-    { "key": "star-mapper", "title": "Star Mapper", "icon": "🔭",
+      "criteria": "Finish Dinosaur Valley",
+      "sort_order": 110
+    },
+    {
+      "key": "star-mapper",
+      "title": "Star Mapper",
+      "icon": "🔭",
       "description": "Tidal locking, event horizons and why Pluto changed status.",
-      "criteria": "Finish Deep Space", "sort_order": 120 },
-    { "key": "earth-watcher", "title": "Earth Watcher", "icon": "🌋",
+      "criteria": "Finish Deep Space",
+      "sort_order": 120
+    },
+    {
+      "key": "earth-watcher",
+      "title": "Earth Watcher",
+      "icon": "🌋",
       "description": "You know what is going on beneath your feet.",
-      "criteria": "Finish Living Earth", "sort_order": 130 },
-    { "key": "code-breaker", "title": "Code Breaker", "icon": "🧬",
+      "criteria": "Finish Living Earth",
+      "sort_order": 130
+    },
+    {
+      "key": "code-breaker",
+      "title": "Code Breaker",
+      "icon": "🧬",
       "description": "Four letters, and the whole of life written in them.",
-      "criteria": "Finish The Code of Life", "sort_order": 140 },
-    { "key": "time-traveller", "title": "Time Traveller", "icon": "🏛️",
+      "criteria": "Finish The Code of Life",
+      "sort_order": 140
+    },
+    {
+      "key": "time-traveller",
+      "title": "Time Traveller",
+      "icon": "🏛️",
       "description": "Three thousand years beside one river.",
-      "criteria": "Finish Ancient Lands", "sort_order": 150 },
-    { "key": "question-asker", "title": "Question Asker", "icon": "💡",
+      "criteria": "Finish Ancient Lands",
+      "sort_order": 150
+    },
+    {
+      "key": "question-asker",
+      "title": "Question Asker",
+      "icon": "💡",
       "description": "You know how the great discoveries were actually made.",
-      "criteria": "Finish Great Minds", "sort_order": 160 },
-    { "key": "master-explorer", "title": "Master Explorer", "icon": "🏆",
+      "criteria": "Finish Great Minds",
+      "sort_order": 160
+    },
+    {
+      "key": "master-explorer",
+      "title": "Master Explorer",
+      "icon": "🏆",
       "description": "Every station on the Explorer Trail. The whole journey.",
-      "criteria": "Finish every station on the Explorer Trail", "sort_order": 170 },
-
-    { "key": "perfect-round", "title": "Clean Sweep", "icon": "⭐",
+      "criteria": "Finish every station on the Explorer Trail",
+      "sort_order": 170
+    },
+    {
+      "key": "perfect-round",
+      "title": "Clean Sweep",
+      "icon": "⭐",
       "description": "Every single question right, first time.",
-      "criteria": "Score full marks on any station", "sort_order": 200 },
-    { "key": "curious-mind", "title": "Curious Mind", "icon": "🔍",
+      "criteria": "Score full marks on any station",
+      "sort_order": 200
+    },
+    {
+      "key": "curious-mind",
+      "title": "Curious Mind",
+      "icon": "🔍",
       "description": "You went looking in three different corners of the encyclopaedia.",
-      "criteria": "Try questions at three different stations", "sort_order": 210 }
+      "criteria": "Try questions at three different stations",
+      "sort_order": 210
+    },
+    {
+      "key": "body-explorer",
+      "title": "Body Explorer",
+      "icon": "🫀",
+      "description": "You know what is going on under your own skin.",
+      "criteria": "Finish Body Works",
+      "sort_order": 145
+    },
+    {
+      "key": "machine-thinker",
+      "title": "Machine Thinker",
+      "icon": "⚙️",
+      "description": "You know what a computer really is, and what it cannot do.",
+      "criteria": "Finish Machines and Minds",
+      "sort_order": 155
+    },
+    {
+      "key": "little-doctor",
+      "title": "Little Doctor",
+      "icon": "🩺",
+      "description": "You found out how your heart, lungs and bones work.",
+      "criteria": "Finish Inside You",
+      "sort_order": 45
+    }
   ],
-
   "trails": [
     {
       "key": "first-steps",
       "title": "First Steps Trail",
-      "description": "Five stops, one badge each. Start anywhere you like.",
+      "description": "6 stops, one badge each. Start at the beginning and work along.",
       "icon": "🐾",
       "age_band": "age6_8",
       "sort_order": 10,
       "stations": [
-        { "key": "dino-dig", "title": "Dinosaur Dig", "subtitle": "Bones, horns and footprints",
-          "icon": "🦕", "palette": "amber", "quiz": "kids-dinosaurs",
-          "badge": "little-palaeontologist", "article": "tyrannosaurus-rex" },
-        { "key": "launch-pad", "title": "Launch Pad", "subtitle": "The Moon and the planets",
-          "icon": "🚀", "palette": "violet", "quiz": "kids-space",
-          "badge": "moon-walker", "article": "moon" },
-        { "key": "deep-blue", "title": "Deep Blue", "subtitle": "The biggest animal ever",
-          "icon": "🐋", "palette": "blue", "quiz": "kids-animals",
-          "badge": "whale-spotter", "article": "blue-whale" },
-        { "key": "green-world", "title": "Green World", "subtitle": "Volcanoes, water and plants",
-          "icon": "🌍", "palette": "green", "quiz": "kids-earth",
-          "badge": "planet-keeper", "article": "earth" },
-        { "key": "falling-apples", "title": "Falling Apples", "subtitle": "Why things drop",
-          "icon": "🍎", "palette": "rose", "quiz": "kids-forces",
-          "badge": "gravity-tester", "article": "gravity" }
+        {
+          "key": "dino-dig",
+          "title": "Dinosaur Dig",
+          "subtitle": "Bones, horns and footprints",
+          "icon": "🦕",
+          "palette": "amber",
+          "quiz": "kids-dinosaurs",
+          "badge": "little-palaeontologist",
+          "article": "tyrannosaurus-rex"
+        },
+        {
+          "key": "launch-pad",
+          "title": "Launch Pad",
+          "subtitle": "The Moon and the planets",
+          "icon": "🚀",
+          "palette": "violet",
+          "quiz": "kids-space",
+          "badge": "moon-walker",
+          "article": "moon"
+        },
+        {
+          "key": "deep-blue",
+          "title": "Deep Blue",
+          "subtitle": "The biggest animal ever",
+          "icon": "🐋",
+          "palette": "blue",
+          "quiz": "kids-animals",
+          "badge": "whale-spotter",
+          "article": "blue-whale"
+        },
+        {
+          "key": "green-world",
+          "title": "Green World",
+          "subtitle": "Volcanoes, water and plants",
+          "icon": "🌍",
+          "palette": "green",
+          "quiz": "kids-earth",
+          "badge": "planet-keeper",
+          "article": "earth"
+        },
+        {
+          "key": "falling-apples",
+          "title": "Falling Apples",
+          "subtitle": "Why things drop",
+          "icon": "🍎",
+          "palette": "rose",
+          "quiz": "kids-forces",
+          "badge": "gravity-tester",
+          "article": "gravity"
+        },
+        {
+          "key": "inside-you",
+          "title": "Inside You",
+          "subtitle": "Heart, lungs and bones",
+          "icon": "🫀",
+          "palette": "rose",
+          "quiz": "kids-body",
+          "badge": "little-doctor",
+          "article": "the-heart"
+        }
       ],
       "completion_badge": "first-explorer"
     },
     {
       "key": "explorer-trail",
       "title": "The Explorer Trail",
-      "description": "Six stations across the whole encyclopaedia. Collect them all.",
+      "description": "8 stations across the whole encyclopaedia. Collect them all.",
       "icon": "🧭",
       "age_band": "age9_12",
       "sort_order": 20,
       "stations": [
-        { "key": "dinosaur-valley", "title": "Dinosaur Valley", "subtitle": "Evidence from deep time",
-          "icon": "🦕", "palette": "amber", "quiz": "junior-dinosaurs",
-          "badge": "bone-hunter", "article": "cretaceous-period" },
-        { "key": "deep-space", "title": "Deep Space", "subtitle": "Moons, planets, black holes",
-          "icon": "🔭", "palette": "violet", "quiz": "junior-space",
-          "badge": "star-mapper", "article": "solar-system" },
-        { "key": "living-earth", "title": "Living Earth", "subtitle": "Inside the planet",
-          "icon": "🌋", "palette": "rose", "quiz": "junior-earth",
-          "badge": "earth-watcher", "article": "volcano" },
-        { "key": "code-of-life", "title": "The Code of Life", "subtitle": "DNA and where we came from",
-          "icon": "🧬", "palette": "green", "quiz": "junior-life",
-          "badge": "code-breaker", "article": "dna" },
-        { "key": "ancient-lands", "title": "Ancient Lands", "subtitle": "Egypt and the Nile",
-          "icon": "🏛️", "palette": "teal", "quiz": "junior-history",
-          "badge": "time-traveller", "article": "ancient-egypt" },
-        { "key": "great-minds", "title": "Great Minds", "subtitle": "How discoveries really happen",
-          "icon": "💡", "palette": "blue", "quiz": "junior-scientists",
-          "badge": "question-asker", "article": "marie-curie" }
+        {
+          "key": "dinosaur-valley",
+          "title": "Dinosaur Valley",
+          "subtitle": "Evidence from deep time",
+          "icon": "🦕",
+          "palette": "amber",
+          "quiz": "junior-dinosaurs",
+          "badge": "bone-hunter",
+          "article": "cretaceous-period"
+        },
+        {
+          "key": "deep-space",
+          "title": "Deep Space",
+          "subtitle": "Moons, planets, black holes",
+          "icon": "🔭",
+          "palette": "violet",
+          "quiz": "junior-space",
+          "badge": "star-mapper",
+          "article": "solar-system"
+        },
+        {
+          "key": "living-earth",
+          "title": "Living Earth",
+          "subtitle": "Inside the planet",
+          "icon": "🌋",
+          "palette": "rose",
+          "quiz": "junior-earth",
+          "badge": "earth-watcher",
+          "article": "volcano"
+        },
+        {
+          "key": "code-of-life",
+          "title": "The Code of Life",
+          "subtitle": "DNA and where we came from",
+          "icon": "🧬",
+          "palette": "green",
+          "quiz": "junior-life",
+          "badge": "code-breaker",
+          "article": "dna"
+        },
+        {
+          "key": "ancient-lands",
+          "title": "Ancient Lands",
+          "subtitle": "Egypt and the Nile",
+          "icon": "🏛️",
+          "palette": "teal",
+          "quiz": "junior-history",
+          "badge": "time-traveller",
+          "article": "ancient-egypt"
+        },
+        {
+          "key": "great-minds",
+          "title": "Great Minds",
+          "subtitle": "How discoveries really happen",
+          "icon": "💡",
+          "palette": "blue",
+          "quiz": "junior-scientists",
+          "badge": "question-asker",
+          "article": "marie-curie"
+        },
+        {
+          "key": "body-works",
+          "title": "Body Works",
+          "subtitle": "How you are put together",
+          "icon": "🫁",
+          "palette": "rose",
+          "quiz": "junior-body",
+          "badge": "body-explorer",
+          "article": "the-brain"
+        },
+        {
+          "key": "machines-and-minds",
+          "title": "Machines and Minds",
+          "subtitle": "Computers and the people who imagined them",
+          "icon": "⚙️",
+          "palette": "blue",
+          "quiz": "junior-tech",
+          "badge": "machine-thinker",
+          "article": "computer"
+        }
       ],
       "completion_badge": "master-explorer"
     }

@@ -1,0 +1,157 @@
+{
+  "slug": "the-brain",
+  "title": "The Brain",
+  "type": "body_system",
+  "categories": [
+    "human-body",
+    "science"
+  ],
+  "primary_category": "human-body",
+  "aliases": [
+    {
+      "text": "brain",
+      "kind": "alternative"
+    },
+    {
+      "text": "cerebral",
+      "kind": "scientific"
+    }
+  ],
+  "summary": "The organ that controls the body, processes the senses, stores memory, and produces thought — the least understood organ in the human body.",
+  "facts": [
+    {
+      "key": "mass",
+      "label": "Mass",
+      "value": "About 1.3 to 1.4 kg in adults",
+      "value_num": 1350,
+      "unit": "g",
+      "epistemic": "estimate",
+      "confidence": 0.9,
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "neurons",
+      "label": "Nerve cells",
+      "value": "About 86 billion",
+      "value_num": 86000000000,
+      "epistemic": "estimate",
+      "confidence": 0.7,
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "energy",
+      "label": "Share of the body's energy used",
+      "value": "About 20%",
+      "value_num": 20,
+      "unit": "%",
+      "epistemic": "estimate",
+      "confidence": 0.85,
+      "group": "Numbers",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "weight_share",
+      "label": "Share of body weight",
+      "value": "About 2%",
+      "value_num": 2,
+      "unit": "%",
+      "epistemic": "estimate",
+      "confidence": 0.9,
+      "group": "Numbers",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "signal_speed",
+      "label": "Fastest nerve signals",
+      "value": "Up to about 120 metres per second",
+      "value_num": 120,
+      "unit": "m/s",
+      "epistemic": "estimate",
+      "confidence": 0.8,
+      "group": "Numbers",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "myth",
+      "label": "Common myth",
+      "value": "That we use only 10% of our brains — this is false",
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "pain",
+      "label": "Can the brain feel pain?",
+      "value": "No — brain tissue itself has no pain receptors",
+      "group": "Basics",
+      "cite": [
+        2
+      ]
+    }
+  ],
+  "content": {
+    "age6_8": {
+      "summary": "The part of you that thinks, remembers and tells your body what to do.",
+      "body": "Your brain is inside your head, protected by your skull [1].\n\nIt is the boss of your body. It tells your legs to walk and your hand to pick things up [1].\n\nYour brain does the thinking, the remembering, and the dreaming too [1].\n\nIt also looks after things you never think about, like breathing and keeping your heart beating [1].\n\nYour brain is quite small but it uses a lot of energy — about a fifth of all the energy in your whole body [1].\n\nThat is why breakfast helps you concentrate at school."
+    },
+    "age9_12": {
+      "summary": "How the brain is built, what its parts do, and a famous myth about it.",
+      "body": "The brain is the control centre of the body. It weighs a little over a kilogram — about the same as a bag of sugar [1].\n\n## Cells that talk to each other\n\nThe brain contains roughly 86 billion nerve cells, called neurons. Each one connects to thousands of others, passing signals as tiny electrical pulses and chemical messengers [1].\n\nIt is the pattern of connections, not the number of cells alone, that matters.\n\n## The main parts\n\n- The **cerebrum** is the big wrinkled part on top. It handles thinking, language, decisions and voluntary movement.\n- The **cerebellum** sits underneath at the back and coordinates balance and smooth movement.\n- The **brainstem** connects to the spinal cord and controls things you never think about: breathing, heart rate, swallowing [1].\n\nThe wrinkles are not decoration. Folding lets a large sheet of tissue fit inside a small skull.\n\n## A hungry organ\n\nThe brain is only about 2 percent of body weight but uses around 20 percent of the body's energy. It needs a constant supply of glucose and oxygen, which is why losing blood flow to the brain causes damage within minutes [1].\n\n## The 10 percent myth\n\nYou may have heard that people only use 10 percent of their brains. This is not true, and never was.\n\nBrain scans show activity across essentially the whole brain over the course of a day. Damage to almost any part causes some loss of function. There is no large unused reserve waiting to be switched on [1].\n\n## A strange fact\n\nThe brain has no pain receptors of its own. Brain surgery can be performed on a fully awake patient, which surgeons sometimes do so the person can talk or move while the surgeon checks what is safe to remove [2]."
+    },
+    "teen": {
+      "summary": "The central organ of the nervous system: roughly 86 billion neurons organised into functionally specialised but heavily interconnected regions.",
+      "body": "The brain is the central organ of the nervous system, with a typical adult mass of 1.3 to 1.4 kg [1].\n\n## Cellular basis\n\nCurrent estimates put neuron number near 86 billion, with a comparable number of glial cells. The frequently repeated claim of a ten-to-one glia-to-neuron ratio derives from older, less rigorous counting and has not survived systematic stereological work [1].\n\nNeurons communicate at synapses, where an arriving action potential triggers neurotransmitter release. A single cortical neuron may form thousands of synapses. Computation resides in the connectivity and in the modulation of synaptic strength, not in individual cells.\n\n## Organisation\n\nThe cerebrum comprises two hemispheres with an outer cortex of grey matter over white matter tracts. Cortical gyrification increases surface area within the cranial volume.\n\nThe cerebellum contains more neurons than the rest of the brain combined, despite its smaller size, and is central to motor coordination, timing and some cognitive functions. The brainstem mediates autonomic functions including respiration and cardiovascular control [1].\n\nFunctional localisation is real but often overstated. Language is left-lateralised in most people, yet complex tasks recruit distributed networks rather than single areas. The popular left-brain/right-brain personality distinction has no support in the evidence [1].\n\n## Metabolism\n\nAt roughly 2 percent of body mass the brain consumes about 20 percent of resting energy expenditure, relying almost exclusively on glucose under normal conditions and lacking meaningful energy stores. Cerebral blood flow interruption produces functional loss within seconds and irreversible injury within minutes.\n\nFunctional MRI exploits this dependence: it does not measure neural activity directly but detects the blood-oxygen-level-dependent signal that follows it, a distinction that matters when interpreting results [2].\n\n## Plasticity\n\nThe brain reorganises in response to experience and injury. Synaptic strengths change throughout life; cortical maps reallocate after sensory loss. Adult neurogenesis in the human hippocampus has been reported and disputed, with well-conducted studies reaching opposite conclusions, and remains unresolved [2].\n\n## Correcting a myth\n\nThe claim that humans use 10 percent of their brains is false and has no scientific origin. Functional imaging shows activity throughout the brain, metabolic cost would make large idle tissue evolutionarily implausible, and focal damage almost anywhere produces measurable deficit [1]."
+    },
+    "adult": {
+      "summary": "The central organ of the nervous system: approximately 86 billion neurons in distributed, plastic networks, metabolically expensive and incompletely understood.",
+      "body": "The brain is the central organ of the human nervous system, of mean adult mass approximately 1.3-1.4 kg, and remains the least completely understood organ in the body [1].\n\n## Cellular composition\n\nIsotropic fractionator counts place neuronal number at approximately 86 billion, with non-neuronal cells at a comparable figure — a glia-to-neuron ratio near 1:1 rather than the 10:1 widely cited from earlier estimates. Roughly 80 percent of neurons reside in the cerebellum despite its small volume fraction [1].\n\nSynaptic transmission is chemical at the great majority of central synapses, with electrical coupling at gap junctions in specific circuits. Synaptic efficacy is dynamically modulated, and long-term potentiation and depression provide cellular substrates for learning.\n\n## Functional architecture\n\nThe cerebral cortex is organised into layers and columns, with regional specialisation of cytoarchitecture. Functional localisation is well established for primary sensory and motor areas; association cortex participates in distributed networks whose activity is task- and context-dependent.\n\nLesion studies, electrocorticography and functional imaging converge on a picture of specialised nodes embedded in large-scale networks. Strong modular claims — a single area for a single faculty — are generally not supported, and popular derivatives such as left-brain/right-brain personality typology have no empirical basis [1].\n\n## Energetics\n\nThe brain accounts for about 20 percent of resting metabolic rate at 2 percent of body mass, with obligate aerobic glucose metabolism and negligible substrate reserve. Ketone bodies substitute partially during prolonged fasting.\n\nThis dependence underpins the neurovascular coupling that BOLD fMRI measures. The signal is a haemodynamic proxy for neural activity with a lag of seconds and spatial resolution limited by vascular architecture — a methodological constraint that has been the source of substantial over-interpretation in the imaging literature [2].\n\n## Plasticity and repair\n\nExperience-dependent plasticity operates throughout life at synaptic and network levels. Cortical remapping after deafferentation is well documented.\n\nAdult hippocampal neurogenesis in humans is genuinely contested: studies using different tissue-processing and marker strategies have reported robust neurogenesis into late adulthood and its near-absence beyond childhood. The disagreement appears substantially methodological and is unresolved [2].\n\nCentral nervous system regeneration after axonal injury is poor, reflecting inhibitory extracellular environment and limited intrinsic growth capacity — a principal obstacle in spinal cord injury.\n\n## Clinical note\n\nBrain parenchyma lacks nociceptors. Craniotomy under awake conditions is routine where intraoperative functional mapping is required, permitting resection margins to be tested against speech and motor performance in real time [2]."
+    }
+  },
+  "citations": [
+    {
+      "marker": 1,
+      "source": "nih-ninds",
+      "claim": "Brain mass, neuron and glial counts, gross anatomical organisation and function, energy consumption relative to body mass, and the falsity of the ten-percent myth.",
+      "supports": "supports"
+    },
+    {
+      "marker": 2,
+      "source": "nih-nlm",
+      "claim": "Nerve conduction velocities, the basis of functional MRI signals, the disputed status of adult human hippocampal neurogenesis, and the absence of nociceptors in brain tissue.",
+      "supports": "supports"
+    }
+  ],
+  "relations": [
+    {
+      "to": "the-heart",
+      "kind": "contrasts_with",
+      "weight": 0.4
+    },
+    {
+      "to": "dna",
+      "kind": "related",
+      "weight": 0.4
+    },
+    {
+      "to": "human-evolution",
+      "kind": "related"
+    }
+  ],
+  "review": {
+    "last_reviewed": "2026-09-06",
+    "review_months": 24
+  }
+}

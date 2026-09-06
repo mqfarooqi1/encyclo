@@ -7,9 +7,10 @@ fact from an estimate or a contested interpretation, is written independently at
 four reading levels, and keeps a full append-only revision history. The whole
 application runs locally with no internet connection and no cloud account.
 
-> **Status:** the engine is complete and tested; the content set is a
-> deliberately small, fully sourced seed of 19 articles rather than a large thin
-> one. See [Current state](#current-state).
+> **Status:** the engine is complete and tested. 57 articles, each written at
+> four reading levels and cited to authoritative sources.
+> **Website:** [`site/`](site/) — a landing page with a download link,
+> published to GitHub Pages by [`.github/workflows/pages.yml`](.github/workflows/pages.yml).
 
 ---
 
@@ -75,10 +76,10 @@ SOURCE → EVIDENCE → ARTICLE → CITATION → VERSION → REVIEW
 - Read-aloud at the reader's own level, using on-device speech — no network, no service
 
 **Explorer Trails — quizzing as a journey**
-- Two trails (ages 6–8 and 9–12) on a drawn board of stations that unlock in sequence
-- 16 quizzes, 89 questions across every category, each with a mandatory explanation
+- Two trails (ages 6–8 and 9–12) on a drawn board of 14 stations that unlock in sequence
+- 22 quizzes, 125 questions across every category, each with a mandatory explanation
 - Four question types: multiple choice, true/false, **ordering** and **matching**
-- 15 badges awarded for finishing stations and trails, stored locally
+- 18 badges awarded for finishing stations and trails, stored locally
 - Stars (1–3) per station; replaying and doing worse never takes progress away
 - Deliberately **no** streaks, daily targets or notifications — see below
 
@@ -112,12 +113,16 @@ SOURCE → EVIDENCE → ARTICLE → CITATION → VERSION → REVIEW
 search, knowledge graph, timeline, quizzes, Explorer Trails, badges, learning
 paths, comparison, reading levels, read-aloud, quality scoring, fact checking,
 admin dashboard, HTTP API, frontend, AI grounding layer.
-**135 tests, `ruff` and `mypy` clean.**
+**137 tests, `ruff` and `mypy` clean.**
 
-**Seed content:** 19 articles, 44 sources, 60 graph relations, 54 timeline
-events, **16 quizzes with 89 questions**, 2 Explorer Trails with 11 stations,
-15 badges, 5 learning paths. Every article has all four reading levels and
-cited sources.
+**Content:** 57 articles (228 individually written reading levels), 64 sources,
+187 graph relations, 123 timeline events, 22 quizzes with 125 questions,
+2 Explorer Trails with 14 stations, 18 badges, 5 learning paths. Every article
+has all four reading levels and cited sources, and the pack validates with zero
+errors and zero warnings.
+
+Coverage spans space, dinosaurs, animals, the human body, science, history,
+geography, countries, people, technology and the environment.
 
 ### A note on rewards
 
@@ -132,7 +137,7 @@ behaviour the product wants.
 
 | Gap | Why |
 |---|---|
-| 19 articles, not 100–300 | Each article here is genuinely authored at four levels with real citations. Mass-producing thin stubs would violate the project's own trust rules. The pipeline scales; the writing is the cost. |
+| 57 articles, not thousands | Each is genuinely authored at four levels with real citations. Mass-producing thin stubs would violate the project's own trust rules — the validator rejects them. The pipeline scales; the writing is the cost. |
 | No bundled imagery | The media *schema* is complete, but shipping images means verifying licences. Articles use generated covers rather than unverified third-party media. |
 | Source links show "unverified" | Correct and intentional. A URL is only promoted to `verified` by the link checker, which needs network access (`ENCARTA_ALLOW_NETWORK=1`). |
 | Maps show places, not vector basemaps | Place data and R-Tree spatial indexing are in place; an offline basemap needs a licensed tile set. |
@@ -140,6 +145,23 @@ behaviour the product wants.
 | No desktop packaging | The app is a local web app. Node/Tauri were unavailable in this environment; the JSON API boundary means a shell can be added without touching the engine. |
 
 ---
+
+## Website and releases
+
+`site/` holds a static landing page with a download link. It is deployed to
+GitHub Pages by the `Publish site` workflow — enable it once under
+**Settings → Pages → Source: GitHub Actions**.
+
+`scripts/build_release.py` produces a versioned archive under `dist/`,
+containing the source, content and documentation, and excluding the database,
+personal data and caches:
+
+```bash
+python scripts/build_release.py
+```
+
+Attach the result to a GitHub release. The site's download link points at the
+repository zipball, so it works whether or not a release exists.
 
 ## Commands
 

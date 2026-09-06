@@ -1,0 +1,179 @@
+{
+  "slug": "isaac-newton",
+  "title": "Isaac Newton",
+  "type": "scientist",
+  "categories": [
+    "people",
+    "science",
+    "maths"
+  ],
+  "primary_category": "people",
+  "aliases": [
+    {
+      "text": "Newton",
+      "kind": "alternative"
+    },
+    {
+      "text": "Sir Isaac Newton",
+      "kind": "alternative"
+    }
+  ],
+  "summary": "English mathematician and physicist who formulated the laws of motion and universal gravitation, and co-invented calculus.",
+  "facts": [
+    {
+      "key": "born",
+      "label": "Born",
+      "value": "1643 (by the modern calendar), Woolsthorpe, England",
+      "value_num": 1643,
+      "group": "Life",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "died",
+      "label": "Died",
+      "value": "1727, London",
+      "value_num": 1727,
+      "group": "Life",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "principia",
+      "label": "Principia published",
+      "value": "1687",
+      "value_num": 1687,
+      "group": "Work",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "laws",
+      "label": "Laws of motion",
+      "value": "Three",
+      "value_num": 3,
+      "group": "Work",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "gravitation",
+      "label": "Universal gravitation",
+      "value": "The same force holds an apple and the Moon",
+      "group": "Work",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "calculus",
+      "label": "Calculus",
+      "value": "Developed independently by Newton and Leibniz",
+      "epistemic": "fact",
+      "group": "Work",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "optics",
+      "label": "Optics",
+      "value": "Showed white light is a mixture of colours",
+      "group": "Work",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "mint",
+      "label": "Later career",
+      "value": "Master of the Royal Mint, where he pursued counterfeiters",
+      "group": "Life",
+      "cite": [
+        2
+      ]
+    }
+  ],
+  "content": {
+    "age6_8": {
+      "summary": "The scientist who worked out why things fall and how the planets move.",
+      "body": "Isaac Newton lived a long time ago in England [1].\n\nHe wanted to know why things fall down. There is a famous story about an apple falling from a tree while he was thinking about it [1].\n\nNewton worked out something surprising. The same pull that makes an apple fall also keeps the Moon going round the Earth. It is all one thing [1].\n\nHe also wrote down rules about how things move. If you push something, it moves. If nothing pushes it, it keeps going [1].\n\nHe used a glass prism to split sunlight into a rainbow. That showed white light is really all the colours mixed together [1]."
+    },
+    "age9_12": {
+      "summary": "Three laws of motion, one law of gravity, and the book that changed physics.",
+      "body": "Isaac Newton was an English mathematician and physicist whose work formed the foundation of physics for more than two centuries [1].\n\n## The apple\n\nThe apple story is probably true in outline — Newton told it himself in old age — but the apple did not hit his head, and there was no sudden flash of insight.\n\nThe real insight was harder and better. Newton asked whether the force pulling the apple down might extend far enough to reach the Moon, and whether it could explain the Moon's orbit. Working out that it could, mathematically, took years [1].\n\n## Three laws of motion\n\n1. An object stays still, or keeps moving steadily, unless a force acts on it.\n2. Force equals mass times acceleration — a bigger push gives more acceleration, and heavier things accelerate less.\n3. For every action there is an equal and opposite reaction [1].\n\n## Universal gravitation\n\nNewton's law says every mass attracts every other mass, with a force that grows with the masses and shrinks with the square of the distance.\n\nThe word 'universal' is the important part. Before Newton, the heavens were assumed to follow different rules from the Earth. Newton showed one law covers both [1].\n\n## The Principia\n\nHe published all of this in 1687 in a book usually called the *Principia*. It is one of the most important scientific books ever written [1].\n\n## Calculus\n\nTo work with continuously changing quantities, Newton developed a new mathematics. Gottfried Leibniz developed it independently at about the same time and published first.\n\nA long and bitter dispute followed over who deserved credit. Historians now accept both arrived at it independently. We use Leibniz's notation because it is clearer [2].\n\n## Light\n\nNewton passed sunlight through a prism, splitting it into colours, then passed those colours through a second prism and recombined them into white light. That second step was the clever one — it showed the prism was separating what was already there, not adding colour [1].\n\n## Later life\n\nNewton spent his later career running the Royal Mint, reforming the currency and personally pursuing counterfeiters. He was serious about it, and several were hanged [2]."
+    },
+    "teen": {
+      "summary": "The architect of classical mechanics, whose unification of terrestrial and celestial physics defined the discipline for over two centuries.",
+      "body": "Isaac Newton (1643-1727) established the framework of classical mechanics and, with it, the model of what a physical theory should look like [1].\n\n## Unification\n\nAristotelian physics held that celestial and terrestrial motion obeyed different principles — the heavens perfect and circular, the Earth corrupt and rectilinear.\n\nNewton's central achievement was demonstrating that one inverse-square law of gravitation, combined with three laws of motion, accounts for falling bodies, projectiles, tides, the Moon's orbit and Kepler's planetary laws simultaneously.\n\nThat single framework covering both domains is the reason the *Principia* (1687) is regarded as the founding text of modern physical science [1].\n\n## The laws\n\nThe first law defines inertial frames and rejects the Aristotelian assumption that motion requires continuous cause. The second relates net force to rate of change of momentum. The third establishes the reciprocity of forces, and hence conservation of momentum.\n\nUniversal gravitation states that the attraction between two masses is proportional to their product and inversely proportional to the square of their separation [1].\n\n## The problem Newton knew he had\n\nNewton could not explain how gravity acted across empty space with no intervening medium. He regarded action at a distance as philosophically unacceptable and declined to speculate — *hypotheses non fingo*.\n\nThis was intellectual honesty rather than evasion: he had a law that predicted accurately and no mechanism, and he said so. General relativity resolved it two centuries later by replacing the force with spacetime curvature [1].\n\n## Calculus and the priority dispute\n\nNewton developed his method of fluxions from around 1666 but published late. Leibniz developed differential and integral calculus independently and published from 1684.\n\nThe ensuing dispute was prosecuted bitterly, including by a Royal Society committee that Newton, as president, effectively controlled and whose report he substantially wrote himself. Historical consensus supports independent discovery, with Newton earlier in development and Leibniz earlier in publication and superior in notation, which is why Leibniz's notation is the one still taught [2].\n\n## Optics\n\nThe crucial experiment was not simply dispersing light with a prism, which was already known. Newton isolated a single colour and passed it through a second prism, showing it did not divide further, then recombined the spectrum into white light.\n\nThis established that colour is a property of light rather than something imposed by the glass, and it is a model of experimental design in which a single well-chosen procedure discriminates between competing explanations [1].\n\n## Other work\n\nNewton wrote more on alchemy and biblical chronology than on physics. This is often treated as an embarrassment; it is more usefully read as evidence that the boundaries of legitimate inquiry in the seventeenth century were not those of today.\n\nAs Master of the Mint from 1699 he oversaw the recoinage and prosecuted counterfeiting vigorously [2]."
+    },
+    "adult": {
+      "summary": "The founder of classical mechanics, whose unification of celestial and terrestrial dynamics established the methodological template for mathematical physical science.",
+      "body": "Isaac Newton (1643-1727) established classical mechanics and the mathematical-deductive model of physical theory [1].\n\n## The Principia and its significance\n\n*Philosophiae Naturalis Principia Mathematica* (1687) presents three laws of motion and the law of universal gravitation, and derives from them Kepler's laws, the tides, precession of the equinoxes and the oblate figure of the Earth.\n\nThe methodological achievement exceeds the specific results. Newton demonstrated that a small number of quantitatively stated axioms could generate a wide range of empirically testable consequences across previously unconnected domains. That template — few principles, mathematically elaborated, empirically checked — defines what subsequent physics attempted [1].\n\nThe collapse of the celestial-terrestrial distinction was the specific unification, and it removed the last structural element of Aristotelian cosmology.\n\n## Action at a distance\n\nNewton's own dissatisfaction with gravitational action at a distance is documented in his correspondence, where he describes the notion of one body acting on another through a vacuum as an absurdity no competent thinker could accept.\n\nHis *hypotheses non fingo* in the General Scholium is therefore a considered epistemological position: the law is established by its agreement with phenomena, and the absence of a mechanism does not impugn it. Continental Cartesians regarded this as reintroducing occult qualities into natural philosophy, and the objection was not unreasonable given contemporary standards of explanation.\n\nThe issue was resolved only by general relativity's geometric account [1].\n\n## The calculus dispute\n\nNewton's fluxional method dates from 1665-1666; systematic publication came much later. Leibniz's independent development, with publication from 1684, produced overlapping results in a superior notation.\n\nThe Royal Society's 1712 *Commercium Epistolicum*, nominally an impartial adjudication, was assembled under Newton's presidency and substantially drafted by him — a fact established by later archival work and now uncontroversial. The affair damaged British mathematics for a century by isolating it from continental notation and methods.\n\nCurrent historical judgement affirms independent discovery [2].\n\n## Optics\n\nThe *experimentum crucis* isolated a spectral component and demonstrated its refractive irreducibility, then recomposed white light from the full spectrum. Dispersion by prisms was known; the inference that colour inheres in light rather than being generated by the medium was not.\n\nNewton's corpuscular theory of light was ultimately superseded, and his authority arguably delayed acceptance of the wave theory in Britain. The experimental work stands independently of the theoretical framework he attached to it [1].\n\n## Non-scientific work and later career\n\nNewton's alchemical and theological manuscripts substantially exceed his published scientific output in volume. Keynes, having acquired a portion of the papers, characterised him as the last of the magicians rather than the first of the age of reason.\n\nThe more defensible reading is that Newton pursued a unified programme of decoding divine order in nature, scripture and matter, and that the retrospective separation into legitimate and illegitimate inquiry is an anachronism.\n\nAs Warden and then Master of the Mint from 1696, he directed the Great Recoinage and prosecuted coiners with documented rigour, securing convictions that carried capital sentences [2]."
+    }
+  },
+  "citations": [
+    {
+      "marker": 1,
+      "source": "royal-society",
+      "claim": "Newton's laws of motion and universal gravitation, publication of the Principia in 1687, the unification of celestial and terrestrial mechanics, his optical experiments, and his position on action at a distance.",
+      "supports": "supports"
+    },
+    {
+      "marker": 2,
+      "source": "science-museum-uk",
+      "claim": "The independent development of calculus by Newton and Leibniz and the priority dispute, and Newton's tenure at the Royal Mint.",
+      "supports": "partially"
+    }
+  ],
+  "relations": [
+    {
+      "to": "gravity",
+      "kind": "discovered_by"
+    },
+    {
+      "to": "albert-einstein",
+      "kind": "preceded_by"
+    },
+    {
+      "to": "light",
+      "kind": "studied_by"
+    },
+    {
+      "to": "solar-system",
+      "kind": "studied_by",
+      "weight": 0.5
+    }
+  ],
+  "timeline": [
+    {
+      "title": "Newton born",
+      "start": 1643,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 3
+    },
+    {
+      "title": "Principia Mathematica published",
+      "start": 1687,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 5
+    },
+    {
+      "title": "Newton becomes Master of the Mint",
+      "start": 1699,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 2
+    }
+  ],
+  "review": {
+    "last_reviewed": "2026-09-06",
+    "review_months": 60
+  }
+}

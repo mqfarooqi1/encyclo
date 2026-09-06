@@ -1,0 +1,183 @@
+{
+  "slug": "alan-turing",
+  "title": "Alan Turing",
+  "type": "scientist",
+  "categories": [
+    "people",
+    "technology",
+    "maths"
+  ],
+  "primary_category": "people",
+  "aliases": [
+    {
+      "text": "Turing",
+      "kind": "alternative"
+    }
+  ],
+  "summary": "English mathematician who defined what a computer is, helped break German codes in the Second World War, and was prosecuted by the country he had served.",
+  "facts": [
+    {
+      "key": "born",
+      "label": "Born",
+      "value": "23 June 1912, London",
+      "value_num": 1912,
+      "group": "Life",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "died",
+      "label": "Died",
+      "value": "7 June 1954, aged 41",
+      "value_num": 1954,
+      "group": "Life",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "machine",
+      "label": "The Turing machine",
+      "value": "Described in 1936, defining what can be computed at all",
+      "value_num": 1936,
+      "group": "Work",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "bletchley",
+      "label": "Wartime work",
+      "value": "Bletchley Park, breaking the German Enigma cipher",
+      "group": "Work",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "bombe",
+      "label": "The Bombe",
+      "value": "An electromechanical machine he designed to find Enigma settings",
+      "group": "Work",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "test",
+      "label": "The Turing test",
+      "value": "Proposed in 1950 as a way to sidestep 'can machines think?'",
+      "value_num": 1950,
+      "group": "Work",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "prosecution",
+      "label": "Prosecuted",
+      "value": "1952, for being gay, then a crime in Britain",
+      "value_num": 1952,
+      "group": "Injustice",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "pardon",
+      "label": "Pardoned",
+      "value": "2013, with a wider law following in 2017",
+      "value_num": 2013,
+      "group": "Injustice",
+      "cite": [
+        1
+      ]
+    }
+  ],
+  "content": {
+    "age6_8": {
+      "summary": "A mathematician who worked out what a computer is, and helped win a war using codes.",
+      "body": "Alan Turing was very good at mathematics and at puzzles [1].\n\nBefore computers existed, he worked out on paper what a computer would be and what it could do. His ideas are the reason computers work the way they do [1].\n\nIn the Second World War, the enemy sent secret messages in code. Turing helped build a machine that could crack the code [2].\n\nBecause of that work, the war ended sooner and many lives were saved [2].\n\nLater, Turing was treated very badly and very unfairly by the government he had helped. Many years afterwards, the country apologised [1].\n\nToday he is remembered as one of the founders of computing."
+    },
+    "age9_12": {
+      "summary": "The idea that made computers possible, the codebreaking that shortened a war, and a serious injustice.",
+      "body": "Alan Turing was a British mathematician whose ideas underlie modern computing [1].\n\n## Inventing the computer on paper\n\nIn 1936, before any electronic computer existed, Turing was working on a problem in pure mathematics: is there a mechanical procedure that can decide whether any given mathematical statement is provable?\n\nTo answer it, he had to define precisely what a mechanical procedure was. He imagined a simple abstract machine reading and writing symbols on a tape according to a set of rules — now called a Turing machine.\n\nHe then showed something remarkable: a single machine could be made to imitate any other, if you gave it the right instructions. That is the idea of a general-purpose programmable computer, and it came before the hardware [1].\n\nHis answer to the original question was no — some questions cannot be settled by any procedure at all.\n\n## Bletchley Park\n\nDuring the Second World War, Turing worked at Bletchley Park on German ciphers.\n\nThe Enigma machine could be set in an enormous number of ways, changed daily. Trying every setting was impossible. Turing designed the Bombe, a machine that eliminated impossible settings very quickly, using logical contradictions rather than brute force [2].\n\nThe intelligence produced is generally credited with shortening the war substantially and saving many lives. It stayed secret for decades, so Turing received no public credit in his lifetime [2].\n\n## Machines and thinking\n\nIn 1950 Turing asked whether machines could think — then argued the question was too vague, and replaced it with a practical test: could a machine converse well enough that a person could not tell it from a human?\n\nThis is now called the Turing test, and it still shapes how people argue about artificial intelligence [1].\n\n## A grave injustice\n\nBeing gay was a crime in Britain at the time. In 1952 Turing was prosecuted and, to avoid prison, was made to undergo hormone treatment. He lost his security clearance and his work for the government ended.\n\nHe died in 1954, aged 41. The inquest found suicide, though not everyone accepts that conclusion [1].\n\nIn 2009 the British government formally apologised. He was pardoned in 2013, and in 2017 a law extended pardons to thousands of others convicted under the same laws [1]."
+    },
+    "teen": {
+      "summary": "The mathematician who formalised computation, contributed decisively to wartime cryptanalysis, and was prosecuted for his sexuality.",
+      "body": "Alan Turing (1912-1954) formalised the concept of computation and made foundational contributions to computer science, cryptanalysis and the philosophy of mind [1].\n\n## Computability\n\nTuring's 1936 paper addressed Hilbert's *Entscheidungsproblem*: whether an effective procedure exists to determine the provability of arbitrary statements in first-order logic.\n\nAnswering required a precise definition of effective procedure. Turing's abstract machine — a finite state controller reading and writing symbols on an unbounded tape — provided one, and he proved that no such machine can solve the halting problem, and hence that the *Entscheidungsproblem* is undecidable.\n\nTwo consequences follow. First, there are well-defined mathematical questions no algorithm can settle — a limit on mechanical reasoning as fundamental as Gödel's incompleteness results, which it independently paralleled.\n\nSecond, the universal Turing machine, capable of simulating any other given its description, is the theoretical basis of the stored-program computer. The conceptual architecture preceded the electronics by a decade [1].\n\n## Cryptanalysis\n\nAt Bletchley Park, Turing worked on naval Enigma, the hardest variant. Enigma's key space was far too large for exhaustive search.\n\nThe Bombe he designed with Gordon Welchman exploited logical structure instead: given a probable plaintext fragment, or crib, it tested settings and eliminated any producing a logical contradiction, propagating implications electrically at speed. Welchman's diagonal board substantially increased its efficiency.\n\nBritish work built directly on earlier Polish cryptanalysis by Rejewski, Różycki and Zygalski, whose contribution was long underacknowledged in popular accounts.\n\nThe resulting intelligence, codenamed Ultra, is widely credited with shortening the war in Europe by a significant margin, though precise claims are inherently counterfactual. The work remained classified for decades [2].\n\n## Machine intelligence\n\nTuring's 1950 paper *Computing Machinery and Intelligence* opens by rejecting 'Can machines think?' as too ill-defined to be useful, and substitutes an operational criterion — the imitation game — based on indistinguishability in conversation.\n\nThe paper also anticipates and answers a series of objections that remain in circulation, and proposes machine learning through training rather than exhaustive programming. Its influence on the framing of artificial intelligence has been enormous, and the test's adequacy as a criterion for intelligence remains genuinely contested [1].\n\n## Prosecution and rehabilitation\n\nIn 1952 Turing was convicted of gross indecency under the Criminal Law Amendment Act 1885. He accepted probation conditional on oestrogen treatment in preference to imprisonment. His security clearance was revoked, ending his government work at the height of the Cold War.\n\nHe died in 1954 from cyanide poisoning; the inquest recorded suicide. Some scholars have argued accidental exposure is consistent with the evidence, and the question is not settled.\n\nThe UK government apologised in 2009, a royal pardon followed in 2013, and the Policing and Crime Act 2017 — the 'Turing law' — extended posthumous pardons to others convicted under repealed offences [1]."
+    },
+    "adult": {
+      "summary": "Formaliser of computation and of its limits, wartime cryptanalyst, and originator of the operational approach to machine intelligence.",
+      "body": "Alan Mathison Turing (1912-1954) provided the formal definition of computation, established its fundamental limits, contributed decisively to Allied cryptanalysis, and framed the philosophical treatment of machine intelligence [1].\n\n## Computability and its limits\n\n*On Computable Numbers, with an Application to the Entscheidungsproblem* (1936) constructs an abstract machine model and demonstrates the existence of a universal machine capable of simulating any particular machine given its encoded description.\n\nTuring proves the undecidability of the halting problem by diagonalisation, and derives the negative solution to Hilbert's decision problem. Church reached an equivalent conclusion by different means; the Church-Turing thesis identifies effective calculability with Turing computability, and is a thesis rather than a theorem because it relates a formal notion to an informal one.\n\nThe universal machine result is the theoretical foundation of the stored-program architecture: instructions and data occupy the same medium, and generality is achieved by software rather than rewiring. The conceptual priority over the engineering is genuine [1].\n\n## Bletchley Park\n\nNaval Enigma resisted the methods effective against other variants owing to its additional rotors and more disciplined operating procedure.\n\nThe Bombe implemented a constraint-propagation search: a crib generates a menu of letter implications; the machine wires these into a closed circuit such that an inconsistent rotor configuration produces a detectable contradiction, allowing the machine to reject configurations at electrical speed. Welchman's diagonal board extended contradiction propagation and reduced false stops substantially.\n\nFoundational Polish work — Rejewski's reconstruction of Enigma wiring from permutation-group analysis, and the Polish bomba — was transferred to Britain and France in July 1939 and was indispensable. Popular accounts frequently omit it.\n\nAssessment of Ultra's operational effect is necessarily counterfactual; estimates that it shortened the European war by two years or more are widely cited but are historical judgements rather than measurements [2].\n\n## Machine intelligence\n\n*Computing Machinery and Intelligence* (1950) replaces an ill-posed question with an operational criterion, and pre-emptively addresses theological, mathematical, consciousness-based and Lady Lovelace objections.\n\nThe paper is also notable for proposing a child-machine trained by experience rather than fully specified in advance — a recognisable anticipation of machine learning.\n\nCritiques of the test as a sufficient criterion, most prominently Searle's Chinese Room, target behaviourist adequacy rather than Turing's stated purpose, which was to replace an unanswerable question with a tractable one. The test's status remains genuinely disputed [1].\n\n## Morphogenesis\n\nTuring's final published work, *The Chemical Basis of Morphogenesis* (1952), demonstrated that reaction-diffusion systems can generate stable spatial patterns from homogeneous initial conditions.\n\nThe result was largely neglected for decades and is now central to developmental biology and pattern formation, with experimental confirmation in systems including digit specification and skin pigmentation. It is an independent major contribution in a field unrelated to his other work [1].\n\n## Prosecution, death and rehabilitation\n\nConviction for gross indecency in 1952 under section 11 of the Criminal Law Amendment Act 1885 carried a choice between imprisonment and probation conditional on oestrogen administration; Turing accepted the latter. Security clearance was withdrawn, terminating GCHQ consultancy.\n\nDeath in June 1954 was attributed at inquest to cyanide poisoning by suicide. Copeland has argued the evidence is equally consistent with accidental inhalation during electrolysis experiments, noting the absence of a post-mortem test distinguishing ingestion from inhalation. The matter is not resolved.\n\nGovernment apology followed in 2009, royal pardon in 2013, and the Policing and Crime Act 2017 extended posthumous pardon to approximately 49,000 men convicted under repealed provisions [1]."
+    }
+  },
+  "citations": [
+    {
+      "marker": 1,
+      "source": "acm",
+      "claim": "Turing's 1936 formalisation of computation and the undecidability results, the universal machine and stored-program architecture, the 1950 imitation game paper, his work on morphogenesis, and his prosecution, death and subsequent pardon.",
+      "supports": "partially"
+    },
+    {
+      "marker": 2,
+      "source": "bletchley-park",
+      "claim": "Turing's wartime cryptanalytic work on naval Enigma, the design and operation of the Bombe with Welchman's diagonal board, the prior Polish contribution, and the assessment of Ultra intelligence.",
+      "supports": "supports"
+    }
+  ],
+  "relations": [
+    {
+      "to": "computer",
+      "kind": "discovered_by"
+    },
+    {
+      "to": "artificial-intelligence",
+      "kind": "discovered_by"
+    },
+    {
+      "to": "world-war-ii",
+      "kind": "related"
+    },
+    {
+      "to": "ada-lovelace",
+      "kind": "preceded_by"
+    }
+  ],
+  "timeline": [
+    {
+      "title": "Turing defines computation",
+      "start": 1936,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 5
+    },
+    {
+      "title": "Bletchley Park codebreaking",
+      "start": 1939,
+      "end": 1945,
+      "precision": "year",
+      "era": "Modern",
+      "importance": 5
+    },
+    {
+      "title": "The imitation game proposed",
+      "start": 1950,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 4
+    },
+    {
+      "title": "Posthumous royal pardon",
+      "start": 2013,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 3
+    }
+  ],
+  "review": {
+    "last_reviewed": "2026-09-06",
+    "review_months": 60
+  }
+}

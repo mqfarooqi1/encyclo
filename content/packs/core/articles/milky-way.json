@@ -1,0 +1,181 @@
+{
+  "slug": "milky-way",
+  "title": "The Milky Way",
+  "type": "astronomical_object",
+  "categories": [
+    "space"
+  ],
+  "primary_category": "space",
+  "aliases": [
+    {
+      "text": "our galaxy",
+      "kind": "alternative"
+    },
+    {
+      "text": "the Galaxy",
+      "kind": "alternative"
+    }
+  ],
+  "summary": "The barred spiral galaxy that contains the Sun, the Solar System, and hundreds of billions of other stars.",
+  "facts": [
+    {
+      "key": "type",
+      "label": "Type",
+      "value": "Barred spiral galaxy",
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "diameter",
+      "label": "Width",
+      "value": "About 100,000 light-years",
+      "value_num": 100000,
+      "unit": "light-years",
+      "epistemic": "estimate",
+      "confidence": 0.7,
+      "group": "Size",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "stars",
+      "label": "Number of stars",
+      "value": "Roughly 100 to 400 billion",
+      "value_num": 200000000000,
+      "epistemic": "estimate",
+      "confidence": 0.5,
+      "group": "Size",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "sun_distance",
+      "label": "How far the Sun is from the centre",
+      "value": "About 26,000 light-years",
+      "value_num": 26000,
+      "unit": "light-years",
+      "epistemic": "estimate",
+      "confidence": 0.8,
+      "group": "Our place",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "orbit",
+      "label": "Time for the Sun to orbit once",
+      "value": "About 230 million years",
+      "value_num": 230000000,
+      "unit": "years",
+      "epistemic": "estimate",
+      "confidence": 0.75,
+      "group": "Our place",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "centre",
+      "label": "At the centre",
+      "value": "Sagittarius A*, a black hole of about 4 million solar masses",
+      "epistemic": "estimate",
+      "confidence": 0.9,
+      "group": "Basics",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "age",
+      "label": "Age",
+      "value": "About 13.6 billion years",
+      "value_num": 13600000000,
+      "unit": "years",
+      "epistemic": "estimate",
+      "confidence": 0.7,
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "neighbour",
+      "label": "Nearest large neighbour",
+      "value": "The Andromeda Galaxy",
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    }
+  ],
+  "content": {
+    "age6_8": {
+      "summary": "The huge group of stars that our Sun belongs to.",
+      "body": "Stars are not spread out evenly in space. They gather into huge groups called galaxies [1].\n\nOur galaxy is called the Milky Way. Our Sun is one star inside it [1].\n\nThere are so many stars in the Milky Way that nobody can count them all. There are hundreds of billions [1].\n\nOn a very dark night, away from streetlights, you can see a pale band across the sky. That is our galaxy seen from the inside [1].\n\nRight in the middle there is a giant black hole [2]."
+    },
+    "age9_12": {
+      "summary": "Our home galaxy: its shape, its size, and where we sit inside it.",
+      "body": "The Milky Way is the galaxy we live in. It contains the Sun, every star you can see with your eyes, and hundreds of billions more [1].\n\n## What it looks like\n\nThe Milky Way is a barred spiral galaxy. It has a dense central bulge crossed by a bar of stars, and curving spiral arms wrapped around it.\n\nWorking out its shape was hard, because we are inside it. It is like trying to draw a picture of a house while standing in one of its rooms. Astronomers pieced it together by measuring the positions and motions of stars [1].\n\n## The pale band in the sky\n\nOn a really dark night you can see a faint milky band stretching across the sky. That is the disc of our own galaxy, seen edge-on from inside. The name comes from that appearance [1].\n\n## Where we are\n\nThe Sun sits about 26,000 light-years from the centre, roughly halfway out, in a minor spiral arm. We are not at the middle of anything [1].\n\nThe Sun travels around the galactic centre at about 220 kilometres per second, and still takes roughly 230 million years to go round once. The last time the Sun was in this position, dinosaurs had not yet appeared [1].\n\n## The centre\n\nAt the very centre is Sagittarius A*, a supermassive black hole with about 4 million times the Sun's mass. Astronomers tracked individual stars whipping around an invisible point for decades to prove it was there. In 2022 it was imaged directly [2].\n\n## The future\n\nThe Milky Way and the Andromeda Galaxy are moving towards each other and will begin merging in around 4 billion years. Stars are so far apart that almost none will actually collide [1]."
+    },
+    "teen": {
+      "summary": "A barred spiral galaxy of order 10^11 stars, containing the Solar System roughly 26,000 light-years from a supermassive black hole at its centre.",
+      "body": "The Milky Way is the barred spiral galaxy containing the Solar System. Every star visible to the unaided eye belongs to it [1].\n\n## Structure\n\nThe galaxy comprises a central bar and bulge, a disc containing spiral arms, and a diffuse halo of old stars, globular clusters and dark matter.\n\nDetermining its structure is difficult precisely because we observe it from within, and from a position obscured by dust in the galactic plane. Progress has depended on radio and infrared observations that penetrate dust, and more recently on the Gaia mission's precision astrometry of over a billion stars [1].\n\nStellar population estimates range from roughly 100 to 400 billion. The spread is large because the count is dominated by faint low-mass stars inferred from mass functions rather than counted directly. Any single figure is a model-dependent estimate [1].\n\n## The Sun's position and motion\n\nThe Sun lies approximately 26,000 light-years from the galactic centre, in the Orion Arm, orbiting at about 220 km/s with a period near 230 million years — a galactic year.\n\n## Sagittarius A*\n\nDecades of infrared astrometry tracking individual stellar orbits, notably S2, established an enclosed mass of roughly 4.3 million solar masses within a volume small enough to exclude any known alternative to a black hole. This work was recognised with the 2020 Nobel Prize in Physics [2].\n\nThe Event Horizon Telescope published a direct horizon-scale image of Sagittarius A* in 2022 [2].\n\n## Dark matter\n\nThe rotation curve of the Milky Way does not fall off with radius as the visible mass distribution predicts. Stars far from the centre orbit faster than they should. This discrepancy, seen in galaxies generally, is the principal evidence for dark matter, which is inferred to dominate the galaxy's mass. Its nature is unknown [1].\n\n## Local environment and future\n\nThe Milky Way is the second largest member of the Local Group, and is currently absorbing smaller satellite galaxies. It is approaching the Andromeda Galaxy at about 110 km/s; a merger is expected in roughly 4 billion years. Given typical interstellar distances, direct stellar collisions will be vanishingly rare [1]."
+    },
+    "adult": {
+      "summary": "A barred spiral galaxy of the Local Group hosting the Solar System at approximately 8 kpc galactocentric radius, with a 4.3 x 10^6 solar-mass central black hole and a dark-matter-dominated mass budget.",
+      "body": "The Milky Way is the barred spiral galaxy containing the Solar System, and a principal member of the Local Group [1].\n\n## Morphology\n\nThe galaxy consists of a boxy or peanut-shaped bulge with a central bar, a thin and thick disc hosting spiral arm structure, and an extended stellar halo with associated globular clusters, all embedded in a dark matter halo.\n\nStructural determination is complicated by the observer's location within the disc and by extinction along low-latitude sightlines. Radio surveys of neutral hydrogen and CO, infrared photometry and, since 2013, Gaia astrometry have progressively constrained the arm structure, though the number and precise geometry of major arms remains subject to revision [1].\n\nBar presence, long inferred from gas kinematics and infrared star counts, is now well established.\n\n## Mass and stellar content\n\nStellar mass is of order 5 x 10^10 solar masses; total mass including the dark halo is estimated at 10^12 solar masses, with substantial uncertainty dominated by the poorly constrained outer halo.\n\nStar counts of 100 to 400 billion reflect integration over an assumed initial mass function rather than enumeration, since the population is numerically dominated by M dwarfs below individual detection thresholds at galactic distances. Reported figures should be treated as estimates with wide bounds [1].\n\n## The Galactic Centre\n\nSagittarius A* is a compact radio source coincident with the dynamical centre. Near-infrared adaptive-optics monitoring of the S-star cluster over multiple decades yielded Keplerian orbits — S2 has a period of about 16 years and a pericentre of roughly 120 AU — constraining an enclosed mass of approximately 4.3 x 10^6 solar masses within a region excluding any plausible non-degenerate configuration.\n\nThe observations further confirmed general-relativistic effects including gravitational redshift and Schwarzschild precession of S2's orbit. Genzel and Ghez shared the 2020 Nobel Prize in Physics for this work. Event Horizon Telescope imaging in 2022 resolved the predicted shadow and photon ring [2].\n\n## Dark matter\n\nThe Galactic rotation curve remains approximately flat well beyond the optical disc, inconsistent with Keplerian falloff from the visible baryonic distribution. Together with equivalent measurements across galaxy populations, gravitational lensing and cosmological constraints, this constitutes the primary dynamical evidence for dark matter.\n\nThe inference from the observation is secure; the identity of the matter is not. Direct detection experiments have returned null results across substantial parameter space, and modified-gravity alternatives fit galactic rotation curves but perform less well against cluster and cosmological data. This should be described as an open problem [1].\n\n## Local Group dynamics\n\nThe Milky Way is accreting satellite systems, with the Sagittarius Dwarf and the Magellanic Clouds under active tidal influence; stellar streams in the halo record earlier disruptions.\n\nAndromeda approaches at approximately 110 km/s radially. Gaia proper-motion measurements have reduced the transverse velocity uncertainty and support an eventual merger on a timescale of order 4 Gyr. Stellar densities are such that direct collisions between stars will be negligible; the merger's observable consequences are dynamical and morphological [1]."
+    }
+  },
+  "citations": [
+    {
+      "marker": 1,
+      "source": "nasa-science",
+      "claim": "The Milky Way's classification, dimensions, stellar population estimates, the Sun's galactocentric distance and orbital period, evidence for dark matter from the rotation curve, and the projected Andromeda merger.",
+      "supports": "supports"
+    },
+    {
+      "marker": 2,
+      "source": "eht-collaboration",
+      "claim": "Stellar orbit measurements establishing the mass of Sagittarius A* and the 2022 horizon-scale image of the Galactic Centre black hole.",
+      "supports": "partially"
+    }
+  ],
+  "relations": [
+    {
+      "to": "solar-system",
+      "kind": "part_of"
+    },
+    {
+      "to": "black-hole",
+      "kind": "related"
+    },
+    {
+      "to": "the-sun",
+      "kind": "related"
+    }
+  ],
+  "timeline": [
+    {
+      "title": "The Milky Way forms",
+      "start": -13600000000,
+      "precision": "million_years",
+      "era": "Early universe",
+      "importance": 5,
+      "epistemic": "estimate"
+    },
+    {
+      "title": "Sagittarius A* imaged",
+      "start": 2022,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 4
+    }
+  ],
+  "review": {
+    "last_reviewed": "2026-09-06"
+  }
+}

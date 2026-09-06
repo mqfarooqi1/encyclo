@@ -1,0 +1,185 @@
+{
+  "slug": "computer",
+  "title": "Computer",
+  "type": "technology",
+  "categories": [
+    "technology",
+    "science"
+  ],
+  "primary_category": "technology",
+  "aliases": [
+    {
+      "text": "computers",
+      "kind": "alternative"
+    },
+    {
+      "text": "computing",
+      "kind": "alternative"
+    }
+  ],
+  "summary": "A machine that follows stored instructions to process information, built from switches that represent everything as ones and zeros.",
+  "facts": [
+    {
+      "key": "definition",
+      "label": "What it is",
+      "value": "A machine that carries out stored instructions on data",
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "binary",
+      "label": "How it represents everything",
+      "value": "In binary — ones and zeros",
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "why_binary",
+      "label": "Why binary",
+      "value": "A switch is either on or off, which is easy to build reliably",
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "parts",
+      "label": "Main parts",
+      "value": "Processor, memory, storage, input and output",
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "stored_program",
+      "label": "Key idea",
+      "value": "Instructions are stored in memory like data, so the machine can be reprogrammed",
+      "group": "Basics",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "transistor",
+      "label": "Transistor invented",
+      "value": "1947, at Bell Labs",
+      "value_num": 1947,
+      "group": "History",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "eniac",
+      "label": "ENIAC",
+      "value": "Completed 1945, an early large electronic computer",
+      "value_num": 1945,
+      "group": "History",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "moore",
+      "label": "Moore's law",
+      "value": "An observation about transistor counts doubling, not a law of nature",
+      "group": "History",
+      "cite": [
+        2
+      ]
+    }
+  ],
+  "content": {
+    "age6_8": {
+      "summary": "A machine that follows instructions very, very fast.",
+      "body": "A computer is a machine that follows instructions [1].\n\nIt cannot think for itself. Someone has to tell it exactly what to do, step by step. Those steps are called a program [1].\n\nWhat a computer is really good at is doing simple things extremely fast — millions and millions of times a second [1].\n\nInside a computer there are tiny switches. Each one is either on or off. Everything — words, pictures, songs — is stored as patterns of on and off [1].\n\nWe write on and off as 1 and 0. So everything on a computer is really just a very long string of ones and zeros [1]."
+    },
+    "age9_12": {
+      "summary": "How a computer works, why everything is ones and zeros, and where the idea came from.",
+      "body": "A computer is a machine that follows a stored set of instructions to process information [1].\n\n## Everything is a number\n\nInside a computer are billions of microscopic switches called transistors. Each is either on or off — two states.\n\nSo the natural way to represent information is with two symbols: 1 and 0. This is binary [1].\n\nBinary is not used because it is convenient for people. It is used because a switch reliably distinguishing between two states is far easier and more reliable to build than one distinguishing ten [1].\n\nEverything is then encoded in binary. Letters have number codes. An image is a grid of numbers describing colours. Sound is a long list of numbers describing a wave.\n\n## The main parts\n\n- The **processor (CPU)** carries out instructions.\n- **Memory (RAM)** holds what is being worked on right now, and empties when power is lost.\n- **Storage** keeps things permanently.\n- **Input and output** connect it to the world [1].\n\n## The key idea\n\nThe important idea that makes a computer a computer, rather than a calculator, is the stored program.\n\nInstructions are kept in memory in exactly the same form as data. So the same machine can be a word processor, then a game, then a calculator, without any physical change — you just load different instructions [2].\n\nAlan Turing described this idea mathematically in 1936, before any such machine existed [2].\n\n## Getting smaller\n\nEarly electronic computers used vacuum tubes. ENIAC, completed in 1945, filled a large room, weighed about 27 tonnes and used enough electricity to dim lights nearby [2].\n\nThe transistor, invented in 1947, was smaller, cooler, faster and far more reliable. Then engineers learned to put many transistors on a single chip of silicon.\n\nIn 1965 Gordon Moore noticed the number of transistors on a chip was roughly doubling every couple of years. That observation, called Moore's law, held for decades — but it is a description of an industry trend, not a law of physics, and it is now slowing [2].\n\n## What computers cannot do\n\nA computer follows instructions. It has no understanding of what those instructions mean.\n\nTuring also proved something stronger: there are questions no computer can ever answer, no matter how fast it is. Speed does not fix that [2]."
+    },
+    "teen": {
+      "summary": "A stored-program machine implementing binary logic in semiconductor switches, with theoretically established capabilities and limits.",
+      "body": "A computer is a machine that executes stored instructions to transform data [1].\n\n## Binary representation and logic\n\nDigital computers represent information in binary because bistable devices are far easier to build with high noise immunity than multi-level ones. A transistor either conducts or does not, and modest voltage variation does not change which.\n\nBoolean algebra, formalised by Boole in the nineteenth century for logic, turns out to describe switch networks exactly — a connection made by Claude Shannon in his 1937 master's thesis, arguably the single most consequential master's thesis written. It established that logical operations could be implemented in circuitry, providing the design basis for all digital computation [1].\n\nUniversal gates such as NAND suffice to construct any Boolean function, which is why processors are built from vast numbers of very simple repeated elements.\n\n## Architecture\n\nThe stored-program concept — instructions held in the same addressable memory as data — is what distinguishes a computer from a fixed-function calculator, and it is the source of general-purpose flexibility.\n\nThe conventional von Neumann architecture separates processor from memory, with instructions and data transferred over a shared bus. This introduces the von Neumann bottleneck: processor speed has historically outrun memory bandwidth, and much of modern processor design — cache hierarchies, prefetching, out-of-order execution — exists to mitigate it [2].\n\n## Theoretical foundation\n\nTuring's 1936 universal machine established that a single machine given an appropriate program can simulate any other, and that computability is a property independent of the physical substrate.\n\nIt also established limits. The halting problem is undecidable, so no program can determine in general whether an arbitrary program terminates. Complexity theory adds a second class of limit: some problems are decidable but require resources scaling so steeply with input size that they are intractable in practice. Neither limit is removed by faster hardware [2].\n\n## Physical development\n\nENIAC (1945) used approximately 18,000 vacuum tubes, occupied around 170 square metres and consumed roughly 150 kW.\n\nThe transistor (Bell Labs, 1947) and the integrated circuit (Kilby and Noyce, 1958-59) enabled progressive miniaturisation. Moore's 1965 observation of exponential growth in transistor density became an industry roadmap and to some extent a self-fulfilling target.\n\nDennard scaling — the property that shrinking transistors reduced power density proportionally — ended around 2005, which is why clock speeds stopped rising and multi-core designs became standard. Moore's law itself has slowed as feature sizes approach atomic scales. Both were empirical regularities, not physical laws [2].\n\n## Limits of what a computer does\n\nA computer manipulates symbols according to rules without access to their meaning. Whether sufficiently sophisticated symbol manipulation constitutes understanding is a philosophical question, not a technical one, and is genuinely unresolved [2]."
+    },
+    "adult": {
+      "summary": "A stored-program symbol-manipulating machine realised in semiconductor logic, with capabilities and limits established independently of implementation.",
+      "body": "A computer is a machine executing stored instructions over represented data, with generality deriving from the stored-program principle [1].\n\n## Logic and representation\n\nBinary encoding follows from engineering considerations: bistable devices offer large noise margins and permit regeneration of signal levels at each stage, so errors do not accumulate across long computations. Multi-level logic has been repeatedly attempted and has not displaced binary for general-purpose computation.\n\nShannon's 1937 thesis established the correspondence between Boolean algebra and relay switching networks, providing the formal design methodology for digital circuits. The functional completeness of NAND and NOR permits arbitrary logic from a single repeated primitive, which is central to the economics of integrated manufacture [1].\n\n## Architecture and its constraints\n\nThe stored-program principle, articulated in the 1945 First Draft of a Report on the EDVAC and developed independently in the Manchester and Cambridge machines, unifies instruction and data storage.\n\nThe resulting von Neumann bottleneck — bandwidth between processing and memory limiting throughput — has driven the elaboration of memory hierarchies, speculative and out-of-order execution, and vector and SIMD extensions. Alternative architectures including dataflow and, more recently, processing-in-memory and neuromorphic designs address it directly but have not displaced the conventional model for general workloads [2].\n\n## Theory\n\nTuring's universal machine result establishes substrate independence: computability is a property of the function computed, not of the mechanism. The Church-Turing thesis identifies effective calculability with Turing computability and remains a thesis.\n\nThe undecidability of the halting problem, and by Rice's theorem of any non-trivial semantic property of programs, imposes limits that no engineering advance addresses.\n\nComputational complexity supplies a second, practically more binding constraint. The P versus NP question remains open, and the presumed intractability of NP-hard problems underlies public-key cryptography. Quantum computation alters the complexity landscape for specific problem classes — notably integer factorisation via Shor's algorithm — without providing general exponential speedup, a distinction frequently misrepresented [2].\n\n## Physical implementation and scaling\n\nENIAC's roughly 18,000 vacuum tubes, 170 m2 footprint and 150 kW consumption illustrate the constraints that motivated solid-state replacement.\n\nThe bipolar transistor (1947) and integrated circuit (1958-59) initiated sustained scaling. Moore's 1965 projection functioned as an industry coordination mechanism as much as a prediction.\n\nThe more consequential regularity was Dennard scaling, whereby reducing feature size held power density constant. Its breakdown around 2005 terminated frequency scaling and forced the transition to multicore and specialised accelerators. Feature sizes are now within an order of magnitude of atomic dimensions, and continued improvement increasingly derives from architecture, packaging and specialisation rather than lithography alone [2].\n\n## Semantics\n\nThe machine operates syntactically on symbol tokens without access to interpretation. Whether syntax can suffice for semantics is the substance of Searle's Chinese Room argument and its extensive literature, and is unresolved. It is a distinct question from computational capability, and conflating the two produces confusion in both directions [2]."
+    }
+  },
+  "citations": [
+    {
+      "marker": 1,
+      "source": "science-museum-uk",
+      "claim": "The definition and components of a computer, binary representation and its engineering rationale, and Boolean logic in circuit design.",
+      "supports": "partially"
+    },
+    {
+      "marker": 2,
+      "source": "computer-history-museum",
+      "claim": "The stored-program principle and von Neumann architecture, ENIAC's specifications, the transistor and integrated circuit, Moore's law and Dennard scaling, and the theoretical limits established by computability and complexity theory.",
+      "supports": "partially"
+    }
+  ],
+  "relations": [
+    {
+      "to": "alan-turing",
+      "kind": "discovered_by"
+    },
+    {
+      "to": "ada-lovelace",
+      "kind": "discovered_by"
+    },
+    {
+      "to": "the-internet",
+      "kind": "causes"
+    },
+    {
+      "to": "artificial-intelligence",
+      "kind": "causes"
+    },
+    {
+      "to": "electricity",
+      "kind": "related"
+    }
+  ],
+  "timeline": [
+    {
+      "title": "Shannon links Boolean algebra to switching circuits",
+      "start": 1937,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 5
+    },
+    {
+      "title": "ENIAC completed",
+      "start": 1945,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 4
+    },
+    {
+      "title": "The transistor is invented",
+      "start": 1947,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 5
+    },
+    {
+      "title": "The integrated circuit is developed",
+      "start": 1958,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 5
+    }
+  ],
+  "review": {
+    "last_reviewed": "2026-09-06",
+    "review_months": 12
+  }
+}

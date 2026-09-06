@@ -1,0 +1,172 @@
+{
+  "slug": "blood",
+  "title": "Blood",
+  "type": "body_system",
+  "categories": [
+    "human-body",
+    "science"
+  ],
+  "primary_category": "human-body",
+  "aliases": [
+    {
+      "text": "blood cells",
+      "kind": "alternative"
+    }
+  ],
+  "summary": "The fluid that carries oxygen, nutrients, hormones and immune cells around the body, and removes waste.",
+  "facts": [
+    {
+      "key": "volume",
+      "label": "Amount in an adult",
+      "value": "About 5 litres",
+      "value_num": 5,
+      "unit": "litres",
+      "epistemic": "estimate",
+      "confidence": 0.85,
+      "group": "Numbers",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "share",
+      "label": "Share of body weight",
+      "value": "About 7%",
+      "value_num": 7,
+      "unit": "%",
+      "epistemic": "estimate",
+      "confidence": 0.85,
+      "group": "Numbers",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "parts",
+      "label": "Main parts",
+      "value": "Plasma, red cells, white cells and platelets",
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "plasma",
+      "label": "Plasma",
+      "value": "About 55% of blood, and mostly water",
+      "value_num": 55,
+      "unit": "%",
+      "epistemic": "estimate",
+      "confidence": 0.9,
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "rbc_life",
+      "label": "Life of a red blood cell",
+      "value": "About 120 days",
+      "value_num": 120,
+      "unit": "days",
+      "epistemic": "estimate",
+      "confidence": 0.9,
+      "group": "Numbers",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "carrier",
+      "label": "What carries the oxygen",
+      "value": "Haemoglobin, which contains iron",
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "groups",
+      "label": "Main blood groups",
+      "value": "A, B, AB and O, each positive or negative",
+      "group": "Blood groups",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "universal",
+      "label": "Universal red cell donor",
+      "value": "O negative",
+      "group": "Blood groups",
+      "cite": [
+        2
+      ]
+    }
+  ],
+  "content": {
+    "age6_8": {
+      "summary": "The red liquid that carries food and air all around your body.",
+      "body": "Blood travels all around your body inside tubes called blood vessels [1].\n\nIt carries oxygen from your lungs and food from your tummy to every part of you [1].\n\nBlood is red because of tiny red cells inside it. These cells are the ones that carry the oxygen [1].\n\nBlood also carries soldiers — white cells that fight germs and help you get better when you are ill [1].\n\nWhen you cut yourself, blood goes sticky and makes a scab. That plugs the hole so you stop bleeding [1]."
+    },
+    "age9_12": {
+      "summary": "What blood is made of, why it is red, and why blood groups matter.",
+      "body": "An adult has around 5 litres of blood, roughly 7 percent of their body weight [1].\n\n## Four main parts\n\n- **Plasma** — a pale yellow liquid, mostly water, making up a bit over half of blood. It carries everything else along, plus nutrients, hormones and waste.\n- **Red blood cells** — carry oxygen. There are trillions of them.\n- **White blood cells** — fight infection.\n- **Platelets** — tiny fragments that help blood clot [1].\n\n## Why blood is red\n\nRed cells are packed with a protein called haemoglobin, which contains iron. Iron binds oxygen, and it is what makes blood red — bright red when carrying oxygen, darker when not [1].\n\nA common myth says blood is blue inside your body. It is not. Veins look bluish because of how light passes through skin, not because of the blood inside them [1].\n\n## Red cells are unusual\n\nHuman red blood cells throw away their nucleus as they mature. Having no nucleus means more room for haemoglobin, but it also means they cannot repair themselves.\n\nSo they wear out. A red cell lasts about 120 days, and your bone marrow makes millions of replacements every second [1].\n\n## Blood groups\n\nRed cells carry markers on their surface. Which markers you have determines your blood group: A, B, AB or O, plus positive or negative for the Rhesus factor [2].\n\nThis matters enormously for transfusions. If someone is given blood with markers their immune system does not recognise, it attacks the donated cells, which can be fatal.\n\nO negative red cells have none of the main markers, so they can usually be given to anyone in an emergency. People with O negative blood are called universal donors [2].\n\nBefore blood groups were discovered in 1901, transfusions killed as often as they cured. Understanding them turned a gamble into routine medicine [2]."
+    },
+    "teen": {
+      "summary": "A connective tissue of cells suspended in plasma, providing transport, immune defence and haemostasis.",
+      "body": "Blood is a fluid connective tissue of approximately 5 litres in adults, comprising cellular elements suspended in plasma [1].\n\n## Composition\n\nPlasma constitutes around 55 percent by volume: water with dissolved proteins (albumin, globulins, fibrinogen), electrolytes, nutrients, hormones and metabolic waste. Albumin generates the colloid osmotic pressure that retains fluid within capillaries; its deficiency produces oedema.\n\nThe cellular fraction — the haematocrit — is dominated by erythrocytes, with leukocytes and platelets forming a thin buffy coat on centrifugation [1].\n\n## Oxygen transport\n\nEach erythrocyte contains roughly 270 million haemoglobin molecules, each binding up to four oxygen molecules at haem iron centres.\n\nHaemoglobin's oxygen affinity is cooperative: binding one oxygen increases affinity for the next, producing a sigmoid dissociation curve. This is functionally essential — it allows near-saturation in the lungs and substantial unloading in tissues across a modest partial pressure range.\n\nAffinity is further modulated by pH, carbon dioxide and temperature. Actively metabolising tissue is warmer, more acidic and richer in CO2, all of which shift the curve rightward and release more oxygen precisely where it is needed. This is the Bohr effect [1].\n\n## Erythrocyte biology\n\nMammalian erythrocytes are enucleate, maximising haemoglobin content and permitting the biconcave shape that increases surface area and deformability for capillary transit. The cost is an inability to synthesise protein or repair damage, limiting lifespan to about 120 days.\n\nProduction is regulated by erythropoietin from the kidney in response to tissue hypoxia — the mechanism underlying altitude acclimatisation and, when exploited pharmacologically, blood doping [1].\n\n## Haemostasis\n\nVascular injury triggers vasoconstriction, platelet adhesion and aggregation forming a primary plug, and the coagulation cascade converting fibrinogen to fibrin, which stabilises the clot.\n\nThe cascade's amplification permits rapid response but requires careful regulation; deficiency of a single factor produces haemophilia, while unregulated activation produces thrombosis [2].\n\n## Blood groups\n\nABO antigens are carbohydrate structures on the erythrocyte surface; the Rhesus D antigen is a protein. Individuals possess naturally occurring antibodies against ABO antigens they lack, which is why ABO-incompatible transfusion causes immediate haemolysis.\n\nLandsteiner's identification of the ABO system in 1901 converted transfusion from a frequently lethal procedure into a reliable one [2]."
+    },
+    "adult": {
+      "summary": "A fluid connective tissue mediating gas transport, nutrient and waste distribution, immune surveillance, thermoregulation and haemostasis.",
+      "body": "Blood is a specialised fluid connective tissue of approximately 5 L in a 70 kg adult, comprising formed elements suspended in plasma [1].\n\n## Plasma\n\nPlasma is approximately 92 percent water, with plasma proteins at roughly 7 percent. Albumin dominates by concentration and accounts for the majority of colloid osmotic pressure, opposing the hydrostatic filtration described by the Starling equation; hypoalbuminaemia consequently produces interstitial oedema.\n\nGlobulins provide transport and immunoglobulin function; fibrinogen is the terminal substrate of coagulation. Serum differs from plasma by the absence of fibrinogen and other consumed clotting factors.\n\n## Oxygen carriage and the dissociation curve\n\nHaemoglobin is a tetramer of two alpha and two beta globin chains, each bearing a haem prosthetic group with ferrous iron. Cooperative binding arises from quaternary transition between tense and relaxed conformations, producing the sigmoid oxygen dissociation relationship.\n\nThe physiological utility of sigmoidicity is that the steep portion coincides with tissue partial pressures, maximising unloading for a given pressure drop, while the plateau confers tolerance to moderate falls in alveolar PO2.\n\nRightward shifts from increased PCO2, hydrogen ion concentration, temperature and 2,3-bisphosphoglycerate enhance tissue delivery. Fetal haemoglobin's lower 2,3-BPG affinity produces a leftward shift, enabling placental oxygen transfer from maternal blood [1].\n\n## Erythrocyte physiology\n\nEnucleation in mammalian erythropoiesis maximises haemoglobin packing and enables the biconcave discoid geometry that increases surface-to-volume ratio and deformability, permitting transit through capillaries narrower than the cell's resting diameter.\n\nAbsence of nucleus and organelles precludes protein synthesis and oxidative phosphorylation; energy derives from anaerobic glycolysis. Senescent cells are cleared by splenic and hepatic macrophages after approximately 120 days, with iron recycled via transferrin.\n\nErythropoietin, produced by renal peritubular interstitial cells in response to hypoxia, regulates erythroid output — the basis of anaemia in chronic kidney disease and of altitude-induced polycythaemia [1].\n\n## Haemostasis\n\nPrimary haemostasis involves platelet adhesion via von Willebrand factor to exposed subendothelial collagen, activation, and aggregation through GPIIb/IIIa cross-linking.\n\nSecondary haemostasis proceeds through tissue-factor-initiated coagulation with amplification on activated platelet surfaces, culminating in thrombin generation and fibrin polymerisation. Regulatory mechanisms — antithrombin, protein C/S, tissue factor pathway inhibitor and fibrinolysis — confine the response.\n\nThe therapeutic landscape follows directly: anticoagulants target specific cascade components, antiplatelet agents target primary haemostasis, and factor replacement addresses inherited deficiency [2].\n\n## Immunohaematology\n\nABO antigens are terminal carbohydrate moieties determined by glycosyltransferase alleles; the O phenotype reflects a non-functional transferase. Naturally occurring isohaemagglutinins against absent antigens make ABO incompatibility immediately haemolytic.\n\nRhD immunogenicity underlies haemolytic disease of the fetus and newborn, largely preventable since the introduction of anti-D immunoprophylaxis — an intervention that eliminated a major cause of perinatal mortality within a generation.\n\nOver 40 blood group systems are now recognised beyond ABO and Rh, relevant to transfusion in multiply transfused patients [2]."
+    }
+  },
+  "citations": [
+    {
+      "marker": 1,
+      "source": "nih-nhlbi",
+      "claim": "Blood volume and composition, plasma constituents, haemoglobin structure and oxygen transport, erythrocyte enucleation and lifespan, and erythropoietin regulation.",
+      "supports": "supports"
+    },
+    {
+      "marker": 2,
+      "source": "nhs-uk",
+      "claim": "The ABO and Rhesus blood group systems, transfusion compatibility and the universal donor, haemostasis, and the clinical significance of blood group discovery.",
+      "supports": "partially"
+    }
+  ],
+  "relations": [
+    {
+      "to": "the-heart",
+      "kind": "related"
+    },
+    {
+      "to": "the-lungs",
+      "kind": "related"
+    },
+    {
+      "to": "the-skeleton",
+      "kind": "related"
+    },
+    {
+      "to": "dna",
+      "kind": "related",
+      "weight": 0.4
+    }
+  ],
+  "timeline": [
+    {
+      "title": "Blood groups discovered",
+      "start": 1901,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 4,
+      "description": "Karl Landsteiner identifies the ABO system, making transfusion safe."
+    }
+  ],
+  "review": {
+    "last_reviewed": "2026-09-06",
+    "review_months": 24
+  }
+}

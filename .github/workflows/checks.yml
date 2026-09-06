@@ -1,0 +1,39 @@
+name: Checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.11', '3.12', '3.13']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install development tools
+        run: python -m pip install --quiet pytest ruff mypy
+
+      # The application itself has no third-party dependencies, so this both
+      # runs the suite and proves the no-dependency claim holds.
+      - name: Build the encyclopaedia from the content packs
+        run: python run.py setup
+
+      - name: Validate content
+        run: python run.py validate
+
+      - name: Tests
+        run: python -m pytest -q
+
+      - name: Lint
+        run: python -m ruff check src tests run.py
+
+      - name: Types
+        run: python -m mypy

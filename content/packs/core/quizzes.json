@@ -12,9 +12,16 @@
         "explanation": "Triceratops had two long horns above its eyes and one shorter horn on its nose. Its name means 'three-horned face'.",
         "article": "triceratops",
         "options": [
-          { "text": "Triceratops", "correct": true },
-          { "text": "Tyrannosaurus rex" },
-          { "text": "The blue whale" }
+          {
+            "text": "Triceratops",
+            "correct": true
+          },
+          {
+            "text": "Tyrannosaurus rex"
+          },
+          {
+            "text": "The blue whale"
+          }
         ]
       },
       {
@@ -22,16 +29,31 @@
         "prompt": "Tyrannosaurus rex ate plants.",
         "explanation": "No — T. rex ate meat. It had thick, pointy teeth for crunching through bone. Triceratops was the plant eater.",
         "article": "tyrannosaurus-rex",
-        "options": [{ "text": "False", "correct": true }, { "text": "True" }]
+        "options": [
+          {
+            "text": "False",
+            "correct": true
+          },
+          {
+            "text": "True"
+          }
+        ]
       },
       {
         "prompt": "What is a fossil?",
         "explanation": "A fossil is what is left of a plant or animal from long ago, turned to stone. Even a footprint can be a fossil.",
         "article": "fossil",
         "options": [
-          { "text": "A bone or footprint from long ago that turned into rock", "correct": true },
-          { "text": "A dinosaur that is still alive today" },
-          { "text": "A kind of rock that grows" }
+          {
+            "text": "A bone or footprint from long ago that turned into rock",
+            "correct": true
+          },
+          {
+            "text": "A dinosaur that is still alive today"
+          },
+          {
+            "text": "A kind of rock that grows"
+          }
         ]
       },
       {
@@ -39,9 +61,16 @@
         "explanation": "Nobody ever saw a dinosaur. We know about them because people dig up their fossil bones, teeth and footprints and study them.",
         "article": "fossil",
         "options": [
-          { "text": "People dig up their bones and study them", "correct": true },
-          { "text": "Someone wrote a book about them at the time" },
-          { "text": "We found photographs of them" }
+          {
+            "text": "People dig up their bones and study them",
+            "correct": true
+          },
+          {
+            "text": "Someone wrote a book about them at the time"
+          },
+          {
+            "text": "We found photographs of them"
+          }
         ]
       },
       {
@@ -49,7 +78,15 @@
         "prompt": "People lived at the same time as Tyrannosaurus rex.",
         "explanation": "Not even close! T. rex died out about 66 million years ago. The first people came along about 300,000 years ago — that is a gap of more than 65 million years.",
         "article": "human-evolution",
-        "options": [{ "text": "False", "correct": true }, { "text": "True" }]
+        "options": [
+          {
+            "text": "False",
+            "correct": true
+          },
+          {
+            "text": "True"
+          }
+        ]
       },
       {
         "kind": "ordering",
@@ -57,14 +94,19 @@
         "explanation": "The Earth formed first, an incredibly long time ago. Dinosaurs came much later, and people came later still — long after the dinosaurs had gone.",
         "article": "cretaceous-period",
         "options": [
-          { "text": "🌍 The Earth forms" },
-          { "text": "🦕 Dinosaurs live on Earth" },
-          { "text": "🧑 The first people appear" }
+          {
+            "text": "🌍 The Earth forms"
+          },
+          {
+            "text": "🦕 Dinosaurs live on Earth"
+          },
+          {
+            "text": "🧑 The first people appear"
+          }
         ]
       }
     ]
   },
-
   {
     "key": "kids-space",
     "title": "Blast Off!",
@@ -78,9 +120,16 @@
         "explanation": "We live on Earth, the third planet from the Sun. It is the only place anyone has ever found living things.",
         "article": "earth",
         "options": [
-          { "text": "Earth", "correct": true },
-          { "text": "Mars" },
-          { "text": "The Moon" }
+          {
+            "text": "Earth",
+            "correct": true
+          },
+          {
+            "text": "Mars"
+          },
+          {
+            "text": "The Moon"
+          }
         ]
       },
       {
@@ -88,16 +137,31 @@
         "prompt": "You could breathe the air on the Moon.",
         "explanation": "No. The Moon has almost no air at all. Astronauts have to take air with them in their suits.",
         "article": "moon",
-        "options": [{ "text": "False", "correct": true }, { "text": "True" }]
+        "options": [
+          {
+            "text": "False",
+            "correct": true
+          },
+          {
+            "text": "True"
+          }
+        ]
       },
       {
         "prompt": "Why does Mars look red?",
         "explanation": "The dust on Mars has rust in it, and rust is reddish. That is why Mars is called the Red Planet.",
         "article": "mars",
         "options": [
-          { "text": "Its dust has rust in it", "correct": true },
-          { "text": "It is very hot" },
-          { "text": "It is close to the Sun" }
+          {
+            "text": "Its dust has rust in it",
+            "correct": true
+          },
+          {
+            "text": "It is very hot"
+          },
+          {
+            "text": "It is close to the Sun"
+          }
         ]
       },
       {
@@ -105,16 +169,31 @@
         "prompt": "The Moon makes its own light.",
         "explanation": "The Moon does not glow by itself. It reflects light from the Sun, like a mirror.",
         "article": "moon",
-        "options": [{ "text": "False", "correct": true }, { "text": "True" }]
+        "options": [
+          {
+            "text": "False",
+            "correct": true
+          },
+          {
+            "text": "True"
+          }
+        ]
       },
       {
         "prompt": "How many people have walked on the Moon?",
         "explanation": "Twelve people have walked on the Moon, between 1969 and 1972. Nobody has been back since.",
         "article": "moon",
         "options": [
-          { "text": "12", "correct": true },
-          { "text": "1" },
-          { "text": "Hundreds" }
+          {
+            "text": "12",
+            "correct": true
+          },
+          {
+            "text": "1"
+          },
+          {
+            "text": "Hundreds"
+          }
         ]
       },
       {
@@ -122,14 +201,20 @@
         "explanation": "The Sun is in the middle, and all the planets go around it. The Sun is far bigger than everything else put together.",
         "article": "solar-system",
         "options": [
-          { "text": "The Sun", "correct": true },
-          { "text": "The Earth" },
-          { "text": "The Moon" }
+          {
+            "text": "The Sun",
+            "correct": true
+          },
+          {
+            "text": "The Earth"
+          },
+          {
+            "text": "The Moon"
+          }
         ]
       }
     ]
   },
-
   {
     "key": "kids-animals",
     "title": "Big and Small",
@@ -143,9 +228,16 @@
         "explanation": "The blue whale. It is bigger than any dinosaur was — as long as three buses in a row.",
         "article": "blue-whale",
         "options": [
-          { "text": "The blue whale", "correct": true },
-          { "text": "Tyrannosaurus rex" },
-          { "text": "The elephant" }
+          {
+            "text": "The blue whale",
+            "correct": true
+          },
+          {
+            "text": "Tyrannosaurus rex"
+          },
+          {
+            "text": "The elephant"
+          }
         ]
       },
       {
@@ -153,9 +245,16 @@
         "explanation": "Tiny creatures called krill, only a few centimetres long. The biggest animal in the world eats some of the smallest.",
         "article": "blue-whale",
         "options": [
-          { "text": "Tiny animals called krill", "correct": true },
-          { "text": "Sharks" },
-          { "text": "Seaweed" }
+          {
+            "text": "Tiny animals called krill",
+            "correct": true
+          },
+          {
+            "text": "Sharks"
+          },
+          {
+            "text": "Seaweed"
+          }
         ]
       },
       {
@@ -163,16 +262,31 @@
         "prompt": "A blue whale's heart is about as big as a small car.",
         "explanation": "True! Everything about a blue whale is enormous, including its heart.",
         "article": "blue-whale",
-        "options": [{ "text": "True", "correct": true }, { "text": "False" }]
+        "options": [
+          {
+            "text": "True",
+            "correct": true
+          },
+          {
+            "text": "False"
+          }
+        ]
       },
       {
         "prompt": "How does a blue whale catch its food?",
         "explanation": "It takes a giant gulp of water and pushes it out through a comb of stiff plates called baleen. The krill get trapped inside.",
         "article": "blue-whale",
         "options": [
-          { "text": "It gulps water and strains the food out", "correct": true },
-          { "text": "It bites with big sharp teeth" },
-          { "text": "It catches food with its tail" }
+          {
+            "text": "It gulps water and strains the food out",
+            "correct": true
+          },
+          {
+            "text": "It bites with big sharp teeth"
+          },
+          {
+            "text": "It catches food with its tail"
+          }
         ]
       },
       {
@@ -180,11 +294,18 @@
         "prompt": "There are plenty of blue whales and they are not in any danger.",
         "explanation": "Sadly not. People hunted so many blue whales that very few were left. They are protected now and slowly coming back, but they are still endangered.",
         "article": "blue-whale",
-        "options": [{ "text": "False", "correct": true }, { "text": "True" }]
+        "options": [
+          {
+            "text": "False",
+            "correct": true
+          },
+          {
+            "text": "True"
+          }
+        ]
       }
     ]
   },
-
   {
     "key": "kids-earth",
     "title": "Our Planet",
@@ -198,9 +319,16 @@
         "explanation": "Water. About 71 out of every 100 parts of Earth's surface is covered by ocean. That is why Earth looks blue from space.",
         "article": "earth",
         "options": [
-          { "text": "Water", "correct": true },
-          { "text": "Sand" },
-          { "text": "Forest" }
+          {
+            "text": "Water",
+            "correct": true
+          },
+          {
+            "text": "Sand"
+          },
+          {
+            "text": "Forest"
+          }
         ]
       },
       {
@@ -208,9 +336,16 @@
         "explanation": "Hot melted rock. Under the ground we call it magma. Once it comes out, we call it lava.",
         "article": "volcano",
         "options": [
-          { "text": "Hot melted rock called lava", "correct": true },
-          { "text": "Cold water" },
-          { "text": "Sand" }
+          {
+            "text": "Hot melted rock called lava",
+            "correct": true
+          },
+          {
+            "text": "Cold water"
+          },
+          {
+            "text": "Sand"
+          }
         ]
       },
       {
@@ -218,16 +353,31 @@
         "prompt": "Day and night happen because the Earth spins.",
         "explanation": "True. Earth spins around once about every 24 hours. When your side faces the Sun it is day, and when it turns away it is night.",
         "article": "earth",
-        "options": [{ "text": "True", "correct": true }, { "text": "False" }]
+        "options": [
+          {
+            "text": "True",
+            "correct": true
+          },
+          {
+            "text": "False"
+          }
+        ]
       },
       {
         "prompt": "What do plants need to make their own food?",
         "explanation": "Sunlight, water and a gas from the air called carbon dioxide. Plants do not eat food — they make it.",
         "article": "photosynthesis",
         "options": [
-          { "text": "Sunlight, water and air", "correct": true },
-          { "text": "Meat and bones" },
-          { "text": "Only soil" }
+          {
+            "text": "Sunlight, water and air",
+            "correct": true
+          },
+          {
+            "text": "Meat and bones"
+          },
+          {
+            "text": "Only soil"
+          }
         ]
       },
       {
@@ -235,14 +385,20 @@
         "explanation": "Oxygen — the gas we breathe. Plants feed themselves and help us breathe at the same time.",
         "article": "photosynthesis",
         "options": [
-          { "text": "Oxygen", "correct": true },
-          { "text": "Smoke" },
-          { "text": "Water" }
+          {
+            "text": "Oxygen",
+            "correct": true
+          },
+          {
+            "text": "Smoke"
+          },
+          {
+            "text": "Water"
+          }
         ]
       }
     ]
   },
-
   {
     "key": "kids-forces",
     "title": "Why Things Fall",
@@ -256,9 +412,16 @@
         "explanation": "Gravity. It is a pull that everything with stuff in it has. The Earth is huge, so it pulls hard.",
         "article": "gravity",
         "options": [
-          { "text": "Gravity", "correct": true },
-          { "text": "The wind" },
-          { "text": "Magnets" }
+          {
+            "text": "Gravity",
+            "correct": true
+          },
+          {
+            "text": "The wind"
+          },
+          {
+            "text": "Magnets"
+          }
         ]
       },
       {
@@ -266,16 +429,31 @@
         "prompt": "There is no gravity at all on the Moon.",
         "explanation": "The Moon does have gravity — just much less than Earth's, about one sixth. That is why astronauts bounce when they walk.",
         "article": "moon",
-        "options": [{ "text": "False", "correct": true }, { "text": "True" }]
+        "options": [
+          {
+            "text": "False",
+            "correct": true
+          },
+          {
+            "text": "True"
+          }
+        ]
       },
       {
         "prompt": "What keeps the Moon going around the Earth?",
         "explanation": "Gravity. The Moon is falling towards Earth all the time, but it is also moving sideways fast enough that it keeps missing. That is what an orbit is.",
         "article": "gravity",
         "options": [
-          { "text": "Gravity", "correct": true },
-          { "text": "A very long rope" },
-          { "text": "The wind in space" }
+          {
+            "text": "Gravity",
+            "correct": true
+          },
+          {
+            "text": "A very long rope"
+          },
+          {
+            "text": "The wind in space"
+          }
         ]
       },
       {
@@ -283,9 +461,16 @@
         "explanation": "Much higher! Gravity there is about six times weaker than on Earth.",
         "article": "moon",
         "options": [
-          { "text": "About six times higher than on Earth", "correct": true },
-          { "text": "Not at all" },
-          { "text": "Exactly the same as on Earth" }
+          {
+            "text": "About six times higher than on Earth",
+            "correct": true
+          },
+          {
+            "text": "Not at all"
+          },
+          {
+            "text": "Exactly the same as on Earth"
+          }
         ]
       },
       {
@@ -293,11 +478,18 @@
         "prompt": "On the Moon, a hammer and a feather dropped together land at the same time.",
         "explanation": "True, and astronauts really tried it. On Earth the air slows the feather down. The Moon has no air, so they fall together.",
         "article": "gravity",
-        "options": [{ "text": "True", "correct": true }, { "text": "False" }]
+        "options": [
+          {
+            "text": "True",
+            "correct": true
+          },
+          {
+            "text": "False"
+          }
+        ]
       }
     ]
   },
-
   {
     "key": "trex-basics",
     "title": "Tyrannosaurus rex",
@@ -313,10 +505,19 @@
         "article": "tyrannosaurus-rex",
         "source": "si-nmnh",
         "options": [
-          { "text": "About 66 million years ago", "correct": true },
-          { "text": "About 6 million years ago" },
-          { "text": "About 200 million years ago" },
-          { "text": "At the same time as the first humans" }
+          {
+            "text": "About 66 million years ago",
+            "correct": true
+          },
+          {
+            "text": "About 6 million years ago"
+          },
+          {
+            "text": "About 200 million years ago"
+          },
+          {
+            "text": "At the same time as the first humans"
+          }
         ]
       },
       {
@@ -324,10 +525,19 @@
         "explanation": "Adults reached around 12 metres. Note that mass estimates vary far more than length, because you cannot weigh a fossil.",
         "article": "tyrannosaurus-rex",
         "options": [
-          { "text": "About 12 metres", "correct": true },
-          { "text": "About 3 metres" },
-          { "text": "About 30 metres" },
-          { "text": "About 50 metres" }
+          {
+            "text": "About 12 metres",
+            "correct": true
+          },
+          {
+            "text": "About 3 metres"
+          },
+          {
+            "text": "About 30 metres"
+          },
+          {
+            "text": "About 50 metres"
+          }
         ]
       },
       {
@@ -336,7 +546,15 @@
         "explanation": "False, and not remotely close. T. rex died out about 66 million years ago. The earliest Homo sapiens fossils are around 300,000 years old — a gap of more than 65 million years.",
         "article": "human-evolution",
         "difficulty": "easy",
-        "options": [{ "text": "False", "correct": true }, { "text": "True" }]
+        "options": [
+          {
+            "text": "False",
+            "correct": true
+          },
+          {
+            "text": "True"
+          }
+        ]
       },
       {
         "prompt": "Which animal is larger than Tyrannosaurus rex?",
@@ -344,15 +562,23 @@
         "article": "blue-whale",
         "difficulty": "medium",
         "options": [
-          { "text": "The blue whale", "correct": true },
-          { "text": "The African elephant" },
-          { "text": "Triceratops" },
-          { "text": "Nothing has ever been larger" }
+          {
+            "text": "The blue whale",
+            "correct": true
+          },
+          {
+            "text": "The African elephant"
+          },
+          {
+            "text": "Triceratops"
+          },
+          {
+            "text": "Nothing has ever been larger"
+          }
         ]
       }
     ]
   },
-
   {
     "key": "space-starter",
     "title": "Our place in space",
@@ -367,10 +593,19 @@
         "article": "earth",
         "source": "nasa-earth",
         "options": [
-          { "text": "Earth", "correct": true },
-          { "text": "Mars" },
-          { "text": "Venus" },
-          { "text": "Jupiter" }
+          {
+            "text": "Earth",
+            "correct": true
+          },
+          {
+            "text": "Mars"
+          },
+          {
+            "text": "Venus"
+          },
+          {
+            "text": "Jupiter"
+          }
         ]
       },
       {
@@ -380,10 +615,19 @@
         "source": "nasa-moon",
         "difficulty": "medium",
         "options": [
-          { "text": "It spins once in exactly the time it takes to orbit Earth", "correct": true },
-          { "text": "It does not spin at all" },
-          { "text": "The far side is always in shadow" },
-          { "text": "Earth's gravity holds it completely still" }
+          {
+            "text": "It spins once in exactly the time it takes to orbit Earth",
+            "correct": true
+          },
+          {
+            "text": "It does not spin at all"
+          },
+          {
+            "text": "The far side is always in shadow"
+          },
+          {
+            "text": "Earth's gravity holds it completely still"
+          }
         ]
       },
       {
@@ -393,10 +637,19 @@
         "source": "nasa-solar-system",
         "difficulty": "medium",
         "options": [
-          { "text": "More than 99%", "correct": true },
-          { "text": "About 75%" },
-          { "text": "About 50%" },
-          { "text": "About 25%" }
+          {
+            "text": "More than 99%",
+            "correct": true
+          },
+          {
+            "text": "About 75%"
+          },
+          {
+            "text": "About 50%"
+          },
+          {
+            "text": "About 25%"
+          }
         ]
       },
       {
@@ -405,11 +658,18 @@
         "explanation": "True. Dried river valleys, delta-shaped sediment deposits and minerals such as clays and sulfates all require water to form. Mars is dry today, but it was not always.",
         "article": "mars",
         "source": "nasa-mars",
-        "options": [{ "text": "True", "correct": true }, { "text": "False" }]
+        "options": [
+          {
+            "text": "True",
+            "correct": true
+          },
+          {
+            "text": "False"
+          }
+        ]
       }
     ]
   },
-
   {
     "key": "junior-dinosaurs",
     "title": "Dinosaur Valley",
@@ -423,10 +683,19 @@
         "explanation": "You cannot weigh a fossil. Mass has to be worked out by modelling the muscle and flesh around a skeleton, and different methods give different answers from the same bones.",
         "article": "tyrannosaurus-rex",
         "options": [
-          { "text": "Mass must be modelled from the skeleton, and methods disagree", "correct": true },
-          { "text": "Every T. rex weighed something completely different" },
-          { "text": "Nobody has bothered to work it out" },
-          { "text": "The fossils are too heavy to lift onto scales" }
+          {
+            "text": "Mass must be modelled from the skeleton, and methods disagree",
+            "correct": true
+          },
+          {
+            "text": "Every T. rex weighed something completely different"
+          },
+          {
+            "text": "Nobody has bothered to work it out"
+          },
+          {
+            "text": "The fossils are too heavy to lift onto scales"
+          }
         ]
       },
       {
@@ -434,10 +703,19 @@
         "explanation": "A trace fossil records something an animal did, rather than part of its body — footprints, burrows, nests. They are valuable because they capture behaviour, which bones cannot.",
         "article": "fossil",
         "options": [
-          { "text": "A footprint, burrow or nest — a record of behaviour", "correct": true },
-          { "text": "A very small bone" },
-          { "text": "A fossil that has been damaged" },
-          { "text": "A fossil found in the sea" }
+          {
+            "text": "A footprint, burrow or nest — a record of behaviour",
+            "correct": true
+          },
+          {
+            "text": "A very small bone"
+          },
+          {
+            "text": "A fossil that has been damaged"
+          },
+          {
+            "text": "A fossil found in the sea"
+          }
         ]
       },
       {
@@ -445,17 +723,34 @@
         "prompt": "Triceratops and Tyrannosaurus rex lived in the same time and place.",
         "explanation": "True. Both are abundant in the Hell Creek Formation of western North America, in the last couple of million years of the Cretaceous.",
         "article": "triceratops",
-        "options": [{ "text": "True", "correct": true }, { "text": "False" }]
+        "options": [
+          {
+            "text": "True",
+            "correct": true
+          },
+          {
+            "text": "False"
+          }
+        ]
       },
       {
         "prompt": "Scientists are not certain what the Triceratops frill was for. Why not?",
         "explanation": "Behaviour does not fossilise. Defence, display, species recognition and cooling have all been proposed, and the evidence fits more than one. Honest science says so instead of picking one.",
         "article": "triceratops",
         "options": [
-          { "text": "Behaviour does not fossilise, so several explanations still fit", "correct": true },
-          { "text": "No complete frill has ever been found" },
-          { "text": "The frills are too fragile to study" },
-          { "text": "Scientists have not looked into it" }
+          {
+            "text": "Behaviour does not fossilise, so several explanations still fit",
+            "correct": true
+          },
+          {
+            "text": "No complete frill has ever been found"
+          },
+          {
+            "text": "The frills are too fragile to study"
+          },
+          {
+            "text": "Scientists have not looked into it"
+          }
         ]
       },
       {
@@ -463,10 +758,19 @@
         "explanation": "Birds. Birds are avian dinosaurs — the only dinosaur lineage that made it through. Every other dinosaur group died out.",
         "article": "cretaceous-period",
         "options": [
-          { "text": "Birds", "correct": true },
-          { "text": "Crocodiles" },
-          { "text": "Lizards" },
-          { "text": "None — they all died out" }
+          {
+            "text": "Birds",
+            "correct": true
+          },
+          {
+            "text": "Crocodiles"
+          },
+          {
+            "text": "Lizards"
+          },
+          {
+            "text": "None — they all died out"
+          }
         ]
       },
       {
@@ -475,15 +779,22 @@
         "explanation": "The Cretaceous began about 145 million years ago. Flowering plants spread during it. T. rex appears right at the end, and the asteroid impact closes the period 66 million years ago.",
         "article": "cretaceous-period",
         "options": [
-          { "text": "The Cretaceous Period begins" },
-          { "text": "Flowering plants spread across the world" },
-          { "text": "Tyrannosaurus rex lives" },
-          { "text": "An asteroid strikes the Earth" }
+          {
+            "text": "The Cretaceous Period begins"
+          },
+          {
+            "text": "Flowering plants spread across the world"
+          },
+          {
+            "text": "Tyrannosaurus rex lives"
+          },
+          {
+            "text": "An asteroid strikes the Earth"
+          }
         ]
       }
     ]
   },
-
   {
     "key": "junior-space",
     "title": "Deep Space",
@@ -497,10 +808,19 @@
         "explanation": "Mars has no plate tectonics. On Earth a plate slides over a hotspot and makes a chain of volcanoes; on Mars the ground stays put, so one volcano keeps building in the same place for a very long time.",
         "article": "mars",
         "options": [
-          { "text": "Mars has no moving plates, so a volcano keeps building in one spot", "correct": true },
-          { "text": "Mars has much stronger gravity than Earth" },
-          { "text": "It is made of ice, which piles up higher" },
-          { "text": "It was built up by asteroid impacts" }
+          {
+            "text": "Mars has no moving plates, so a volcano keeps building in one spot",
+            "correct": true
+          },
+          {
+            "text": "Mars has much stronger gravity than Earth"
+          },
+          {
+            "text": "It is made of ice, which piles up higher"
+          },
+          {
+            "text": "It was built up by asteroid impacts"
+          }
         ]
       },
       {
@@ -508,10 +828,19 @@
         "explanation": "It is the boundary of no return — the point where escaping would mean travelling faster than light. It is not a solid surface you could touch.",
         "article": "black-hole",
         "options": [
-          { "text": "The boundary beyond which nothing can escape", "correct": true },
-          { "text": "The solid surface of the black hole" },
-          { "text": "The bright ring of stars around it" },
-          { "text": "The point where gravity stops working" }
+          {
+            "text": "The boundary beyond which nothing can escape",
+            "correct": true
+          },
+          {
+            "text": "The solid surface of the black hole"
+          },
+          {
+            "text": "The bright ring of stars around it"
+          },
+          {
+            "text": "The point where gravity stops working"
+          }
         ]
       },
       {
@@ -519,17 +848,34 @@
         "prompt": "Our Sun will one day become a black hole.",
         "explanation": "False. The Sun is far too small. Only very massive stars collapse into black holes. The Sun will end its life as a white dwarf.",
         "article": "black-hole",
-        "options": [{ "text": "False", "correct": true }, { "text": "True" }]
+        "options": [
+          {
+            "text": "False",
+            "correct": true
+          },
+          {
+            "text": "True"
+          }
+        ]
       },
       {
         "prompt": "Why was Pluto reclassified as a dwarf planet in 2006?",
         "explanation": "Astronomers agreed a stricter definition of 'planet' that requires clearing its orbital neighbourhood. Pluto does not. Pluto itself did not change — the definition did.",
         "article": "solar-system",
         "options": [
-          { "text": "The definition of 'planet' changed, not Pluto", "correct": true },
-          { "text": "Pluto shrank" },
-          { "text": "Pluto drifted out of the Solar System" },
-          { "text": "It turned out Pluto was a moon" }
+          {
+            "text": "The definition of 'planet' changed, not Pluto",
+            "correct": true
+          },
+          {
+            "text": "Pluto shrank"
+          },
+          {
+            "text": "Pluto drifted out of the Solar System"
+          },
+          {
+            "text": "It turned out Pluto was a moon"
+          }
         ]
       },
       {
@@ -538,10 +884,22 @@
         "explanation": "Earth is the water world; Mars has the biggest volcano we know of; the Moon is the only other world people have walked on; a black hole holds light itself.",
         "article": "solar-system",
         "options": [
-          { "text": "Earth", "match": "About 71% covered in water" },
-          { "text": "Mars", "match": "The largest known volcano" },
-          { "text": "The Moon", "match": "Twelve people have walked on it" },
-          { "text": "Black hole", "match": "Not even light can escape" }
+          {
+            "text": "Earth",
+            "match": "About 71% covered in water"
+          },
+          {
+            "text": "Mars",
+            "match": "The largest known volcano"
+          },
+          {
+            "text": "The Moon",
+            "match": "Twelve people have walked on it"
+          },
+          {
+            "text": "Black hole",
+            "match": "Not even light can escape"
+          }
         ]
       },
       {
@@ -550,15 +908,23 @@
         "article": "black-hole",
         "source": "eht-collaboration",
         "options": [
-          { "text": "2019", "correct": true },
-          { "text": "1969" },
-          { "text": "1915" },
-          { "text": "2005" }
+          {
+            "text": "2019",
+            "correct": true
+          },
+          {
+            "text": "1969"
+          },
+          {
+            "text": "1915"
+          },
+          {
+            "text": "2005"
+          }
         ]
       }
     ]
   },
-
   {
     "key": "junior-earth",
     "title": "Living Earth",
@@ -572,10 +938,19 @@
         "explanation": "Earth's axis is tilted by about 23.5 degrees. For part of the year your half of the planet leans towards the Sun and gets more direct sunlight. It is not about being closer to the Sun.",
         "article": "earth",
         "options": [
-          { "text": "Earth's tilt", "correct": true },
-          { "text": "Earth being closer to the Sun in summer" },
-          { "text": "The Moon blocking sunlight" },
-          { "text": "Changes in the Sun's brightness" }
+          {
+            "text": "Earth's tilt",
+            "correct": true
+          },
+          {
+            "text": "Earth being closer to the Sun in summer"
+          },
+          {
+            "text": "The Moon blocking sunlight"
+          },
+          {
+            "text": "Changes in the Sun's brightness"
+          }
         ]
       },
       {
@@ -583,10 +958,19 @@
         "explanation": "Motion in the liquid iron outer core acts as a dynamo. The resulting magnetic field deflects much of the solar wind and helps Earth keep its atmosphere.",
         "article": "earth",
         "options": [
-          { "text": "Moving liquid iron in Earth's outer core", "correct": true },
-          { "text": "Giant magnets in the crust" },
-          { "text": "The Moon's pull" },
-          { "text": "Lightning in the atmosphere" }
+          {
+            "text": "Moving liquid iron in Earth's outer core",
+            "correct": true
+          },
+          {
+            "text": "Giant magnets in the crust"
+          },
+          {
+            "text": "The Moon's pull"
+          },
+          {
+            "text": "Lightning in the atmosphere"
+          }
         ]
       },
       {
@@ -594,10 +978,19 @@
         "explanation": "It depends how runny the magma is. Runny magma lets gas bubbles escape, so lava flows out steadily. Thick, sticky magma traps the gas until the pressure bursts out.",
         "article": "volcano",
         "options": [
-          { "text": "How runny the magma is, and whether gas can escape", "correct": true },
-          { "text": "How tall the volcano is" },
-          { "text": "How close it is to the sea" },
-          { "text": "The time of year" }
+          {
+            "text": "How runny the magma is, and whether gas can escape",
+            "correct": true
+          },
+          {
+            "text": "How tall the volcano is"
+          },
+          {
+            "text": "How close it is to the sea"
+          },
+          {
+            "text": "The time of year"
+          }
         ]
       },
       {
@@ -605,17 +998,34 @@
         "prompt": "Earth's atmosphere has always contained oxygen.",
         "explanation": "False, and this is one of the biggest facts in Earth's history. The early atmosphere had almost none. Photosynthetic life slowly filled the air with oxygen over billions of years.",
         "article": "photosynthesis",
-        "options": [{ "text": "False", "correct": true }, { "text": "True" }]
+        "options": [
+          {
+            "text": "False",
+            "correct": true
+          },
+          {
+            "text": "True"
+          }
+        ]
       },
       {
         "prompt": "About three quarters of the world's volcanoes are found where?",
         "explanation": "Around the edges of the Pacific Ocean, in a zone called the Ring of Fire, where tectonic plates meet.",
         "article": "volcano",
         "options": [
-          { "text": "Around the Pacific, in the Ring of Fire", "correct": true },
-          { "text": "In the middle of Africa" },
-          { "text": "At the North and South Poles" },
-          { "text": "Spread evenly all over the world" }
+          {
+            "text": "Around the Pacific, in the Ring of Fire",
+            "correct": true
+          },
+          {
+            "text": "In the middle of Africa"
+          },
+          {
+            "text": "At the North and South Poles"
+          },
+          {
+            "text": "Spread evenly all over the world"
+          }
         ]
       },
       {
@@ -624,15 +1034,23 @@
         "article": "earth",
         "source": "usgs",
         "options": [
-          { "text": "About 4.5 billion years", "correct": true },
-          { "text": "About 6,000 years" },
-          { "text": "About 65 million years" },
-          { "text": "About 100 billion years" }
+          {
+            "text": "About 4.5 billion years",
+            "correct": true
+          },
+          {
+            "text": "About 6,000 years"
+          },
+          {
+            "text": "About 65 million years"
+          },
+          {
+            "text": "About 100 billion years"
+          }
         ]
       }
     ]
   },
-
   {
     "key": "junior-life",
     "title": "The Code of Life",
@@ -647,10 +1065,19 @@
         "article": "dna",
         "source": "nhgri",
         "options": [
-          { "text": "T", "correct": true },
-          { "text": "C" },
-          { "text": "G" },
-          { "text": "A" }
+          {
+            "text": "T",
+            "correct": true
+          },
+          {
+            "text": "C"
+          },
+          {
+            "text": "G"
+          },
+          {
+            "text": "A"
+          }
         ]
       },
       {
@@ -658,10 +1085,19 @@
         "explanation": "Water, not carbon dioxide. The plant splits water molecules, and the leftover oxygen is released. This was proved using isotope labelling, and it corrected what people had assumed.",
         "article": "photosynthesis",
         "options": [
-          { "text": "Water", "correct": true },
-          { "text": "Carbon dioxide" },
-          { "text": "The soil" },
-          { "text": "Sunlight" }
+          {
+            "text": "Water",
+            "correct": true
+          },
+          {
+            "text": "Carbon dioxide"
+          },
+          {
+            "text": "The soil"
+          },
+          {
+            "text": "Sunlight"
+          }
         ]
       },
       {
@@ -669,7 +1105,15 @@
         "prompt": "Humans evolved from chimpanzees.",
         "explanation": "False. Humans and chimpanzees share a common ancestor that lived 6 to 8 million years ago. Both lines have been changing ever since. Chimpanzees are our cousins, not our ancestors.",
         "article": "human-evolution",
-        "options": [{ "text": "False", "correct": true }, { "text": "True" }]
+        "options": [
+          {
+            "text": "False",
+            "correct": true
+          },
+          {
+            "text": "True"
+          }
+        ]
       },
       {
         "prompt": "Which came first in human evolution?",
@@ -677,10 +1121,19 @@
         "article": "human-evolution",
         "source": "si-human-origins",
         "options": [
-          { "text": "Walking upright, long before big brains", "correct": true },
-          { "text": "Big brains, long before walking upright" },
-          { "text": "Both happened at exactly the same time" },
-          { "text": "Neither — they were always as they are now" }
+          {
+            "text": "Walking upright, long before big brains",
+            "correct": true
+          },
+          {
+            "text": "Big brains, long before walking upright"
+          },
+          {
+            "text": "Both happened at exactly the same time"
+          },
+          {
+            "text": "Neither — they were always as they are now"
+          }
         ]
       },
       {
@@ -689,10 +1142,19 @@
         "article": "dna",
         "source": "nhgri",
         "options": [
-          { "text": "More than 99.9%", "correct": true },
-          { "text": "About 75%" },
-          { "text": "About 50%" },
-          { "text": "About 10%" }
+          {
+            "text": "More than 99.9%",
+            "correct": true
+          },
+          {
+            "text": "About 75%"
+          },
+          {
+            "text": "About 50%"
+          },
+          {
+            "text": "About 10%"
+          }
         ]
       },
       {
@@ -701,15 +1163,22 @@
         "explanation": "Photosynthesis is ancient — it began filling the air with oxygen billions of years ago. Dinosaurs are far more recent, and the human line splits from the chimpanzee line more recently still.",
         "article": "human-evolution",
         "options": [
-          { "text": "🌿 Photosynthesis begins making oxygen" },
-          { "text": "🦕 Dinosaurs live on Earth" },
-          { "text": "🐒 The human and chimpanzee lines separate" },
-          { "text": "🧑 The first Homo sapiens appear" }
+          {
+            "text": "🌿 Photosynthesis begins making oxygen"
+          },
+          {
+            "text": "🦕 Dinosaurs live on Earth"
+          },
+          {
+            "text": "🐒 The human and chimpanzee lines separate"
+          },
+          {
+            "text": "🧑 The first Homo sapiens appear"
+          }
         ]
       }
     ]
   },
-
   {
     "key": "junior-history",
     "title": "Ancient Lands",
@@ -723,10 +1192,19 @@
         "explanation": "The Nile. Egypt is almost all desert, but the river flooded every year and left fertile mud behind. That reliable flood is what fed the whole civilisation.",
         "article": "ancient-egypt",
         "options": [
-          { "text": "The Nile", "correct": true },
-          { "text": "The Amazon" },
-          { "text": "The Thames" },
-          { "text": "The Tigris" }
+          {
+            "text": "The Nile",
+            "correct": true
+          },
+          {
+            "text": "The Amazon"
+          },
+          {
+            "text": "The Thames"
+          },
+          {
+            "text": "The Tigris"
+          }
         ]
       },
       {
@@ -735,10 +1213,19 @@
         "article": "ancient-egypt",
         "source": "british-museum",
         "options": [
-          { "text": "They were fed, housed and medically treated Egyptian workers", "correct": true },
-          { "text": "They were enslaved foreign captives" },
-          { "text": "Nobody has any idea" },
-          { "text": "They were built by priests alone" }
+          {
+            "text": "They were fed, housed and medically treated Egyptian workers",
+            "correct": true
+          },
+          {
+            "text": "They were enslaved foreign captives"
+          },
+          {
+            "text": "Nobody has any idea"
+          },
+          {
+            "text": "They were built by priests alone"
+          }
         ]
       },
       {
@@ -747,10 +1234,19 @@
         "article": "ancient-egypt",
         "source": "loc",
         "options": [
-          { "text": "It had the same text in three scripts, including one people could read", "correct": true },
-          { "text": "It was made of solid gold" },
-          { "text": "It was the oldest object ever found in Egypt" },
-          { "text": "It contained a map of the pyramids" }
+          {
+            "text": "It had the same text in three scripts, including one people could read",
+            "correct": true
+          },
+          {
+            "text": "It was made of solid gold"
+          },
+          {
+            "text": "It was the oldest object ever found in Egypt"
+          },
+          {
+            "text": "It contained a map of the pyramids"
+          }
         ]
       },
       {
@@ -758,17 +1254,34 @@
         "prompt": "The Great Pyramid was the tallest structure humans had built for around 3,800 years.",
         "explanation": "True. It was built around 2560 BCE, stood about 146 metres, and nothing taller was built by people until the Middle Ages.",
         "article": "ancient-egypt",
-        "options": [{ "text": "True", "correct": true }, { "text": "False" }]
+        "options": [
+          {
+            "text": "True",
+            "correct": true
+          },
+          {
+            "text": "False"
+          }
+        ]
       },
       {
         "prompt": "Why did the Egyptians mummify bodies?",
         "explanation": "They believed a person needed their body in the afterlife, so it had to be preserved. As an accident of that belief, mummies now tell us a great deal about ancient health and diet.",
         "article": "ancient-egypt",
         "options": [
-          { "text": "They believed the body was needed in the afterlife", "correct": true },
-          { "text": "To stop diseases spreading" },
-          { "text": "Because they had no way to bury people" },
-          { "text": "To make them lighter to carry" }
+          {
+            "text": "They believed the body was needed in the afterlife",
+            "correct": true
+          },
+          {
+            "text": "To stop diseases spreading"
+          },
+          {
+            "text": "Because they had no way to bury people"
+          },
+          {
+            "text": "To make them lighter to carry"
+          }
         ]
       },
       {
@@ -776,15 +1289,23 @@
         "explanation": "About three thousand years, from the unification around 3100 BCE to Roman annexation in 30 BCE. Very few civilisations have lasted anywhere near as long.",
         "article": "ancient-egypt",
         "options": [
-          { "text": "About 3,000 years", "correct": true },
-          { "text": "About 300 years" },
-          { "text": "About 30 years" },
-          { "text": "About 30,000 years" }
+          {
+            "text": "About 3,000 years",
+            "correct": true
+          },
+          {
+            "text": "About 300 years"
+          },
+          {
+            "text": "About 30 years"
+          },
+          {
+            "text": "About 30,000 years"
+          }
         ]
       }
     ]
   },
-
   {
     "key": "junior-scientists",
     "title": "Great Minds",
@@ -799,10 +1320,19 @@
         "article": "marie-curie",
         "source": "nobel-prize",
         "options": [
-          { "text": "Polonium and radium", "correct": true },
-          { "text": "Oxygen and hydrogen" },
-          { "text": "Gravity" },
-          { "text": "The structure of DNA" }
+          {
+            "text": "Polonium and radium",
+            "correct": true
+          },
+          {
+            "text": "Oxygen and hydrogen"
+          },
+          {
+            "text": "Gravity"
+          },
+          {
+            "text": "The structure of DNA"
+          }
         ]
       },
       {
@@ -811,10 +1341,19 @@
         "article": "marie-curie",
         "source": "nobel-prize",
         "options": [
-          { "text": "Winning Nobel Prizes in two different sciences", "correct": true },
-          { "text": "Being the first person in space" },
-          { "text": "Inventing the telescope" },
-          { "text": "Discovering penicillin" }
+          {
+            "text": "Winning Nobel Prizes in two different sciences",
+            "correct": true
+          },
+          {
+            "text": "Being the first person in space"
+          },
+          {
+            "text": "Inventing the telescope"
+          },
+          {
+            "text": "Discovering penicillin"
+          }
         ]
       },
       {
@@ -823,10 +1362,19 @@
         "article": "albert-einstein",
         "source": "nobel-prize",
         "options": [
-          { "text": "Explaining the photoelectric effect", "correct": true },
-          { "text": "The theory of relativity" },
-          { "text": "Discovering the atom" },
-          { "text": "Inventing the light bulb" }
+          {
+            "text": "Explaining the photoelectric effect",
+            "correct": true
+          },
+          {
+            "text": "The theory of relativity"
+          },
+          {
+            "text": "Discovering the atom"
+          },
+          {
+            "text": "Inventing the light bulb"
+          }
         ]
       },
       {
@@ -835,10 +1383,19 @@
         "article": "charles-darwin",
         "difficulty": "hard",
         "options": [
-          { "text": "How traits are passed on without being watered down", "correct": true },
-          { "text": "Whether fossils existed at all" },
-          { "text": "How old the Earth was" },
-          { "text": "Why animals go extinct" }
+          {
+            "text": "How traits are passed on without being watered down",
+            "correct": true
+          },
+          {
+            "text": "Whether fossils existed at all"
+          },
+          {
+            "text": "How old the Earth was"
+          },
+          {
+            "text": "Why animals go extinct"
+          }
         ]
       },
       {
@@ -846,7 +1403,15 @@
         "prompt": "Darwin was the only person to work out natural selection.",
         "explanation": "False. Alfred Russel Wallace reached the same conclusion independently and sent it to Darwin in 1858. Their work was presented together, and Wallace's part is often left out.",
         "article": "charles-darwin",
-        "options": [{ "text": "False", "correct": true }, { "text": "True" }]
+        "options": [
+          {
+            "text": "False",
+            "correct": true
+          },
+          {
+            "text": "True"
+          }
+        ]
       },
       {
         "kind": "matching",
@@ -854,15 +1419,26 @@
         "explanation": "Curie showed radioactivity comes from inside the atom; Einstein reimagined gravity as curved spacetime; Darwin explained how species change; Franklin's X-ray images made the DNA structure possible.",
         "article": "marie-curie",
         "options": [
-          { "text": "Marie Curie", "match": "Radioactivity, polonium and radium" },
-          { "text": "Albert Einstein", "match": "Relativity — gravity as bent spacetime" },
-          { "text": "Charles Darwin", "match": "Evolution by natural selection" },
-          { "text": "Rosalind Franklin", "match": "The X-ray image that revealed DNA" }
+          {
+            "text": "Marie Curie",
+            "match": "Radioactivity, polonium and radium"
+          },
+          {
+            "text": "Albert Einstein",
+            "match": "Relativity — gravity as bent spacetime"
+          },
+          {
+            "text": "Charles Darwin",
+            "match": "Evolution by natural selection"
+          },
+          {
+            "text": "Rosalind Franklin",
+            "match": "The X-ray image that revealed DNA"
+          }
         ]
       }
     ]
   },
-
   {
     "key": "junior-mixed",
     "title": "The Everything Quiz",
@@ -875,10 +1451,19 @@
         "explanation": "The blue whale, at up to about 30 metres. It is larger than any dinosaur, including the biggest sauropods.",
         "article": "blue-whale",
         "options": [
-          { "text": "The blue whale", "correct": true },
-          { "text": "Tyrannosaurus rex" },
-          { "text": "Triceratops" },
-          { "text": "The African elephant" }
+          {
+            "text": "The blue whale",
+            "correct": true
+          },
+          {
+            "text": "Tyrannosaurus rex"
+          },
+          {
+            "text": "Triceratops"
+          },
+          {
+            "text": "The African elephant"
+          }
         ]
       },
       {
@@ -886,10 +1471,19 @@
         "explanation": "A zone around the edges of the Pacific Ocean where tectonic plates meet, containing roughly three quarters of the world's volcanoes.",
         "article": "volcano",
         "options": [
-          { "text": "A zone of volcanoes around the Pacific Ocean", "correct": true },
-          { "text": "A ring of stars around the Sun" },
-          { "text": "The hot centre of the Earth" },
-          { "text": "A desert in Africa" }
+          {
+            "text": "A zone of volcanoes around the Pacific Ocean",
+            "correct": true
+          },
+          {
+            "text": "A ring of stars around the Sun"
+          },
+          {
+            "text": "The hot centre of the Earth"
+          },
+          {
+            "text": "A desert in Africa"
+          }
         ]
       },
       {
@@ -898,10 +1492,19 @@
         "article": "human-evolution",
         "source": "nhgri",
         "options": [
-          { "text": "About 1–2%", "correct": true },
-          { "text": "About 25%" },
-          { "text": "About 50%" },
-          { "text": "None at all" }
+          {
+            "text": "About 1–2%",
+            "correct": true
+          },
+          {
+            "text": "About 25%"
+          },
+          {
+            "text": "About 50%"
+          },
+          {
+            "text": "None at all"
+          }
         ]
       },
       {
@@ -909,17 +1512,34 @@
         "prompt": "The Moon is slowly moving away from the Earth.",
         "explanation": "True — by about 3.8 centimetres a year. We know because Apollo astronauts left mirrors on the surface and we bounce lasers off them.",
         "article": "moon",
-        "options": [{ "text": "True", "correct": true }, { "text": "False" }]
+        "options": [
+          {
+            "text": "True",
+            "correct": true
+          },
+          {
+            "text": "False"
+          }
+        ]
       },
       {
         "prompt": "What does it mean when this encyclopaedia marks a fact as an 'estimate'?",
         "explanation": "It means the number was worked out or modelled rather than directly measured, so it carries real uncertainty. It is not a guess, but it is not a measurement either.",
         "article": "fossil",
         "options": [
-          { "text": "It was calculated or modelled, not directly measured", "correct": true },
-          { "text": "Somebody guessed it" },
-          { "text": "It is definitely wrong" },
-          { "text": "It has not been checked by anyone" }
+          {
+            "text": "It was calculated or modelled, not directly measured",
+            "correct": true
+          },
+          {
+            "text": "Somebody guessed it"
+          },
+          {
+            "text": "It is definitely wrong"
+          },
+          {
+            "text": "It has not been checked by anyone"
+          }
         ]
       },
       {
@@ -928,11 +1548,21 @@
         "explanation": "Newton's Principia came in 1687, Darwin's Origin in 1859, Curie's radium in 1898, Einstein's general relativity in 1915, and the DNA double helix in 1953.",
         "article": "albert-einstein",
         "options": [
-          { "text": "Newton publishes his law of gravitation (1687)" },
-          { "text": "Darwin publishes On the Origin of Species (1859)" },
-          { "text": "Curie discovers radium (1898)" },
-          { "text": "Einstein completes general relativity (1915)" },
-          { "text": "The structure of DNA is described (1953)" }
+          {
+            "text": "Newton publishes his law of gravitation (1687)"
+          },
+          {
+            "text": "Darwin publishes On the Origin of Species (1859)"
+          },
+          {
+            "text": "Curie discovers radium (1898)"
+          },
+          {
+            "text": "Einstein completes general relativity (1915)"
+          },
+          {
+            "text": "The structure of DNA is described (1953)"
+          }
         ]
       },
       {
@@ -941,10 +1571,19 @@
         "article": "fossil",
         "difficulty": "hard",
         "options": [
-          { "text": "Colour almost never fossilises, so it has to be inferred", "correct": true },
-          { "text": "All dinosaurs were definitely green" },
-          { "text": "Nobody has studied the question" },
-          { "text": "The fossils have faded over time" }
+          {
+            "text": "Colour almost never fossilises, so it has to be inferred",
+            "correct": true
+          },
+          {
+            "text": "All dinosaurs were definitely green"
+          },
+          {
+            "text": "Nobody has studied the question"
+          },
+          {
+            "text": "The fossils have faded over time"
+          }
         ]
       },
       {
@@ -952,15 +1591,23 @@
         "explanation": "The Cretaceous-Paleogene extinction about 66 million years ago, linked to the Chicxulub asteroid impact. Around three quarters of species disappeared.",
         "article": "cretaceous-period",
         "options": [
-          { "text": "A mass extinction linked to an asteroid impact", "correct": true },
-          { "text": "An ice age that froze the whole planet" },
-          { "text": "The Sun briefly going out" },
-          { "text": "Nothing in particular" }
+          {
+            "text": "A mass extinction linked to an asteroid impact",
+            "correct": true
+          },
+          {
+            "text": "An ice age that froze the whole planet"
+          },
+          {
+            "text": "The Sun briefly going out"
+          },
+          {
+            "text": "Nothing in particular"
+          }
         ]
       }
     ]
   },
-
   {
     "key": "how-we-know",
     "title": "How do we know?",
@@ -975,10 +1622,19 @@
         "article": "tyrannosaurus-rex",
         "difficulty": "hard",
         "options": [
-          { "text": "Mass must be modelled from the skeleton, and methods disagree", "correct": true },
-          { "text": "Scientists have not bothered to measure it precisely" },
-          { "text": "Every T. rex weighed a completely different amount" },
-          { "text": "The fossils are too fragile to put on scales" }
+          {
+            "text": "Mass must be modelled from the skeleton, and methods disagree",
+            "correct": true
+          },
+          {
+            "text": "Scientists have not bothered to measure it precisely"
+          },
+          {
+            "text": "Every T. rex weighed a completely different amount"
+          },
+          {
+            "text": "The fossils are too fragile to put on scales"
+          }
         ]
       },
       {
@@ -988,10 +1644,19 @@
         "source": "si-nmnh",
         "difficulty": "hard",
         "options": [
-          { "text": "Some kinds of organism are far more likely to fossilise than others", "correct": true },
-          { "text": "Palaeontologists only publish results they like" },
-          { "text": "Fossils are usually forgeries" },
-          { "text": "Older rocks contain no fossils at all" }
+          {
+            "text": "Some kinds of organism are far more likely to fossilise than others",
+            "correct": true
+          },
+          {
+            "text": "Palaeontologists only publish results they like"
+          },
+          {
+            "text": "Fossils are usually forgeries"
+          },
+          {
+            "text": "Older rocks contain no fossils at all"
+          }
         ]
       },
       {
@@ -1001,10 +1666,19 @@
         "source": "british-museum",
         "difficulty": "medium",
         "options": [
-          { "text": "Fed, housed and medically treated Egyptian labourers", "correct": true },
-          { "text": "Enslaved foreign captives" },
-          { "text": "Priests working without payment" },
-          { "text": "Unknown - no evidence survives" }
+          {
+            "text": "Fed, housed and medically treated Egyptian labourers",
+            "correct": true
+          },
+          {
+            "text": "Enslaved foreign captives"
+          },
+          {
+            "text": "Priests working without payment"
+          },
+          {
+            "text": "Unknown - no evidence survives"
+          }
         ]
       },
       {
@@ -1013,15 +1687,23 @@
         "article": "charles-darwin",
         "difficulty": "expert",
         "options": [
-          { "text": "He could not explain how traits were inherited without being diluted away", "correct": true },
-          { "text": "He had no fossil evidence of any kind" },
-          { "text": "He could not explain why species go extinct" },
-          { "text": "He believed the Earth was only a few thousand years old" }
+          {
+            "text": "He could not explain how traits were inherited without being diluted away",
+            "correct": true
+          },
+          {
+            "text": "He had no fossil evidence of any kind"
+          },
+          {
+            "text": "He could not explain why species go extinct"
+          },
+          {
+            "text": "He believed the Earth was only a few thousand years old"
+          }
         ]
       }
     ]
   },
-
   {
     "key": "teen-uncertainty",
     "title": "Reading the Evidence",
@@ -1035,10 +1717,19 @@
         "explanation": "The giant-impact hypothesis is well supported — by the Moon's small iron core and its near-identical oxygen isotopes to Earth — but it is an inference from evidence, not an observation. Its details are still actively debated.",
         "article": "moon",
         "options": [
-          { "text": "It is an inference from evidence, and its details are still disputed", "correct": true },
-          { "text": "Scientists have no evidence about it at all" },
-          { "text": "It has been disproved" },
-          { "text": "It is a religious rather than scientific idea" }
+          {
+            "text": "It is an inference from evidence, and its details are still disputed",
+            "correct": true
+          },
+          {
+            "text": "Scientists have no evidence about it at all"
+          },
+          {
+            "text": "It has been disproved"
+          },
+          {
+            "text": "It is a religious rather than scientific idea"
+          }
         ]
       },
       {
@@ -1047,10 +1738,19 @@
         "article": "human-evolution",
         "difficulty": "expert",
         "options": [
-          { "text": "Specialists genuinely disagree about whether the earliest claimed tools are tools", "correct": true },
-          { "text": "The tools were proven to be fakes" },
-          { "text": "Nobody has dated them" },
-          { "text": "The date is agreed but the location is not" }
+          {
+            "text": "Specialists genuinely disagree about whether the earliest claimed tools are tools",
+            "correct": true
+          },
+          {
+            "text": "The tools were proven to be fakes"
+          },
+          {
+            "text": "Nobody has dated them"
+          },
+          {
+            "text": "The date is agreed but the location is not"
+          }
         ]
       },
       {
@@ -1059,10 +1759,19 @@
         "article": "black-hole",
         "difficulty": "expert",
         "options": [
-          { "text": "Evaporation appears to destroy information, which quantum mechanics forbids", "correct": true },
-          { "text": "Black holes contain too much information to measure" },
-          { "text": "Astronomers cannot agree how many black holes exist" },
-          { "text": "Black holes send information faster than light" }
+          {
+            "text": "Evaporation appears to destroy information, which quantum mechanics forbids",
+            "correct": true
+          },
+          {
+            "text": "Black holes contain too much information to measure"
+          },
+          {
+            "text": "Astronomers cannot agree how many black holes exist"
+          },
+          {
+            "text": "Black holes send information faster than light"
+          }
         ]
       },
       {
@@ -1070,10 +1779,19 @@
         "explanation": "Her X-ray diffraction data, including Photograph 51, were shown to Watson and Crick without her knowledge and were necessary to the result. She died in 1958 and the 1962 Nobel Prize, which is not awarded posthumously, went to Watson, Crick and Wilkins.",
         "article": "dna",
         "options": [
-          { "text": "Her data were essential and were used without her knowledge or proper credit", "correct": true },
-          { "text": "She worked separately on an unrelated problem" },
-          { "text": "She shared the Nobel Prize equally" },
-          { "text": "Her contribution was minor" }
+          {
+            "text": "Her data were essential and were used without her knowledge or proper credit",
+            "correct": true
+          },
+          {
+            "text": "She worked separately on an unrelated problem"
+          },
+          {
+            "text": "She shared the Nobel Prize equally"
+          },
+          {
+            "text": "Her contribution was minor"
+          }
         ]
       },
       {
@@ -1081,7 +1799,15 @@
         "prompt": "An article with an old 'last reviewed' date is probably wrong.",
         "explanation": "False. Review dates reflect how quickly a subject changes, not whether it is correct. Population statistics need yearly review; proved mathematics does not expire.",
         "article": "fossil",
-        "options": [{ "text": "False", "correct": true }, { "text": "True" }]
+        "options": [
+          {
+            "text": "False",
+            "correct": true
+          },
+          {
+            "text": "True"
+          }
+        ]
       },
       {
         "prompt": "Why is the near-universality of the genetic code considered strong evidence?",
@@ -1089,10 +1815,759 @@
         "article": "dna",
         "difficulty": "expert",
         "options": [
-          { "text": "There is no chemical reason for that specific code, so shared ancestry explains it", "correct": true },
-          { "text": "It proves DNA cannot mutate" },
-          { "text": "It shows every species is identical" },
-          { "text": "It was decided by international agreement" }
+          {
+            "text": "There is no chemical reason for that specific code, so shared ancestry explains it",
+            "correct": true
+          },
+          {
+            "text": "It proves DNA cannot mutate"
+          },
+          {
+            "text": "It shows every species is identical"
+          },
+          {
+            "text": "It was decided by international agreement"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "kids-body",
+    "title": "Inside You",
+    "description": "Your heart, lungs, bones and blood.",
+    "category": "human-body",
+    "age_band": "age6_8",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "prompt": "What does your heart do?",
+        "explanation": "Your heart is a muscle that pumps blood all around your body, so every part of you gets food and oxygen.",
+        "article": "the-heart",
+        "options": [
+          {
+            "text": "It pumps blood around your body",
+            "correct": true
+          },
+          {
+            "text": "It helps you think"
+          },
+          {
+            "text": "It digests your food"
+          }
+        ]
+      },
+      {
+        "kind": "true_false",
+        "prompt": "Your bones are dead and dry.",
+        "explanation": "No — bones are alive. They have blood vessels and nerves inside, which is why a broken bone can heal itself.",
+        "article": "the-skeleton",
+        "options": [
+          {
+            "text": "False",
+            "correct": true
+          },
+          {
+            "text": "True"
+          }
+        ]
+      },
+      {
+        "prompt": "What do your lungs take out of the air?",
+        "explanation": "Oxygen. Your lungs move oxygen into your blood, and get rid of a waste gas called carbon dioxide.",
+        "article": "the-lungs",
+        "options": [
+          {
+            "text": "Oxygen",
+            "correct": true
+          },
+          {
+            "text": "Water"
+          },
+          {
+            "text": "Sugar"
+          }
+        ]
+      },
+      {
+        "prompt": "Why is blood red?",
+        "explanation": "Blood carries oxygen using something called haemoglobin, which contains iron. The iron is what makes it red.",
+        "article": "blood",
+        "options": [
+          {
+            "text": "It contains iron",
+            "correct": true
+          },
+          {
+            "text": "It is full of tomato juice"
+          },
+          {
+            "text": "It is warmed up"
+          }
+        ]
+      },
+      {
+        "kind": "true_false",
+        "prompt": "Babies have more bones than grown-ups.",
+        "explanation": "True. Babies have about 270 bones and adults have 206. You do not lose any — some of them join together as you grow.",
+        "article": "the-skeleton",
+        "options": [
+          {
+            "text": "True",
+            "correct": true
+          },
+          {
+            "text": "False"
+          }
+        ]
+      },
+      {
+        "prompt": "What does your immune system do?",
+        "explanation": "It defends you against germs — and it remembers the ones it has beaten before, so you usually catch some illnesses only once.",
+        "article": "the-immune-system",
+        "options": [
+          {
+            "text": "Fights germs and remembers them",
+            "correct": true
+          },
+          {
+            "text": "Helps you run faster"
+          },
+          {
+            "text": "Makes your hair grow"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "junior-body",
+    "title": "Body Works",
+    "description": "How the body's systems actually work.",
+    "category": "human-body",
+    "age_band": "age9_12",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "prompt": "Why is the left side of the heart more muscular than the right?",
+        "explanation": "Both sides pump the same amount of blood, but the left has to push it around the whole body while the right only sends it to the lungs next door. It needs about five times the pressure.",
+        "article": "the-heart",
+        "options": [
+          {
+            "text": "It has to push blood much further, at higher pressure",
+            "correct": true
+          },
+          {
+            "text": "It pumps far more blood"
+          },
+          {
+            "text": "It holds all the oxygen"
+          },
+          {
+            "text": "It is closer to the lungs"
+          }
+        ]
+      },
+      {
+        "prompt": "Why are the lungs divided into millions of tiny sacs?",
+        "explanation": "Gas exchange only happens across surfaces. Splitting the lungs into around 400 million alveoli packs roughly 70 square metres of surface into your chest.",
+        "article": "the-lungs",
+        "options": [
+          {
+            "text": "To pack an enormous surface area into a small space",
+            "correct": true
+          },
+          {
+            "text": "To make the lungs lighter"
+          },
+          {
+            "text": "To store extra air"
+          },
+          {
+            "text": "To filter out dust"
+          }
+        ]
+      },
+      {
+        "kind": "true_false",
+        "prompt": "The urge to breathe is triggered by running out of oxygen.",
+        "explanation": "False, and it matters. The trigger is carbon dioxide building up. That is why hyperventilating before swimming underwater is dangerous — it removes the warning without adding much oxygen.",
+        "article": "the-lungs",
+        "options": [
+          {
+            "text": "False",
+            "correct": true
+          },
+          {
+            "text": "True"
+          }
+        ]
+      },
+      {
+        "prompt": "Roughly how much of the body's energy does the brain use?",
+        "explanation": "About 20 percent, despite being only about 2 percent of body weight. It is a very expensive organ to run.",
+        "article": "the-brain",
+        "options": [
+          {
+            "text": "About 20%",
+            "correct": true
+          },
+          {
+            "text": "About 2%"
+          },
+          {
+            "text": "About 50%"
+          },
+          {
+            "text": "About 5%"
+          }
+        ]
+      },
+      {
+        "prompt": "The claim that we only use 10% of our brains is:",
+        "explanation": "False, and it never had a scientific basis. Brain scans show activity throughout the brain, and damage almost anywhere causes some loss of function.",
+        "article": "the-brain",
+        "options": [
+          {
+            "text": "A myth with no scientific basis",
+            "correct": true
+          },
+          {
+            "text": "Roughly correct"
+          },
+          {
+            "text": "True only while asleep"
+          },
+          {
+            "text": "Still being tested"
+          }
+        ]
+      },
+      {
+        "kind": "matching",
+        "prompt": "Match each part of the body to its main job.",
+        "explanation": "The heart pumps, the lungs exchange gases, the skeleton supports and protects, and the immune system defends and remembers.",
+        "article": "the-heart",
+        "options": [
+          {
+            "text": "Heart",
+            "match": "Pumps blood around the body"
+          },
+          {
+            "text": "Lungs",
+            "match": "Move oxygen into the blood"
+          },
+          {
+            "text": "Skeleton",
+            "match": "Supports the body and makes blood cells"
+          },
+          {
+            "text": "Immune system",
+            "match": "Fights infection and remembers it"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "junior-tech",
+    "title": "Machines and Minds",
+    "description": "Computers, the internet, and the people who imagined them.",
+    "category": "technology",
+    "age_band": "age9_12",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "prompt": "Why do computers use binary — just ones and zeros?",
+        "explanation": "Because a switch is either on or off. Building something that reliably distinguishes two states is far easier than ten, so binary is an engineering choice, not a mathematical one.",
+        "article": "computer",
+        "options": [
+          {
+            "text": "A switch is either on or off, which is easy to build reliably",
+            "correct": true
+          },
+          {
+            "text": "Because two is a lucky number"
+          },
+          {
+            "text": "Because early computers had two wires"
+          },
+          {
+            "text": "Because people find binary easy to read"
+          }
+        ]
+      },
+      {
+        "kind": "true_false",
+        "prompt": "The internet and the World Wide Web are the same thing.",
+        "explanation": "False. The internet is the network itself — the cables and rules. The Web is one service running on top of it. Email and video calls are others. The internet came about twenty years first.",
+        "article": "the-internet",
+        "options": [
+          {
+            "text": "False",
+            "correct": true
+          },
+          {
+            "text": "True"
+          }
+        ]
+      },
+      {
+        "prompt": "What was Ada Lovelace's most important insight?",
+        "explanation": "Babbage saw his machine as a calculator. Lovelace realised that a machine working with symbols could handle anything symbols can represent — she even suggested it could compose music.",
+        "article": "ada-lovelace",
+        "options": [
+          {
+            "text": "That a computing machine could work on more than numbers",
+            "correct": true
+          },
+          {
+            "text": "That machines would replace all workers"
+          },
+          {
+            "text": "That electricity could power machines"
+          },
+          {
+            "text": "That machines should be small"
+          }
+        ]
+      },
+      {
+        "prompt": "What did Alan Turing prove in 1936?",
+        "explanation": "He defined what a computing machine is, showed one machine could imitate any other given the right instructions, and proved there are questions no machine can ever answer.",
+        "article": "alan-turing",
+        "options": [
+          {
+            "text": "That some questions cannot be answered by any machine at all",
+            "correct": true
+          },
+          {
+            "text": "That computers would one day be small"
+          },
+          {
+            "text": "That machines can feel emotions"
+          },
+          {
+            "text": "That binary is better than decimal"
+          }
+        ]
+      },
+      {
+        "prompt": "Why does data travel across the internet in small packets?",
+        "explanation": "Packets share links efficiently, and if one route breaks they simply go another way. That is why the internet keeps working when parts of it fail.",
+        "article": "the-internet",
+        "options": [
+          {
+            "text": "It shares capacity better and routes around failures",
+            "correct": true
+          },
+          {
+            "text": "Small pieces travel faster than light"
+          },
+          {
+            "text": "It makes messages secret"
+          },
+          {
+            "text": "Computers cannot handle big files"
+          }
+        ]
+      },
+      {
+        "prompt": "A common weakness of AI systems that generate text is that they:",
+        "explanation": "They are trained to produce likely-sounding text, which is not the same as true text. Fluency and accuracy are separate things, so they can state falsehoods confidently.",
+        "article": "artificial-intelligence",
+        "options": [
+          {
+            "text": "Can state false things fluently and confidently",
+            "correct": true
+          },
+          {
+            "text": "Refuse to answer any question"
+          },
+          {
+            "text": "Only work when online"
+          },
+          {
+            "text": "Always say they are unsure"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "junior-planets",
+    "title": "Tour of the Planets",
+    "description": "From the Sun outwards.",
+    "category": "space",
+    "age_band": "age9_12",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "prompt": "Why is Venus hotter than Mercury, even though Mercury is closer to the Sun?",
+        "explanation": "Venus has a thick carbon dioxide atmosphere that traps heat — a runaway greenhouse effect. Mercury has almost no atmosphere at all.",
+        "article": "venus",
+        "options": [
+          {
+            "text": "Its thick carbon dioxide atmosphere traps heat",
+            "correct": true
+          },
+          {
+            "text": "It is actually closer to the Sun"
+          },
+          {
+            "text": "It is made of hotter rock"
+          },
+          {
+            "text": "It spins much faster"
+          }
+        ]
+      },
+      {
+        "kind": "true_false",
+        "prompt": "A day on Venus is longer than a year on Venus.",
+        "explanation": "True. Venus takes 243 Earth days to spin once, but only 225 Earth days to orbit the Sun.",
+        "article": "venus",
+        "options": [
+          {
+            "text": "True",
+            "correct": true
+          },
+          {
+            "text": "False"
+          }
+        ]
+      },
+      {
+        "prompt": "Saturn is the only planet that would…",
+        "explanation": "Float. Saturn's average density is lower than water, because it is mostly hydrogen and helium.",
+        "article": "saturn",
+        "options": [
+          {
+            "text": "Float in water, if you had a big enough ocean",
+            "correct": true
+          },
+          {
+            "text": "Melt if brought closer to the Sun"
+          },
+          {
+            "text": "Fit inside the Earth"
+          },
+          {
+            "text": "Stop spinning without its rings"
+          }
+        ]
+      },
+      {
+        "prompt": "How much of the Solar System's mass is in the Sun?",
+        "explanation": "About 99.86 percent. Everything else — every planet, moon and asteroid — is the leftover fraction.",
+        "article": "the-sun",
+        "options": [
+          {
+            "text": "About 99.9%",
+            "correct": true
+          },
+          {
+            "text": "About 90%"
+          },
+          {
+            "text": "About 60%"
+          },
+          {
+            "text": "About 30%"
+          }
+        ]
+      },
+      {
+        "kind": "ordering",
+        "prompt": "Put these in order, closest to the Sun first.",
+        "explanation": "The order outward is Venus, Earth, Mars, Jupiter, Saturn.",
+        "article": "solar-system",
+        "options": [
+          {
+            "text": "☀️ Venus"
+          },
+          {
+            "text": "🌍 Earth"
+          },
+          {
+            "text": "🔴 Mars"
+          },
+          {
+            "text": "🪐 Jupiter"
+          },
+          {
+            "text": "💍 Saturn"
+          }
+        ]
+      },
+      {
+        "prompt": "Why is Jupiter's moon Europa so interesting to scientists?",
+        "explanation": "Beneath its icy shell there is very likely a salty liquid ocean, which makes it one of the best places to look for life beyond Earth.",
+        "article": "jupiter",
+        "options": [
+          {
+            "text": "It probably has a liquid ocean under its ice",
+            "correct": true
+          },
+          {
+            "text": "It has a breathable atmosphere"
+          },
+          {
+            "text": "It is bigger than Jupiter"
+          },
+          {
+            "text": "It orbits backwards"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "junior-world",
+    "title": "The Living World",
+    "description": "Oceans, ice, animals and the changing climate.",
+    "category": "environment",
+    "age_band": "age9_12",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "prompt": "Roughly how much of the extra heat from climate change has the ocean absorbed?",
+        "explanation": "More than 90 percent. Without that, the air would have warmed far more — but the ocean pays for it with warming water and rising seas.",
+        "article": "the-ocean",
+        "options": [
+          {
+            "text": "More than 90%",
+            "correct": true
+          },
+          {
+            "text": "About 50%"
+          },
+          {
+            "text": "About 10%"
+          },
+          {
+            "text": "Almost none"
+          }
+        ]
+      },
+      {
+        "prompt": "How do we know the extra carbon dioxide comes from fossil fuels?",
+        "explanation": "Fossil carbon has a distinct chemical fingerprint. The carbon added to the atmosphere carries that fingerprint, which volcanic or ocean sources would not.",
+        "article": "climate-change",
+        "options": [
+          {
+            "text": "It carries a chemical fingerprint matching fossil fuels",
+            "correct": true
+          },
+          {
+            "text": "Scientists assumed it"
+          },
+          {
+            "text": "Because factories are large"
+          },
+          {
+            "text": "It is the only possible source of any CO2"
+          }
+        ]
+      },
+      {
+        "kind": "true_false",
+        "prompt": "A glacier is solid ice, so it cannot move.",
+        "explanation": "False. Under its own enormous weight, ice deforms slowly and flows — usually centimetres to metres a day. That is what carves U-shaped valleys.",
+        "article": "glacier",
+        "options": [
+          {
+            "text": "False",
+            "correct": true
+          },
+          {
+            "text": "True"
+          }
+        ]
+      },
+      {
+        "prompt": "Why do emperor penguins breed in the Antarctic winter?",
+        "explanation": "Their chicks take a long time to grow. Starting in autumn means the chicks become independent in summer, when food is plentiful and the sea ice is close by.",
+        "article": "emperor-penguin",
+        "options": [
+          {
+            "text": "So chicks are independent when summer food is plentiful",
+            "correct": true
+          },
+          {
+            "text": "Because summer is too hot for them"
+          },
+          {
+            "text": "To avoid predators that only hunt in summer"
+          },
+          {
+            "text": "Because eggs need freezing to hatch"
+          }
+        ]
+      },
+      {
+        "prompt": "How many people are killed by sharks worldwide in a typical year?",
+        "explanation": "Usually fewer than ten, from all shark species combined. People kill sharks in the tens of millions each year. The risk runs overwhelmingly the other way.",
+        "article": "great-white-shark",
+        "options": [
+          {
+            "text": "Usually fewer than ten",
+            "correct": true
+          },
+          {
+            "text": "About a thousand"
+          },
+          {
+            "text": "Tens of thousands"
+          },
+          {
+            "text": "Over a million"
+          }
+        ]
+      },
+      {
+        "prompt": "What does an octopus's nervous system do that ours does not?",
+        "explanation": "Most of its neurons are in its arms, not its brain. Each arm can reach and grasp on its own — the intelligence is distributed rather than centralised.",
+        "article": "octopus",
+        "options": [
+          {
+            "text": "Most of its neurons are in its arms, which act semi-independently",
+            "correct": true
+          },
+          {
+            "text": "It has no neurons at all"
+          },
+          {
+            "text": "Its brain is in its stomach"
+          },
+          {
+            "text": "It thinks only in colour"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "junior-past",
+    "title": "Worlds Before Ours",
+    "description": "Rome, Greece, Egypt and the routes between them.",
+    "category": "history",
+    "age_band": "age9_12",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "prompt": "Why is 'the fall of Rome in 476' misleading?",
+        "explanation": "Only the western empire ended then. The eastern half continued from Constantinople until 1453 — nearly another thousand years.",
+        "article": "roman-empire",
+        "options": [
+          {
+            "text": "The eastern empire continued until 1453",
+            "correct": true
+          },
+          {
+            "text": "Rome never fell at all"
+          },
+          {
+            "text": "It actually fell in 376"
+          },
+          {
+            "text": "Rome was never an empire"
+          }
+        ]
+      },
+      {
+        "kind": "true_false",
+        "prompt": "Ancient Greece was a single unified country.",
+        "explanation": "False. It was many independent city-states with their own governments and armies, which often fought each other. They shared a language and religion, not a state.",
+        "article": "ancient-greece",
+        "options": [
+          {
+            "text": "False",
+            "correct": true
+          },
+          {
+            "text": "True"
+          }
+        ]
+      },
+      {
+        "prompt": "Who could vote in Athenian democracy?",
+        "explanation": "Only free adult men born in Athens — perhaps 10 to 20 percent of the population. Women, enslaved people and foreign residents were excluded.",
+        "article": "ancient-greece",
+        "options": [
+          {
+            "text": "Only free adult male citizens",
+            "correct": true
+          },
+          {
+            "text": "Everyone who lived in Athens"
+          },
+          {
+            "text": "Only the wealthiest families"
+          },
+          {
+            "text": "Only soldiers"
+          }
+        ]
+      },
+      {
+        "prompt": "Why is the name 'Silk Road' misleading?",
+        "explanation": "It was never one road — it was a shifting network of many routes, including sea routes. And nobody called it that at the time; a German geographer coined the name in 1877.",
+        "article": "silk-road",
+        "options": [
+          {
+            "text": "It was a network of many routes, and the name was invented in 1877",
+            "correct": true
+          },
+          {
+            "text": "No silk was ever traded on it"
+          },
+          {
+            "text": "It was entirely at sea"
+          },
+          {
+            "text": "It only existed for ten years"
+          }
+        ]
+      },
+      {
+        "prompt": "What began the Industrial Revolution's use of coal?",
+        "explanation": "Steam engines. Burning coal to raise steam meant power no longer had to come from muscles, wind or a river — it could be put wherever it was needed.",
+        "article": "industrial-revolution",
+        "options": [
+          {
+            "text": "Steam engines, which freed power from rivers and muscle",
+            "correct": true
+          },
+          {
+            "text": "Electric motors"
+          },
+          {
+            "text": "The invention of the wheel"
+          },
+          {
+            "text": "Nuclear power"
+          }
+        ]
+      },
+      {
+        "kind": "ordering",
+        "prompt": "Put these in order, earliest first.",
+        "explanation": "Egypt's Great Pyramid comes first, then Athenian democracy, then the Roman Empire, then the Industrial Revolution.",
+        "article": "ancient-egypt",
+        "options": [
+          {
+            "text": "🏛️ The Great Pyramid is built in Egypt"
+          },
+          {
+            "text": "🗳️ Athens develops democracy"
+          },
+          {
+            "text": "⚔️ Augustus becomes Rome's first emperor"
+          },
+          {
+            "text": "🏭 The Industrial Revolution begins"
+          }
         ]
       }
     ]

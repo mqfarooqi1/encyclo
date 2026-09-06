@@ -1,0 +1,178 @@
+{
+  "slug": "artificial-intelligence",
+  "title": "Artificial Intelligence",
+  "type": "technology",
+  "categories": [
+    "technology",
+    "science",
+    "ideas"
+  ],
+  "primary_category": "technology",
+  "aliases": [
+    {
+      "text": "AI",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "machine learning",
+      "kind": "alternative"
+    }
+  ],
+  "summary": "The field of building machines that perform tasks associated with human intelligence, and the systems produced by it — which are powerful, narrow, and frequently misunderstood.",
+  "facts": [
+    {
+      "key": "definition",
+      "label": "What it means",
+      "value": "Machines performing tasks that would be said to require intelligence in a person",
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "named",
+      "label": "The term coined",
+      "value": "1956, at a workshop at Dartmouth College",
+      "value_num": 1956,
+      "group": "History",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "ml",
+      "label": "Machine learning",
+      "value": "Systems that find patterns in data rather than following hand-written rules",
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "training",
+      "label": "How modern systems learn",
+      "value": "By adjusting many numerical weights to reduce error on examples",
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "narrow",
+      "label": "Current systems",
+      "value": "Narrow — good at specific tasks, not generally intelligent",
+      "epistemic": "interpretation",
+      "confidence": 0.8,
+      "group": "Limits",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "understanding",
+      "label": "Do they understand?",
+      "value": "Genuinely disputed — they manipulate patterns without evident comprehension",
+      "epistemic": "contested",
+      "confidence": 0.7,
+      "group": "Limits",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "errors",
+      "label": "A known failure",
+      "value": "They can produce confident, fluent statements that are false",
+      "group": "Limits",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "bias",
+      "label": "Bias",
+      "value": "Systems learn patterns in their training data, including unfair ones",
+      "group": "Limits",
+      "cite": [
+        2
+      ]
+    }
+  ],
+  "content": {
+    "age6_8": {
+      "summary": "Computer programs that learn from lots of examples.",
+      "body": "Some computer programs can be taught by showing them lots of examples [1].\n\nIf you show a program thousands of pictures of cats, it can learn to spot a cat in a new picture it has never seen [1].\n\nNobody wrote down a rule for what a cat looks like. The program worked out a pattern by itself [1].\n\nThis is called artificial intelligence, or AI.\n\nAI is very good at some jobs and very bad at others. It does not understand things the way you do, and it can be confidently wrong [2].\n\nSo it is always worth checking what it tells you."
+    },
+    "age9_12": {
+      "summary": "How machine learning works, what it is good at, and where it goes wrong.",
+      "body": "Artificial intelligence is the field of building machines that do things we would call intelligent if a person did them [1].\n\n## Rules versus learning\n\nEarly AI worked by having experts write down rules. This worked for tidy problems like chess, and badly for messy ones. Nobody can write a complete rule for what a cat looks like.\n\nMachine learning takes a different approach. Instead of rules, you give the system many examples and let it find patterns itself [1].\n\n## How learning actually works\n\nA modern AI system contains a very large number of adjustable numbers, called weights.\n\nAt first they are random and the output is nonsense. The system is shown an example, its answer is compared with the right answer, and every weight is nudged slightly in whichever direction reduces the error.\n\nRepeat this billions of times and the weights settle into a configuration that performs the task well [1].\n\nNobody programs the rules, and nobody can straightforwardly read them out afterwards either. That is a real limitation — it is often hard to say why a system gave a particular answer.\n\n## What it is genuinely good at\n\nRecognising patterns in images, speech and text. Translating languages. Finding structure in huge datasets. Predicting protein shapes — a problem biologists had worked on for fifty years [1].\n\n## Where it goes wrong\n\n**It can be confidently wrong.** A system that generates text produces what is statistically likely, which is not the same as what is true. It will state false things fluently and without hesitation [2].\n\n**It repeats bias in its data.** If a system learns from records of past decisions that were unfair, it will learn that unfairness and apply it [2].\n\n**It is narrow.** A system that plays chess superbly cannot do anything else. Current AI is not generally intelligent, whatever the marketing suggests [2].\n\n## The hard question\n\nDoes an AI system understand anything?\n\nIt manipulates patterns extremely effectively. Whether that adds up to understanding is genuinely argued over by people who know the subject well — and it is not settled [2].\n\nThis encyclopaedia's own approach is to treat AI as a tool that must show its sources, never as an authority [2]."
+    },
+    "teen": {
+      "summary": "The field of machine systems performing cognitively associated tasks, dominated by statistical learning, with well-characterised capabilities and limitations.",
+      "body": "Artificial intelligence denotes both the research field concerned with machines performing tasks associated with intelligence, and the systems it produces [1].\n\n## Historical arc\n\nThe term was coined for a 1956 Dartmouth workshop. Early symbolic AI encoded knowledge as explicit rules and logical relations, achieving success in constrained domains — theorem proving, chess, expert systems.\n\nIt encountered the knowledge acquisition bottleneck: capturing human expertise as explicit rules proved intractable for perceptual and commonsense tasks. Optimistic predictions failed, producing funding contractions known as AI winters.\n\nStatistical machine learning displaced the symbolic approach as data and compute became available. Deep neural networks achieved decisive results from around 2012, and the transformer architecture (2017) underpins current large-scale language models [1].\n\n## Mechanism\n\nA neural network is a parameterised function composed of layers of weighted sums and non-linearities. Training minimises a loss function over examples by gradient descent, with gradients computed by backpropagation.\n\nNothing in this process involves rules about the domain. Structure emerges from optimisation against data, which explains both the generality of the method and the difficulty of interpreting the result. Interpretability research aims to recover human-legible structure from trained networks and remains an open problem [1].\n\nLarge language models are trained to predict the next token in text. Capabilities that were not explicitly trained for — translation, summarisation, some reasoning — emerge from this objective at scale, which is itself scientifically interesting and incompletely explained.\n\n## Established limitations\n\n**Confident error.** Generative models optimise for plausibility under their training distribution, not for truth. Fluency and accuracy are separate properties, and fluent falsehood is the expected failure mode rather than an anomaly [2].\n\n**Distributional bias.** Models learn regularities present in training data, including historical discrimination. Deployed in hiring, lending or policing, they reproduce and can amplify those patterns while appearing neutral [2].\n\n**Brittleness.** Performance degrades sharply outside the training distribution, and adversarial perturbations imperceptible to humans can cause confident misclassification.\n\n**Narrowness.** Present systems are trained for task families and lack the general transfer characteristic of human cognition. Claims of imminent general intelligence are contested and should be treated as speculation [2].\n\n## The understanding question\n\nWhether a system that manipulates symbols with high competence thereby understands them is unresolved. Searle's Chinese Room argues syntax cannot suffice for semantics; systems replies contest the argument's scope.\n\nThe question is philosophically substantive and empirically underdetermined. It should be reported as open, not decided by assertion in either direction.\n\nThe practical implication for reference work is straightforward: a system that produces text cannot itself be a source of authority, and its outputs require grounding in evidence that can be checked independently [2]."
+    },
+    "adult": {
+      "summary": "The field and its artefacts: statistical learning systems of substantial narrow capability, characterised failure modes, and an unresolved question about semantic content.",
+      "body": "Artificial intelligence encompasses the research programme of constructing machines performing tasks associated with intelligence, and the systems that programme produces [1].\n\n## Paradigm history\n\nThe 1956 Dartmouth workshop named the field on the premise that every aspect of learning or intelligence could in principle be so precisely described that a machine could simulate it.\n\nSymbolic AI dominated for three decades, representing knowledge declaratively and reasoning over it. Its successes were real within closed domains. Its failure was systematic rather than incidental: Moravec's paradox observes that tasks humans find difficult (formal reasoning) proved comparatively tractable, while tasks humans find effortless (perception, motor control, commonsense) proved extremely hard. The explanation offered — that the latter are products of far longer evolutionary optimisation and are correspondingly opaque to introspection — remains persuasive.\n\nStatistical learning displaced symbolic approaches as data volume and compute permitted. The 2012 ImageNet result and the 2017 transformer architecture mark the transitions to deep learning and to large-scale sequence models respectively [1].\n\n## Mechanism and opacity\n\nContemporary systems are high-dimensional parameterised functions fitted by stochastic gradient descent against a differentiable objective. Representational structure is emergent rather than designed.\n\nThis produces a genuine epistemic difficulty. The trained artefact encodes its function in a distributed manner across parameters with no straightforward correspondence to human concepts. Mechanistic interpretability has made progress on identifying circuits and features but does not yet provide general accounts of model behaviour.\n\nThe consequence is that these systems can be evaluated behaviourally but not readily audited structurally — which matters wherever justification, not merely performance, is required [1].\n\n## Failure modes\n\nGenerative models are trained on likelihood objectives. Output plausibility under the training distribution is the optimised quantity; factual accuracy is correlated with it but not identical to it, and the two diverge predictably where training data is sparse, contested or absent. Confident fabrication is therefore a structural property of the method, not a defect to be patched away.\n\nDistributional bias is similarly structural. A system fitted to historical data reproduces the regularities in that data. Where those regularities encode discrimination, the model encodes it, and the appearance of algorithmic neutrality can render it harder to contest than an explicit human decision.\n\nAdversarial examples demonstrate that learned decision boundaries do not coincide with human perceptual categories even where accuracy is high, indicating that the learned function differs from the intended one in ways not exposed by standard evaluation [2].\n\n## Generality\n\nCurrent systems exhibit substantial in-distribution competence and limited robust transfer. Whether scaling existing architectures yields general intelligence is a live empirical dispute among informed researchers, with credible positions on multiple sides. Confident assertion in either direction outruns the evidence [2].\n\n## Semantic content\n\nWhether competent symbol manipulation constitutes understanding remains philosophically unresolved. Searle's Chinese Room targets the sufficiency of syntax for semantics; systems and robot replies contest its framing; grounding arguments hold that meaning requires causal contact with referents.\n\nThe question bears directly on how such systems should be used in reference contexts. If semantic competence cannot be established, output authority cannot be assumed, and the appropriate architecture is one in which generated text is constrained by and traceable to independently verifiable sources — the position this encyclopaedia adopts and enforces structurally rather than by policy alone [2]."
+    }
+  },
+  "citations": [
+    {
+      "marker": 1,
+      "source": "acm",
+      "claim": "The origin of the term at the 1956 Dartmouth workshop, the symbolic and statistical paradigms and the transition between them, and the mechanism of gradient-based training of neural networks.",
+      "supports": "partially"
+    },
+    {
+      "marker": 2,
+      "source": "royal-society",
+      "claim": "Characterised limitations of contemporary AI systems including confident factual error, distributional bias, adversarial brittleness and narrowness, and the unresolved status of machine understanding.",
+      "supports": "partially"
+    }
+  ],
+  "relations": [
+    {
+      "to": "computer",
+      "kind": "part_of"
+    },
+    {
+      "to": "alan-turing",
+      "kind": "discovered_by"
+    },
+    {
+      "to": "the-internet",
+      "kind": "related"
+    },
+    {
+      "to": "the-brain",
+      "kind": "contrasts_with"
+    }
+  ],
+  "timeline": [
+    {
+      "title": "The term 'artificial intelligence' is coined",
+      "start": 1956,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 4
+    },
+    {
+      "title": "Deep learning breakthrough in image recognition",
+      "start": 2012,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 4
+    },
+    {
+      "title": "The transformer architecture is published",
+      "start": 2017,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 4
+    }
+  ],
+  "review": {
+    "last_reviewed": "2026-09-06",
+    "review_months": 12
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "slug": "african-elephant",
+  "title": "African Elephant",
+  "type": "animal",
+  "categories": [
+    "animals",
+    "environment"
+  ],
+  "primary_category": "animals",
+  "aliases": [
+    {
+      "text": "Loxodonta africana",
+      "kind": "scientific"
+    },
+    {
+      "text": "elephant",
+      "kind": "alternative"
+    }
+  ],
+  "summary": "The largest living land animal, and one of the few species known to use tools, mourn its dead and recognise itself in a mirror.",
+  "facts": [
+    {
+      "key": "scientific_name",
+      "label": "Scientific name",
+      "value": "Loxodonta africana (savanna) and Loxodonta cyclotis (forest)",
+      "group": "Classification",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "height",
+      "label": "Shoulder height",
+      "value": "Up to about 4 metres",
+      "value_num": 4,
+      "unit": "m",
+      "epistemic": "estimate",
+      "confidence": 0.85,
+      "comparable_key": "body_length",
+      "group": "Size",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "weight",
+      "label": "Weight",
+      "value": "Up to about 6,000 kg",
+      "value_num": 6000,
+      "unit": "kg",
+      "epistemic": "estimate",
+      "confidence": 0.8,
+      "comparable_key": "body_mass",
+      "group": "Size",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "diet",
+      "label": "Diet",
+      "value": "Herbivore",
+      "comparable_key": "diet",
+      "group": "Biology",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "food_per_day",
+      "label": "Food eaten daily",
+      "value": "Up to about 150 kg of plants",
+      "value_num": 150,
+      "unit": "kg",
+      "epistemic": "estimate",
+      "confidence": 0.7,
+      "group": "Biology",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "gestation",
+      "label": "Pregnancy length",
+      "value": "About 22 months — the longest of any mammal",
+      "value_num": 22,
+      "unit": "months",
+      "group": "Biology",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "lifespan",
+      "label": "Lifespan",
+      "value": "Up to about 70 years",
+      "value_num": 70,
+      "unit": "years",
+      "epistemic": "estimate",
+      "confidence": 0.8,
+      "comparable_key": "lifespan",
+      "group": "Biology",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "conservation_status",
+      "label": "Conservation status",
+      "value": "Savanna elephant Endangered; forest elephant Critically Endangered",
+      "comparable_key": "conservation_status",
+      "group": "Conservation",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "threat",
+      "label": "Main threats",
+      "value": "Poaching for ivory and loss of habitat",
+      "group": "Conservation",
+      "cite": [
+        2
+      ]
+    }
+  ],
+  "content": {
+    "age6_8": {
+      "summary": "The biggest animal that walks on land. It has a trunk that can do almost anything.",
+      "body": "The African elephant is the biggest animal that lives on land [1].\n\nAn elephant's trunk is amazing. It can pick up a whole tree, or pick up one small nut. It can suck up water and squirt it into the elephant's mouth [1].\n\nThe trunk is really the elephant's nose and top lip joined together. It has no bones in it at all [1].\n\nElephants eat plants — a huge amount, all day long [1].\n\nElephants live in families led by the oldest female. They look after each other, and they seem to remember their friends for many years [1].\n\nSadly, people have hunted elephants for their tusks. There are far fewer than there used to be [2]."
+    },
+    "age9_12": {
+      "summary": "How the trunk works, how elephant families are organised, and why they are endangered.",
+      "body": "African elephants are the largest land animals alive, standing up to 4 metres at the shoulder and weighing as much as 6 tonnes [1].\n\nThere are two species: the savanna elephant of open grassland and the smaller forest elephant of Central Africa. They were recognised as separate species relatively recently [2].\n\n## The trunk\n\nThe trunk is a fusion of the nose and upper lip. It contains no bone and no joints — it works entirely through a huge number of interlocking muscles, which is why it can bend in any direction.\n\nAn elephant uses it to breathe, smell, drink, wash, greet other elephants, and pick things up. African elephants have two finger-like tips at the end, giving them a remarkably precise grip [1].\n\n## Family life\n\nElephants live in herds of related females and their young, led by the oldest female, called the matriarch.\n\nHer memory matters. In droughts, older matriarchs lead herds to water sources they visited decades earlier. Herds with older leaders survive hard years better — the knowledge in one animal's head keeps the group alive [1].\n\nAdult males usually live alone or in loose groups of other males.\n\n## Clever animals\n\nElephants show behaviour that is rare in the animal world. They use tools, recognise themselves in mirrors, and appear to grieve — returning to the bones of dead relatives and touching them gently [1].\n\n## In trouble\n\nElephants were hunted intensively for ivory. Savanna elephants are now listed as Endangered and forest elephants as Critically Endangered [2].\n\nForest elephants have declined faster and are harder to protect, because they live in dense forest where they are difficult to count and to guard [2]."
+    },
+    "teen": {
+      "summary": "Two species of the largest extant terrestrial mammals, notable for cognitive complexity, matriarchal social structure and severe conservation pressure.",
+      "body": "African elephants comprise two species: the savanna elephant *Loxodonta africana* and the forest elephant *Loxodonta cyclotis*, formally recognised as distinct following genetic evidence [2].\n\n## Morphology\n\nSavanna elephants reach roughly 4 m at the shoulder and 6,000 kg. Large ears serve thermoregulation: elephants have a low surface-area-to-volume ratio and no sweat glands over most of the body, so heat is dissipated through an extensive network of ear blood vessels.\n\nThe proboscis is a muscular hydrostat, containing no skeletal elements. It functions through antagonistic arrangement of longitudinal, radial and oblique muscle fibres, permitting bending at any point and both great force and fine manipulation [1].\n\n## Ecology\n\nElephants consume up to about 150 kg of vegetation daily with low digestive efficiency, and consequently pass large quantities of viable seed over long distances. They are among the most significant seed dispersers in African ecosystems, and forest elephants in particular disperse large-seeded tree species that few other animals can.\n\nThey are also ecosystem engineers: by felling trees and opening thickets they maintain savanna structure, and by digging for water they create resources other species use [1].\n\n## Social structure and cognition\n\nHerds are matrilineal, led by a matriarch whose accumulated ecological knowledge measurably affects group survival during droughts. Long-term studies show that groups led by older matriarchs make better decisions about predator threat and resource location.\n\nElephants pass the mirror self-recognition test, a result reported in very few non-human species. They use tools, display apparent mourning behaviour toward conspecific remains, and communicate partly through infrasound below human hearing, which propagates over several kilometres [1].\n\n## Conservation\n\nCommercial ivory hunting produced severe population decline through the twentieth century. The IUCN currently assesses savanna elephants as Endangered and forest elephants as Critically Endangered [2].\n\nForest elephants have declined more steeply. Their reproductive rate is lower, with later first breeding and longer intervals between calves, so recovery is intrinsically slower even where poaching stops. Their forest habitat also makes monitoring and protection considerably harder [2]."
+    },
+    "adult": {
+      "summary": "Two congeneric species of the largest extant terrestrial mammals, functioning as keystone megaherbivores and subject to severe anthropogenic decline.",
+      "body": "The genus *Loxodonta* comprises two extant species, *L. africana* and *L. cyclotis*, whose specific distinction was established by nuclear and mitochondrial genetic evidence and has been reflected in separate IUCN assessments since 2021 [2].\n\n## Functional morphology\n\nThe trunk is a muscular hydrostat — a structure achieving movement without skeletal support by maintaining constant volume while redistributing it through antagonistic musculature. It supports both high-force manipulation and precision grip, the latter mediated in *Loxodonta* by two opposable distal processes.\n\nThermoregulation is a significant constraint at this body size. Pinnal vascular networks act as radiators, with behavioural augmentation through flapping, wallowing and shade-seeking. Recent work has also identified the role of the extensively fissured skin in retaining moisture for evaporative cooling [1].\n\nDentition is a life-history determinant: molars erupt in sequence and are replaced horizontally six times. Loss of the final molar set effectively bounds lifespan through nutritional failure.\n\n## Ecosystem role\n\nMegaherbivore consumption of order 150 kg per day at low assimilation efficiency makes elephants dominant agents of seed dispersal. Forest elephants disperse large-seeded tree taxa for which few alternative vectors exist, and modelling indicates that their loss would alter forest composition and above-ground carbon storage.\n\nDisturbance regimes — coppicing, treefall, path creation, excavation of water — maintain habitat heterogeneity. The keystone designation is well supported [1].\n\n## Social organisation and cognition\n\nFission-fusion matrilineal societies are structured around a matriarch. Playback experiments have demonstrated that older matriarchs discriminate more accurately between threatening and non-threatening lion vocalisations, and demographic analysis links matriarch age to calf survival during resource stress — an unusually direct empirical link between individual knowledge and group fitness.\n\nMirror self-recognition has been demonstrated in Asian elephants and is generally attributed to the genus. Elephants exhibit repeated investigation of conspecific remains, and infrasonic communication in the 14-24 Hz range propagates over kilometres, with seismic components detected through the feet.\n\nGestation of approximately 22 months is the longest of any mammal, reflecting the neural development required at birth [1].\n\n## Conservation status and dynamics\n\nSustained offtake for ivory drove twentieth-century decline, with the 1989 CITES Appendix I listing and subsequent enforcement producing partial recovery in some southern populations while others continued to fall.\n\n*L. cyclotis* is assessed Critically Endangered and *L. africana* Endangered. The divergence reflects both differential poaching pressure and intrinsic demography: forest elephants reach sexual maturity later and calve at longer intervals, giving a maximum rate of increase substantially below that of savanna elephants. Recovery timescales are therefore measured in decades even under complete protection [2].\n\nHuman-elephant conflict over crops and land is now a primary management challenge, and conservation outcomes increasingly depend on whether communities bear or benefit from the costs of coexistence [2]."
+    }
+  },
+  "citations": [
+    {
+      "marker": 1,
+      "source": "wwf",
+      "claim": "Elephant size and mass, trunk structure and function, feeding quantity, matriarchal social organisation, cognition including mirror self-recognition, and infrasonic communication.",
+      "supports": "partially"
+    },
+    {
+      "marker": 2,
+      "source": "iucn-redlist",
+      "claim": "Recognition of savanna and forest elephants as separate species, their Endangered and Critically Endangered assessments, and the demographic and poaching drivers of decline.",
+      "supports": "supports"
+    }
+  ],
+  "relations": [
+    {
+      "to": "blue-whale",
+      "kind": "contrasts_with"
+    },
+    {
+      "to": "lion",
+      "kind": "related"
+    },
+    {
+      "to": "tyrannosaurus-rex",
+      "kind": "contrasts_with",
+      "weight": 0.4
+    }
+  ],
+  "review": {
+    "last_reviewed": "2026-09-06",
+    "review_months": 36
+  }
+}

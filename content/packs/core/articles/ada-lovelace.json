@@ -1,0 +1,159 @@
+{
+  "slug": "ada-lovelace",
+  "title": "Ada Lovelace",
+  "type": "scientist",
+  "categories": [
+    "people",
+    "technology",
+    "maths"
+  ],
+  "primary_category": "people",
+  "aliases": [
+    {
+      "text": "Augusta Ada King",
+      "kind": "former"
+    },
+    {
+      "text": "Countess of Lovelace",
+      "kind": "alternative"
+    }
+  ],
+  "summary": "English mathematician who, writing about a machine that was never built, was the first to see that a computer could do more than arithmetic.",
+  "facts": [
+    {
+      "key": "born",
+      "label": "Born",
+      "value": "10 December 1815, London",
+      "value_num": 1815,
+      "group": "Life",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "died",
+      "label": "Died",
+      "value": "27 November 1852, aged 36",
+      "value_num": 1852,
+      "group": "Life",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "notes",
+      "label": "Her Notes published",
+      "value": "1843, appended to a translated article",
+      "value_num": 1843,
+      "group": "Work",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "length",
+      "label": "Length of her Notes",
+      "value": "About three times the article they annotated",
+      "group": "Work",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "machine",
+      "label": "The machine she wrote about",
+      "value": "Charles Babbage's Analytical Engine, never built in her lifetime",
+      "group": "Work",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "note_g",
+      "label": "Note G",
+      "value": "A step-by-step method for computing Bernoulli numbers",
+      "group": "Work",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "insight",
+      "label": "Her key insight",
+      "value": "A machine handling symbols could work on anything symbols represent — including music",
+      "group": "Work",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "father",
+      "label": "Her father",
+      "value": "The poet Lord Byron, whom she never knew",
+      "group": "Life",
+      "cite": [
+        1
+      ]
+    }
+  ],
+  "content": {
+    "age6_8": {
+      "summary": "A mathematician who imagined what computers could do, long before they existed.",
+      "body": "Ada Lovelace lived in England nearly two hundred years ago [1].\n\nShe loved mathematics. That was unusual for a girl at the time, because most girls were not taught it [1].\n\nHer friend Charles Babbage designed a huge calculating machine. It was never actually built while they were alive [1].\n\nAda wrote about how the machine could be given instructions to follow, step by step [1].\n\nThen she thought of something nobody else had. She realised a machine like that would not only do sums — it could work with music or pictures too, if you found a way to write them as numbers [2].\n\nThat is exactly what computers do now."
+    },
+    "age9_12": {
+      "summary": "The notes on an unbuilt machine that first imagined general-purpose computing.",
+      "body": "Ada Lovelace was an English mathematician best known for her work on Charles Babbage's Analytical Engine [1].\n\n## An unusual education\n\nAda was the daughter of the poet Lord Byron, who left when she was a baby. Her mother, worried she might inherit her father's temperament, had her taught mathematics and science intensively — an unusual education for a girl in the 1820s [1].\n\n## The machine that was never built\n\nBabbage designed the Analytical Engine, a mechanical general-purpose calculating machine driven by punched cards. It was never completed in their lifetimes; the engineering was beyond what could be manufactured [1].\n\n## The Notes\n\nIn 1843 Ada translated a French article describing the Engine. She then added her own notes, labelled A to G.\n\nHer notes were around three times longer than the article itself, and far more original [1].\n\nNote G contains a detailed step-by-step method for the Engine to compute a sequence called the Bernoulli numbers, including how to handle repetition. It is often called the first computer program [1].\n\n## The bigger idea\n\nThe program matters less than the insight behind it.\n\nBabbage saw the Engine as a calculator. Ada saw further. She realised that if things other than numbers — musical notes, letters, relationships — could be represented as symbols, the machine could operate on those too. She specifically suggested it might compose music [2].\n\nThat is the idea of general-purpose computing, and it arrived a century before there was a machine to demonstrate it.\n\n## An honest note about the debate\n\nSome historians argue that Babbage had already sketched similar programs and that Ada's contribution has been overstated. Others point to the correspondence showing she did the work, and to the fact that the visionary passages are unmistakably hers.\n\nThe most defensible position is that the program's authorship is debated, while the conceptual leap — that computation need not be about numbers — is clearly hers and was genuinely ahead of its time [1].\n\nShe died at 36 [1]."
+    },
+    "teen": {
+      "summary": "Author of the 1843 Notes on the Analytical Engine, containing both an algorithm and the first articulation of general-purpose computation.",
+      "body": "Augusta Ada King, Countess of Lovelace (1815-1852), is known for her annotations to a description of Charles Babbage's Analytical Engine [1].\n\n## Context\n\nBabbage's Analytical Engine was a design for a mechanical general-purpose computer with separable store and mill — memory and processor — controlled by punched cards adapted from the Jacquard loom, and supporting conditional branching and looping.\n\nIt was never constructed during their lifetimes, defeated by manufacturing tolerances and funding [1].\n\n## The Notes\n\nLovelace translated Luigi Menabrea's French account of Babbage's lectures and appended seven notes, A through G, running to roughly three times the length of the original.\n\nNote G sets out a method for computing Bernoulli numbers on the Engine, with variable assignments and an iterative structure. It is frequently described as the first published computer program, and while earlier program-like sequences exist in Babbage's unpublished notebooks, Note G is the first published algorithm intended for a general-purpose machine [1].\n\n## The conceptual contribution\n\nThe substantive claim for Lovelace's importance rests not on Note G but on Note A.\n\nBabbage conceived the Engine as a numerical calculator. Lovelace observed that its operations were on symbols, and that if entities other than quantity — she instances the relations of pitched sounds in harmony — could be expressed symbolically, the Engine could operate on them. She explicitly suggests it might compose elaborate music.\n\nThis is the distinction between calculation and general symbol manipulation, and it is the conceptual basis of computing as a general-purpose technology. It arrived roughly a century before hardware capable of demonstrating it [2].\n\nNote G also contains what Turing later termed Lady Lovelace's objection: that the Engine has no pretensions to originate anything, and can only do what we know how to order it to perform. Turing addressed this directly in his 1950 paper, making Lovelace a participant in the artificial intelligence debate from before its beginning [1].\n\n## Historiographical dispute\n\nThe extent of her contribution is contested. Sceptics, notably Bruce Collier, argue that Babbage supplied the mathematical substance and that Lovelace's reputation reflects later mythologising.\n\nSupporters point to the Babbage-Lovelace correspondence showing her identifying and correcting an error in his working, and to the fact that the passages of greatest conceptual originality have no counterpart in Babbage's writings.\n\nA defensible summary: Note G's authorship involved substantial collaboration; the general-purpose insight is distinctively hers; and both hagiography and dismissal misrepresent the record [1]."
+    },
+    "adult": {
+      "summary": "Author of the 1843 Notes on Menabrea's account of the Analytical Engine, containing the first published algorithm for a general-purpose machine and the first statement of general symbol manipulation.",
+      "body": "Augusta Ada King, Countess of Lovelace (1815-1852), produced the annotated translation that constitutes the principal contemporary exposition of Babbage's Analytical Engine [1].\n\n## The Analytical Engine\n\nBabbage's design anticipated the essential architecture of the modern computer: a separated store and mill, punched-card program input derived from Jacquard weaving, conditional branching, and looping. It was Turing-complete in principle, though this was recognised only retrospectively.\n\nConstruction was never completed, defeated by required manufacturing precision and by the withdrawal of government funding after the earlier Difference Engine [1].\n\n## The Notes\n\nMenabrea's 1842 French account of Babbage's Turin lectures was translated by Lovelace and published in 1843 with seven appended notes exceeding the source in length by roughly threefold.\n\nNote G presents a tabulated procedure for generating Bernoulli numbers, with explicit variable assignment, operation sequencing and iteration. Its status as the first published program for a general-purpose computing machine is defensible; Babbage's unpublished notebooks contain earlier program-like material, which bears on priority but not on publication [1].\n\n## The general-purpose insight\n\nThe more consequential passage is in Note A, where Lovelace distinguishes the Engine's capacity for numerical calculation from a broader capacity for operating on symbols standing for anything whose mutual relations can be expressed.\n\nHer example — that the Engine might compose scientific pieces of music of any complexity, given a symbolic representation of harmonic relations — is a clear statement that computation is not intrinsically arithmetical. Babbage's own writings do not contain this generalisation.\n\nThis is the distinction between a calculating engine and a computer, and it is the intellectual precondition for computing as a general technology rather than a specialised numerical instrument [2].\n\n## Lady Lovelace's objection\n\nNote G contains the claim that the Engine has no pretensions whatever to originate anything, and can do only what we know how to order it to perform.\n\nTuring addressed this explicitly in *Computing Machinery and Intelligence* (1950), naming it Lady Lovelace's objection and countering that machines regularly surprise their designers, and that the objection conflates originating with being uncaused. The exchange places Lovelace as an originating participant in a debate that continues [1].\n\n## Historiography\n\nThe scale of her contribution is genuinely contested. Collier's dismissal characterises the mathematical content as Babbage's, and the popular elevation of Lovelace as a figure of symbolic convenience.\n\nCounter-evidence includes correspondence in which Lovelace identifies an error in Babbage's Bernoulli working, Babbage's own contemporaneous characterisation of her role, and the absence of the Note A generalisation from any Babbage source.\n\nThe balanced position — that Note G was collaborative, that the conceptual generalisation is hers, and that both the mythologising and the dismissal are unsupported — is the one the evidence sustains. Reporting the dispute is preferable to adopting either side silently [1]."
+    }
+  },
+  "citations": [
+    {
+      "marker": 1,
+      "source": "computer-history-museum",
+      "claim": "Lovelace's biography and education, the Analytical Engine's design and non-construction, the 1843 Notes and Note G's Bernoulli algorithm, Lady Lovelace's objection, and the historiographical dispute over her contribution.",
+      "supports": "partially"
+    },
+    {
+      "marker": 2,
+      "source": "science-museum-uk",
+      "claim": "Lovelace's Note A generalisation from numerical calculation to symbolic operation, including her suggestion that the Engine could compose music.",
+      "supports": "partially"
+    }
+  ],
+  "relations": [
+    {
+      "to": "computer",
+      "kind": "discovered_by"
+    },
+    {
+      "to": "alan-turing",
+      "kind": "succeeded_by"
+    },
+    {
+      "to": "industrial-revolution",
+      "kind": "related",
+      "weight": 0.4
+    }
+  ],
+  "timeline": [
+    {
+      "title": "Lovelace's Notes published",
+      "start": 1843,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 5
+    }
+  ],
+  "review": {
+    "last_reviewed": "2026-09-06",
+    "review_months": 60
+  }
+}

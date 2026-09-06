@@ -1,0 +1,167 @@
+{
+  "slug": "silk-road",
+  "title": "The Silk Road",
+  "type": "historical_event",
+  "categories": [
+    "history",
+    "geography"
+  ],
+  "primary_category": "history",
+  "aliases": [
+    {
+      "text": "Silk Routes",
+      "kind": "alternative"
+    }
+  ],
+  "summary": "The network of trade routes linking China, Central Asia, India, Persia and the Mediterranean, which carried goods, ideas, religions and disease for over a thousand years.",
+  "facts": [
+    {
+      "key": "not_one_road",
+      "label": "Common misconception",
+      "value": "It was never a single road, and no one called it that at the time",
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "name_origin",
+      "label": "Where the name comes from",
+      "value": "Coined in 1877 by the geographer Ferdinand von Richthofen",
+      "value_num": 1877,
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "period",
+      "label": "Main period",
+      "value": "About 130 BCE to the 1450s",
+      "epistemic": "estimate",
+      "confidence": 0.7,
+      "group": "Timing",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "goods_east",
+      "label": "Travelling west",
+      "value": "Silk, paper, porcelain, spices, tea",
+      "group": "Trade",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "goods_west",
+      "label": "Travelling east",
+      "value": "Gold, silver, glassware, wool, horses",
+      "group": "Trade",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "ideas",
+      "label": "What else travelled",
+      "value": "Buddhism, Islam, papermaking, mathematics and astronomy",
+      "group": "Exchange",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "disease",
+      "label": "Also carried",
+      "value": "Disease, probably including the Black Death",
+      "epistemic": "interpretation",
+      "confidence": 0.7,
+      "group": "Exchange",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "relay",
+      "label": "How goods travelled",
+      "value": "In relays between traders, not one journey end to end",
+      "group": "Trade",
+      "cite": [
+        1
+      ]
+    }
+  ],
+  "content": {
+    "age6_8": {
+      "summary": "Old trading paths that carried silk, spices and ideas between China and Europe.",
+      "body": "Long ago there were no aeroplanes or lorries. To move things a long way, people used camels and horses [1].\n\nTraders carried goods between China and Europe along a set of routes we now call the Silk Road [1].\n\nSilk came from China. Europeans loved it and had no idea how it was made [1].\n\nSpices, paper and beautiful pots travelled too. Gold, glass and strong horses went the other way [1].\n\nBut it was not just things. Stories, religions and new ideas travelled with the traders [2].\n\nOne trader usually did not go the whole way. They passed goods on, like a very long relay race [1]."
+    },
+    "age9_12": {
+      "summary": "A network, not a road — and what really travelled along it.",
+      "body": "The Silk Road was a network of trade routes connecting China, Central Asia, India, Persia and the Mediterranean [1].\n\n## Getting the name wrong\n\nTwo things are misleading about the name.\n\nFirst, it was not one road. It was a shifting web of many routes, overland and by sea, changing with politics, weather and safety [1].\n\nSecond, nobody at the time called it that. The German geographer Ferdinand von Richthofen invented the term *Seidenstrasse* in 1877 — more than four hundred years after the routes declined [1].\n\n## A relay, not a journey\n\nVery few traders travelled the whole distance. Goods were bought and sold repeatedly along the way, passing through many hands.\n\nEach exchange added cost, which is why silk was extraordinarily expensive in Rome — and why Romans knew almost nothing about the people who made it [1].\n\n## What travelled\n\nWestward: silk, paper, porcelain, tea and spices.\n\nEastward: gold, silver, glassware, wool and horses — Central Asian horses were prized in China [1].\n\n## Ideas travelled further than goods\n\nThis is the part that mattered most.\n\nBuddhism spread from India into Central Asia and China along these routes. Islam later spread along them too. Papermaking moved from China westward and eventually reached Europe, transforming how knowledge was recorded.\n\nMathematics, astronomy and medicine moved in both directions, often through translation in cities along the way [2].\n\n## And disease\n\nThe same connections carried illness. The Black Death, which killed a large share of Europe's population in the 1340s, is generally thought to have travelled westward along these trade networks [2].\n\nConnection brought prosperity and catastrophe through exactly the same channels.\n\n## Decline\n\nUse declined from the 1400s as sea routes became cheaper and safer, and as political fragmentation made overland travel riskier [1]."
+    },
+    "teen": {
+      "summary": "A shifting network of Eurasian exchange routes carrying goods, technologies, religions and pathogens over roughly fifteen centuries.",
+      "body": "The Silk Road describes a network of overland and maritime routes linking East Asia, Central Asia, South Asia, Persia and the Mediterranean world [1].\n\n## Terminology and its distortions\n\nThe term *Seidenstrasse* was coined by Ferdinand von Richthofen in 1877 and is anachronistic. No contemporary used it, and the singular noun misrepresents what was a variable, multi-branched network including substantial maritime components.\n\nThe emphasis on silk is also disproportionate. Silk was a high-value low-bulk commodity well suited to long-distance carriage, and hence conspicuous in sources, but by volume the routes carried a far wider range of goods, and much of the trade was regional rather than trans-Eurasian [1].\n\n## Structure of exchange\n\nThe segmented relay structure is essential to understanding the system. Goods changed hands repeatedly, with merchants typically operating within known regions rather than traversing the whole distance.\n\nThe consequence was substantial price escalation and, importantly, informational opacity. Roman writers speculated that silk grew on trees, and neither terminus had accurate knowledge of the other for centuries. Sogdian merchants dominated much of the Central Asian intermediation for an extended period [1].\n\n## Transmission of technology and religion\n\nThe movement of ideas had greater long-term consequence than the movement of commodities.\n\nBuddhism travelled from India through Central Asia into China, producing the cave temple complexes at Dunhuang and elsewhere. Manichaeism, Nestorian Christianity and later Islam moved along the same corridors.\n\nPapermaking transmitted westward from China, reaching the Islamic world by the eighth century and Europe considerably later, with substantial consequences for administration, scholarship and eventually printing.\n\nMathematical and astronomical knowledge moved in both directions, with translation centres in Baghdad and elsewhere serving as transfer points. Indian numerals reached Europe through Arabic intermediation, which is why they are called Arabic numerals [2].\n\n## Pathogen transmission\n\nThe connectivity that carried goods also carried disease. The Black Death of the 1340s is generally attributed to westward transmission of *Yersinia pestis* along trade networks, though the precise route and the role of specific vectors continue to be researched using ancient DNA.\n\nThe episode illustrates a general property of connected systems: the same links that transmit beneficial exchange transmit harm, and connectivity cannot be selectively filtered [2].\n\n## Decline\n\nOverland traffic declined from the fifteenth century as maritime routes became more economical, political fragmentation raised transit costs and risk, and European maritime expansion established direct sea contact with Asia [1]."
+    },
+    "adult": {
+      "summary": "A polycentric network of Eurasian exchange whose transmission of technology, religion and pathogens exceeded the historical significance of its commodity trade.",
+      "body": "The Silk Road denotes a shifting network of overland and maritime exchange routes connecting East Asia with South Asia, Central Asia, the Iranian plateau and the Mediterranean [1].\n\n## Historiographical caution\n\nThe designation originates with Richthofen in 1877 and reflects nineteenth-century European geographical and commercial preoccupations. Its adoption has arguably distorted scholarship in three ways: implying route singularity where a variable network existed; privileging silk over a much broader commodity range; and framing the system as connecting Europe to China, when the majority of traffic was intra-Asian and the Mediterranean was a terminal rather than organising node.\n\nRecent scholarship has emphasised maritime routes, previously underweighted relative to the romanticised caravan image, and has questioned the coherence of treating the network as a single object of study at all [1].\n\n## Economic structure\n\nExchange operated through segmented relay rather than end-to-end carriage. Merchant communities — Sogdian, later Persian, Armenian and Arab — specialised in defined segments with established credit and trust arrangements, often kin-based.\n\nThe structure produced steep price gradients and pronounced informational asymmetry. Classical authors' accounts of silk production demonstrate that commodity flow did not entail knowledge flow in proportion.\n\nInstitutional infrastructure — caravanserai networks, state guarantees under the Pax Mongolica, and standardised weights in some periods — materially affected transaction costs and hence volumes [1].\n\n## Technological and religious transmission\n\nThe transfer of papermaking westward is among the best-documented technology transmissions of the pre-modern period, with the Islamic world adopting it by the eighth century and Europe substantially later. Its administrative and scholarly consequences were considerable.\n\nBuddhist transmission into China produced sustained artistic and textual traffic, evidenced archaeologically at Dunhuang, whose sealed library cave preserved manuscripts in numerous languages. Manichaean, Nestorian Christian and later Islamic transmission followed comparable corridors.\n\nMathematical and astronomical transfer was bidirectional and mediated by translation institutions. The decimal positional system with zero, developed in India, reached Europe via Arabic transmission — the nomenclature 'Arabic numerals' preserving the intermediary rather than the origin [2].\n\n## Epidemiological consequences\n\nNetwork connectivity mediated pathogen as well as commodity transfer. The second plague pandemic beginning in the 1340s is conventionally attributed to westward spread of *Yersinia pestis* through these networks.\n\nAncient DNA work has clarified phylogeny and supports a Central Asian origin, though transmission mechanism — the relative roles of rodent reservoirs, human ectoparasites and commodity transport — remains under investigation. Specific popular narratives about single transmission events are more confident than the evidence warrants [2].\n\n## Decline and reappraisal\n\nOverland traffic contracted from the fifteenth century under the combined effect of Mongol political disintegration, Ottoman consolidation altering transit arrangements, and the falling relative cost of maritime carriage following European navigational expansion.\n\nContemporary invocation of the Silk Road in infrastructure diplomacy has renewed both public and scholarly attention, and has prompted useful critical scrutiny of how far the historical construct supports the political uses now made of it [1]."
+    }
+  },
+  "citations": [
+    {
+      "marker": 1,
+      "source": "unesco-whc",
+      "claim": "The network structure and geography of the Silk Roads, the 1877 coining of the term, the relay structure of trade, principal commodities, and the causes of decline.",
+      "supports": "supports"
+    },
+    {
+      "marker": 2,
+      "source": "british-museum",
+      "claim": "Transmission of Buddhism, Islam, papermaking and mathematical knowledge along the routes, and the spread of plague through the same networks.",
+      "supports": "partially"
+    }
+  ],
+  "relations": [
+    {
+      "to": "roman-empire",
+      "kind": "related"
+    },
+    {
+      "to": "ancient-egypt",
+      "kind": "contrasts_with",
+      "weight": 0.3
+    }
+  ],
+  "timeline": [
+    {
+      "title": "Han dynasty missions open Central Asian routes",
+      "start": -130,
+      "precision": "century",
+      "era": "Ancient",
+      "importance": 4,
+      "epistemic": "estimate"
+    },
+    {
+      "title": "The Black Death reaches Europe",
+      "start": 1347,
+      "precision": "exact",
+      "era": "Medieval",
+      "importance": 5
+    },
+    {
+      "title": "Term 'Silk Road' coined",
+      "start": 1877,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 3
+    }
+  ],
+  "review": {
+    "last_reviewed": "2026-09-06",
+    "review_months": 60
+  }
+}

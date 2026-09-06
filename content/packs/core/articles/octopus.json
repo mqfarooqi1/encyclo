@@ -1,0 +1,158 @@
+{
+  "slug": "octopus",
+  "title": "Octopus",
+  "type": "animal",
+  "categories": [
+    "animals",
+    "science"
+  ],
+  "primary_category": "animals",
+  "aliases": [
+    {
+      "text": "Octopoda",
+      "kind": "scientific"
+    },
+    {
+      "text": "octopuses",
+      "kind": "alternative"
+    }
+  ],
+  "summary": "A soft-bodied marine animal with three hearts, blue blood, and a nervous system unlike anything else in the animal kingdom.",
+  "facts": [
+    {
+      "key": "group",
+      "label": "Animal group",
+      "value": "Cephalopod mollusc — related to squid and snails",
+      "group": "Classification",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "hearts",
+      "label": "Hearts",
+      "value": "Three",
+      "value_num": 3,
+      "group": "Body",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "blood",
+      "label": "Blood colour",
+      "value": "Blue, because it uses copper-based haemocyanin",
+      "group": "Body",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "arms",
+      "label": "Arms",
+      "value": "Eight",
+      "value_num": 8,
+      "group": "Body",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "neurons",
+      "label": "Nerve cells",
+      "value": "About 500 million, with most in the arms",
+      "value_num": 500000000,
+      "epistemic": "estimate",
+      "confidence": 0.7,
+      "group": "Nervous system",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "bones",
+      "label": "Bones",
+      "value": "None — only the beak is hard",
+      "group": "Body",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "colour_vision",
+      "label": "Colour vision",
+      "value": "Most species appear to be colourblind, yet change colour precisely",
+      "epistemic": "contested",
+      "confidence": 0.6,
+      "group": "Nervous system",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "lifespan",
+      "label": "Lifespan",
+      "value": "Often only 1 to 2 years",
+      "value_num": 2,
+      "unit": "years",
+      "epistemic": "estimate",
+      "confidence": 0.8,
+      "comparable_key": "lifespan",
+      "group": "Body",
+      "cite": [
+        1
+      ]
+    }
+  ],
+  "content": {
+    "age6_8": {
+      "summary": "A sea animal with eight arms that can change colour and squeeze through tiny gaps.",
+      "body": "An octopus lives in the sea and has eight arms [1].\n\nIt has no bones at all. The only hard part is its beak, a bit like a parrot's [1].\n\nBecause it is so squishy, an octopus can squeeze through a hole barely bigger than its beak [1].\n\nAn octopus can change colour in less than a second to match the rocks and sand around it. It can change how bumpy its skin is too [1].\n\nAnd here is a strange one — an octopus has three hearts, and its blood is blue, not red [1]."
+    },
+    "age9_12": {
+      "summary": "Three hearts, blue blood, and a mind spread through eight arms.",
+      "body": "Octopuses are molluscs, related to snails and clams — though you would never guess it [1].\n\n## Three hearts and blue blood\n\nTwo hearts pump blood through the gills. The third pumps it around the rest of the body. Oddly, that third heart stops beating when the octopus swims, which is one reason octopuses usually prefer to crawl [1].\n\nTheir blood is blue because it carries oxygen using haemocyanin, which contains copper, rather than the iron-based haemoglobin that makes our blood red. Haemocyanin works better in cold water with little oxygen — the conditions much of the deep sea provides [1].\n\n## No bones\n\nAn octopus has no skeleton. Its only hard part is a beak. If the beak fits through a gap, the whole animal can follow, which is why octopuses are famous escape artists in aquariums [1].\n\n## A very unusual nervous system\n\nAn octopus has around 500 million nerve cells — comparable to a dog. But only about a third are in the central brain. The rest are distributed through the arms [2].\n\nEach arm has its own nerve cluster and can carry out actions — reaching, grasping, exploring — without instructions from the brain. A severed arm will still reach for food. The animal's intelligence is not all in its head [2].\n\n## Colour changing\n\nOctopus skin contains chromatophores, tiny sacs of pigment that muscles pull open or squeeze shut. They can change the pattern of the whole body in under a second, and can alter skin texture too, raising bumps to match seaweed or rock [1].\n\nHere is the puzzle. Most octopuses appear to have only one kind of light-sensing cell, which should make them colourblind — yet they match colours extremely well. One suggestion is that they sense colour through their skin. It is not settled [2].\n\n## Short lives\n\nMost octopuses live only one or two years. Females usually guard a single batch of eggs, stop eating, and die around the time they hatch [1]."
+    },
+    "teen": {
+      "summary": "A soft-bodied cephalopod with distributed neural organisation, copper-based respiratory pigment, and rapid dermal colour control.",
+      "body": "Octopuses are cephalopod molluscs of the order Octopoda, sharing ancestry with snails and bivalves but having diverged dramatically in body plan and nervous system [1].\n\n## Circulation and respiration\n\nTwo branchial hearts drive blood through the gills; a systemic heart circulates it to the body. The systemic heart ceases during jet-propelled swimming, which makes sustained swimming rapidly exhausting and biases the animal toward benthic crawling [1].\n\nOxygen is transported by haemocyanin, a copper-containing protein dissolved in plasma rather than packaged in cells. Haemocyanin is less efficient than haemoglobin at high oxygen tension but performs comparatively well at low temperature and low oxygen availability — conditions characteristic of much of the marine environment [1].\n\n## Body plan\n\nThe absence of any rigid skeleton, apart from the chitinous beak, permits passage through apertures limited only by beak dimensions. Arms function as muscular hydrostats, achieving movement without skeletal support in the same manner as an elephant's trunk.\n\n## Distributed nervous system\n\nOf approximately 500 million neurons, only around a third reside in the central brain. The majority are located in the arms, each of which contains an axial nerve cord and ganglia capable of generating and executing motor programmes locally.\n\nIsolated arms exhibit coordinated reaching and grasping responses. Behavioural evidence indicates the central brain issues high-level goals while arms resolve the details of execution — an organisation that partly decouples control from a central processor.\n\nThis architecture is of considerable interest precisely because it evolved independently of the vertebrate line. The last common ancestor of humans and octopuses was a simple bilaterian, so cephalopod cognition represents a separate origin of complex nervous systems [2].\n\n## Chromatic behaviour\n\nDermal chromatophores are pigment sacs surrounded by radial muscles under direct neural control, permitting pattern change in well under a second. Underlying iridophores and leucophores modify reflectance, and papillae alter three-dimensional skin texture.\n\nThe colour vision paradox is real and unresolved: most octopus species express a single opsin, implying monochromacy, yet produce accurate colour-matched camouflage. Proposed resolutions include chromatic aberration exploited through pupil shape as a colour discriminator, and dermal photoreception via opsins expressed in the skin. Neither is established, and the question should be described as open [2].\n\n## Life history\n\nMost species are semelparous and short-lived, typically one to two years. Females brood a single egg mass, ceasing to feed, and die around hatching. Senescence is triggered by secretions from the optic gland; its surgical removal extends life but abolishes brooding behaviour [1]."
+    },
+    "adult": {
+      "summary": "A coleoid cephalopod exhibiting an independently evolved complex nervous system, distributed motor control, haemocyanin-based respiration and neurally driven dermal patterning.",
+      "body": "Octopoda comprises soft-bodied coleoid cephalopods that, despite molluscan ancestry, exhibit a body plan and neural organisation without close parallel among invertebrates [1].\n\n## Respiratory physiology\n\nThe three-heart arrangement — paired branchial hearts serving the gills and a systemic heart serving the body — reflects the pressure demands of a closed circulatory system in a soft-bodied animal.\n\nHaemocyanin's dissolved, extracellular carriage limits achievable oxygen-carrying capacity relative to packaged haemoglobin, but its affinity characteristics suit cold, hypoxic water. This has physiological consequences that bound behaviour: jet propulsion is metabolically expensive, systemic heart function is compromised during it, and recovery is slow, which accounts for the observed preference for benthic locomotion and ambush over pursuit [1].\n\n## Muscular hydrostats and motor control\n\nArms operate as muscular hydrostats with transverse, longitudinal and oblique fibre arrangements permitting elongation, shortening, bending and torsion at any point, and effectively infinite degrees of freedom.\n\nControl of such a system is a non-trivial computational problem, and the observed solution is stereotypy: reaching movements are executed as a propagating bend wave that reduces the control problem to a small number of parameters. Analogous simplification strategies are of active interest in soft robotics [2].\n\n## Neural architecture\n\nNeuron counts near 5 x 10^8 place octopuses in the range of small mammals, but the distribution is unlike vertebrates: roughly two thirds reside in the peripheral arm nervous system.\n\nEach arm's axial nerve cord supports local sensorimotor loops, and deafferented arms retain coordinated withdrawal and reaching. The functional picture is of hierarchical control in which the brain specifies goals and the periphery resolves kinematics.\n\nBecause the protostome-deuterostome divergence long predates the emergence of complex nervous systems in either lineage, cephalopod cognition constitutes an independent evolutionary experiment. Comparative work is consequently informative about which features of complex nervous systems are convergent solutions and which are contingent. Cephalopods also exhibit extensive RNA editing in neural tissue, at levels far exceeding those in vertebrates, which has been proposed as a mechanism for environmental responsiveness at the cost of genomic evolutionary rate [2].\n\n## Dermal patterning and the colour vision problem\n\nChromatophore organs are under direct motor neuron control, bypassing hormonal mediation and permitting latencies of tens of milliseconds. Iridophores and leucophores provide structural and broadband reflectance, while papillary musculature produces textural mimicry.\n\nThe discrepancy between apparent monochromacy — a single opsin in most species — and demonstrably effective colour matching remains unresolved. The chromatic aberration hypothesis proposes that off-axis pupil geometry combined with accommodation permits wavelength discrimination from focus cues. The dermal photoreception hypothesis notes opsin expression in skin. Neither has achieved consensus, and this is properly reported as an open question rather than a solved curiosity [2].\n\n## Life history and senescence\n\nMost species are semelparous with lifespans of one to two years. Post-spawning senescence in females is under endocrine control by the optic gland; ablation abolishes brooding and extends lifespan, establishing causation rather than correlation. Comparative work has identified steroidogenic pathway changes accompanying the transition, and the system serves as a tractable model for programmed senescence [1]."
+    }
+  },
+  "citations": [
+    {
+      "marker": 1,
+      "source": "australian-museum",
+      "claim": "Octopus classification and body plan, three-heart circulation and haemocyanin, absence of skeleton apart from the beak, chromatophore-based colour change, and semelparous life history.",
+      "supports": "partially"
+    },
+    {
+      "marker": 2,
+      "source": "nih-nlm",
+      "claim": "Octopus neuron numbers and their distribution between brain and arms, local arm motor control, the unresolved colour vision problem, and neural RNA editing.",
+      "supports": "partially"
+    }
+  ],
+  "relations": [
+    {
+      "to": "the-ocean",
+      "kind": "located_in"
+    },
+    {
+      "to": "the-brain",
+      "kind": "contrasts_with"
+    },
+    {
+      "to": "great-white-shark",
+      "kind": "related",
+      "weight": 0.3
+    }
+  ],
+  "review": {
+    "last_reviewed": "2026-09-06",
+    "review_months": 36
+  }
+}

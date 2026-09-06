@@ -1,0 +1,223 @@
+{
+  "slug": "roman-empire",
+  "title": "The Roman Empire",
+  "type": "civilisation",
+  "categories": [
+    "history",
+    "engineering"
+  ],
+  "primary_category": "history",
+  "aliases": [
+    {
+      "text": "Rome",
+      "kind": "alternative"
+    },
+    {
+      "text": "Imperium Romanum",
+      "kind": "native"
+    }
+  ],
+  "summary": "The state centred on the city of Rome that came to rule the Mediterranean world, and whose law, language and engineering shaped Europe for centuries after it fell.",
+  "facts": [
+    {
+      "key": "began",
+      "label": "Empire begins",
+      "value": "27 BCE, when Augustus took power",
+      "value_num": -27,
+      "unit": "years",
+      "group": "Timing",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "west_ends",
+      "label": "Western empire ends",
+      "value": "476 CE",
+      "value_num": 476,
+      "group": "Timing",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "east_ends",
+      "label": "Eastern empire ends",
+      "value": "1453 CE, with the fall of Constantinople",
+      "value_num": 1453,
+      "group": "Timing",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "peak",
+      "label": "Largest extent",
+      "value": "About 117 CE, under Trajan",
+      "value_num": 117,
+      "group": "Size",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "area",
+      "label": "Area at its peak",
+      "value": "Roughly 5 million square kilometres",
+      "value_num": 5000000,
+      "unit": "km²",
+      "epistemic": "estimate",
+      "confidence": 0.7,
+      "group": "Size",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "population",
+      "label": "Population at its peak",
+      "value": "Perhaps 50 to 60 million",
+      "value_num": 55000000,
+      "epistemic": "estimate",
+      "confidence": 0.5,
+      "group": "Size",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "roads",
+      "label": "Road network",
+      "value": "Around 80,000 km of paved roads",
+      "value_num": 80000,
+      "unit": "km",
+      "epistemic": "estimate",
+      "confidence": 0.6,
+      "group": "Engineering",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "concrete",
+      "label": "Roman concrete",
+      "value": "Used volcanic ash, and some of it is still standing",
+      "group": "Engineering",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "language",
+      "label": "Language",
+      "value": "Latin, the ancestor of Italian, Spanish, French, Portuguese and Romanian",
+      "group": "Legacy",
+      "cite": [
+        1
+      ]
+    }
+  ],
+  "content": {
+    "age6_8": {
+      "summary": "A huge empire long ago, famous for its roads, soldiers and buildings.",
+      "body": "A very long time ago there was a city called Rome, in Italy [1].\n\nRome grew and grew until it ruled a huge area, all the way around the Mediterranean Sea [1].\n\nThe Romans built very good roads. Some of them are still there today, after two thousand years [2].\n\nThey also built aqueducts — long bridges that carried fresh water into their cities [2].\n\nThe Romans spoke Latin. Lots of the words we use now come from Latin [1].\n\nAfter hundreds of years the empire broke apart. But the roads, buildings and words stayed behind."
+    },
+    "age9_12": {
+      "summary": "How Rome grew, what it built, and why 'the fall of Rome' is more complicated than it sounds.",
+      "body": "The Roman Empire grew from a single city in Italy into a state ruling most of the land around the Mediterranean [1].\n\n## From republic to empire\n\nRome was a republic for centuries, run by elected officials and a senate. That ended in civil war. In 27 BCE, Augustus became the first emperor, holding power for life while carefully keeping the appearance of republican government [1].\n\n## The size of it\n\nAt its largest, around 117 CE, the empire stretched from Britain to Egypt and from Spain to Syria — roughly 5 million square kilometres, with perhaps 50 to 60 million people [1].\n\n## Engineering\n\nThe Romans were extraordinary builders.\n\nThey laid around 80,000 kilometres of paved road, built primarily to move armies quickly. Trade followed. Some routes are still used today [2].\n\nAqueducts carried water into cities across valleys on tiers of arches, dropping only a few centimetres per kilometre so the water flowed steadily without pressure pumps [2].\n\nTheir concrete was remarkable. Roman harbour concrete used volcanic ash and actually strengthened in seawater. Some Roman structures still stand while modern concrete of the same age would have crumbled [2].\n\n## Not one fall\n\nSchoolbooks often say Rome fell in 476 CE. That is only half the story.\n\nIn 476 the last emperor in the west was deposed. But the empire had already split in two, and the eastern half continued from Constantinople for nearly another thousand years, until 1453 [1].\n\nEven in the west, there was no single moment of collapse. Power shifted gradually to local rulers, and Roman law, language and religion continued under new management [1].\n\n## What survived\n\nLatin became Italian, Spanish, French, Portuguese and Romanian, and supplied a large share of English vocabulary. Roman law shaped European legal systems. The calendar we use is a Roman one, adjusted [1]."
+    },
+    "teen": {
+      "summary": "A Mediterranean state whose administrative, legal and engineering systems outlasted it, and whose collapse in the west was gradual rather than singular.",
+      "body": "The Roman Empire denotes the post-republican Roman state, conventionally dated from Augustus's assumption of power in 27 BCE [1].\n\n## Political structure\n\nAugustus's settlement, the Principate, retained republican forms — senate, consuls, elections — while concentrating actual authority in the *princeps* through control of the army, the treasury and key provinces. The fiction mattered: it made autocracy acceptable to an elite that had killed Caesar for appearing monarchical.\n\nExpansion peaked under Trajan around 117 CE at roughly 5 million km², with population estimates of 50-60 million carrying wide uncertainty since they rest on extrapolation from partial census and urban data [1].\n\n## Integration\n\nRoman rule was comparatively tolerant of local religion and custom, provided taxes were paid and imperial cult observed. Citizenship was progressively extended, culminating in the Antonine Constitution of 212 CE granting it to nearly all free inhabitants.\n\nThis is a significant contrast with many later empires: the Roman system offered a route into the governing class rather than maintaining a permanent conquered status [1].\n\n## Engineering\n\nThe road network of approximately 80,000 km of paved roads was built for military mobility, with commercial use a consequence rather than a purpose. Construction used layered foundations with cambered surfaces for drainage, and survival of substantial stretches reflects that specification.\n\nAqueducts delivered water by gravity over long distances at gradients of a few tenths of a metre per kilometre, requiring surveying precision achieved with the *chorobates* and *groma*.\n\nRoman marine concrete, using volcanic ash (pozzolana) with lime and seawater, forms aluminous tobermorite over time and gains strength through continued reaction — behaviour opposite to that of modern Portland cement in seawater, and now the subject of materials research [2].\n\n## The fall reconsidered\n\nThe deposition of Romulus Augustulus in 476 CE is a conventional marker rather than a rupture. The empire had been administratively divided since 285 CE; the eastern half persisted from Constantinople until 1453.\n\nIn the west, transformation rather than collapse is the better description for many regions: Germanic rulers frequently retained Roman administration, law and Latin, and often sought imperial legitimation. Historians debate the balance between violent disruption and gradual accommodation, and the answer varies by province.\n\nGibbon's account emphasising decadence and Christianity is now regarded as reflecting eighteenth-century preoccupations more than the evidence [1]."
+    },
+    "adult": {
+      "summary": "The post-republican Roman state: an integrative Mediterranean polity whose legal, linguistic and infrastructural systems substantially outlived its western political structures.",
+      "body": "The Roman Empire denotes the Roman polity following the collapse of republican government, conventionally dated from 27 BCE and the constitutional settlement establishing Augustus as *princeps* [1].\n\n## The Augustan settlement\n\nThe Principate preserved republican institutional forms while relocating effective power. Augustus held *imperium proconsulare maius* over key military provinces and *tribunicia potestas* conferring legislative initiative and personal inviolability, without assuming a monarchical title.\n\nThe arrangement's durability rested on that ambiguity. It permitted senatorial elites to retain status and career structure while removing their capacity for independent military action — the specific failure mode that had destroyed the Republic [1].\n\n## Extent and demography\n\nMaximum territorial extent under Trajan approached 5 million km². Population estimates of 50-60 million rest on extrapolation from fragmentary census returns, urban area estimates and carrying-capacity modelling, and carry uncertainty of tens of percent. Precise figures in popular sources generally overstate the evidential basis [1].\n\n## Integration and citizenship\n\nProvincial administration combined a small imperial bureaucracy with substantial delegation to local elites, whose incorporation into the Roman order was the principal mechanism of stability.\n\nThe *Constitutio Antoniniana* of 212 extended citizenship to nearly all free inhabitants. Motives were probably fiscal as much as ideological, but the effect was to universalise a legal status previously restricted, with consequences for the development of Roman law as a system applicable across cultures [1].\n\n## Infrastructure and materials\n\nThe road system, approaching 80,000 km of paved viae, was constructed under military direction to enable rapid troop movement; economic integration was a substantial second-order effect.\n\nHydraulic engineering achieved sustained gradients of order 0.2 m/km over tens of kilometres, requiring levelling precision that has been experimentally verified as achievable with the surveying instruments known to have been available.\n\nRoman marine concrete has attracted materials-science attention because seawater exposure induces continued mineral formation — aluminous tobermorite and phillipsite growing within the cementitious matrix — producing strength gain over centuries. Modern Portland-cement concrete degrades under equivalent exposure. The mechanism is now reasonably well characterised, though claims that Roman formulations are simply superior overlook their much lower compressive strength and unsuitability for reinforced construction [2].\n\n## Transformation and periodisation\n\nThe 476 deposition of Romulus Augustulus terminated the western imperial line but did not constitute administrative or cultural rupture. Administrative division from 285 and the persistence of the eastern empire until 1453 make a single 'fall' analytically unhelpful.\n\nRegional trajectories diverged sharply: substantial disruption and economic simplification in Britain, considerable institutional continuity in Gaul, Italy and Spain under Germanic successor kingdoms that retained Roman law, Latin administration and often sought eastern imperial recognition.\n\nThe historiographical debate between catastrophist and transformationist readings remains active, with archaeological evidence for material simplification weighing against purely continuist accounts. Gibbon's attribution of decline to moral decay and Christianity is not sustained by current evidence and is best read as an artefact of its own period [1]."
+    }
+  },
+  "citations": [
+    {
+      "marker": 1,
+      "source": "british-museum",
+      "claim": "The chronology of the Roman Empire from Augustus to 476 and 1453, its territorial extent and population estimates, citizenship extension, and the historiography of its decline.",
+      "supports": "partially"
+    },
+    {
+      "marker": 2,
+      "source": "english-heritage",
+      "claim": "Roman road construction and network extent, aqueduct engineering and gradients, and the composition and durability of Roman marine concrete.",
+      "supports": "partially"
+    }
+  ],
+  "relations": [
+    {
+      "to": "ancient-greece",
+      "kind": "preceded_by"
+    },
+    {
+      "to": "ancient-egypt",
+      "kind": "succeeded_by"
+    },
+    {
+      "to": "silk-road",
+      "kind": "related"
+    }
+  ],
+  "timeline": [
+    {
+      "title": "Augustus becomes the first Roman emperor",
+      "start": -27,
+      "precision": "exact",
+      "era": "Classical",
+      "importance": 5
+    },
+    {
+      "title": "The empire reaches its greatest extent",
+      "start": 117,
+      "precision": "exact",
+      "era": "Classical",
+      "importance": 4
+    },
+    {
+      "title": "Citizenship extended to nearly all free inhabitants",
+      "start": 212,
+      "precision": "exact",
+      "era": "Classical",
+      "importance": 4
+    },
+    {
+      "title": "Last western Roman emperor deposed",
+      "start": 476,
+      "precision": "exact",
+      "era": "Classical",
+      "importance": 4
+    },
+    {
+      "title": "Constantinople falls, ending the eastern empire",
+      "start": 1453,
+      "precision": "exact",
+      "era": "Medieval",
+      "importance": 5
+    }
+  ],
+  "places": [
+    {
+      "name": "Rome",
+      "kind": "city",
+      "lat": 41.9,
+      "lon": 12.5,
+      "country": "IT"
+    },
+    {
+      "name": "Constantinople (Istanbul)",
+      "kind": "city",
+      "lat": 41.01,
+      "lon": 28.98,
+      "country": "TR"
+    }
+  ],
+  "review": {
+    "last_reviewed": "2026-09-06",
+    "review_months": 60
+  }
+}

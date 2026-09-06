@@ -1,0 +1,177 @@
+{
+  "slug": "emperor-penguin",
+  "title": "Emperor Penguin",
+  "type": "animal",
+  "categories": [
+    "animals",
+    "environment"
+  ],
+  "primary_category": "animals",
+  "aliases": [
+    {
+      "text": "Aptenodytes forsteri",
+      "kind": "scientific"
+    }
+  ],
+  "summary": "The largest penguin, and the only bird that breeds through the Antarctic winter, when temperatures fall below minus 40 degrees Celsius.",
+  "facts": [
+    {
+      "key": "scientific_name",
+      "label": "Scientific name",
+      "value": "Aptenodytes forsteri",
+      "group": "Classification",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "height",
+      "label": "Height",
+      "value": "About 1.2 metres",
+      "value_num": 1.2,
+      "unit": "m",
+      "comparable_key": "body_length",
+      "group": "Size",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "weight",
+      "label": "Weight",
+      "value": "About 22 to 45 kg",
+      "value_num": 30,
+      "unit": "kg",
+      "epistemic": "estimate",
+      "confidence": 0.85,
+      "comparable_key": "body_mass",
+      "group": "Size",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "dive_depth",
+      "label": "Deepest recorded dive",
+      "value": "More than 500 metres",
+      "value_num": 500,
+      "unit": "m",
+      "epistemic": "estimate",
+      "confidence": 0.85,
+      "group": "Diving",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "dive_time",
+      "label": "Longest recorded dive",
+      "value": "Over 20 minutes",
+      "value_num": 20,
+      "unit": "minutes",
+      "epistemic": "estimate",
+      "confidence": 0.85,
+      "group": "Diving",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "incubation",
+      "label": "Who incubates the egg",
+      "value": "The male, balanced on his feet, for about 65 days",
+      "value_num": 65,
+      "unit": "days",
+      "group": "Breeding",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "fast",
+      "label": "How long males fast",
+      "value": "Up to about 115 days",
+      "value_num": 115,
+      "unit": "days",
+      "epistemic": "estimate",
+      "confidence": 0.8,
+      "group": "Breeding",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "temperature",
+      "label": "Winter temperatures endured",
+      "value": "Below −40 °C, with winds over 140 km/h",
+      "value_num": -40,
+      "unit": "°C",
+      "group": "Breeding",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "conservation_status",
+      "label": "Conservation status",
+      "value": "Near Threatened (IUCN)",
+      "comparable_key": "conservation_status",
+      "group": "Conservation",
+      "cite": [
+        2
+      ]
+    }
+  ],
+  "content": {
+    "age6_8": {
+      "summary": "The biggest penguin. Dads keep the egg warm on their feet all winter.",
+      "body": "Emperor penguins live in Antarctica, the coldest place on Earth [1].\n\nThey are the biggest penguins. They come up to about your chest [1].\n\nHere is the amazing part. The mother lays one egg and then goes off to the sea to eat. The father keeps the egg warm — balanced on top of his feet, under a warm flap of skin [1].\n\nHe stands there all through the dark Antarctic winter without eating anything at all [1].\n\nThe penguins huddle together in a big crowd to stay warm, and they take turns being on the cold outside [1].\n\nWhen the mother comes back, the egg hatches and she feeds the chick."
+    },
+    "age9_12": {
+      "summary": "How emperor penguins survive an Antarctic winter, and why they breed at the worst possible time.",
+      "body": "Emperor penguins are the largest penguins, standing about 1.2 metres tall. They live only in Antarctica [1].\n\n## Breeding in winter\n\nEvery other Antarctic bird breeds in summer. Emperor penguins breed in winter, in temperatures below minus 40 degrees Celsius and winds over 140 kilometres per hour [1].\n\nThis seems mad, but there is a reason. Emperor chicks take a long time to grow. Breeding in winter means the chicks become independent in summer, when food is plentiful and the sea ice is breaking up close to the colony [1].\n\n## The father's job\n\nThe female lays a single egg and passes it to the male, then walks back to the sea to feed — sometimes 100 kilometres away.\n\nThe male balances the egg on his feet under a fold of skin called a brood pouch, and stands there for about 65 days in the dark. He does not eat for up to 115 days in total, and can lose almost half his body weight [1].\n\n## The huddle\n\nA single penguin could not survive the winter. Together they can.\n\nThousands crowd into a tight huddle. Inside it, temperatures can reach above 20 degrees Celsius even in a blizzard.\n\nThe penguins move constantly in a slow wave, so that individuals on the freezing outside gradually rotate into the warm middle and back out again. No penguin is in charge of this — it emerges from each bird shuffling towards warmth [1].\n\n## Diving\n\nEmperor penguins are exceptional divers, reaching over 500 metres deep and staying under for more than 20 minutes — far beyond what their oxygen supply seems to allow. They slow their heart rate dramatically and shut down blood flow to non-essential organs [1].\n\n## The future\n\nEmperor penguins depend on stable sea ice to breed. If it forms late or breaks up early, whole colonies can fail. They are listed as Near Threatened, and sea ice loss is the central concern [2]."
+    },
+    "teen": {
+      "summary": "The largest penguin, breeding through the Antarctic winter with extreme physiological and behavioural adaptations, and now sea-ice dependent under a warming climate.",
+      "body": "*Aptenodytes forsteri* is the largest extant penguin and the only bird that breeds during the Antarctic winter [1].\n\n## Breeding phenology\n\nThe winter breeding schedule is a consequence of chick development time. Emperor chicks require an extended rearing period, and initiating in autumn ensures fledging coincides with the summer maximum in prey availability and with sea ice retreat bringing open water nearer the colony.\n\nColonies form on fast ice — sea ice anchored to the coast — rather than on land, which is what makes the species uniquely vulnerable to ice conditions [1].\n\n## Male incubation and fasting\n\nAfter laying a single egg, the female transfers it to the male and departs to forage, often over 100 km distant. The male incubates on the dorsal surface of the feet beneath a vascularised brood pouch for approximately 65 days.\n\nTotal fast duration reaches around 115 days including courtship and incubation, during which body mass may fall by 40 percent or more. Metabolic adaptations include profound reduction in activity and a shift to lipid catabolism [1].\n\n## Huddling\n\nHuddling is an obligate thermoregulatory behaviour. Densities exceeding ten birds per square metre reduce individual heat loss substantially, with internal huddle temperatures recorded above 20 °C against ambient conditions below −40 °C.\n\nThe huddle exhibits travelling-wave dynamics: small periodic movements propagate through the group, continuously reorganising positions so that peripherally exposed individuals rotate inward. No coordinating individual is required — the behaviour is self-organised, emerging from local rules in which each bird moves toward warmth [1].\n\n## Diving physiology\n\nRecorded dives exceed 500 m and 20 minutes, well beyond the aerobic dive limit predicted from oxygen stores alone.\n\nAdaptations include high blood volume and haemoglobin concentration, elevated myoglobin in swimming muscles, pronounced bradycardia with heart rates falling to a few beats per minute, and peripheral vasoconstriction restricting perfusion to essential tissues. Air sacs are compressed at depth, reducing barotrauma risk and nitrogen loading [1].\n\n## Conservation\n\nThe species is assessed Near Threatened, with sea ice loss the dominant projected threat.\n\nThe dependence is direct and mechanistic rather than speculative: if fast ice breaks out before chicks have fledged and developed waterproof plumage, they enter the water and die. Satellite observations have documented complete breeding failure at multiple colonies following early ice breakout, and population projections under continued warming indicate severe decline [2]."
+    },
+    "adult": {
+      "summary": "The largest sphenisciform, uniquely winter-breeding on fast ice, with extreme fasting, thermoregulatory and diving physiology, and acute exposure to sea-ice loss.",
+      "body": "*Aptenodytes forsteri* is the largest extant penguin and the only avian species to breed through the Antarctic winter, on land-fast sea ice rather than terrestrial substrate [1].\n\n## Phenological logic\n\nWinter initiation is imposed by the chick-rearing interval required at this body size. Autumn laying positions fledging at the summer resource peak, when marginal ice zone productivity is high and open water is close to colony sites.\n\nThe cost is exposure of the incubation period to the most severe terrestrial conditions on Earth, and the requirement for a breeding substrate — fast ice persisting from autumn through to December — that is itself climate-sensitive [1].\n\n## Fasting metabolism\n\nMale fasts approaching 115 days, spanning arrival, courtship, incubation and initial brooding, rank among the longest recorded for any bird.\n\nThe metabolic sequence proceeds through the classical three phases of long-term fasting, with the extended phase II lipid-dominated catabolism sparing protein. Entry into phase III, marked by increased protein breakdown and elevated corticosterone, triggers abandonment — a physiologically mediated decision point rather than an arbitrary one. Mass loss commonly exceeds 40 percent of initial body mass [1].\n\n## Self-organised huddling\n\nHuddling reduces individual metabolic rate substantially and is essential to fast completion. Densities reach 8-10 individuals m^-2.\n\nThermal imaging and time-lapse analysis have characterised the dynamics as travelling waves initiated by individual movements of a few centimetres, propagating through the aggregation every 30-60 seconds. The resulting turnover equalises exposure without any individual coordinating the process. The system is a well-studied example of collective behaviour arising from purely local interaction rules, and has been modelled successfully with simple threshold-based agent rules [1].\n\n## Dive physiology\n\nMaximum recorded depth exceeds 550 m with durations over 20 minutes, substantially beyond the calculated aerobic dive limit.\n\nSupporting adaptations comprise elevated blood oxygen stores through high haematocrit and blood volume, high skeletal muscle myoglobin concentration, and a dive response of severe bradycardia — heart rates as low as 3 beats per minute have been recorded — with selective peripheral vasoconstriction. Muscle perfusion is largely arrested during deep dives, with the myoglobin-bound store supporting local aerobic metabolism before anaerobic contribution.\n\nRespiratory air is compressed with depth; the absence of a substantial air-filled respiratory dead space at depth limits nitrogen uptake, though decompression physiology in deep-diving birds remains incompletely characterised [1].\n\n## Conservation trajectory\n\nIUCN assessment is Near Threatened. Unlike many climate-related conservation concerns where causal chains are long, the emperor penguin's exposure is direct: reproduction requires fast ice to persist for approximately eight months.\n\nSatellite imagery has documented catastrophic breeding failure at several colonies following early fast-ice breakout, with total loss of that season's chicks. Population projections under high-emission scenarios indicate declines exceeding 80 percent by 2100 across most colonies, with the species proposed for and in some jurisdictions granted protected status specifically on climate grounds [2]."
+    }
+  },
+  "citations": [
+    {
+      "marker": 1,
+      "source": "australian-museum",
+      "claim": "Emperor penguin size, winter breeding on fast ice, male incubation and fasting duration, huddling thermoregulation and its wave dynamics, and dive depth, duration and physiology.",
+      "supports": "partially"
+    },
+    {
+      "marker": 2,
+      "source": "iucn-redlist",
+      "claim": "Near Threatened assessment, dependence on fast ice for breeding, documented colony breeding failures following early ice breakout, and projected population decline.",
+      "supports": "supports"
+    }
+  ],
+  "relations": [
+    {
+      "to": "blue-whale",
+      "kind": "related",
+      "weight": 0.4
+    },
+    {
+      "to": "climate-change",
+      "kind": "related"
+    },
+    {
+      "to": "glacier",
+      "kind": "related",
+      "weight": 0.4
+    }
+  ],
+  "review": {
+    "last_reviewed": "2026-09-06",
+    "review_months": 24
+  }
+}

@@ -19,3 +19,9 @@ data/
 # Downloaded media binaries (tracked by manifest, not by blob)
 content/packs/*/media/*
 !content/packs/*/media/.gitkeep
+
+# Editor and assistant tooling, not part of the product
+.claude/
+.vscode/
+.idea/
+dist/

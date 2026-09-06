@@ -15,22 +15,22 @@
 | 8 · Maps | **Partial** | `place` + R-Tree indexing and place data; no offline basemap |
 | 9 · Knowledge graph | **Done** | Typed relations, inverse labels, pan/zoom explorer |
 | 10 · Kids Mode | **Done** | Own home page, age-gated content, forced reading level, restricted navigation, read-aloud |
-| 11 · Quiz engine | **Done** | 16 quizzes, 89 questions, four question types; Explorer Trails with stations, stars and 15 badges |
+| 11 · Quiz engine | **Done** | 22 quizzes, 125 questions, four question types; two Explorer Trails, 14 stations, 18 badges |
 | 12 · AI assistant | **Done** | Grounded RAG, citation verification, honest no-AI mode |
 | 13 · Update pipeline | **Schema and review queue done** | Proposal/diff/audit tables enforced; generating agent not written |
 | 14 · Offline content packs | **Loader done** | Multi-pack loading, versioning, inventory; no distribution format |
 | 15 · Local AI | **Done** | Ollama-compatible provider, no key or internet needed |
 | 16 · Admin CMS | **Read-only dashboard** | Stats, issues, review queue, packs; no editing UI |
-| 17 · Testing, security, performance | **Done** | 135 tests, CSP, traversal guard, redacted logs, indexed queries |
-| 18 · Packaging and distribution | **Not started** | Needs a desktop shell decision |
+| 17 · Testing, security, performance | **Done** | 137 tests, CSP, traversal guard, redacted logs, indexed queries |
+| 18 · Packaging and distribution | **Partial** | Landing site with download link, release archive builder, and CI; a desktop shell is still open |
 
 ## Next, in order
 
-**1 · Content to 100–300 articles.** The largest remaining gap and the one that
-most changes how the product feels. The engine scales; authoring at four levels
-with real citations is the cost. Priority: the remaining seed subjects (Roman
-Empire, World War II, Australia, Pakistan, Newton, computers, the internet,
-artificial intelligence, ocean life, the human body systems).
+**1 · Continue growing the library.** 57 articles is a real encyclopaedia but a
+small one. The engine scales; authoring at four levels with real citations is
+the cost. Obvious next subjects: the United Kingdom, United States, China,
+India, Japan, more dinosaurs, more mathematics, the arts, and the remaining
+body systems.
 
 **2 · Source link verification.** A `verify-sources` command that checks each
 URL with `ENCARTA_ALLOW_NETWORK=1`, records HTTP status, and moves sources out

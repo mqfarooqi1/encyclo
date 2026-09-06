@@ -1,0 +1,177 @@
+{
+  "slug": "great-white-shark",
+  "title": "Great White Shark",
+  "type": "animal",
+  "categories": [
+    "animals",
+    "environment"
+  ],
+  "primary_category": "animals",
+  "aliases": [
+    {
+      "text": "Carcharodon carcharias",
+      "kind": "scientific"
+    },
+    {
+      "text": "white shark",
+      "kind": "alternative"
+    }
+  ],
+  "summary": "A large predatory shark, far more endangered by people than dangerous to them, and one of the few fish able to keep itself warmer than the surrounding sea.",
+  "facts": [
+    {
+      "key": "scientific_name",
+      "label": "Scientific name",
+      "value": "Carcharodon carcharias",
+      "group": "Classification",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "length",
+      "label": "Length",
+      "value": "Commonly up to about 6 metres",
+      "value_num": 6,
+      "unit": "m",
+      "epistemic": "estimate",
+      "confidence": 0.8,
+      "comparable_key": "body_length",
+      "group": "Size",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "skeleton",
+      "label": "Skeleton",
+      "value": "Cartilage, not bone",
+      "group": "Biology",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "teeth",
+      "label": "Teeth",
+      "value": "Replaced continuously throughout life",
+      "group": "Biology",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "warm",
+      "label": "Body temperature",
+      "value": "Kept above the surrounding water — unusual for a fish",
+      "group": "Biology",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "sense",
+      "label": "Extra sense",
+      "value": "Ampullae of Lorenzini, which detect electric fields",
+      "group": "Biology",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "diet",
+      "label": "Diet",
+      "value": "Carnivore — fish, rays and marine mammals",
+      "comparable_key": "diet",
+      "group": "Biology",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "conservation_status",
+      "label": "Conservation status",
+      "value": "Vulnerable (IUCN)",
+      "comparable_key": "conservation_status",
+      "group": "Conservation",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "risk",
+      "label": "Fatal attacks worldwide",
+      "value": "Usually fewer than 10 a year from all shark species combined",
+      "value_num": 10,
+      "epistemic": "estimate",
+      "confidence": 0.8,
+      "group": "People and sharks",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "sharks_killed",
+      "label": "Sharks killed by people each year",
+      "value": "Estimated in the tens of millions",
+      "epistemic": "estimate",
+      "confidence": 0.6,
+      "group": "People and sharks",
+      "cite": [
+        2
+      ]
+    }
+  ],
+  "content": {
+    "age6_8": {
+      "summary": "A big shark with sharp teeth — and one that needs our help.",
+      "body": "The great white shark is a very large fish that lives in the sea [1].\n\nIt has rows and rows of sharp teeth. When one falls out, another moves forward to take its place [1].\n\nA shark's skeleton is not made of bone. It is made of cartilage — the bendy stuff in the end of your nose [1].\n\nSharks can sense the tiny bit of electricity that living animals make. That helps them find food, even in cloudy water [1].\n\nSharks are not really interested in people. Far more sharks are hurt by people than people are hurt by sharks [2]."
+    },
+    "age9_12": {
+      "summary": "How great whites hunt, why they are warm-bodied, and why the danger they pose is widely misunderstood.",
+      "body": "The great white shark is one of the largest predatory fish, reaching around 6 metres [1].\n\n## Not made of bone\n\nSharks are cartilaginous fish. Their skeletons are cartilage, which is lighter and more flexible than bone and helps them stay buoyant without a swim bladder [1].\n\nBecause cartilage rarely fossilises, most of what we know about ancient sharks comes from their teeth.\n\n## Teeth on a conveyor belt\n\nA great white's teeth sit in several rows. As front teeth break or fall out, teeth behind rotate forward to replace them. A single shark may get through thousands of teeth in a lifetime [1].\n\n## Warm-blooded — sort of\n\nMost fish are the same temperature as the water around them. Great whites are not.\n\nThey use a heat-exchange system in which warm blood leaving the muscles heats cold blood arriving from the gills. This keeps their muscles, stomach, eyes and brain several degrees warmer than the sea [1].\n\nWarm muscles work faster, so this lets them hunt effectively in cold water where other predators are sluggish.\n\n## An extra sense\n\nAround a shark's snout are small jelly-filled pores called the ampullae of Lorenzini. They detect the tiny electric fields that all living animals produce.\n\nThis lets a shark find prey buried in sand or hidden in murky water, using a sense humans do not have at all [1].\n\n## The reputation problem\n\nGreat whites are widely feared, but the numbers do not support the fear. Across the whole world, all shark species together cause fewer than ten human deaths in a typical year [2].\n\nMeanwhile, people kill sharks in enormous numbers — estimates run to tens of millions a year, mostly through fishing and the fin trade [2].\n\nGreat whites are listed as Vulnerable. They grow slowly, mature late and have few young, so populations recover very slowly once reduced [2]."
+    },
+    "teen": {
+      "summary": "A large lamnid shark with regional endothermy and electroreception, of conservation concern and low actual risk to humans.",
+      "body": "*Carcharodon carcharias* is a large lamnid shark distributed in temperate and subtropical coastal waters worldwide [1].\n\n## Skeletal and dental biology\n\nAs a chondrichthyan, the great white has a cartilaginous endoskeleton, partially calcified in the vertebral column and jaws. This reduces density, contributing to buoyancy in the absence of a gas bladder; buoyancy is further aided by a large, squalene-rich liver.\n\nDentition is polyphyodont, with teeth arranged in rows and replaced continuously by rotation from behind. Because cartilage preserves poorly, the fossil record of sharks is overwhelmingly dental, which shapes what can be inferred about extinct taxa [1].\n\n## Regional endothermy\n\nLamnid sharks possess retia mirabilia — countercurrent heat exchangers in which venous blood returning from warm red muscle warms arterial blood arriving from the gills, retaining metabolic heat that would otherwise be lost at the respiratory surface.\n\nThis maintains red muscle, viscera, eyes and brain above ambient temperature, in some cases by more than 10 °C. The functional benefit is sustained power output and faster digestion in cold water, permitting exploitation of high-latitude prey unavailable to strictly ectothermic predators.\n\nThe trait has evolved independently in lamnid sharks and in tunas, a well-documented case of convergent evolution [1].\n\n## Electroreception\n\nAmpullae of Lorenzini are gel-filled canals terminating in sensory epithelium, detecting electric field gradients on the order of nanovolts per centimetre. All animals generate weak bioelectric fields through muscle and nerve activity and ionic exchange across membranes.\n\nAt close range this sense dominates prey detection, enabling capture of buried or concealed prey and functioning where vision fails [1].\n\n## Ecology and foraging\n\nDiet shifts ontogenetically from fish and rays in smaller individuals to marine mammals in larger ones, coincident with dental morphology change from narrow gripping teeth to broad serrated cutting teeth.\n\nSatellite tagging has revealed long-distance oceanic migrations, including transoceanic movements and repeated occupation of open-ocean regions previously assumed to be of little interest to a coastal predator [1].\n\n## Risk and conservation\n\nUnprovoked shark bites resulting in death number in the single figures globally in a typical year, across all species. Human-caused shark mortality is estimated in the tens of millions annually, driven by targeted fisheries, bycatch and the fin trade [2].\n\nThe species is assessed Vulnerable. Its life history — slow growth, late maturity, low fecundity and long gestation — gives a very low intrinsic rate of increase, so populations depleted by fishing recover over decades rather than years. This K-selected pattern is why shark conservation cannot rely on the rapid rebound seen in many bony fish stocks [2]."
+    },
+    "adult": {
+      "summary": "A regionally endothermic lamnid apex predator with highly developed electroreception, low intrinsic population growth rate, and conservation status disproportionate to public perception of risk.",
+      "body": "*Carcharodon carcharias* is a cosmopolitan lamnid shark occupying temperate and subtropical continental shelf and pelagic waters [1].\n\n## Chondrichthyan structure\n\nThe endoskeleton is cartilaginous with tessellated calcification providing rigidity where mechanically required, notably in jaws and vertebral centra. Reduced skeletal density combines with a large hepatic lipid store dominated by squalene to approach neutral buoyancy without a gas-filled organ, an arrangement that imposes no depth-related volume constraint and is consistent with the group's broad vertical range.\n\nPolyphyodont dentition with conveyor-belt replacement produces the dental-dominated fossil record characteristic of the clade, a taphonomic bias that constrains palaeobiological inference — body size estimates for extinct taxa such as *Otodus megalodon* rest largely on dental regression relationships and carry correspondingly wide uncertainty [1].\n\n## Regional endothermy\n\nLamnid endothermy is achieved through counter-current retia mirabilia positioned to intercept metabolic heat before it reaches the gill circulation, where the enormous respiratory surface would dissipate it.\n\nElevations of up to and beyond 10 °C above ambient are documented in red musculature, with additional retia serving viscera and the cranial region. Functional consequences include increased muscle power output, elevated digestive rate, and stabilised neural and visual performance across thermal gradients — collectively expanding the accessible thermal niche.\n\nThe independent origin of functionally equivalent systems in Lamnidae and Scombridae, and in the opah through a distinct anatomical solution, constitutes a strong case of convergence under similar selective regimes [1].\n\n## Electroreception and sensory ecology\n\nThe ampullary system detects fields at thresholds around 1 nV/cm, among the most sensitive electroreception measured. Behavioural work demonstrates that at final approach the ampullary input supersedes visual cues, and the modality functions independently of turbidity, light level and prey concealment.\n\nSensory integration proceeds hierarchically over distance: olfaction and mechanoreception (lateral line) at range, vision at intermediate distance, electroreception at strike [1].\n\n## Movement ecology\n\nElectronic tagging has substantially revised the understanding of the species' distribution. Documented behaviours include transoceanic migration, seasonal residency at pinniped aggregations, and extended occupation of oligotrophic open-ocean regions with repeated deep diving — the ecological function of which remains under investigation [1].\n\n## Population biology and conservation\n\nThe species exhibits pronounced K-selected life history: slow somatic growth, maturity at around 15 years in males and later in females, gestation exceeding a year, small litters and long interbirth intervals. Intrinsic rates of population increase are correspondingly low.\n\nThis is the central conservation fact. Depleted populations do not rebound on management-relevant timescales, and fishing mortality that would be sustainable for a teleost is not sustainable here. The IUCN assessment is Vulnerable, with regional listings varying [2].\n\n## Risk in proportion\n\nGlobal unprovoked fatal shark bites across all species typically number below ten annually. Estimates of anthropogenic shark mortality run to tens of millions per year, dominated by industrial fisheries bycatch and directed finning.\n\nThe asymmetry is of order six to seven magnitudes, and the persistent public perception of the species as primarily a hazard has measurably shaped policy — including culling programmes whose conservation cost is well documented and whose demonstrated effect on bite risk is weak [2]."
+    }
+  },
+  "citations": [
+    {
+      "marker": 1,
+      "source": "noaa",
+      "claim": "Great white shark size and distribution, cartilaginous skeleton and buoyancy, tooth replacement, regional endothermy through retia mirabilia, electroreception via ampullae of Lorenzini, and migratory behaviour from tagging.",
+      "supports": "partially"
+    },
+    {
+      "marker": 2,
+      "source": "iucn-redlist",
+      "claim": "Vulnerable status, K-selected life history and slow population recovery, global fatal shark bite figures, and estimates of human-caused shark mortality.",
+      "supports": "supports"
+    }
+  ],
+  "relations": [
+    {
+      "to": "blue-whale",
+      "kind": "related",
+      "weight": 0.4
+    },
+    {
+      "to": "the-ocean",
+      "kind": "located_in"
+    },
+    {
+      "to": "lion",
+      "kind": "contrasts_with",
+      "weight": 0.4
+    }
+  ],
+  "review": {
+    "last_reviewed": "2026-09-06",
+    "review_months": 36
+  }
+}

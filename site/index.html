@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Modern Encarta — an offline encyclopaedia that shows its sources</title>
+<meta name="description" content="A free, offline-first educational encyclopaedia. Four reading levels per article, every claim sourced, quizzes and Explorer Trails for children. Runs on Python alone — no account, no internet, no tracking.">
+<meta property="og:title" content="Modern Encarta / World Explorer">
+<meta property="og:description" content="An offline encyclopaedia that shows its sources. Four reading levels, cited claims, and a quiz trail for children.">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%230b6a6a'/><text x='16' y='23' font-size='19' text-anchor='middle' fill='white' font-family='Georgia,serif'>E</text></svg>">
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="#top">
+      <span class="mark" aria-hidden="true">E</span>
+      <span>Modern Encarta<em> · World Explorer</em></span>
+    </a>
+    <nav aria-label="Sections">
+      <a href="#what">What it is</a>
+      <a href="#inside">What's inside</a>
+      <a href="#trust">How it works</a>
+      <a href="#get">Download</a>
+    </nav>
+    <a class="btn small" href="https://github.com/mqfarooqi1/encyclo">Source</a>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ------------------------------------------------------------------ hero -->
+<section class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="eyebrow">Free · Offline · Open source</p>
+      <h1>An encyclopaedia that<br><em>shows its working.</em></h1>
+      <p class="lede">
+        Every article is written at four reading levels, from age six to adult.
+        Every claim names the source behind it. Every estimate is labelled as an
+        estimate rather than dressed up as a fact.
+      </p>
+      <p class="lede">
+        It runs entirely on your own machine. No account, no internet connection,
+        no tracking, nothing to pay.
+      </p>
+      <div class="cta">
+        <a class="btn big" href="https://github.com/mqfarooqi1/encyclo/archive/refs/heads/main.zip"
+           download="modern-encarta.zip">
+          <span aria-hidden="true">↓</span> Download (.zip)
+        </a>
+        <a class="btn big ghost" href="#get">How to run it</a>
+      </div>
+      <p class="fineprint">
+        Needs Python 3.11 or newer — nothing else. Works on Windows, macOS and Linux.
+      </p>
+    </div>
+
+    <!-- A stylised impression of the app, drawn in CSS. No screenshots are used,
+         so nothing here can drift out of date with the software. -->
+    <div class="shot" aria-hidden="true">
+      <div class="shot-bar"><i></i><i></i><i></i></div>
+      <div class="shot-body">
+        <div class="shot-hero"></div>
+        <div class="shot-title"></div>
+        <div class="shot-levels">
+          <span>Ages 6–8</span><span>Ages 9–12</span><span>Teen</span><span class="on">Adult</span>
+        </div>
+        <div class="shot-cols">
+          <div class="shot-text">
+            <i style="width:96%"></i><i style="width:88%"></i><i style="width:93%"></i>
+            <i style="width:70%"></i><i class="gap"></i>
+            <i style="width:91%"></i><i style="width:85%"></i><i style="width:60%"></i>
+          </div>
+          <div class="shot-panel">
+            <b>Quick facts</b>
+            <span>Length <em>12 m</em></span>
+            <span>Weight <em class="est">est.</em></span>
+            <span>Diet <em>Carnivore</em></span>
+            <b class="mt">Sources</b>
+            <span class="src">1 · Tier 1</span>
+            <span class="src">2 · Tier 1</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ----------------------------------------------------------------- stats -->
+<section class="band stats-band">
+  <div class="wrap stats">
+    <div><b>57</b><span>Articles</span></div>
+    <div><b>228</b><span>Reading levels written</span></div>
+    <div><b>64</b><span>Cited sources</span></div>
+    <div><b>125</b><span>Quiz questions</span></div>
+    <div><b>18</b><span>Badges to earn</span></div>
+    <div><b>0</b><span>Trackers</span></div>
+  </div>
+</section>
+
+<!-- ------------------------------------------------------------------ what -->
+<section class="band" id="what">
+  <div class="wrap">
+    <h2>Built the other way round</h2>
+    <p class="section-lede">
+      Most reference apps are written first and sourced afterwards, if at all.
+      This one starts from the evidence and will not publish an article without it.
+    </p>
+
+    <div class="cards">
+      <article class="card">
+        <span class="ico" aria-hidden="true">📖</span>
+        <h3>Four reading levels, properly written</h3>
+        <p>
+          Ages 6–8, 9–12, teen and adult — each written for its audience, not
+          chopped down from the adult text. The software rejects a children's
+          level that is a copy of a harder one.
+        </p>
+      </article>
+      <article class="card">
+        <span class="ico" aria-hidden="true">🔍</span>
+        <h3>Every source states its claim</h3>
+        <p>
+          A citation does not just point at a museum. It records the specific
+          thing that museum is being asked to support, and the reader can see it.
+        </p>
+      </article>
+      <article class="card">
+        <span class="ico" aria-hidden="true">⚖️</span>
+        <h3>Uncertainty stays visible</h3>
+        <p>
+          Facts, estimates, interpretations and genuinely debated points are
+          marked differently. T. rex's weight is an estimate, and it says so.
+        </p>
+      </article>
+      <article class="card">
+        <span class="ico" aria-hidden="true">🧭</span>
+        <h3>Explorer Trails for children</h3>
+        <p>
+          Quizzing as a journey: stations unlock in turn along a trail, each
+          awarding a badge. No streaks, no daily targets, nothing designed to
+          pull a child back tomorrow.
+        </p>
+      </article>
+      <article class="card">
+        <span class="ico" aria-hidden="true">🕸️</span>
+        <h3>Connections you can explore</h3>
+        <p>
+          A knowledge graph links articles by real relationships, a timeline runs
+          from 4.5 billion years ago to today, and comparison mode puts two
+          subjects side by side.
+        </p>
+      </article>
+      <article class="card">
+        <span class="ico" aria-hidden="true">🔌</span>
+        <h3>Genuinely offline</h3>
+        <p>
+          No CDN, no web fonts, no analytics, no outbound requests at all.
+          Unplug the network and everything still works, because there was never
+          anything to fetch.
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ---------------------------------------------------------------- inside -->
+<section class="band alt" id="inside">
+  <div class="wrap">
+    <h2>What's inside</h2>
+    <p class="section-lede">
+      Deliberately small and fully sourced rather than large and thin. Every
+      article below has all four reading levels and cited sources.
+    </p>
+
+    <div class="topics">
+      <span>🚀 Space</span><span>🦕 Dinosaurs</span><span>🐘 Animals</span>
+      <span>🔬 Science</span><span>🧬 Human body</span><span>📜 History</span>
+      <span>🌍 Geography</span><span>🌏 Countries</span><span>👤 People</span>
+      <span>💻 Technology</span><span>🌱 Environment</span><span>🧠 Ideas</span>
+    </div>
+
+    <div class="split">
+      <div>
+        <h3>A few of the articles</h3>
+        <ul class="ticks">
+          <li>Tyrannosaurus rex, Triceratops, the Cretaceous, fossils</li>
+          <li>The Sun, Moon, Mars, Venus, Jupiter, Saturn, black holes, Apollo 11</li>
+          <li>The heart, brain, lungs, skeleton, blood, immune system</li>
+          <li>DNA, the cell, the atom, light, electricity, photosynthesis, gravity</li>
+          <li>Ancient Egypt, Greece, Rome, the Silk Road, World War II</li>
+          <li>Newton, Darwin, Curie, Einstein, Turing, Lovelace</li>
+          <li>Computers, the internet, artificial intelligence</li>
+          <li>Climate change, the ocean, glaciers, volcanoes</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Where the sources come from</h3>
+        <p class="muted">
+          NASA · USGS · NOAA · Smithsonian · Natural History Museum · AMNH ·
+          Field Museum · IUCN Red List · NIH · WHO · IPCC · CERN · British Museum ·
+          Library of Congress · UNESCO · Imperial War Museums · Royal Society ·
+          national statistics offices
+        </p>
+        <p class="muted small">
+          Sources are ranked in four tiers, and a link is only marked
+          <em>verified</em> once it has actually been checked. Until then the app
+          says <em>unverified</em> rather than implying otherwise.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ----------------------------------------------------------------- trust -->
+<section class="band" id="trust">
+  <div class="wrap">
+    <h2>The rules it holds itself to</h2>
+    <p class="section-lede">
+      These are enforced by the software, not just intended. Content that breaks
+      them fails to load.
+    </p>
+    <div class="rules">
+      <div><b>No claim without evidence.</b> An article published with no citations is a hard error, not a warning.</div>
+      <div><b>History cannot be rewritten.</b> Revisions are append-only. An edit creates a new version; nothing is overwritten.</div>
+      <div><b>Your notes are yours.</b> Bookmarks and progress live in a separate file that content updates never touch, and never leave the device.</div>
+      <div><b>Nothing is invented.</b> The optional assistant may only restate what the articles and their sources already say — and refuses to answer when the encyclopaedia does not cover the question.</div>
+      <div><b>Ranking is not popularity.</b> Search weights exact matches, source quality and completeness. View counts are not a ranking signal.</div>
+      <div><b>An old article is not a wrong one.</b> Review dates reflect how fast a subject moves. Population figures need yearly review; proved mathematics does not expire.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ------------------------------------------------------------------- get -->
+<section class="band alt" id="get">
+  <div class="wrap">
+    <h2>Download and run</h2>
+    <p class="section-lede">
+      Three commands. There is no installer, no build step and nothing to
+      configure.
+    </p>
+
+    <div class="steps">
+      <div class="step">
+        <b>1</b>
+        <div>
+          <h3>Get the files</h3>
+          <p>Download the archive and unzip it anywhere you like.</p>
+          <a class="btn" href="https://github.com/mqfarooqi1/encyclo/archive/refs/heads/main.zip"
+             download="modern-encarta.zip">↓ Download .zip</a>
+          <p class="muted small">
+            Or, if you use git:
+            <code>git clone https://github.com/mqfarooqi1/encyclo.git</code>
+          </p>
+        </div>
+      </div>
+
+      <div class="step">
+        <b>2</b>
+        <div>
+          <h3>Build the encyclopaedia</h3>
+          <p>This creates the database, loads the articles, builds the search index and checks everything.</p>
+          <div class="cmd"><code>python run.py setup</code><button class="copy" type="button" data-copy="python run.py setup">Copy</button></div>
+        </div>
+      </div>
+
+      <div class="step">
+        <b>3</b>
+        <div>
+          <h3>Open it</h3>
+          <p>Then visit <code>http://127.0.0.1:8000</code> in any browser.</p>
+          <div class="cmd"><code>python run.py serve</code><button class="copy" type="button" data-copy="python run.py serve">Copy</button></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="req">
+      <b>Requirements:</b> Python 3.11 or newer. No other downloads, no package
+      installs, no internet connection after this point.
+    </div>
+  </div>
+</section>
+
+<!-- ---------------------------------------------------------------- honest -->
+<section class="band" id="honest">
+  <div class="wrap narrow">
+    <h2>What it does not do yet</h2>
+    <p class="section-lede">
+      Stated here rather than discovered later.
+    </p>
+    <ul class="gaps">
+      <li>
+        <b>57 articles, not thousands.</b> Each one is written four times over
+        with real citations. Growing the library is the main work remaining; the
+        software handles far more than this.
+      </li>
+      <li>
+        <b>No photographs.</b> The licensing model is built and complete, but
+        shipping images means verifying every licence first. Article covers are
+        generated instead, so nothing unlicensed is distributed.
+      </li>
+      <li>
+        <b>Source links show "unverified".</b> Correct and deliberate. A link is
+        only promoted once a checker has confirmed it, which needs network access
+        you have to switch on.
+      </li>
+      <li>
+        <b>Maps show places, not a base map.</b> Location data and spatial
+        indexing are in place; an offline map layer needs a licensed tile set.
+      </li>
+      <li>
+        <b>It is a local web app, not a packaged desktop app.</b> It runs in your
+        browser from your own machine. A desktop wrapper can be added without
+        changing the engine.
+      </li>
+    </ul>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-inner">
+    <div>
+      <strong>Modern Encarta / World Explorer</strong>
+      <p class="muted small">
+        Code licensed Apache-2.0. Original article text CC&nbsp;BY-SA&nbsp;4.0.
+        Cited sources remain the property of their publishers and are referenced,
+        not redistributed.
+      </p>
+      <p class="muted small">
+        Not affiliated with, endorsed by or derived from Microsoft Encarta. The
+        name refers to a kind of software, and the resemblance is conceptual only.
+      </p>
+    </div>
+    <div class="foot-links">
+      <a href="https://github.com/mqfarooqi1/encyclo">Source code</a>
+      <a href="https://github.com/mqfarooqi1/encyclo/archive/refs/heads/main.zip">Download</a>
+      <a href="https://github.com/mqfarooqi1/encyclo/blob/main/docs/SOURCE_POLICY.md">Source policy</a>
+      <a href="https://github.com/mqfarooqi1/encyclo/blob/main/docs/CONTENT_GUIDE.md">Contribute an article</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+// Copy-to-clipboard for the install commands. Progressive: if the clipboard API
+// is unavailable the button reports it rather than silently doing nothing.
+for (const button of document.querySelectorAll('.copy')) {
+  button.addEventListener('click', async () => {
+    const text = button.dataset.copy;
+    const original = button.textContent;
+    try {
+      await navigator.clipboard.writeText(text);
+      button.textContent = 'Copied';
+    } catch {
+      button.textContent = 'Press Ctrl+C';
+    }
+    setTimeout(() => { button.textContent = original; }, 1600);
+  });
+}
+</script>
+</body>
+</html>

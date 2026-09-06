@@ -1,0 +1,156 @@
+{
+  "slug": "light",
+  "title": "Light",
+  "type": "science_concept",
+  "categories": [
+    "science"
+  ],
+  "primary_category": "science",
+  "aliases": [
+    {
+      "text": "visible light",
+      "kind": "alternative"
+    },
+    {
+      "text": "electromagnetic radiation",
+      "kind": "scientific"
+    }
+  ],
+  "summary": "Electromagnetic radiation that the eye can detect, which behaves as both a wave and a stream of particles and travels at the fastest speed anything can.",
+  "facts": [
+    {
+      "key": "speed",
+      "label": "Speed in a vacuum",
+      "value": "299,792,458 metres per second, exactly",
+      "value_num": 299792458,
+      "unit": "m/s",
+      "group": "Numbers",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "speed_defined",
+      "label": "Why the speed is exact",
+      "value": "The metre is now defined from it, so it cannot be measured any more precisely",
+      "group": "Numbers",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "visible",
+      "label": "Wavelengths we can see",
+      "value": "About 380 to 750 nanometres",
+      "value_num": 550,
+      "unit": "nm",
+      "epistemic": "estimate",
+      "confidence": 0.9,
+      "group": "Numbers",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "nature",
+      "label": "What it is",
+      "value": "Both a wave and a stream of particles called photons",
+      "group": "Basics",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "photon_mass",
+      "label": "Mass of a photon",
+      "value": "Zero",
+      "value_num": 0,
+      "group": "Basics",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "sun_time",
+      "label": "Time from the Sun to Earth",
+      "value": "8 minutes 20 seconds",
+      "group": "Numbers",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "sky",
+      "label": "Why the sky is blue",
+      "value": "Air scatters short blue wavelengths more than long red ones",
+      "group": "Everyday light",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "slower",
+      "label": "Does light always travel at that speed?",
+      "value": "No — it is slower through glass or water",
+      "group": "Numbers",
+      "cite": [
+        1
+      ]
+    }
+  ],
+  "content": {
+    "age6_8": {
+      "summary": "What lets you see — and the fastest thing there is.",
+      "body": "Light is what lets you see things. Without it, everything would be dark [1].\n\nLight comes from the Sun, from lamps and from fires. Most things do not make their own light — you see them because light bounces off them into your eyes [1].\n\nLight is the fastest thing there is. Nothing can go faster [1].\n\nSunlight looks white, but it is really all the colours mixed together. A rainbow splits them apart again [1].\n\nThe sky looks blue because the air scatters blue light around more than the other colours [1]."
+    },
+    "age9_12": {
+      "summary": "Light as a wave and a particle, why the sky is blue, and what the speed of light really means.",
+      "body": "Light is a form of energy that travels as electromagnetic radiation [1].\n\n## Part of a bigger family\n\nVisible light is a narrow slice of a much wider spectrum. Radio waves, microwaves, infrared, ultraviolet, X-rays and gamma rays are all the same kind of thing, differing only in wavelength.\n\nHuman eyes detect roughly 380 to 750 nanometres. Everything outside that is invisible to us but no less real [1].\n\n## A wave and a particle\n\nLight behaves as a wave: it bends around corners, and two beams can add up or cancel out.\n\nIt also behaves as particles. In the photoelectric effect, light knocks electrons out of metal — and whether it can do so depends on the colour, not the brightness. That only makes sense if light arrives in packets, called photons. Einstein explained this in 1905, and it won him the Nobel Prize [2].\n\nSo which is it? Both. Light is not really either a wave or a particle; those are two models we borrowed from everyday experience, and light is something that does not fit neatly into either.\n\n## The fastest speed\n\nIn a vacuum, light travels at 299,792,458 metres per second.\n\nThat is an exact number, not a rounded one. Since 1983 the metre has been defined as the distance light travels in a fixed fraction of a second, so the speed of light became exact by definition [1].\n\nLight slows down in glass or water. It is only at full speed in a vacuum.\n\nBecause light takes time to travel, looking far away means looking back in time. The Sun you see is 8 minutes 20 seconds old [1].\n\n## Why the sky is blue\n\nSunlight contains all colours. As it passes through air, it scatters off molecules — and short wavelengths scatter much more strongly than long ones.\n\nSo blue light bounces around the sky and reaches your eyes from every direction, while red light mostly carries straight on [1].\n\nAt sunset, light travels through much more air, so even the blue is scattered away and the reds get through. That is why sunsets are red."
+    },
+    "teen": {
+      "summary": "Electromagnetic radiation exhibiting wave-particle duality, propagating at an exactly defined vacuum speed, with everyday optics following from its wave behaviour.",
+      "body": "Light is electromagnetic radiation, comprising oscillating electric and magnetic fields propagating perpendicular to one another and to the direction of travel [1].\n\n## The spectrum\n\nVisible light occupies roughly 380-750 nm within a spectrum spanning radio to gamma rays. Photon energy is inversely proportional to wavelength, which is why ultraviolet and shorter wavelengths are ionising and can break chemical bonds while infrared and longer wavelengths cannot [1].\n\n## Wave-particle duality\n\nWave behaviour is demonstrated by interference and diffraction. Young's double-slit experiment produces fringes explicable only by superposition of waves.\n\nParticle behaviour is demonstrated by the photoelectric effect. Electron emission depends on frequency with a sharp threshold, and emitted electron energy depends on frequency rather than intensity — inexplicable classically, since a wave of any frequency should eventually deliver enough energy. Einstein's 1905 quantisation resolved it and was the work cited in his Nobel award [2].\n\nDouble-slit experiments performed with single photons show interference building up statistically over many detections, while each photon registers as a single localised event. Neither the wave nor the particle model is adequate alone; the quantum description supersedes both, and the persistence of the duality language is largely historical [2].\n\n## Speed\n\nThe vacuum speed of light is 299,792,458 m/s exactly, because the 1983 SI redefinition fixed it and defined the metre in terms of it. Improved experiments now refine the metre rather than the speed.\n\nIts invariance across inertial frames is the second postulate of special relativity, from which time dilation and length contraction follow [1].\n\nIn media, the phase velocity is reduced by the refractive index. The reduction arises from interaction with bound electrons, not from photons being physically slowed in transit — a distinction that matters for understanding dispersion.\n\n## Optics\n\nRefraction at an interface follows Snell's law and arises from the change in propagation speed. Dispersion — refractive index varying with wavelength — separates white light into a spectrum in a prism and produces rainbows through refraction and internal reflection in droplets.\n\nRayleigh scattering from molecules scales as the inverse fourth power of wavelength, so blue is scattered roughly ten times more strongly than red. This produces the blue sky and, through the longer atmospheric path at low solar elevation, red sunrises and sunsets [1]."
+    },
+    "adult": {
+      "summary": "Electromagnetic radiation described classically by Maxwell's equations and quantum-mechanically as photons, with an exactly defined vacuum speed underpinning the SI metre and special relativity.",
+      "body": "Light is electromagnetic radiation, described classically as coupled oscillating electric and magnetic fields satisfying Maxwell's equations, and quantum-mechanically in terms of photons [1].\n\n## Classical description\n\nMaxwell's equations admit transverse wave solutions propagating at a speed determined by the vacuum permittivity and permeability. That this speed matched measured values of light's speed constituted the identification of light as an electromagnetic phenomenon — one of the major unifications in physics.\n\nEnergy flux is given by the Poynting vector; polarisation describes the orientation of the field oscillation, and its manipulation underlies applications from photography to liquid crystal displays [1].\n\n## Quantum description\n\nThe photoelectric effect established energy quantisation: emitted photoelectron kinetic energy varies linearly with frequency with a material-dependent threshold, and is independent of intensity. Classical wave theory predicts neither the threshold nor the intensity independence.\n\nQuantum electrodynamics provides the complete description, treating light as excitations of the electromagnetic field and yielding predictions verified to extraordinary precision, notably the electron anomalous magnetic moment.\n\nWave-particle duality is best understood as a statement about the inadequacy of classical analogies rather than as a physical dichotomy. Single-photon interference experiments show that the quantum state exhibits interference while detection is discrete; there is no regime in which light is 'really' one or the other [2].\n\n## Metrological status\n\nSince the 17th CGPM in 1983, the vacuum speed of light is fixed at exactly 299,792,458 m/s, with the metre defined as the distance travelled in 1/299,792,458 second. The constant is therefore definitional, and improvements in interferometry now refine length realisation rather than the constant.\n\nThe 2019 SI revision extended this approach, defining the entire system in terms of fixed fundamental constants [1].\n\n## Relativistic significance\n\nInvariance of c across inertial frames, established by Michelson-Morley and formalised by Einstein, requires abandoning absolute simultaneity and yields time dilation, length contraction and mass-energy equivalence.\n\nc functions as the invariant speed of the spacetime structure rather than as a property of light specifically; any massless field propagates at it, and it bounds causal influence generally [2].\n\n## Propagation in media\n\nPhase velocity in a medium is c/n. The reduction results from coherent forward scattering by bound charges, with the superposed re-radiated and incident fields producing a phase-retarded resultant. Group velocity governs signal propagation and differs from phase velocity in dispersive media, permitting phase velocities exceeding c without violating causality.\n\nRayleigh scattering, with cross-section proportional to the inverse fourth power of wavelength, dominates atmospheric scattering by molecules and accounts for sky colour and for the reddening of the solar disc at low elevation. Mie scattering by larger particles is comparatively wavelength-independent, which is why clouds appear white [1]."
+    }
+  },
+  "citations": [
+    {
+      "marker": 1,
+      "source": "nist",
+      "claim": "The defined vacuum speed of light and the SI definition of the metre, the electromagnetic spectrum and visible range, refraction and dispersion, and Rayleigh scattering as the cause of sky colour.",
+      "supports": "supports"
+    },
+    {
+      "marker": 2,
+      "source": "einstein-papers",
+      "claim": "The photoelectric effect and light quantisation, wave-particle duality and single-photon interference, and the invariance of the speed of light in special relativity.",
+      "supports": "partially"
+    }
+  ],
+  "relations": [
+    {
+      "to": "the-atom",
+      "kind": "related"
+    },
+    {
+      "to": "albert-einstein",
+      "kind": "studied_by"
+    },
+    {
+      "to": "the-sun",
+      "kind": "related"
+    },
+    {
+      "to": "photosynthesis",
+      "kind": "causes",
+      "weight": 0.6
+    }
+  ],
+  "review": {
+    "last_reviewed": "2026-09-06",
+    "review_months": 60
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "slug": "honey-bee",
+  "title": "Honey Bee",
+  "type": "animal",
+  "categories": [
+    "animals",
+    "environment"
+  ],
+  "primary_category": "animals",
+  "aliases": [
+    {
+      "text": "Apis mellifera",
+      "kind": "scientific"
+    },
+    {
+      "text": "bees",
+      "kind": "alternative"
+    }
+  ],
+  "summary": "A social insect that lives in colonies of tens of thousands, makes honey, and communicates the location of food through a coded dance.",
+  "facts": [
+    {
+      "key": "scientific_name",
+      "label": "Scientific name",
+      "value": "Apis mellifera (the western honey bee)",
+      "group": "Classification",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "colony",
+      "label": "Colony size",
+      "value": "Roughly 20,000 to 80,000 bees",
+      "value_num": 50000,
+      "epistemic": "estimate",
+      "confidence": 0.8,
+      "group": "Colony",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "castes",
+      "label": "Three kinds of bee",
+      "value": "One queen, thousands of female workers, some male drones",
+      "group": "Colony",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "dance",
+      "label": "Waggle dance",
+      "value": "Tells other bees the direction and distance of food",
+      "group": "Communication",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "dance_nobel",
+      "label": "Dance decoded by",
+      "value": "Karl von Frisch, Nobel Prize 1973",
+      "value_num": 1973,
+      "group": "Communication",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "honey_per_bee",
+      "label": "Honey made by one worker in her life",
+      "value": "About one twelfth of a teaspoon",
+      "epistemic": "estimate",
+      "confidence": 0.6,
+      "group": "Honey",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "worker_life",
+      "label": "Worker lifespan in summer",
+      "value": "About 6 weeks in summer",
+      "value_num": 0.12,
+      "unit": "years",
+      "epistemic": "estimate",
+      "confidence": 0.8,
+      "comparable_key": "lifespan",
+      "group": "Colony",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "pollination",
+      "label": "Why they matter",
+      "value": "They pollinate a large share of the crops people eat",
+      "group": "Importance",
+      "cite": [
+        1
+      ]
+    }
+  ],
+  "content": {
+    "age6_8": {
+      "summary": "Insects that live in big families, make honey, and dance to tell each other where flowers are.",
+      "body": "Honey bees live together in a nest called a hive. There can be tens of thousands of them in one hive [1].\n\nBees visit flowers to collect sweet nectar. Back at the hive, they turn it into honey [1].\n\nWhile they are busy at the flowers, yellow dust called pollen sticks to their fuzzy bodies. They carry it from flower to flower, which helps new plants grow [1].\n\nWithout bees doing this, many of the fruits and vegetables we eat would not grow [1].\n\nHere is the clever bit. When a bee finds good flowers, she goes home and dances. The dance tells the other bees which way to fly and how far [2]."
+    },
+    "age9_12": {
+      "summary": "Life inside a hive, and the dance that tells other bees exactly where to fly.",
+      "body": "Honey bees are social insects living in colonies of 20,000 to 80,000 individuals [1].\n\n## Three kinds of bee\n\n- One **queen**, who lays all the eggs — up to 2,000 a day.\n- Thousands of **workers**, all female. They do everything else: cleaning, feeding larvae, building comb, guarding, and foraging.\n- A few hundred **drones**, all male. Their only role is to mate with a queen [1].\n\nA worker changes jobs as she ages. She starts inside the hive and only becomes a forager in the last part of her life. In summer she lives about six weeks and, over that whole life, makes roughly a twelfth of a teaspoon of honey [1].\n\n## The waggle dance\n\nWhen a forager finds a good patch of flowers, she returns and performs a dance on the vertical comb in the dark.\n\nShe runs in a straight line while waggling her body, then loops back and repeats. Two things are encoded:\n\n- The **angle** of the straight run compared with straight up tells the others the direction of the food relative to the Sun.\n- The **length** of the waggle tells them how far away it is [2].\n\nOther bees follow her, feel the vibrations, and then fly out and find the flowers.\n\nThis was worked out by Karl von Frisch, who received a Nobel Prize for it in 1973. It was startling because it showed an insect using a symbolic code — the dance stands for a place, rather than being a direct reaction to it [2].\n\n## Why bees matter\n\nMany plants cannot make seeds without pollen being carried between flowers. Honey bees, along with wild bees and other insects, do a great deal of that work.\n\nA large share of the crops people eat depend on animal pollination. That is why declines in bee populations are taken so seriously — it is a food supply issue, not only a wildlife one [1]."
+    },
+    "teen": {
+      "summary": "A eusocial insect with caste-based division of labour, symbolic dance communication, and central importance to agricultural pollination.",
+      "body": "*Apis mellifera* is a eusocial insect living in perennial colonies of tens of thousands [1].\n\n## Eusociality and castes\n\nEusociality involves overlapping generations, cooperative brood care and reproductive division of labour. A single reproductive queen produces essentially all offspring; workers are functionally sterile females; drones are haploid males produced from unfertilised eggs.\n\nThis haplodiploid sex determination means sisters share on average 75 percent of their genes, more than they would share with their own offspring. Hamilton's kin selection theory uses this to explain why worker sterility can be favoured by selection — though the sufficiency of haplodiploidy as an explanation for eusociality has been contested, since eusociality has also arisen in diploid taxa such as termites [1].\n\n## Temporal polyethism\n\nWorkers progress through roles with age: cell cleaning, nursing larvae, wax secretion and comb building, food processing, guarding, and finally foraging. The sequence is regulated by hormonal state and by colony demand rather than fixed rigidly, and can accelerate or reverse if the colony's needs change [1].\n\n## The waggle dance\n\nForagers communicate resource location through a dance performed on vertical comb in darkness.\n\nDirection is encoded by the angle of the waggle run relative to gravitational vertical, which the followers translate into an angle relative to the Sun's azimuth. Distance is encoded in waggle run duration. Recruits also receive olfactory information about the resource from the dancer.\n\nThe transposition from a solar angle to a gravitational one, performed in darkness by an insect, is a genuinely abstract translation. Von Frisch's decoding of it was recognised with the 1973 Nobel Prize in Physiology or Medicine, shared with Lorenz and Tinbergen [2].\n\nBees also compensate for the Sun's movement, adjusting the encoded angle if time passes before dancing — which requires an internal clock and a model of solar motion [2].\n\n## Pollination and decline\n\nAnimal pollination is required by a substantial proportion of leading global food crops, and managed honey bee colonies provide much of it in industrial agriculture.\n\nColony losses have been elevated in many regions. Contributing factors identified include the parasitic mite *Varroa destructor* and the viruses it transmits, pesticide exposure particularly to neonicotinoids, habitat and forage loss, and pathogen spread through colony transport.\n\nNo single cause accounts for the pattern, and the honest position is that losses are multifactorial. It is also worth distinguishing managed honey bees — a livestock species whose global colony numbers have risen — from wild pollinators, many of which are declining more severely and receive far less attention [1]."
+    },
+    "adult": {
+      "summary": "A eusocial apid with age-based polyethism and symbolic spatial communication, central to managed pollination and subject to multifactorial colony loss.",
+      "body": "*Apis mellifera* is a eusocial apid forming perennial colonies of 20,000-80,000 individuals with reproductive division of labour [1].\n\n## Social structure and its evolutionary basis\n\nColonies comprise a singly reproductive queen, functionally sterile female workers, and seasonally produced haploid drones. Arrhenotokous haplodiploidy generates asymmetric relatedness, with full sisters sharing coefficient of relatedness 0.75.\n\nHamilton's inclusive fitness framework accounts for the maintenance of worker sterility through indirect fitness. The haplodiploidy hypothesis as a specific explanation for the origin of eusociality has weakened considerably: eusociality occurs in diploid termites and in some diploid arthropods, polyandrous queens reduce average intracolonial relatedness below the critical threshold, and monogamy at the origin of sociality is now regarded as the more general predictor. The kin selection framework remains robust; the haplodiploidy shortcut does not [1].\n\n## Temporal polyethism\n\nWorker task allocation follows an age-related sequence modulated by juvenile hormone and vitellogenin titres, with the two acting in mutual repression. The system is plastic: colony-level demand signals, including brood pheromone and forager-derived ethyl oleate, accelerate or retard the transition to foraging, permitting demographic self-regulation without central control [1].\n\n## Dance communication\n\nThe waggle dance encodes vector information to a resource. Azimuthal direction is represented by the angle of the waggle run to gravitational vertical; distance correlates with waggle phase duration, with the calibration varying between subspecies and with landscape optic flow.\n\nSeveral features make this a genuinely symbolic system: the referent is displaced in space and time from the signal, the sensory modality of encoding differs from that of the referent, and dancers compensate for solar azimuth change during periods of hive residence, implying an internal clock coupled to a representation of the ephemeris function.\n\nVon Frisch's analysis was recognised by the 1973 Nobel Prize shared with Lorenz and Tinbergen. Subsequent controlled work, including harmonic radar tracking of recruits, has confirmed that followers do use the vector information rather than relying solely on odour [2].\n\n## Agricultural role and colony losses\n\nAnimal-mediated pollination is required or substantially beneficial for a large fraction of leading global crops by production volume, with managed *A. mellifera* providing the majority of commercial pollination services in industrial systems.\n\nElevated colony mortality has been documented across multiple regions. Established contributors include *Varroa destructor* parasitism and its role as a vector for deformed wing virus and other pathogens, sublethal and lethal effects of pesticide exposure with neonicotinoid effects on navigation and foraging demonstrated experimentally, nutritional stress from monoculture forage landscapes, and pathogen transmission facilitated by migratory beekeeping.\n\nAttribution to any single factor is not supported by the evidence; interaction effects, particularly between nutritional stress, pesticide exposure and pathogen load, appear central.\n\nA distinction frequently lost in public discussion is that managed honey bees are a livestock species whose global colony count has increased over recent decades, whereas many wild bee and other pollinator taxa are in documented decline. Conservation concern for pollination security is better directed at the latter, and high densities of managed hives can themselves compete with wild pollinators [1]."
+    }
+  },
+  "citations": [
+    {
+      "marker": 1,
+      "source": "kew-gardens",
+      "claim": "Honey bee colony composition and size, caste roles and age-based task allocation, worker lifespan and honey production, pollination importance, and the multifactorial nature of colony losses.",
+      "supports": "partially"
+    },
+    {
+      "marker": 2,
+      "source": "nobel-prize",
+      "claim": "The waggle dance encoding of direction and distance, solar azimuth compensation, and the 1973 Nobel Prize awarded to Karl von Frisch.",
+      "supports": "supports"
+    }
+  ],
+  "relations": [
+    {
+      "to": "photosynthesis",
+      "kind": "related",
+      "weight": 0.5
+    },
+    {
+      "to": "cretaceous-period",
+      "kind": "related",
+      "weight": 0.4
+    }
+  ],
+  "timeline": [
+    {
+      "title": "The waggle dance decoded",
+      "start": 1945,
+      "precision": "decade",
+      "era": "Modern",
+      "importance": 3,
+      "epistemic": "estimate",
+      "description": "Karl von Frisch publishes his analysis of bee dance language."
+    }
+  ],
+  "review": {
+    "last_reviewed": "2026-09-06",
+    "review_months": 24
+  }
+}

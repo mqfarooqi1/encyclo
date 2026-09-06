@@ -1,0 +1,144 @@
+{
+  "slug": "the-skeleton",
+  "title": "The Skeleton",
+  "type": "body_system",
+  "categories": [
+    "human-body",
+    "science"
+  ],
+  "primary_category": "human-body",
+  "aliases": [
+    {
+      "text": "bones",
+      "kind": "alternative"
+    },
+    {
+      "text": "skeletal system",
+      "kind": "scientific"
+    }
+  ],
+  "summary": "The framework of bones that supports the body, protects its organs, anchors muscles and manufactures blood cells.",
+  "facts": [
+    {
+      "key": "bones_adult",
+      "label": "Bones in an adult",
+      "value": "206",
+      "value_num": 206,
+      "group": "Numbers",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "bones_baby",
+      "label": "Bones at birth",
+      "value": "About 270, some of which later fuse",
+      "value_num": 270,
+      "epistemic": "estimate",
+      "confidence": 0.85,
+      "group": "Numbers",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "longest",
+      "label": "Longest bone",
+      "value": "The femur, in the thigh",
+      "group": "Notable bones",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "smallest",
+      "label": "Smallest bone",
+      "value": "The stapes, in the middle ear",
+      "group": "Notable bones",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "living",
+      "label": "Are bones alive?",
+      "value": "Yes — bone is living tissue with blood vessels and nerves",
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "marrow",
+      "label": "What bone marrow does",
+      "value": "Makes red and white blood cells",
+      "group": "Basics",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "renewal",
+      "label": "Skeleton replacement",
+      "value": "The adult skeleton is largely renewed about every 10 years",
+      "epistemic": "estimate",
+      "confidence": 0.7,
+      "group": "Basics",
+      "cite": [
+        2
+      ]
+    }
+  ],
+  "content": {
+    "age6_8": {
+      "summary": "The bones inside you that hold you up and keep you safe.",
+      "body": "Inside your body there are bones. All your bones together are called your skeleton [1].\n\nWithout bones you would be floppy, like a jellyfish. Your skeleton holds you up [1].\n\nBones also protect the soft parts. Your skull protects your brain, and your ribs make a cage around your heart and lungs [1].\n\nBones are not dry sticks. They are alive. That is why a broken bone can mend itself [1].\n\nBabies have more bones than grown-ups. Some of them join together as you grow [1]."
+    },
+    "age9_12": {
+      "summary": "What bones actually are, why babies have more of them, and what happens inside them.",
+      "body": "The skeleton is the framework of bones inside your body. An adult has 206 of them [1].\n\n## Four jobs\n\n1. **Support** — it holds the body up and gives it shape.\n2. **Protection** — the skull guards the brain, the ribs guard the heart and lungs, the spine guards the spinal cord.\n3. **Movement** — muscles pull on bones, and joints let them move.\n4. **Making blood** — the marrow inside some bones makes new blood cells [1].\n\n## Bones are alive\n\nPeople often think of bones as dry and dead, like the ones in a museum. Living bone is nothing like that. It has blood vessels running through it, nerves that feel pain, and cells that constantly build and break it down [1].\n\nThat is why a broken bone can heal, and why exercise makes bones stronger — bone responds to being used.\n\n## Why babies have more bones\n\nA newborn has around 270 bones. Adults have 206.\n\nYou do not lose bones. Some of them fuse together as you grow. The skull, for example, starts as separate plates with soft gaps between them, which lets the head squeeze through birth and then grow quickly. The plates knit together later [1].\n\n## Big and small\n\nThe femur, the thigh bone, is the longest bone in the body.\n\nThe smallest is the stapes, deep in your ear. It is about 3 millimetres long and it helps you hear by passing vibrations to the inner ear [1].\n\n## Constant rebuilding\n\nBone is broken down and rebuilt continuously by two kinds of cell working against each other. Over roughly ten years, most of your skeleton is replaced. The skeleton you have now is not the one you had as a young child, even though it has kept the same shape [2]."
+    },
+    "teen": {
+      "summary": "A living, continuously remodelled framework of 206 bones providing support, protection, leverage, mineral storage and haematopoiesis.",
+      "body": "The adult human skeleton comprises 206 bones, divided into an axial skeleton (skull, vertebral column, ribs, sternum) and an appendicular skeleton (limbs and girdles) [1].\n\n## Functions\n\nBeyond structural support and organ protection, the skeleton provides rigid levers against which muscles generate movement, stores and releases calcium and phosphate under hormonal control, and houses the haematopoietic marrow [1].\n\n## Bone as tissue\n\nBone is a composite: a collagen matrix conferring tensile strength, mineralised with hydroxyapatite conferring compressive strength. Neither alone would suffice — demineralised bone is rubbery, and the mineral alone would be brittle.\n\nCompact (cortical) bone forms dense outer shells; trabecular (cancellous) bone forms an internal lattice aligned along lines of mechanical stress, delivering strength at low mass [1].\n\n## Remodelling\n\nThree cell types maintain bone. Osteoblasts deposit matrix, osteoclasts resorb it, and osteocytes — former osteoblasts embedded in the matrix — sense mechanical strain and coordinate the other two.\n\nThis system means bone adapts to load. Loaded bone is reinforced; unloaded bone is resorbed, which is why immobilisation and spaceflight both cause rapid bone loss. Roughly ten percent of the adult skeleton is replaced annually [2].\n\nWhen resorption outpaces deposition, bone mass declines, producing osteoporosis. The trabecular architecture degrades before cortical thickness does, which is why vertebral and hip fractures predominate.\n\n## Ossification and fusion\n\nMost bones develop by endochondral ossification, in which a cartilage model is progressively replaced by bone. Growth continues at epiphyseal plates until these fuse in late adolescence.\n\nA neonate has approximately 270 ossification centres and bones. The reduction to 206 reflects fusion, not loss — notably the sacrum, coccyx and skull. Cranial sutures remain open at birth, permitting moulding during delivery and rapid brain growth afterwards [1].\n\n## Haematopoiesis\n\nRed marrow produces erythrocytes, leukocytes and platelets. In adults it is largely confined to the axial skeleton and proximal long bones, having been progressively replaced by fatty yellow marrow elsewhere [2]."
+    },
+    "adult": {
+      "summary": "A mineralised connective-tissue organ system of 206 bones, mechanically adaptive through continuous remodelling and functioning additionally in mineral homeostasis and haematopoiesis.",
+      "body": "The adult skeleton comprises 206 named bones organised into axial and appendicular divisions, and functions simultaneously as structural framework, mineral reservoir and haematopoietic organ [1].\n\n## Material properties\n\nBone is a hierarchically organised composite of type I collagen and carbonated hydroxyapatite. The organic phase provides toughness and tensile capacity; the mineral phase provides stiffness and compressive strength. Decalcification renders bone flexible; deproteinisation renders it brittle, demonstrating that the mechanical performance derives from the composite rather than from either constituent.\n\nCortical bone provides dense load-bearing shells, while trabecular bone forms an anisotropic lattice whose orientation aligns with principal stress trajectories — an arrangement predicted by Wolff's law and confirmed by finite-element analysis [1].\n\n## Remodelling and mechanotransduction\n\nBasic multicellular units couple osteoclastic resorption with osteoblastic formation. Osteocytes, comprising the great majority of bone cells and residing within lacunae connected by canaliculi, act as the mechanosensory network, regulating effectors partly through sclerostin signalling.\n\nMechanical adaptation is quantitatively substantial. Disuse — bed rest, paralysis, microgravity — produces bone loss at rates of order one to two percent per month in weight-bearing sites, far exceeding age-related loss, and constitutes a principal physiological obstacle to long-duration spaceflight [2].\n\nAnnual turnover approximates 10 percent of skeletal mass, higher in trabecular than cortical bone owing to its greater surface-to-volume ratio.\n\n## Mineral homeostasis\n\nThe skeleton contains roughly 99 percent of body calcium. Parathyroid hormone, calcitriol and calcitonin regulate exchange between bone and plasma. Because serum calcium is tightly defended for neuromuscular function, sustained dietary insufficiency is buffered at the expense of skeletal mass [2].\n\n## Development\n\nEndochondral ossification replaces a hyaline cartilage anlage; intramembranous ossification forms flat bones of the skull directly from mesenchyme. Longitudinal growth proceeds at physes until epiphyseal fusion, the timing of which is sex- and site-specific and is used forensically for age estimation.\n\nThe neonatal count of approximately 270 reduces to 206 through fusion — sacral and coccygeal vertebrae, cranial sutures, and the constituent elements of the os coxae. Persistence of open fontanelles accommodates the perinatal cranial moulding required for vaginal delivery and the rapid postnatal brain growth characteristic of the species [1].\n\n## Haematopoiesis\n\nRed marrow supports erythropoiesis, granulopoiesis, lymphopoiesis and thrombopoiesis. Distribution retracts with age toward the axial skeleton and proximal femora and humeri, with yellow adipose marrow replacing it peripherally — though this conversion is reversible under haematopoietic stress [2]."
+    }
+  },
+  "citations": [
+    {
+      "marker": 1,
+      "source": "nih-nlm",
+      "claim": "Adult and neonatal bone counts and the role of fusion, skeletal functions, bone composition and cortical versus trabecular structure, and the identity of the longest and smallest bones.",
+      "supports": "supports"
+    },
+    {
+      "marker": 2,
+      "source": "nhs-uk",
+      "claim": "Bone remodelling and its cellular basis, annual turnover rate, disuse-related bone loss, mineral homeostasis, and the distribution and function of bone marrow.",
+      "supports": "partially"
+    }
+  ],
+  "relations": [
+    {
+      "to": "blood",
+      "kind": "related"
+    },
+    {
+      "to": "the-heart",
+      "kind": "related",
+      "weight": 0.4
+    },
+    {
+      "to": "fossil",
+      "kind": "related",
+      "weight": 0.5
+    }
+  ],
+  "review": {
+    "last_reviewed": "2026-09-06",
+    "review_months": 36
+  }
+}

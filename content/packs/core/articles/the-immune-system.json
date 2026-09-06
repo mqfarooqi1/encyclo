@@ -1,0 +1,149 @@
+{
+  "slug": "the-immune-system",
+  "title": "The Immune System",
+  "type": "body_system",
+  "categories": [
+    "human-body",
+    "science"
+  ],
+  "primary_category": "human-body",
+  "aliases": [
+    {
+      "text": "immunity",
+      "kind": "alternative"
+    },
+    {
+      "text": "immune response",
+      "kind": "scientific"
+    }
+  ],
+  "summary": "The network of cells and organs that defends the body against infection, and remembers what it has fought before.",
+  "facts": [
+    {
+      "key": "two_parts",
+      "label": "Two main parts",
+      "value": "Innate (fast and general) and adaptive (slow, specific, remembers)",
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "cells",
+      "label": "Main defenders",
+      "value": "White blood cells, including T cells and B cells",
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "antibodies",
+      "label": "Antibodies",
+      "value": "Proteins made by B cells that lock onto one specific invader",
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "memory",
+      "label": "Immune memory",
+      "value": "Why you usually catch chickenpox only once",
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "vaccines",
+      "label": "How vaccines work",
+      "value": "They teach the immune system without causing the disease",
+      "group": "Vaccines",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "smallpox",
+      "label": "Smallpox",
+      "value": "Declared eradicated in 1980 through vaccination",
+      "value_num": 1980,
+      "group": "Vaccines",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "fever",
+      "label": "Why fever happens",
+      "value": "The body raises its temperature to hinder microbes and speed the response",
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    }
+  ],
+  "content": {
+    "age6_8": {
+      "summary": "Your body's own defence team, which fights germs and remembers them.",
+      "body": "Tiny germs can get into your body and make you ill [1].\n\nYour body has a defence team to fight them. It is called your immune system [1].\n\nWhite blood cells are the fighters. They travel around in your blood looking for germs [1].\n\nWhen you feel hot and poorly, that is often your body turning up the heat on purpose. Germs do not like it warm [1].\n\nHere is the clever part. After your body beats a germ, it remembers it. If that germ comes back, your body knows exactly what to do [1].\n\nThat is why you usually only get chickenpox once."
+    },
+    "age9_12": {
+      "summary": "Two layers of defence, how immune memory works, and why vaccines are so effective.",
+      "body": "The immune system is the body's defence against bacteria, viruses, fungi and parasites [1].\n\n## Two layers\n\n**Innate immunity** is the first line. It is fast, always ready, and general — it does not care exactly what the invader is. Skin and mucus keep things out; if something gets in, cells like macrophages swallow it, and inflammation brings in more help.\n\n**Adaptive immunity** is slower — it takes days to get going — but it is precise, and it remembers [1].\n\n## How adaptive immunity works\n\nT cells and B cells each carry a receptor that recognises one specific shape. Your body makes an enormous variety of them, so between them they cover almost any invader you might meet.\n\nWhen a B cell meets the thing its receptor fits, it multiplies and starts making antibodies — proteins that lock onto the invader, marking it for destruction or blocking it from entering cells [1].\n\n## Memory\n\nAfter an infection is beaten, most of these cells die off, but some survive as memory cells.\n\nIf the same invader returns, memory cells respond in hours rather than days, and far more strongly. Usually you never notice you were infected at all [1].\n\nThat is why chickenpox is normally a once-in-a-lifetime illness.\n\n## Vaccines\n\nVaccines exploit that memory deliberately. A vaccine shows the immune system a harmless version or piece of a germ — never enough to cause the disease — and the immune system builds memory anyway [2].\n\nSo when the real thing arrives, the defence is already prepared.\n\nSmallpox once killed hundreds of millions of people. Through worldwide vaccination it was declared eradicated in 1980. It is the only human disease so far wiped out entirely [2].\n\n## When it goes wrong\n\nThe immune system has to tell the body apart from invaders. Sometimes it fails.\n\nIn allergies it overreacts to something harmless like pollen. In autoimmune diseases it attacks the body's own tissue [1]."
+    },
+    "teen": {
+      "summary": "Layered innate and adaptive defences generating antigen-specific responses and durable immunological memory.",
+      "body": "The immune system comprises innate and adaptive arms that together detect and eliminate pathogens while discriminating them from host tissue [1].\n\n## Innate immunity\n\nInnate defences act within minutes to hours. Physical and chemical barriers exclude most microbes. Pattern recognition receptors, notably Toll-like receptors, detect conserved microbial structures — lipopolysaccharide, flagellin, viral nucleic acids — rather than specific pathogens.\n\nEffector responses include phagocytosis by neutrophils and macrophages, complement activation, natural killer cell cytotoxicity, and inflammation, which increases vascular permeability and recruits cells to the site.\n\nFever is an active response rather than a side effect: elevated temperature impairs some pathogens and enhances aspects of immune function, which is why routine suppression of moderate fever is a more nuanced clinical question than it appears [1].\n\n## Adaptive immunity\n\nAdaptive responses take days but confer specificity and memory.\n\nB and T lymphocytes each express a single receptor specificity, generated by somatic recombination of gene segments. This produces a repertoire large enough to recognise essentially any antigen — a mechanism for which Tonegawa received the 1987 Nobel Prize, and the resolution of how a finite genome encodes near-unlimited receptor diversity.\n\nB cells differentiate into plasma cells secreting antibody. Antibodies neutralise pathogens, opsonise them for phagocytosis, and activate complement.\n\nT cells require antigen presented on major histocompatibility complex molecules. Cytotoxic T cells kill infected cells; helper T cells coordinate the response [1].\n\n## Self-tolerance\n\nA repertoire generated randomly will inevitably include self-reactive receptors. These are largely deleted during development in thymus and bone marrow, with peripheral mechanisms including regulatory T cells suppressing what escapes.\n\nFailure produces autoimmunity; misdirected responses to harmless antigens produce allergy [1].\n\n## Memory and vaccination\n\nMemory B and T cells persist after infection, mediating faster and larger secondary responses.\n\nVaccines induce this memory without the disease, using inactivated or attenuated organisms, purified antigens, or nucleic acid instructing host cells to produce an antigen. Adjuvants provide the innate signals needed to drive an effective adaptive response [2].\n\nSmallpox eradication, certified in 1980, remains the definitive demonstration: a disease estimated to have killed around 300 million people in the twentieth century alone no longer exists outside secure laboratories [2]."
+    },
+    "adult": {
+      "summary": "An integrated innate and adaptive defence system generating somatically diversified antigen receptors, self-tolerance and durable memory.",
+      "body": "The immune system comprises innate and adaptive components acting in an integrated fashion to eliminate pathogens while maintaining tolerance to self [1].\n\n## Innate recognition\n\nInnate immunity operates through germline-encoded pattern recognition receptors detecting pathogen-associated molecular patterns and damage-associated molecular patterns. Toll-like, NOD-like, RIG-I-like and C-type lectin receptor families cover extracellular, endosomal and cytosolic compartments.\n\nThe conceptual significance of the Janeway pattern recognition model is that it explained why adaptive responses require innate context: lymphocyte activation demands costimulatory signals induced by innate sensing, providing a mechanism by which the system distinguishes infectious non-self from harmless non-self.\n\nEffector mechanisms include phagocytosis, the complement cascade, NK-mediated cytotoxicity of cells with reduced MHC class I, and inflammasome-driven cytokine maturation [1].\n\n## Adaptive repertoire generation\n\nV(D)J recombination, mediated by RAG1 and RAG2, assembles antigen receptor genes from segment libraries with junctional diversification. Combined with somatic hypermutation and class switch recombination in germinal centres, this generates a repertoire estimated in excess of 10^11 distinct specificities from a modest genomic allocation.\n\nT cell recognition is MHC-restricted: cytotoxic CD8 T cells survey endogenously derived peptide on MHC class I, while CD4 helper T cells recognise exogenously derived peptide on class II, with cross-presentation permitting priming of CD8 responses against pathogens not directly infecting antigen-presenting cells [1].\n\n## Tolerance\n\nStochastic repertoire generation necessarily produces autoreactivity. Central tolerance deletes strongly self-reactive clones during thymic and marrow development, with AIRE-driven promiscuous expression of tissue-restricted antigens extending thymic representation of the self proteome.\n\nPeripheral tolerance operates through anergy, deletion and regulatory T cell suppression. The clinical consequences of failure are visible at both extremes: AIRE mutation causes autoimmune polyendocrine syndrome, while FOXP3 mutation causes IPEX with fatal multiorgan autoimmunity [1].\n\n## Memory and vaccination\n\nAntigen-experienced lymphocytes persist as central and effector memory populations with distinct trafficking and functional properties, together with long-lived plasma cells maintaining serum antibody titres for decades.\n\nVaccine platforms span live attenuated, inactivated, subunit, conjugate, viral vector and mRNA approaches. Polysaccharide-protein conjugation, which recruits T cell help to otherwise T-independent antigens, made effective infant immunisation against encapsulated bacteria possible and produced substantial declines in *Haemophilus influenzae* type b and pneumococcal disease [2].\n\nSmallpox eradication, certified by the World Health Assembly in 1980, remains the only complete elimination of a human pathogen. Its feasibility rested on specific epidemiological features — no animal reservoir, visible characteristic lesions enabling case identification, and an effective heat-stable vaccine — which is why the achievement has proved difficult to replicate [2].\n\n## Immunopathology\n\nHypersensitivity reactions, autoimmune disease and immunodeficiency represent failures of regulation, discrimination and effector capacity respectively. Therapeutic manipulation — monoclonal antibodies, cytokine blockade, checkpoint inhibition in oncology and chimeric antigen receptor T cells — derives directly from mechanistic understanding of these pathways [1]."
+    }
+  },
+  "citations": [
+    {
+      "marker": 1,
+      "source": "nih-nlm",
+      "claim": "Innate and adaptive immune mechanisms, lymphocyte receptor diversity generation, MHC restriction, self-tolerance, immune memory, and immunopathology.",
+      "supports": "supports"
+    },
+    {
+      "marker": 2,
+      "source": "who",
+      "claim": "How vaccines induce immunity, vaccine platform types, and the certification of smallpox eradication in 1980.",
+      "supports": "supports"
+    }
+  ],
+  "relations": [
+    {
+      "to": "blood",
+      "kind": "related"
+    },
+    {
+      "to": "dna",
+      "kind": "related",
+      "weight": 0.5
+    },
+    {
+      "to": "the-lungs",
+      "kind": "related",
+      "weight": 0.3
+    }
+  ],
+  "timeline": [
+    {
+      "title": "Smallpox declared eradicated",
+      "start": 1980,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 5,
+      "description": "The only human disease eliminated by vaccination."
+    }
+  ],
+  "review": {
+    "last_reviewed": "2026-09-06",
+    "review_months": 12
+  }
+}
