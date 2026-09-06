@@ -1,0 +1,60 @@
+{
+  "slug": "blue-whale",
+  "title": "Blue Whale",
+  "type": "animal",
+  "categories": ["animals", "environment"],
+  "primary_category": "animals",
+  "aliases": [
+    { "text": "Balaenoptera musculus", "kind": "scientific" },
+    { "text": "blue whales", "kind": "alternative" }
+  ],
+  "summary": "The largest animal known to have existed, a filter-feeding baleen whale found in oceans worldwide and listed as Endangered after industrial whaling reduced its numbers drastically.",
+
+  "facts": [
+    { "key": "scientific_name", "label": "Scientific name", "value": "Balaenoptera musculus", "group": "Classification", "cite": [1] },
+    { "key": "length", "label": "Length", "value": "Up to about 30 metres", "value_num": 30, "unit": "m", "epistemic": "estimate", "confidence": 0.85, "comparable_key": "body_length", "group": "Size", "cite": [1] },
+    { "key": "weight", "label": "Weight", "value": "Up to about 150,000 kg", "value_num": 150000, "unit": "kg", "epistemic": "estimate", "confidence": 0.7, "comparable_key": "body_mass", "group": "Size", "cite": [1] },
+    { "key": "heart", "label": "Heart", "value": "About the size of a small car", "epistemic": "estimate", "confidence": 0.6, "group": "Size", "cite": [1] },
+    { "key": "diet", "label": "Diet", "value": "Almost entirely krill", "comparable_key": "diet", "group": "Biology", "cite": [1] },
+    { "key": "daily_food", "label": "Krill eaten per day when feeding", "value": "Several tonnes", "epistemic": "estimate", "confidence": 0.6, "group": "Biology", "cite": [1] },
+    { "key": "conservation_status", "label": "Conservation status", "value": "Endangered (IUCN)", "comparable_key": "conservation_status", "group": "Conservation", "cite": [2] },
+    { "key": "lifespan", "label": "Lifespan", "value": "Probably 80 to 90 years", "value_num": 85, "unit": "years", "epistemic": "estimate", "confidence": 0.6, "comparable_key": "lifespan", "group": "Biology", "cite": [1] },
+    { "key": "protected", "label": "Hunting banned", "value": "1966", "value_num": 1966, "group": "Conservation", "cite": [2] }
+  ],
+
+  "content": {
+    "age6_8": {
+      "summary": "The biggest animal that has ever lived. It eats tiny shrimp.",
+      "body": "The blue whale is the biggest animal there has ever been [1].\n\nIt is bigger than any dinosaur was.\n\nA blue whale can be as long as three buses in a row. Its heart is as big as a small car [1].\n\nHere is the surprising part. This enormous animal eats tiny creatures called krill. Krill are about as big as your finger [1].\n\nThe whale takes a huge gulp of water and pushes it out through a comb in its mouth. The krill stay inside [1].\n\nPeople hunted blue whales until very few were left. Now they are protected [2]."
+    },
+    "age9_12": {
+      "summary": "The largest animal ever, how it feeds on tiny krill, and why it nearly disappeared.",
+      "body": "The blue whale is the largest animal known to have existed — larger than any dinosaur [1].\n\n## How big\n\nAdults can reach about 30 metres and weigh up to roughly 150 tonnes. That is heavier than 20 African elephants [1].\n\nA blue whale's heart is roughly the size of a small car, and its main blood vessel is wide enough for a child to crawl through [1].\n\n## Eating the smallest things\n\nThe largest animal in the world eats some of the smallest. Blue whales feed almost entirely on krill, shrimp-like creatures a few centimetres long [1].\n\nInstead of teeth they have baleen: hundreds of stiff plates hanging from the upper jaw. The whale takes an enormous gulp of water, then pushes it out through the baleen. The krill are trapped inside [1].\n\nA feeding blue whale can eat several tonnes of krill in a day [1].\n\n## Sound\n\nBlue whales are among the loudest animals on Earth. Their low-frequency calls travel very long distances underwater, and are probably used to find one another across the ocean [1].\n\n## Nearly lost\n\nBefore commercial whaling there may have been hundreds of thousands of blue whales. Industrial whaling in the twentieth century, using explosive harpoons and factory ships, killed the great majority [2].\n\nBlue whales received international protection in 1966. Numbers have grown slowly since, but the species is still listed as **Endangered** [2].\n\nThey now face other pressures: ship strikes, entanglement in fishing gear, ocean noise, and changes to krill from a warming ocean [2]."
+    },
+    "teen": {
+      "summary": "The largest known animal: a cosmopolitan rorqual specialising in krill via lunge feeding, listed Endangered following twentieth-century industrial whaling.",
+      "body": "*Balaenoptera musculus* is a baleen whale and the largest animal known to have existed, exceeding the largest dinosaurs in mass [1].\n\n## Size and physiology\n\nThe largest reliably measured individuals approach 30 metres and 150 tonnes, though most adults are smaller and Southern Hemisphere animals average larger than Northern. Historical maxima derive from whaling-era records of variable reliability, so the upper figures are best treated as estimates [1].\n\nSuch size is possible because water supports body weight — a terrestrial animal of this mass could not stand. The heart is comparable in size to a small car, and heart rate falls to only a few beats per minute during deep dives.\n\n## Lunge feeding\n\nBlue whales are rorquals, with pleated throat grooves that expand enormously during feeding.\n\nA feeding lunge involves accelerating into a krill swarm and opening the mouth, engulfing a volume of water that can exceed the whale's own body mass. Throat pleats distend, the mouth closes, and water is expelled through baleen plates that retain the krill [1].\n\nThe manoeuvre is energetically expensive, which constrains where blue whales can feed: only dense krill aggregations repay the cost, so distribution tracks krill productivity closely [1].\n\n## Acoustics\n\nBlue whale vocalisations are extremely loud and very low in frequency, often below the range of human hearing. Low frequencies attenuate slowly in seawater, permitting propagation over long distances. Function is not fully established; long-range communication and mate attraction are the leading interpretations [1].\n\n## Exploitation and conservation\n\nBlue whales were largely beyond the reach of pre-industrial whaling, being too fast and, once killed, prone to sinking. The explosive harpoon and steam-powered catcher removed those protections, and factory ships enabled processing at sea.\n\nThe resulting catch was severe: Southern Hemisphere populations were reduced by the order of 99 percent from pre-exploitation levels. International protection came into force in 1966, by which point some populations were near collapse [2].\n\nThe IUCN currently lists the species as Endangered, with an increasing global population trend. Recovery is real but slow, reflecting late maturity and long calving intervals [2].\n\nContemporary threats include vessel strikes on migratory routes, entanglement in fishing gear, anthropogenic noise masking communication, and climate-driven redistribution of krill [2]."
+    },
+    "adult": {
+      "summary": "A cosmopolitan rorqual and the largest animal known to have existed; an obligate krill specialist whose populations were reduced by an estimated order of magnitude or more during industrial whaling.",
+      "body": "*Balaenoptera musculus* is a mysticete cetacean of the family Balaenopteridae, and the largest animal for which there is evidence in the history of life [1].\n\n## Morphometrics\n\nMaximum reliably documented lengths approach 30 metres, with masses estimated up to approximately 150 tonnes. Subspecific variation is substantial: Antarctic blue whales (*B. m. intermedia*) attain the greatest sizes, while pygmy blue whales (*B. m. brevicauda*) are considerably smaller.\n\nUpper-bound figures derive largely from whaling-era measurements of inconsistent methodology, and should be reported as estimates rather than established maxima [1].\n\nGigantism of this order is contingent on aquatic support against gravity, and on the energetic returns of bulk filter feeding on aggregated prey.\n\n## Feeding ecology and energetics\n\nBlue whales feed by intermittent engulfment lunging. Ventral groove blubber permits buccal cavity expansion to a volume that may exceed the animal's own body mass, and expelled water passes through baleen retaining euphausiid prey [1].\n\nLunge feeding carries a high energetic cost from drag during engulfment and from the acceleration required. The consequence is a strict ecological constraint: foraging is profitable only where krill density exceeds a threshold, which explains the species' dependence on a small number of highly productive regions and its vulnerability to shifts in prey distribution [1].\n\nThe dietary specialisation is near absolute, with krill constituting effectively the entire diet.\n\n## Acoustic behaviour\n\nVocalisations are among the most intense produced by any animal and are concentrated at very low frequencies, largely infrasonic. Low-frequency sound suffers minimal attenuation in seawater and can propagate across ocean basins under favourable conditions.\n\nFunctional interpretation remains uncertain; long-range contact and reproductive advertisement are the principal hypotheses, and these should be described as interpretations. A documented long-term downward shift in call frequency across populations is itself unexplained, with proposed causes including population recovery and changes in ocean noise [1].\n\n## Exploitation history\n\nBlue whales were effectively immune to pre-industrial whaling on account of swimming speed and negative buoyancy after death. Technological change in the late nineteenth and early twentieth centuries — the explosive grenade harpoon, steam catchers and the stern-slipway factory ship — removed both constraints.\n\nSouthern Hemisphere populations are estimated to have been reduced by upwards of 99 percent. Protection under the International Whaling Commission took effect in 1966, and illegal Soviet catches continued for a period thereafter, complicating reconstruction of the historical record [2].\n\n## Conservation status\n\nThe IUCN Red List assesses the species as Endangered with an increasing population trend. Recovery is constrained by life-history parameters: late sexual maturity, single calves and multi-year calving intervals bound the maximum rate of increase irrespective of protection [2].\n\nCurrent threats are principally vessel strike along migratory corridors overlapping shipping lanes, entanglement in fixed fishing gear, chronic low-frequency anthropogenic noise overlapping the species' communication band, and climate-driven change in krill distribution and abundance — the last being of particular concern given the absence of dietary flexibility [2]."
+    }
+  },
+
+  "citations": [
+    { "marker": 1, "source": "noaa-fisheries-whale", "claim": "Blue whale size and mass, lunge filter feeding on krill using baleen, vocalisation characteristics, and lifespan estimates.", "supports": "supports" },
+    { "marker": 2, "source": "iucn-redlist", "claim": "Endangered conservation status and population trend, the 1966 protection date, historical depletion by industrial whaling, and current threats.", "supports": "supports" }
+  ],
+
+  "relations": [
+    { "to": "tyrannosaurus-rex", "kind": "contrasts_with", "note": "Larger than any known dinosaur" },
+    { "to": "earth", "kind": "located_in", "weight": 0.3 }
+  ],
+
+  "timeline": [
+    { "title": "Industrial whaling of blue whales peaks", "start": 1900, "end": 1960, "precision": "decade", "era": "Modern", "importance": 4, "epistemic": "estimate" },
+    { "title": "Blue whales receive international protection", "start": 1966, "precision": "exact", "era": "Modern", "importance": 4 }
+  ],
+
+  "review": { "last_reviewed": "2026-09-06", "review_months": 36 }
+}

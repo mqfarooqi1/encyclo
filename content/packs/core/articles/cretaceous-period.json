@@ -1,0 +1,168 @@
+{
+  "slug": "cretaceous-period",
+  "title": "Cretaceous Period",
+  "type": "science_concept",
+  "categories": [
+    "dinosaurs",
+    "science"
+  ],
+  "primary_category": "dinosaurs",
+  "aliases": [
+    {
+      "text": "Cretaceous",
+      "kind": "alternative"
+    }
+  ],
+  "pronunciation_ipa": "/krɪˈteɪʃəs/",
+  "summary": "The last period of the Mesozoic Era, lasting from about 145 to 66 million years ago, which ended in the mass extinction that wiped out the non-avian dinosaurs.",
+  "facts": [
+    {
+      "key": "began",
+      "label": "Began",
+      "value": "About 145 million years ago",
+      "value_num": -145000000,
+      "unit": "years",
+      "epistemic": "estimate",
+      "confidence": 0.9,
+      "group": "Timing",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "ended",
+      "label": "Ended",
+      "value": "About 66 million years ago",
+      "value_num": -66000000,
+      "unit": "years",
+      "epistemic": "fact",
+      "group": "Timing",
+      "cite": [
+        3
+      ]
+    },
+    {
+      "key": "duration",
+      "label": "Duration",
+      "value": "About 79 million years",
+      "value_num": 79000000,
+      "unit": "years",
+      "epistemic": "estimate",
+      "confidence": 0.9,
+      "group": "Timing",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "era",
+      "label": "Era",
+      "value": "Mesozoic",
+      "group": "Timing",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "ended_by",
+      "label": "Ended by",
+      "value": "The Cretaceous-Paleogene mass extinction",
+      "group": "Events",
+      "cite": [
+        3
+      ]
+    },
+    {
+      "key": "innovation",
+      "label": "Major biological change",
+      "value": "Flowering plants become widespread",
+      "group": "Events",
+      "cite": [
+        2
+      ]
+    }
+  ],
+  "content": {
+    "age6_8": {
+      "summary": "The last chapter of the time when dinosaurs ruled the Earth.",
+      "body": "The Cretaceous was a very long time ago. It was the last part of the age of dinosaurs [1].\n\nThe world was warm. There was no ice at the North Pole or the South Pole [1].\n\nThis is when the first flowers grew. Before that, there were no flowers anywhere on Earth [2].\n\nT. rex and Triceratops lived at the very end of the Cretaceous.\n\nThen a huge rock from space hit the Earth, and the big dinosaurs died out [3]."
+    },
+    "age9_12": {
+      "summary": "The final period of the age of dinosaurs, ending with a mass extinction 66 million years ago.",
+      "body": "The Cretaceous Period lasted from about 145 million years ago to 66 million years ago. It was the last of the three periods in the Mesozoic Era — the age of dinosaurs [1].\n\n## A warmer world\n\nThe Cretaceous was much warmer than today. There were no permanent ice sheets at the poles, and sea levels were high, so shallow seas flooded across the middle of continents. North America was split in two by a seaway [1].\n\n## Flowers appear\n\nOne of the biggest changes in the history of life happened during the Cretaceous: flowering plants appeared and spread across the world. Before this, land plants were things like ferns and conifers. Flowering plants changed the food available to insects and animals, and most plants you see today are their descendants [2].\n\n## The end\n\nAbout 66 million years ago an asteroid roughly 10 kilometres across struck what is now Mexico. The impact threw enormous amounts of dust and rock into the atmosphere, blocking sunlight and cooling the planet. Around three quarters of species died out, including every dinosaur except birds [3]."
+    },
+    "teen": {
+      "summary": "The terminal period of the Mesozoic Era, spanning roughly 145 to 66 million years ago and ending at the Cretaceous-Paleogene boundary.",
+      "body": "The Cretaceous Period is the third and final period of the Mesozoic Era, extending from approximately 145 million years ago to 66 million years ago [1].\n\n## Climate and geography\n\nThe Cretaceous was a greenhouse world. Global temperatures were substantially higher than today and there is no evidence of permanent polar ice sheets for most of the period. High sea levels flooded continental interiors, producing extensive epicontinental seas such as the Western Interior Seaway, which divided North America [1].\n\nThe breakup of the supercontinent Pangaea continued throughout, progressively isolating landmasses and driving the divergence of regional faunas.\n\n## The angiosperm radiation\n\nThe most consequential biological event of the period was the rise of the angiosperms — flowering plants. First appearing in the Early Cretaceous, they diversified rapidly and had become ecologically dominant in many environments by its close [2]. This restructured terrestrial ecosystems and is closely linked to the diversification of pollinating insects.\n\n## The Cretaceous-Paleogene extinction\n\nThe period terminates at the K-Pg boundary, dated to about 66 million years ago. The boundary layer is marked worldwide by an iridium anomaly — iridium being rare in Earth's crust but common in asteroids — and is associated with the Chicxulub impact structure on the Yucatán Peninsula [3].\n\nThe impact is the leading explanation for the extinction. Massive volcanic activity in the Deccan Traps was occurring around the same time, and the relative contribution of the two is still discussed; the impact is generally regarded as the proximate trigger [3]. Roughly three quarters of species disappeared, including all non-avian dinosaurs."
+    },
+    "adult": {
+      "summary": "The terminal period of the Mesozoic Era (c. 145-66 Ma), characterised by greenhouse climate, continental fragmentation, the angiosperm radiation, and closure at the K-Pg mass extinction.",
+      "body": "The Cretaceous Period is the third and final period of the Mesozoic Era, extending from approximately 145 million years ago to the Cretaceous-Paleogene (K-Pg) boundary at about 66 million years ago. It is the longest period of the Mesozoic [1].\n\n## Palaeoclimate\n\nThe Cretaceous is the archetypal greenhouse interval of the Phanerozoic. Deep-ocean and surface temperatures were markedly elevated relative to the present, and there is no compelling evidence for sustained continental ice sheets through most of the period. Eustatic sea level reached among the highest values of the Phanerozoic, flooding cratonic interiors and producing extensive epeiric seas, of which the Western Interior Seaway of North America is the best documented [1].\n\n## Palaeogeography\n\nFragmentation of Pangaea continued throughout the period. The opening of the South Atlantic separated South America from Africa, India began its northward transit, and Australia and Antarctica remained conjoined until later. Progressive isolation drove endemism and regional faunal divergence, a pattern visible in the distinct dinosaur assemblages of Laramidia, South America and Gondwanan landmasses.\n\n## Biotic developments\n\nThe defining biological event is the radiation of angiosperms. Flowering plants appear in the Early Cretaceous record and undergo rapid diversification, displacing gymnosperm-dominated floras across many habitats by the Late Cretaceous [2]. The consequences extended well beyond botany: co-diversification with pollinating insects restructured terrestrial food webs, and modern terrestrial ecosystems are substantially a Cretaceous inheritance.\n\nMarine ecosystems saw the diversification of planktonic foraminifera and coccolithophores, whose calcareous remains formed the chalk deposits that give the period its name.\n\n## The Cretaceous-Paleogene extinction\n\nThe period terminates at a globally traceable boundary layer characterised by an iridium anomaly, shocked quartz and impact spherules. These signatures are attributed to the impact that formed the Chicxulub crater on the Yucatán Peninsula, dated to the boundary [3].\n\nThe impact hypothesis is the leading explanation for the extinction. Contemporaneous Deccan Traps volcanism has been proposed as a contributing or alternative stressor, and the relative weighting of the two mechanisms remains an active area of research rather than a settled question [3]. Approximately 75 percent of species are estimated to have been lost, including all non-avian dinosaurs, pterosaurs, ammonites and the large marine reptiles. Avian dinosaurs, mammals, crocodilians and many other lineages survived."
+    }
+  },
+  "citations": [
+    {
+      "marker": 1,
+      "source": "usgs",
+      "claim": "Duration and boundaries of the Cretaceous Period, greenhouse climate conditions, and high eustatic sea level with epicontinental seas.",
+      "supports": "supports"
+    },
+    {
+      "marker": 2,
+      "source": "si-nmnh",
+      "claim": "First appearance and subsequent ecological dominance of flowering plants during the Cretaceous.",
+      "supports": "supports"
+    },
+    {
+      "marker": 3,
+      "source": "nhm-london",
+      "claim": "Timing of the Cretaceous-Paleogene extinction, the Chicxulub impact, and the proportion of species lost.",
+      "supports": "supports"
+    }
+  ],
+  "relations": [
+    {
+      "to": "tyrannosaurus-rex",
+      "kind": "related"
+    },
+    {
+      "to": "triceratops",
+      "kind": "related"
+    },
+    {
+      "to": "fossil",
+      "kind": "related"
+    },
+    {
+      "to": "earth",
+      "kind": "part_of",
+      "weight": 0.5
+    }
+  ],
+  "timeline": [
+    {
+      "title": "Cretaceous Period",
+      "description": "The final period of the Mesozoic Era.",
+      "start": -145000000,
+      "end": -66000000,
+      "precision": "million_years",
+      "era": "Mesozoic",
+      "importance": 5,
+      "epistemic": "estimate"
+    },
+    {
+      "title": "Flowering plants spread worldwide",
+      "description": "Angiosperms diversify and become ecologically dominant.",
+      "start": -125000000,
+      "end": -80000000,
+      "precision": "million_years",
+      "era": "Cretaceous",
+      "importance": 4,
+      "epistemic": "estimate"
+    }
+  ],
+  "review": {
+    "last_reviewed": "2026-09-06",
+    "review_months": 60
+  }
+}

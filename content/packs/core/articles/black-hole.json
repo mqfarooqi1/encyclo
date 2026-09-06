@@ -1,0 +1,59 @@
+{
+  "slug": "black-hole",
+  "title": "Black Hole",
+  "type": "astronomical_object",
+  "categories": ["space", "science"],
+  "primary_category": "space",
+  "aliases": [{ "text": "black holes", "kind": "alternative" }, { "text": "singularity", "kind": "alternative" }],
+  "summary": "A region of spacetime where gravity is so strong that nothing, not even light, can escape once it passes the event horizon.",
+
+  "facts": [
+    { "key": "definition", "label": "What it is", "value": "A region where gravity prevents anything escaping, including light", "group": "Basics", "cite": [1] },
+    { "key": "event_horizon", "label": "Event horizon", "value": "The boundary of no return", "group": "Basics", "cite": [1] },
+    { "key": "formation", "label": "Usual formation", "value": "Collapse of a massive star at the end of its life", "group": "Basics", "cite": [1] },
+    { "key": "stellar_mass", "label": "Stellar-mass black holes", "value": "Roughly 3 to 100 times the Sun's mass", "epistemic": "estimate", "confidence": 0.85, "group": "Types", "cite": [1] },
+    { "key": "supermassive", "label": "Supermassive black holes", "value": "Millions to billions of solar masses", "epistemic": "estimate", "confidence": 0.9, "group": "Types", "cite": [2] },
+    { "key": "milky_way", "label": "At the centre of our galaxy", "value": "Sagittarius A*, about 4 million solar masses", "value_num": 4000000, "unit": "solar masses", "epistemic": "estimate", "confidence": 0.9, "group": "Types", "cite": [2] },
+    { "key": "first_image", "label": "First direct image", "value": "2019, of the black hole in galaxy M87", "value_num": 2019, "group": "History", "cite": [3] },
+    { "key": "predicted", "label": "Predicted by", "value": "General relativity, 1915-1916", "group": "History", "cite": [1] }
+  ],
+
+  "content": {
+    "age6_8": {
+      "summary": "A place in space that pulls so hard nothing can get back out.",
+      "body": "A black hole is a place in space where gravity pulls incredibly hard [1].\n\nIt pulls so hard that if something goes too close, it can never come back out. Not even light can get out. That is why it looks black [1].\n\nThe line you must not cross is called the event horizon.\n\nBlack holes are not really holes. They are made when a very big star runs out of fuel and squashes down very, very small [1].\n\nOur Sun is not big enough to ever become one. We are safe [1]."
+    },
+    "age9_12": {
+      "summary": "What black holes are, how they form, and how astronomers find something invisible.",
+      "body": "A black hole is a region of space where gravity is so strong that nothing can escape — not even light [1].\n\n## The event horizon\n\nThe boundary is called the event horizon. It is not a surface you could touch; it is the point where escaping would require travelling faster than light, which nothing can do [1].\n\nAnything crossing it is cut off from the rest of the universe.\n\n## How they form\n\nA star stays puffed up because the energy from nuclear fusion in its core pushes outward, balancing gravity pulling inward.\n\nWhen a very massive star runs out of fuel, that outward push stops. Gravity wins. The core collapses, and if the star was heavy enough, nothing can stop the collapse [1].\n\nOur Sun is far too small for this. It will end as a white dwarf, not a black hole [1].\n\n## Finding something invisible\n\nYou cannot see a black hole directly, so astronomers watch what happens around it:\n\n- stars orbiting something massive but invisible\n- gas heated to millions of degrees as it spirals in, glowing in X-rays\n- ripples in spacetime when two black holes collide [2]\n\n## The picture\n\nIn 2019 the Event Horizon Telescope released the first image of a black hole's shadow, in the galaxy M87. It was made by linking radio telescopes across the whole planet [3]."
+    },
+    "teen": {
+      "summary": "A spacetime region bounded by an event horizon, predicted by general relativity and confirmed by orbital dynamics, X-ray emission, gravitational waves and direct imaging.",
+      "body": "A black hole is a region of spacetime where gravitational curvature is sufficient that no causal path leads outward — the escape velocity exceeds the speed of light [1].\n\n## Theoretical basis\n\nKarl Schwarzschild derived the first exact solution to Einstein's field equations in 1916, describing the geometry outside a spherical mass. The solution contains a critical radius — the Schwarzschild radius — at which the metric becomes singular in these coordinates [1].\n\nThis was initially treated as a mathematical curiosity. Only later was it accepted that objects could actually collapse past this radius, forming true black holes.\n\n## Structure\n\nThe event horizon is a one-way causal boundary, not a physical surface. An infalling observer crosses it without any local indication of doing so; for a distant observer, that infall appears to slow and redshift indefinitely, never quite completing [1].\n\nGeneral relativity predicts a singularity at the centre where curvature diverges. This is widely regarded as signalling the breakdown of the theory rather than a physical infinity, and resolving it is expected to require quantum gravity [1].\n\nBlack holes are described completely by just three properties: mass, electric charge and angular momentum.\n\n## Classes\n\n**Stellar-mass** black holes, roughly 3 to 100 solar masses, form from the collapse of massive stellar cores.\n\n**Supermassive** black holes, millions to billions of solar masses, occupy the centres of most large galaxies. Sagittarius A*, at the centre of the Milky Way, has a mass of about 4 million Suns, determined by tracking the orbits of individual stars around it over decades [2].\n\nHow supermassive black holes grew so large so early in cosmic history is an open problem [2].\n\n## Observational evidence\n\nEvidence is now multi-stranded: stellar orbits around invisible compact masses; X-ray emission from accretion discs; relativistic jets; gravitational waves from mergers, first detected in 2015; and direct imaging of the horizon-scale shadow of M87* in 2019 and Sagittarius A* in 2022, by the Event Horizon Telescope [3].\n\n## Hawking radiation\n\nStephen Hawking argued in 1974 that quantum effects near the horizon cause black holes to radiate and slowly evaporate. The prediction is theoretically well motivated but has never been observed — for stellar-mass black holes the effect is far too faint to detect against the cosmic microwave background [1]."
+    },
+    "adult": {
+      "summary": "A spacetime region causally disconnected from external observers, characterised entirely by mass, charge and angular momentum, and now confirmed by dynamical, electromagnetic, gravitational-wave and interferometric imaging evidence.",
+      "body": "A black hole is a region of spacetime bounded by an event horizon: a null hypersurface beyond which no future-directed causal curve reaches distant observers. It is a prediction of general relativity, not an object in the ordinary sense [1].\n\n## Theoretical foundations\n\nSchwarzschild's 1916 vacuum solution describes the exterior geometry of a static spherical mass and exhibits a coordinate singularity at r = 2GM/c². That this represents a horizon rather than a physical singularity was clarified by later coordinate systems.\n\nThe Kerr solution of 1963 generalised this to rotating bodies and is the astrophysically relevant case, since collapsing stars carry angular momentum. The no-hair theorems establish that an isolated stationary black hole is characterised entirely by mass, angular momentum and electric charge; all other information about the progenitor is inaccessible externally [1].\n\nThe predicted central singularity is generally interpreted as marking the breakdown of classical general relativity rather than a physical divergence, and its resolution is expected to require a quantum theory of gravity.\n\n## Formation channels\n\nStellar-mass black holes form when the degenerate core of a massive star exceeds the Tolman-Oppenheimer-Volkoff limit and no known equation of state can halt collapse.\n\nSupermassive black holes, spanning roughly 10^6 to 10^10 solar masses, reside at the centres of most massive galaxies. Their formation pathway remains unresolved: candidate mechanisms include direct collapse of primordial gas clouds, runaway merging in dense stellar clusters, and sustained super-Eddington accretion onto stellar-mass seeds. The existence of quasars at redshifts corresponding to only a few hundred million years after the Big Bang constrains these models severely and is an active problem [2].\n\nIntermediate-mass black holes are sparsely evidenced, and primordial black holes remain hypothetical.\n\n## Observational status\n\nThe evidential case is now strong and independent across several channels.\n\n**Dynamical**: decades of infrared astrometry tracking individual stars orbiting Sagittarius A* yield an enclosed mass of approximately 4.3 million solar masses within a volume that excludes any known alternative configuration [2].\n\n**Electromagnetic**: accretion discs radiate across the spectrum, with relativistically broadened iron emission lines probing the innermost stable circular orbit.\n\n**Gravitational-wave**: since 2015, LIGO-Virgo has observed numerous binary black hole mergers, with waveforms matching general-relativistic predictions through inspiral, merger and ringdown.\n\n**Interferometric imaging**: the Event Horizon Telescope published horizon-scale images of M87* in 2019 and Sagittarius A* in 2022, resolving the predicted photon ring and central shadow [3].\n\n## Thermodynamics and the information problem\n\nBekenstein and Hawking established that black holes possess entropy proportional to horizon area and a temperature inversely proportional to mass. Hawking's 1974 result implies black holes radiate thermally and evaporate over timescales that, for astrophysical masses, vastly exceed the current age of the universe. Hawking radiation has not been observed [1].\n\nIf the radiation is exactly thermal, information about infalling matter is destroyed, contradicting unitary evolution in quantum mechanics. This information paradox remains unresolved and is a central motivation in quantum gravity research. It should be described as an open problem, not a settled result [1]."
+    }
+  },
+
+  "citations": [
+    { "marker": 1, "source": "nasa-black-holes", "claim": "Definition and structure of black holes, the event horizon, formation from stellar collapse, mass ranges, and Hawking radiation as an unobserved prediction.", "supports": "supports" },
+    { "marker": 2, "source": "nasa-science", "claim": "Supermassive black holes at galactic centres, the mass of Sagittarius A* from stellar orbits, and the open problem of early supermassive black hole growth.", "supports": "supports" },
+    { "marker": 3, "source": "eht-collaboration", "claim": "Direct horizon-scale imaging of M87* in 2019 and Sagittarius A* in 2022 by very-long-baseline interferometry.", "supports": "supports" }
+  ],
+
+  "relations": [
+    { "to": "gravity", "kind": "example_of" },
+    { "to": "albert-einstein", "kind": "discovered_by", "weight": 0.7 },
+    { "to": "solar-system", "kind": "contrasts_with", "weight": 0.4 }
+  ],
+
+  "timeline": [
+    { "title": "Schwarzschild solution published", "description": "The first exact solution of Einstein's field equations.", "start": 1916, "precision": "exact", "era": "Modern", "importance": 4 },
+    { "title": "Hawking predicts black hole radiation", "start": 1974, "precision": "exact", "era": "Modern", "importance": 4 },
+    { "title": "First image of a black hole", "description": "The Event Horizon Telescope images M87*.", "start": 2019, "precision": "exact", "era": "Modern", "importance": 5 }
+  ],
+
+  "review": { "last_reviewed": "2026-09-06" }
+}

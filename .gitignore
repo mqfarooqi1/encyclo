@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+# Runtime data - never commit user data or generated databases
+data/
+*.db
+*.db-wal
+*.db-shm
+.env
+.env.*
+!.env.example
+# Downloaded media binaries (tracked by manifest, not by blob)
+content/packs/*/media/*
+!content/packs/*/media/.gitkeep

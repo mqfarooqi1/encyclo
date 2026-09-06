@@ -1,0 +1,220 @@
+{
+  "slug": "mars",
+  "title": "Mars",
+  "type": "planet",
+  "categories": [
+    "space"
+  ],
+  "primary_category": "space",
+  "aliases": [
+    {
+      "text": "the Red Planet",
+      "kind": "alternative"
+    }
+  ],
+  "summary": "The fourth planet from the Sun, a cold desert world with the largest volcano in the Solar System and strong geological evidence that liquid water once flowed on its surface.",
+  "facts": [
+    {
+      "key": "position",
+      "label": "Position from the Sun",
+      "value": "Fourth",
+      "group": "Orbit",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "distance_from_sun",
+      "label": "Average distance from the Sun",
+      "value": "About 228 million km",
+      "value_num": 227900000,
+      "unit": "km",
+      "comparable_key": "distance_from_sun",
+      "group": "Orbit",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "orbital_period",
+      "label": "Year length",
+      "value": "687 Earth days",
+      "value_num": 687,
+      "unit": "days",
+      "comparable_key": "orbital_period",
+      "group": "Orbit",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "day_length",
+      "label": "Day length",
+      "value": "24 hours 37 minutes",
+      "value_num": 24.6,
+      "unit": "hours",
+      "comparable_key": "day_length",
+      "group": "Orbit",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "diameter",
+      "label": "Diameter",
+      "value": "6,779 km",
+      "value_num": 6779,
+      "unit": "km",
+      "comparable_key": "diameter",
+      "group": "Physical",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "moons",
+      "label": "Moons",
+      "value": "2 - Phobos and Deimos",
+      "value_num": 2,
+      "comparable_key": "moons",
+      "group": "Physical",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "gravity",
+      "label": "Surface gravity",
+      "value": "About 38% of Earth's",
+      "value_num": 3.72,
+      "unit": "m/s²",
+      "comparable_key": "gravity",
+      "group": "Physical",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "atmosphere",
+      "label": "Atmosphere",
+      "value": "95% carbon dioxide, very thin",
+      "comparable_key": "atmosphere",
+      "group": "Physical",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "temperature",
+      "label": "Average temperature",
+      "value": "About -60 °C",
+      "value_num": -60,
+      "unit": "°C",
+      "epistemic": "estimate",
+      "confidence": 0.9,
+      "comparable_key": "temperature",
+      "group": "Physical",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "tallest_volcano",
+      "label": "Olympus Mons",
+      "value": "About 22 km high",
+      "value_num": 22,
+      "unit": "km",
+      "epistemic": "estimate",
+      "confidence": 0.9,
+      "group": "Features",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "life",
+      "label": "Known life",
+      "value": "None found",
+      "comparable_key": "life",
+      "group": "Physical",
+      "cite": [
+        3
+      ]
+    }
+  ],
+  "content": {
+    "age6_8": {
+      "summary": "A cold, dusty, red planet next door to Earth. Robots drive around on it.",
+      "body": "Mars is a planet. It looks red because its dust has rust in it [1].\n\nMars is smaller than Earth and much colder. You could not breathe the air there [1].\n\nA day on Mars is almost the same as a day on Earth — just a bit longer [1].\n\nMars has the biggest volcano in the whole Solar System. It is called Olympus Mons [2].\n\nNobody has been to Mars. But robots called rovers drive around and take pictures [3]."
+    },
+    "age9_12": {
+      "summary": "The fourth planet from the Sun, with giant volcanoes, polar ice and signs that water once flowed there.",
+      "body": "Mars is the fourth planet from the Sun and the next one out from Earth. It is often called the Red Planet because its surface dust contains iron oxide — rust [1].\n\n## A smaller, colder world\n\nMars is about 6,779 kilometres across, roughly half Earth's width. The average temperature is around minus 60 degrees Celsius [1].\n\nIts atmosphere is very thin and made mostly of carbon dioxide, so you could not breathe it, and it traps very little heat [1].\n\nA Martian day is 24 hours and 37 minutes — remarkably close to Earth's. A Martian year is 687 Earth days, because Mars is further from the Sun and takes longer to go around [1].\n\n## Enormous landscapes\n\nMars has the largest volcano known in the Solar System: Olympus Mons, about 22 kilometres high — around two and a half times the height of Mount Everest [2].\n\nIt also has Valles Marineris, a canyon system stretching thousands of kilometres, far larger than the Grand Canyon [2].\n\n## Water\n\nMars today is dry, but its surface is carved with dried river valleys, deltas and minerals that only form in water. Scientists are confident that liquid water flowed on Mars billions of years ago [3].\n\nThere is water ice today at the poles and under the surface [3].\n\n## Exploring Mars\n\nNo person has been to Mars. Robotic landers and rovers have been studying it since the 1970s, drilling rocks and searching for signs that life might once have existed [3]."
+    },
+    "teen": {
+      "summary": "The fourth planet: a cold, thin-atmosphered terrestrial world preserving extensive geological evidence of ancient surface water.",
+      "body": "Mars is the fourth planet from the Sun, a terrestrial world with roughly half Earth's diameter and about 38 percent of its surface gravity [1].\n\n## Atmosphere and climate\n\nThe Martian atmosphere is approximately 95 percent carbon dioxide and extremely tenuous — surface pressure is under one percent of Earth's. It provides almost no greenhouse warming and no meaningful protection from radiation. Mean surface temperature is about -60 °C, though equatorial daytime temperatures can rise above freezing [1].\n\nMars has an axial tilt similar to Earth's, so it has seasons; the polar caps, composed of water ice and seasonal carbon dioxide frost, grow and shrink accordingly [1].\n\n## Geology\n\nMars hosts the largest known volcano in the Solar System, Olympus Mons, standing roughly 22 km above the surrounding plain. Its scale is generally attributed to the absence of plate tectonics: without moving plates, a volcano sits over a hotspot indefinitely and simply keeps building, rather than forming a chain as in Hawaii [2].\n\nValles Marineris is a canyon system over 4,000 km long and up to 7 km deep, most likely a tectonic rift rather than a river-cut valley [2].\n\nThe planet's crustal dichotomy — smooth northern lowlands against ancient cratered southern highlands — is a major unexplained feature [2].\n\n## Evidence for past water\n\nThe case that liquid water once flowed on Mars is strong and multi-stranded: dendritic valley networks, sedimentary deposits with delta geometry, and minerals such as clays and sulfates that form only in the presence of water [3].\n\nMars once had a thicker atmosphere. It lacks a global magnetic field today, and measurements indicate the solar wind has been stripping the atmosphere over billions of years — a plausible major factor in its transition to a cold, dry state [3].\n\n## Exploration\n\nMars has been studied by orbiters, landers and rovers since the 1970s. Current work focuses on habitability: whether Mars once had environments capable of supporting microbial life, and whether any chemical traces of it survive. No evidence of life, past or present, has been found [3]."
+    },
+    "adult": {
+      "summary": "The fourth planet from the Sun: a cold, low-pressure terrestrial body whose stratigraphy records an earlier era of surface liquid water and subsequent atmospheric loss.",
+      "body": "Mars is the fourth planet from the Sun, with an equatorial diameter of 6,779 km, a mass approximately 0.107 that of Earth, and surface gravity of 3.72 m/s² [1].\n\n## Atmosphere\n\nThe atmosphere is dominated by carbon dioxide (about 95 percent), with nitrogen and argon making up most of the remainder. Mean surface pressure is roughly 610 pascals — below the triple point of water over much of the surface, meaning pure liquid water is generally unstable and sublimates rather than persisting [1].\n\nMean surface temperature is near -60 °C, with wide diurnal and latitudinal variation. Axial obliquity is presently comparable to Earth's, producing seasons, but unlike Earth it is not stabilised by a large moon and has varied substantially over geological time — a significant driver of climate and ice distribution history [1].\n\n## Geology and geophysics\n\nThe Tharsis rise dominates the western hemisphere and hosts several enormous shield volcanoes, of which Olympus Mons is the largest at approximately 22 km relief. The prevailing explanation for such scale is the absence of plate tectonics: a stationary lithosphere over a persistent magma source permits construction at a single locus rather than distributing volcanism along a migrating chain [2].\n\nValles Marineris extends over 4,000 km with depths reaching 7 km, and is interpreted principally as an extensional tectonic feature associated with Tharsis loading, subsequently modified by collapse and fluvial processes [2].\n\nThe crustal dichotomy — a several-kilometre elevation and thickness contrast between northern lowlands and southern highlands — remains among the outstanding problems in Martian geophysics, with giant-impact and endogenic convection explanations both under discussion [2].\n\nMars lacks an active core dynamo. Crustal remanent magnetism recorded in ancient southern terrain indicates a global field existed early and subsequently ceased [3].\n\n## Aqueous history\n\nMultiple independent lines of evidence establish that liquid water was stable at the Martian surface during the Noachian and into the Hesperian: dendritic valley networks, sedimentary sequences with delta and lacustrine geometry documented in situ by rovers, and mineralogical assemblages — phyllosilicates, sulfates, hydrated silica — requiring aqueous alteration [3].\n\nThe transition to present conditions is attributed substantially to atmospheric loss. With the dynamo extinct and no protective magnetosphere, solar wind stripping has removed atmosphere over billions of years; in situ measurements of escaping ions have quantified ongoing loss rates. The relative contributions of solar wind escape, impact erosion and carbonate sequestration to the total inventory loss remain a matter of active research [3].\n\n## Astrobiology and exploration\n\nMars has been investigated by orbital, landed and roving spacecraft since the 1970s. The scientific programme centres on habitability rather than on the detection of extant life: identifying environments that were once capable of supporting microbial metabolism, and locating and characterising materials with high biosignature preservation potential.\n\nNo confirmed evidence of past or present life has been obtained. Claims to the contrary, including interpretations of features in the meteorite ALH 84001, have not achieved scientific consensus and should be described as contested rather than established [3]."
+    }
+  },
+  "citations": [
+    {
+      "marker": 1,
+      "source": "nasa-mars",
+      "claim": "Martian diameter, gravity, orbital and rotational periods, atmospheric composition and pressure, and mean surface temperature.",
+      "supports": "supports"
+    },
+    {
+      "marker": 2,
+      "source": "nasa-science",
+      "claim": "Scale of Olympus Mons and Valles Marineris, and the relationship between the absence of plate tectonics and volcano size.",
+      "supports": "supports"
+    },
+    {
+      "marker": 3,
+      "source": "nasa-solar-system",
+      "claim": "Geological and mineralogical evidence for ancient surface water, loss of the global magnetic field, atmospheric escape, and the absence of confirmed biosignatures.",
+      "supports": "supports"
+    }
+  ],
+  "relations": [
+    {
+      "to": "earth",
+      "kind": "contrasts_with"
+    },
+    {
+      "to": "solar-system",
+      "kind": "part_of"
+    },
+    {
+      "to": "volcano",
+      "kind": "related"
+    }
+  ],
+  "timeline": [
+    {
+      "title": "Rivers and lakes on Mars",
+      "description": "Liquid water is stable at the surface during the Noachian period.",
+      "start": -4100000000,
+      "end": -3700000000,
+      "precision": "million_years",
+      "era": "Noachian",
+      "importance": 4,
+      "epistemic": "interpretation"
+    },
+    {
+      "title": "First successful Mars landing",
+      "description": "Viking 1 touches down and returns surface images.",
+      "start": 1976,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 4
+    }
+  ],
+  "review": {
+    "last_reviewed": "2026-09-06"
+  }
+}

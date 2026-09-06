@@ -1,0 +1,53 @@
+[
+  { "uid": "nasa-science", "title": "NASA Science", "publisher": "National Aeronautics and Space Administration", "type": "government", "tier": 1, "url": "https://science.nasa.gov/", "accessed": "2026-09-06", "license": "Public domain (US Government work)", "notes": "Root science portal. Deep links are verified by the link checker before promotion." },
+  { "uid": "nasa-solar-system", "title": "NASA Solar System Exploration", "publisher": "NASA", "type": "government", "tier": 1, "url": "https://science.nasa.gov/solar-system/", "accessed": "2026-09-06", "license": "Public domain (US Government work)" },
+  { "uid": "nasa-mars", "title": "Mars - NASA Science", "publisher": "NASA", "type": "government", "tier": 1, "url": "https://science.nasa.gov/mars/", "accessed": "2026-09-06", "license": "Public domain (US Government work)" },
+  { "uid": "nasa-earth", "title": "Earth - NASA Science", "publisher": "NASA", "type": "government", "tier": 1, "url": "https://science.nasa.gov/earth/", "accessed": "2026-09-06", "license": "Public domain (US Government work)" },
+  { "uid": "nasa-moon", "title": "Earth's Moon - NASA Science", "publisher": "NASA", "type": "government", "tier": 1, "url": "https://science.nasa.gov/moon/", "accessed": "2026-09-06", "license": "Public domain (US Government work)" },
+  { "uid": "nasa-sun", "title": "The Sun - NASA Science", "publisher": "NASA", "type": "government", "tier": 1, "url": "https://science.nasa.gov/sun/", "accessed": "2026-09-06", "license": "Public domain (US Government work)" },
+  { "uid": "nasa-black-holes", "title": "Black Holes - NASA Science", "publisher": "NASA", "type": "government", "tier": 1, "url": "https://science.nasa.gov/universe/black-holes/", "accessed": "2026-09-06", "license": "Public domain (US Government work)" },
+  { "uid": "nasa-apollo", "title": "Apollo Program", "publisher": "NASA", "type": "government", "tier": 1, "url": "https://www.nasa.gov/the-apollo-program/", "accessed": "2026-09-06", "license": "Public domain (US Government work)" },
+  { "uid": "esa-home", "title": "European Space Agency", "publisher": "ESA", "type": "organisation", "tier": 1, "url": "https://www.esa.int/", "accessed": "2026-09-06" },
+  { "uid": "eht-collaboration", "title": "Event Horizon Telescope", "publisher": "Event Horizon Telescope Collaboration", "type": "organisation", "tier": 1, "url": "https://eventhorizontelescope.org/", "accessed": "2026-09-06" },
+
+  { "uid": "usgs", "title": "United States Geological Survey", "publisher": "USGS", "type": "government", "tier": 1, "url": "https://www.usgs.gov/", "accessed": "2026-09-06", "license": "Public domain (US Government work)" },
+  { "uid": "usgs-volcano", "title": "USGS Volcano Hazards Program", "publisher": "USGS", "type": "government", "tier": 1, "url": "https://www.usgs.gov/programs/VHP", "accessed": "2026-09-06", "license": "Public domain (US Government work)" },
+  { "uid": "noaa", "title": "National Oceanic and Atmospheric Administration", "publisher": "NOAA", "type": "government", "tier": 1, "url": "https://www.noaa.gov/", "accessed": "2026-09-06", "license": "Public domain (US Government work)" },
+  { "uid": "ipcc-ar6", "title": "Sixth Assessment Report", "publisher": "Intergovernmental Panel on Climate Change", "type": "organisation", "tier": 1, "url": "https://www.ipcc.ch/assessment-report/ar6/", "published": "2021-2023", "accessed": "2026-09-06" },
+
+  { "uid": "si-nmnh", "title": "National Museum of Natural History", "publisher": "Smithsonian Institution", "type": "museum", "tier": 1, "url": "https://naturalhistory.si.edu/", "accessed": "2026-09-06" },
+  { "uid": "si-human-origins", "title": "Smithsonian Human Origins Program", "publisher": "Smithsonian Institution", "type": "museum", "tier": 1, "url": "https://humanorigins.si.edu/", "accessed": "2026-09-06" },
+  { "uid": "nhm-london", "title": "Natural History Museum, London", "publisher": "Natural History Museum", "type": "museum", "tier": 1, "url": "https://www.nhm.ac.uk/", "accessed": "2026-09-06" },
+  { "uid": "amnh", "title": "American Museum of Natural History", "publisher": "AMNH", "type": "museum", "tier": 1, "url": "https://www.amnh.org/", "accessed": "2026-09-06" },
+  { "uid": "australian-museum", "title": "Australian Museum", "publisher": "Australian Museum", "type": "museum", "tier": 1, "url": "https://australian.museum/", "accessed": "2026-09-06" },
+  { "uid": "field-museum", "title": "Field Museum", "publisher": "Field Museum of Natural History", "type": "museum", "tier": 1, "url": "https://www.fieldmuseum.org/", "accessed": "2026-09-06" },
+
+  { "uid": "iucn-redlist", "title": "The IUCN Red List of Threatened Species", "publisher": "International Union for Conservation of Nature", "type": "organisation", "tier": 1, "url": "https://www.iucnredlist.org/", "accessed": "2026-09-06" },
+  { "uid": "noaa-fisheries-whale", "title": "Blue Whale", "publisher": "NOAA Fisheries", "type": "government", "tier": 1, "url": "https://www.fisheries.noaa.gov/species/blue-whale", "accessed": "2026-09-06", "license": "Public domain (US Government work)" },
+  { "uid": "wwf", "title": "World Wide Fund for Nature", "publisher": "WWF", "type": "organisation", "tier": 2, "url": "https://www.worldwildlife.org/", "accessed": "2026-09-06" },
+
+  { "uid": "nih-nlm", "title": "National Library of Medicine", "publisher": "US National Institutes of Health", "type": "government", "tier": 1, "url": "https://www.nlm.nih.gov/", "accessed": "2026-09-06", "license": "Public domain (US Government work)" },
+  { "uid": "nhgri", "title": "National Human Genome Research Institute", "publisher": "US National Institutes of Health", "type": "government", "tier": 1, "url": "https://www.genome.gov/", "accessed": "2026-09-06", "license": "Public domain (US Government work)" },
+  { "uid": "who", "title": "World Health Organization", "publisher": "WHO", "type": "organisation", "tier": 1, "url": "https://www.who.int/", "accessed": "2026-09-06" },
+
+  { "uid": "britannica", "title": "Encyclopaedia Britannica", "publisher": "Encyclopaedia Britannica, Inc.", "type": "encyclopaedia", "tier": 3, "url": "https://www.britannica.com/", "accessed": "2026-09-06", "notes": "Reputable secondary reference. Used for orientation, never as the sole support for a numeric claim." },
+  { "uid": "nobel-prize", "title": "The Nobel Prize", "publisher": "Nobel Prize Outreach", "type": "organisation", "tier": 1, "url": "https://www.nobelprize.org/", "accessed": "2026-09-06" },
+  { "uid": "royal-society", "title": "The Royal Society", "publisher": "The Royal Society", "type": "organisation", "tier": 1, "url": "https://royalsociety.org/", "accessed": "2026-09-06" },
+  { "uid": "cern", "title": "CERN", "publisher": "European Organization for Nuclear Research", "type": "organisation", "tier": 1, "url": "https://home.cern/", "accessed": "2026-09-06" },
+  { "uid": "loc", "title": "Library of Congress", "publisher": "Library of Congress", "type": "government", "tier": 1, "url": "https://www.loc.gov/", "accessed": "2026-09-06" },
+  { "uid": "unesco-whc", "title": "UNESCO World Heritage Convention", "publisher": "UNESCO", "type": "organisation", "tier": 1, "url": "https://whc.unesco.org/", "accessed": "2026-09-06" },
+  { "uid": "british-museum", "title": "The British Museum", "publisher": "British Museum", "type": "museum", "tier": 1, "url": "https://www.britishmuseum.org/", "accessed": "2026-09-06" },
+  { "uid": "met-museum", "title": "The Metropolitan Museum of Art", "publisher": "The Metropolitan Museum of Art", "type": "museum", "tier": 1, "url": "https://www.metmuseum.org/", "accessed": "2026-09-06" },
+  { "uid": "iwm", "title": "Imperial War Museums", "publisher": "Imperial War Museums", "type": "museum", "tier": 1, "url": "https://www.iwm.org.uk/", "accessed": "2026-09-06" },
+  { "uid": "ushmm", "title": "United States Holocaust Memorial Museum", "publisher": "USHMM", "type": "museum", "tier": 1, "url": "https://www.ushmm.org/", "accessed": "2026-09-06" },
+
+  { "uid": "abs", "title": "Australian Bureau of Statistics", "publisher": "Commonwealth of Australia", "type": "government", "tier": 1, "url": "https://www.abs.gov.au/", "accessed": "2026-09-06" },
+  { "uid": "ga-australia", "title": "Geoscience Australia", "publisher": "Commonwealth of Australia", "type": "government", "tier": 1, "url": "https://www.ga.gov.au/", "accessed": "2026-09-06" },
+  { "uid": "un-population", "title": "World Population Prospects", "publisher": "United Nations Department of Economic and Social Affairs", "type": "dataset", "tier": 1, "url": "https://population.un.org/wpp/", "accessed": "2026-09-06" },
+  { "uid": "worldbank-data", "title": "World Bank Open Data", "publisher": "The World Bank", "type": "dataset", "tier": 1, "url": "https://data.worldbank.org/", "accessed": "2026-09-06", "license": "CC BY 4.0", "license_url": "https://creativecommons.org/licenses/by/4.0/" },
+
+  { "uid": "computer-history-museum", "title": "Computer History Museum", "publisher": "Computer History Museum", "type": "museum", "tier": 1, "url": "https://computerhistory.org/", "accessed": "2026-09-06" },
+  { "uid": "internet-society", "title": "Brief History of the Internet", "publisher": "Internet Society", "type": "organisation", "tier": 2, "url": "https://www.internetsociety.org/internet/history-internet/brief-history-internet/", "accessed": "2026-09-06" },
+  { "uid": "darwin-online", "title": "Darwin Online", "publisher": "University of Cambridge", "type": "university", "tier": 1, "url": "http://darwin-online.org.uk/", "accessed": "2026-09-06" },
+  { "uid": "einstein-papers", "title": "The Collected Papers of Albert Einstein", "publisher": "California Institute of Technology / Princeton University Press", "type": "university", "tier": 1, "url": "https://einsteinpapers.press.princeton.edu/", "accessed": "2026-09-06" }
+]

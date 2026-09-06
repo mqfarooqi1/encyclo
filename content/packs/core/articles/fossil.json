@@ -1,0 +1,134 @@
+{
+  "slug": "fossil",
+  "title": "Fossil",
+  "type": "science_concept",
+  "categories": [
+    "dinosaurs",
+    "science"
+  ],
+  "primary_category": "dinosaurs",
+  "aliases": [
+    {
+      "text": "fossils",
+      "kind": "alternative"
+    },
+    {
+      "text": "fossilisation",
+      "kind": "alternative"
+    }
+  ],
+  "summary": "The preserved remains or traces of ancient life, and the primary physical evidence from which the history of life on Earth is reconstructed.",
+  "facts": [
+    {
+      "key": "definition",
+      "label": "What it is",
+      "value": "Preserved remains or traces of ancient organisms",
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "oldest",
+      "label": "Oldest widely accepted fossils",
+      "value": "About 3.5 billion years old",
+      "value_num": -3500000000,
+      "unit": "years",
+      "epistemic": "contested",
+      "confidence": 0.6,
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "types",
+      "label": "Main types",
+      "value": "Body fossils and trace fossils",
+      "group": "Basics",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "rarity",
+      "label": "How common",
+      "value": "Extremely rare; most organisms leave no fossil",
+      "epistemic": "fact",
+      "group": "Basics",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "dating",
+      "label": "How they are dated",
+      "value": "Radiometric dating of surrounding rock, plus rock layer order",
+      "group": "Method",
+      "cite": [
+        3
+      ]
+    }
+  ],
+  "content": {
+    "age6_8": {
+      "summary": "Bones, shells and footprints from long ago that turned into rock.",
+      "body": "A fossil is what is left of an animal or plant that lived a very long time ago [1].\n\nWhen an animal dies, it is usually eaten or it rots away. But sometimes it gets buried in mud or sand very quickly. Over a very long time, the mud turns to rock, and tiny bits of stone fill up the bones [1].\n\nThat is why fossils feel like rock, not like bone.\n\nSome fossils are not body parts at all. A footprint can be a fossil too [2].\n\nFossils are very rare. Most animals never become fossils [1]."
+    },
+    "age9_12": {
+      "summary": "The preserved evidence of ancient life, and how scientists work out how old it is.",
+      "body": "A fossil is the preserved remains or traces of something that lived in the past [1].\n\n## How a fossil forms\n\nMost living things leave nothing behind. To become a fossil, an organism usually has to be buried quickly — by mud in a river, ash from a volcano, or sand in a desert — before scavengers and decay destroy it [1].\n\nOnce buried, water carrying dissolved minerals seeps through the remains. Minerals gradually fill the tiny spaces in bone or wood, and sometimes replace the original material entirely. This is why a fossil bone is heavy and stony [1].\n\n## Two kinds of fossil\n\n- **Body fossils** are parts of the organism itself: bones, teeth, shells, leaves.\n- **Trace fossils** are things an organism did: footprints, burrows, nests, even droppings. Trace fossils are valuable because they record behaviour, which body fossils cannot [2].\n\n## Working out the age\n\nScientists rarely date the fossil itself. Instead they date volcanic rock layers above and below it using radioactive elements that decay at a known rate. That brackets the fossil between two ages [3].\n\nThe order of rock layers also helps: in undisturbed rock, deeper layers are older."
+    },
+    "teen": {
+      "summary": "Preserved remains and traces of past life, the evidential basis of palaeontology, and the methods used to date them.",
+      "body": "A fossil is any preserved remain, impression or trace of an organism from the geological past [1].\n\n## Taphonomy: why fossils are rare\n\nFossilisation is the exception, not the rule. The study of what happens to remains between death and discovery is called taphonomy. Rapid burial in fine sediment, low oxygen and limited scavenging all favour preservation; exposure, biological decay and mechanical destruction all work against it [1].\n\nThe consequence matters for interpretation: the fossil record is systematically biased. Hard-bodied marine organisms living in depositional environments are heavily over-represented; soft-bodied terrestrial organisms are barely represented at all. Absence of evidence in the fossil record is therefore weak evidence of absence [1].\n\n## Modes of preservation\n\n- **Permineralisation** — minerals precipitate in pore spaces, hardening the original material.\n- **Replacement** — original material is dissolved and substituted, sometimes preserving fine structure.\n- **Moulds and casts** — the organism dissolves, leaving a cavity that may later fill.\n- **Compression** — plant material flattened into a carbon film.\n- **Exceptional preservation** — rare deposits (Lagerstätten) preserving soft tissue.\n\nTrace fossils, or ichnofossils, record activity rather than anatomy: trackways, burrows, borings and coprolites [2].\n\n## Dating\n\nRelative dating relies on superposition and faunal succession. Absolute dating is usually indirect: radiometric methods applied to volcanic layers bracketing the fossil-bearing beds. Common systems include potassium-argon and uranium-lead for deep time, and radiocarbon for material younger than roughly 50,000 years [3].\n\n## Interpretive limits\n\nA fossil is a physical object; a reconstruction is an inference. Soft tissue, colour, behaviour and physiology are generally not preserved and must be inferred from comparative anatomy and from living relatives. Good palaeontology is explicit about which is which."
+    },
+    "adult": {
+      "summary": "Preserved remains or traces of past organisms; the primary evidential basis of palaeontology, subject to well-characterised taphonomic bias.",
+      "body": "A fossil is any preserved remain, impression or trace of an organism from the geological past. Fossils constitute the direct physical evidence from which the history of life is reconstructed [1].\n\n## Taphonomy and preservation bias\n\nFossilisation requires an improbable sequence of events: death in or near a depositional environment, rapid burial, and subsequent geological conditions that neither destroy nor metamorphose the enclosing rock. The overwhelming majority of organisms leave no trace [1].\n\nThe resulting record is non-random. Marine invertebrates with mineralised skeletons occupying continuously depositing environments are richly sampled. Terrestrial soft-bodied organisms, upland faunas and organisms from erosional settings are severely under-sampled. Any inference from the fossil record must account for this bias; a taxon's absence from a stratigraphic interval is frequently a statement about preservation and sampling rather than about existence [1].\n\n## Modes of preservation\n\nPermineralisation involves precipitation of minerals within pore spaces, retaining original structure. Replacement dissolves original material and substitutes another mineral phase, sometimes at sufficient fidelity to preserve cellular detail. Moulds and casts record external and internal morphology after dissolution of the original. Carbonaceous compression preserves organic films, typical of plant fossils. Konservat-Lagerstätten — deposits with exceptional preservation, such as those yielding soft tissue outlines — are disproportionately important precisely because they partially correct the standard bias.\n\nTrace fossils record behaviour: trackways, burrows, borings, nests and coprolites. Because they capture activity rather than anatomy, they supply evidence body fossils cannot, though attributing a trace to a specific producer is usually an inference [2].\n\n## Geochronology\n\nRelative dating rests on superposition, cross-cutting relationships and faunal succession, and yields sequence rather than age. Absolute ages generally come from radiometric dating of igneous units bracketing fossiliferous strata, most commonly U-Pb on zircon and Ar-Ar on volcanic minerals; radiocarbon applies only to the last several tens of thousands of years [3].\n\nReported fossil ages are therefore usually bracketed estimates with quantified uncertainty, and should be cited as such rather than as exact figures.\n\n## Interpretation\n\nThe distinction between observation and inference is central to palaeontological practice. Skeletal morphology is observed; musculature, integument, colouration, physiology and behaviour are inferred, typically by phylogenetic bracketing against living relatives. Reconstructions that do not make this distinction visible overstate what the evidence supports."
+    }
+  },
+  "citations": [
+    {
+      "marker": 1,
+      "source": "si-nmnh",
+      "claim": "Definition of a fossil, the conditions required for fossilisation, and the rarity and bias of the fossil record.",
+      "supports": "supports"
+    },
+    {
+      "marker": 2,
+      "source": "nhm-london",
+      "claim": "Distinction between body fossils and trace fossils, and the behavioural evidence trace fossils provide.",
+      "supports": "supports"
+    },
+    {
+      "marker": 3,
+      "source": "usgs",
+      "claim": "Radiometric dating methods applied to strata bracketing fossil-bearing beds, and the principle of superposition.",
+      "supports": "supports"
+    }
+  ],
+  "relations": [
+    {
+      "to": "tyrannosaurus-rex",
+      "kind": "related"
+    },
+    {
+      "to": "cretaceous-period",
+      "kind": "related"
+    },
+    {
+      "to": "charles-darwin",
+      "kind": "studied_by",
+      "weight": 0.6
+    },
+    {
+      "to": "human-evolution",
+      "kind": "related"
+    }
+  ],
+  "review": {
+    "last_reviewed": "2026-09-06",
+    "review_months": 48
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "photosynthesis",
+  "title": "Photosynthesis",
+  "type": "science_concept",
+  "categories": ["science", "environment"],
+  "primary_category": "science",
+  "aliases": [{ "text": "photosynthesise", "kind": "alternative" }],
+  "pronunciation_ipa": "/ˌfəʊtəʊˈsɪnθɪsɪs/",
+  "summary": "The process by which plants, algae and some bacteria use light energy to build sugars from carbon dioxide and water, releasing the oxygen that most life depends on.",
+
+  "facts": [
+    { "key": "inputs", "label": "Needs", "value": "Light, carbon dioxide and water", "group": "The process", "cite": [1] },
+    { "key": "outputs", "label": "Produces", "value": "Sugar (glucose) and oxygen", "group": "The process", "cite": [1] },
+    { "key": "location", "label": "Where it happens", "value": "Chloroplasts, mostly in leaves", "group": "The process", "cite": [1] },
+    { "key": "pigment", "label": "Main pigment", "value": "Chlorophyll", "group": "The process", "cite": [1] },
+    { "key": "why_green", "label": "Why plants are green", "value": "Chlorophyll absorbs red and blue light and reflects green", "group": "The process", "cite": [1] },
+    { "key": "efficiency", "label": "Typical energy efficiency", "value": "Around 1-2% of incoming sunlight in most crops", "value_num": 1.5, "unit": "%", "epistemic": "estimate", "confidence": 0.7, "group": "Numbers", "cite": [2] },
+    { "key": "origin", "label": "Oxygen-producing photosynthesis began", "value": "At least 2.4 billion years ago", "value_num": -2400000000, "unit": "years", "epistemic": "estimate", "confidence": 0.75, "group": "History", "cite": [3] }
+  ],
+
+  "content": {
+    "age6_8": {
+      "summary": "How plants make their own food using sunlight.",
+      "body": "Plants do not eat food like we do. They make their own [1].\n\nTo do it they need three things: sunlight, water, and a gas from the air called carbon dioxide [1].\n\nLeaves catch the sunlight. Roots pull up the water. Tiny holes in the leaves let the gas in.\n\nThe plant turns all this into sugar, which is its food.\n\nIt also makes oxygen and lets it go into the air. That is the gas we breathe [1].\n\nSo plants feed themselves and help us breathe at the same time."
+    },
+    "age9_12": {
+      "summary": "How plants convert light, water and carbon dioxide into sugar and oxygen.",
+      "body": "Photosynthesis is how plants, algae and some bacteria make their own food using light [1].\n\n## The recipe\n\nA plant takes in:\n- **carbon dioxide** from the air, through tiny pores in its leaves called stomata\n- **water** from the soil, drawn up through the roots\n- **light**, captured by a green pigment called chlorophyll\n\nIt produces:\n- **glucose**, a sugar the plant uses for energy and for building itself\n- **oxygen**, released as a by-product [1]\n\n## Why leaves are green\n\nChlorophyll absorbs red and blue light very well but reflects green light back at you. Leaves are green because that is the colour the plant is *not* using [1].\n\n## Where it happens\n\nInside leaf cells are tiny compartments called chloroplasts. Each one is packed with chlorophyll [1].\n\n## Why it matters so much\n\nAlmost every food chain starts with photosynthesis. When you eat bread, or beef, the energy came originally from sunlight captured by a plant [2].\n\nThe oxygen in the air is also its product. Earth's early atmosphere had almost no oxygen. Photosynthetic organisms slowly filled the air with it over hundreds of millions of years, and only then could animals like us exist [3]."
+    },
+    "teen": {
+      "summary": "The light-driven conversion of carbon dioxide and water into carbohydrate and oxygen, occurring in two coupled stages within chloroplasts.",
+      "body": "Photosynthesis is the process by which photoautotrophs convert light energy into chemical energy stored in carbohydrate, using carbon dioxide and water and releasing oxygen [1].\n\nThe overall reaction can be summarised as six molecules of carbon dioxide plus six of water, driven by light, yielding one molecule of glucose and six of oxygen. This summary conceals two distinct linked stages.\n\n## Light-dependent reactions\n\nThese occur in the thylakoid membranes of the chloroplast. Chlorophyll and accessory pigments absorb photons, exciting electrons that pass along an electron transport chain.\n\nCrucially, the electrons lost are replaced by splitting water. This photolysis is the source of the oxygen released — the oxygen comes from water, not from carbon dioxide, a point established by isotope labelling experiments [1].\n\nThe electron transport chain pumps protons across the thylakoid membrane, and the resulting gradient drives ATP synthesis. The products of this stage are ATP and NADPH [1].\n\n## Light-independent reactions (Calvin cycle)\n\nIn the chloroplast stroma, ATP and NADPH are used to fix carbon dioxide into organic molecules. The enzyme RuBisCO catalyses the initial fixation; it is thought to be the most abundant protein on Earth [2].\n\nThese reactions do not require light directly, but depend on products the light reactions supply, so they cannot run indefinitely in darkness.\n\n## Limitations and adaptations\n\nRuBisCO also binds oxygen, initiating photorespiration, which wastes energy and rises with temperature. Some plants have evolved workarounds: C4 plants such as maize concentrate CO2 around RuBisCO, and CAM plants such as cacti open their stomata only at night to conserve water [2].\n\nOverall energy conversion efficiency is low — commonly 1 to 2 percent of incident sunlight for field crops, against a theoretical ceiling several times higher [2].\n\n## Planetary significance\n\nOxygenic photosynthesis, evolved in cyanobacteria, transformed Earth's atmosphere. The Great Oxidation Event beginning around 2.4 billion years ago made aerobic respiration and, eventually, complex animal life possible. Earth's oxygen atmosphere is a biological product [3]."
+    },
+    "adult": {
+      "summary": "Light-driven carbon fixation in photoautotrophs, comprising thylakoid light reactions and stromal Calvin-Benson carbon assimilation; the process responsible for Earth's oxygenated atmosphere.",
+      "body": "Photosynthesis is the biological conversion of light energy into chemical energy, in which photoautotrophs assimilate inorganic carbon into carbohydrate. Oxygenic photosynthesis additionally oxidises water, releasing molecular oxygen [1].\n\n## Light reactions\n\nIn the thylakoid membrane, photosystem II and photosystem I operate in series. Light absorption by antenna pigments funnels excitation energy to reaction centres, driving charge separation.\n\nPhotosystem II oxidises water at the oxygen-evolving complex, a manganese-calcium cluster that extracts four electrons from two water molecules and releases O2 and protons. Isotope labelling established that evolved oxygen derives from water rather than carbon dioxide — a determination that corrected the earlier assumption and reframed the chemistry [1].\n\nElectrons traverse the plastoquinone pool, cytochrome b6f complex and plastocyanin to photosystem I, which re-energises them for reduction of NADP+ to NADPH. Proton translocation generates a transthylakoid electrochemical gradient harnessed by ATP synthase. Cyclic electron flow around photosystem I permits adjustment of the ATP:NADPH ratio to match downstream demand [1].\n\n## Carbon assimilation\n\nThe Calvin-Benson cycle operates in the stroma. Ribulose-1,5-bisphosphate carboxylase/oxygenase (RuBisCO) catalyses carboxylation of ribulose bisphosphate; subsequent reduction consumes ATP and NADPH, and regeneration of the acceptor completes the cycle. RuBisCO is generally considered the most abundant enzyme on Earth [2].\n\n## Photorespiration and carbon-concentrating mechanisms\n\nRuBisCO's active site does not discriminate absolutely between CO2 and O2. Oxygenation initiates photorespiration, which consumes energy and releases previously fixed carbon. The relative rate of oxygenation rises with temperature and with declining CO2:O2 ratio, so photorespiration is a significant constraint on productivity in warm climates.\n\nC4 photosynthesis spatially separates initial fixation from the Calvin cycle, concentrating CO2 in bundle-sheath cells. Crassulacean acid metabolism separates the two temporally, fixing carbon at night when stomata can open with lower transpirational loss. Both have evolved independently many times, indicating strong and repeated selective pressure [2].\n\n## Efficiency\n\nThermodynamic and biochemical constraints limit theoretical maximum conversion of solar energy to biomass to roughly 4.6 percent for C3 and 6 percent for C4 plants. Realised field efficiencies are typically 1 to 2 percent, the shortfall arising from light saturation, photoprotective dissipation, photorespiration and non-photosynthetic periods. Raising this efficiency is an active target of crop engineering [2].\n\n## Evolutionary and geochemical significance\n\nOxygenic photosynthesis evolved in cyanobacteria and was subsequently acquired by eukaryotes through endosymbiosis; chloroplasts retain their own genome and bacterial-type ribosomes, evidence consistent with this origin.\n\nThe resulting oxygenation of the atmosphere, beginning with the Great Oxidation Event around 2.4 billion years ago, is among the largest environmental transformations in Earth's history. It permitted aerobic respiration, which yields far more energy per unit substrate than fermentation, and thereby underpins complex multicellular life. Precise timing of the origin of oxygenic photosynthesis relative to the Great Oxidation Event remains debated [3]."
+    }
+  },
+
+  "citations": [
+    { "marker": 1, "source": "britannica", "claim": "Overall reaction, chloroplast and thylakoid localisation, role of chlorophyll and leaf colour, and the origin of evolved oxygen in the photolysis of water.", "supports": "supports" },
+    { "marker": 2, "source": "nih-nlm", "claim": "Calvin cycle biochemistry, RuBisCO and photorespiration, C4 and CAM carbon-concentrating mechanisms, and photosynthetic energy conversion efficiency.", "supports": "supports" },
+    { "marker": 3, "source": "noaa", "claim": "Timing of the Great Oxidation Event and the biological origin of atmospheric oxygen.", "supports": "supports" }
+  ],
+
+  "relations": [
+    { "to": "earth", "kind": "related" },
+    { "to": "dna", "kind": "related", "weight": 0.5 }
+  ],
+
+  "timeline": [
+    { "title": "Oxygenic photosynthesis evolves", "description": "Cyanobacteria begin splitting water and releasing oxygen.", "start": -2700000000, "end": -2400000000, "precision": "million_years", "era": "Archean", "importance": 5, "epistemic": "estimate" }
+  ],
+
+  "review": { "last_reviewed": "2026-09-06", "review_months": 48 }
+}

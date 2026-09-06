@@ -1,0 +1,42 @@
+[
+  {
+    "key": "intro-to-space",
+    "title": "Introduction to Space",
+    "description": "Start at home and work outward, from the ground under your feet to the strangest objects in the universe.",
+    "icon": "🚀",
+    "age_band": "age9_12",
+    "steps": ["earth", "moon", "solar-system", "mars", "gravity", "black-hole"]
+  },
+  {
+    "key": "age-of-dinosaurs",
+    "title": "The Age of Dinosaurs",
+    "description": "Meet the animals of the Late Cretaceous, the world they lived in, and how we know any of it.",
+    "icon": "🦕",
+    "age_band": "age9_12",
+    "steps": ["tyrannosaurus-rex", "triceratops", "cretaceous-period", "fossil"]
+  },
+  {
+    "key": "story-of-life",
+    "title": "The Story of Life",
+    "description": "How life changes over time, how the instructions are stored, and where humans fit into it.",
+    "icon": "🧬",
+    "age_band": "teen",
+    "steps": ["photosynthesis", "dna", "charles-darwin", "human-evolution", "fossil", "blue-whale"]
+  },
+  {
+    "key": "how-we-know-things",
+    "title": "How We Know Things",
+    "description": "A path about evidence itself: what counts as proof, how confident we should be, and how scientists have changed their minds.",
+    "icon": "🔍",
+    "age_band": "teen",
+    "steps": ["fossil", "charles-darwin", "marie-curie", "albert-einstein", "human-evolution"]
+  },
+  {
+    "key": "planet-earth",
+    "title": "Planet Earth",
+    "description": "The planet as a working system: its interior, its volcanoes, and the life that changed its air.",
+    "icon": "🌍",
+    "age_band": "age9_12",
+    "steps": ["earth", "volcano", "photosynthesis", "ancient-egypt"]
+  }
+]

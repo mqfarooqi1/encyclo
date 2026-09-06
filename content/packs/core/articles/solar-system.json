@@ -1,0 +1,58 @@
+{
+  "slug": "solar-system",
+  "title": "The Solar System",
+  "type": "astronomical_object",
+  "categories": ["space"],
+  "primary_category": "space",
+  "aliases": [{ "text": "solar system", "kind": "alternative" }],
+  "summary": "The Sun and everything bound to it by gravity: eight planets, their moons, dwarf planets, asteroids and comets.",
+
+  "facts": [
+    { "key": "age", "label": "Age", "value": "About 4.6 billion years", "value_num": 4600000000, "unit": "years", "epistemic": "estimate", "confidence": 0.95, "group": "Basics", "cite": [1] },
+    { "key": "planets", "label": "Planets", "value": "8", "value_num": 8, "group": "Basics", "cite": [1] },
+    { "key": "dwarf_planets", "label": "Recognised dwarf planets", "value": "5, including Pluto", "value_num": 5, "group": "Basics", "cite": [2] },
+    { "key": "mass_share", "label": "Share of mass in the Sun", "value": "More than 99.8%", "value_num": 99.8, "unit": "%", "epistemic": "estimate", "confidence": 0.95, "group": "Basics", "cite": [1] },
+    { "key": "inner_planets", "label": "Inner planets", "value": "Mercury, Venus, Earth, Mars", "group": "Structure", "cite": [1] },
+    { "key": "outer_planets", "label": "Outer planets", "value": "Jupiter, Saturn, Uranus, Neptune", "group": "Structure", "cite": [1] },
+    { "key": "asteroid_belt", "label": "Asteroid belt", "value": "Between Mars and Jupiter", "group": "Structure", "cite": [2] }
+  ],
+
+  "content": {
+    "age6_8": {
+      "summary": "The Sun and the planets that go around it.",
+      "body": "The Solar System is the Sun and everything that goes around it [1].\n\nThere are eight planets. Earth is one of them.\n\nThe four closest to the Sun are small and rocky. The four furthest away are huge and made mostly of gas and ice [1].\n\nThere are also moons, and lumps of rock called asteroids, and icy comets [2].\n\nThe Sun is much bigger than everything else put together [1]."
+    },
+    "age9_12": {
+      "summary": "The Sun and the planets, moons, asteroids and comets held by its gravity.",
+      "body": "The Solar System is the Sun together with everything held in orbit by its gravity [1].\n\n## The Sun dominates\n\nThe Sun contains more than 99.8 percent of all the mass in the Solar System. Everything else — all eight planets, every moon, every asteroid — makes up less than 0.2 percent [1].\n\n## Two kinds of planet\n\nThe four inner planets, Mercury, Venus, Earth and Mars, are small and rocky.\n\nThe four outer planets, Jupiter, Saturn, Uranus and Neptune, are far larger. Jupiter and Saturn are gas giants; Uranus and Neptune are ice giants, containing more water, ammonia and methane [1].\n\n## The smaller stuff\n\nBetween Mars and Jupiter lies the asteroid belt, made of rocky leftovers from when the planets formed [2].\n\nBeyond Neptune is the Kuiper Belt, an icy region containing Pluto. Pluto was called the ninth planet until 2006, when astronomers agreed on a stricter definition of \"planet\" and reclassified it as a dwarf planet. Pluto did not change — the definition did [2].\n\n## How it formed\n\nAbout 4.6 billion years ago, a cloud of gas and dust collapsed. Most material fell to the centre and became the Sun; the rest flattened into a spinning disc and clumped together into planets [1]."
+    },
+    "teen": {
+      "summary": "The Sun and its gravitationally bound system of planets, moons and small bodies, formed from a collapsing molecular cloud about 4.6 billion years ago.",
+      "body": "The Solar System comprises the Sun and all objects gravitationally bound to it [1].\n\n## Mass distribution\n\nThe Sun holds more than 99.8 percent of the system's mass. Of the residual fraction, Jupiter accounts for the majority. This distribution means the Sun's gravity governs essentially all orbital motion in the system [1].\n\n## Architecture\n\nThe terrestrial planets — Mercury, Venus, Earth and Mars — are small, dense and silicate-rich. Beyond the asteroid belt lie the giant planets: Jupiter and Saturn, dominated by hydrogen and helium, and Uranus and Neptune, containing proportionally more volatile ices [1].\n\nThis division reflects formation conditions. Inside the snow line — the distance at which water ice becomes stable — only refractory materials could condense, limiting available solid mass. Outside it, ice was abundant, allowing cores to grow large enough to capture gas directly from the nebula [1].\n\n## Small bodies\n\nThe main asteroid belt lies between Mars and Jupiter, its total mass far less than the Moon's. It is not a failed planet so much as a region where Jupiter's gravitational influence prevented accretion [2].\n\nBeyond Neptune, the Kuiper Belt contains icy bodies including Pluto. In 2006 the International Astronomical Union adopted a definition requiring a planet to have cleared its orbital neighbourhood; Pluto does not meet this and was reclassified as a dwarf planet. This was a taxonomic decision, not a discovery about Pluto itself [2].\n\nFurther out, the Oort Cloud is inferred — not directly observed — from the orbits of long-period comets [2].\n\n## Formation\n\nThe nebular hypothesis holds that a molecular cloud fragment collapsed roughly 4.6 billion years ago, forming a protostar surrounded by a rotating disc from which planets accreted. Radiometric ages of the oldest meteoritic inclusions provide the primary date [1]."
+    },
+    "adult": {
+      "summary": "The Sun and all gravitationally bound bodies: eight planets, dwarf planets, moons and small-body reservoirs, formed by accretion from a protoplanetary disc c. 4.57 Ga.",
+      "body": "The Solar System consists of the Sun and the population of objects gravitationally bound to it, including eight planets, five formally recognised dwarf planets, hundreds of natural satellites and vast reservoirs of small bodies [1].\n\n## Dynamical structure\n\nThe Sun contains upwards of 99.8 percent of system mass; Jupiter dominates the remainder. Consequently the system is well approximated as a set of Keplerian orbits about a central mass, perturbed principally by Jupiter [1].\n\nPlanetary orbits are nearly coplanar and low in eccentricity, and all planets orbit in the same sense as the Sun's rotation. This coherence is a direct fossil of formation within a rotating disc and is among the strongest evidence for the nebular hypothesis [1].\n\n## Compositional zoning\n\nThe terrestrial planets are silicate-metal bodies with negligible primordial atmospheres. The giant planets divide into gas giants, dominated by hydrogen and helium in near-solar proportion, and ice giants, with higher fractions of water, ammonia and methane [1].\n\nThis zoning follows from the temperature gradient in the protoplanetary disc. Interior to the snow line, only refractory material condensed, constraining the solid surface density available for accretion. Exterior to it, water ice roughly tripled the solid inventory, permitting cores to reach the critical mass for runaway gas accretion before disc dispersal [1].\n\n## Small-body reservoirs\n\nThe main belt between Mars and Jupiter has a total mass well under that of the Moon. Its depletion is attributed to dynamical excitation by Jupiter, which raised relative velocities to the point where collisions eroded rather than built bodies [2].\n\nThe Kuiper Belt beyond Neptune hosts trans-Neptunian objects including Pluto, Eris, Haumea and Makemake. The 2006 IAU definition requires a planet to orbit the Sun, be in hydrostatic equilibrium, and have cleared its orbital neighbourhood; bodies satisfying the first two but not the third are dwarf planets. The reclassification of Pluto reflects a change in nomenclature, not in physical understanding, and remains contested among some planetary scientists [2].\n\nThe Oort Cloud is a theoretical construct inferred from the isotropic arrival directions and long periods of a class of comets. It has never been directly observed and should be described as an inference, not an observation [2].\n\n## Formation and evolution\n\nRadiometric dating of calcium-aluminium-rich inclusions in chondritic meteorites places the first solids at approximately 4.567 billion years ago, the conventional zero point for Solar System chronology [1].\n\nDynamical models indicate the giant planets did not form at their present distances. Migration scenarios, including the Nice model, reproduce features such as the orbital distribution of trans-Neptunian objects and the capture of Trojan asteroids. These models are well developed but not uniquely determined by the evidence [2]."
+    }
+  },
+
+  "citations": [
+    { "marker": 1, "source": "nasa-solar-system", "claim": "Composition and architecture of the Solar System, mass distribution, planetary classification, and the nebular formation model with its radiometric age.", "supports": "supports" },
+    { "marker": 2, "source": "nasa-science", "claim": "Asteroid belt and Kuiper Belt properties, the 2006 IAU planet definition and Pluto's reclassification, and the inferred Oort Cloud.", "supports": "supports" }
+  ],
+
+  "relations": [
+    { "to": "earth", "kind": "part_of" },
+    { "to": "mars", "kind": "part_of" },
+    { "to": "moon", "kind": "part_of" },
+    { "to": "gravity", "kind": "related" },
+    { "to": "black-hole", "kind": "contrasts_with", "weight": 0.4 }
+  ],
+
+  "timeline": [
+    { "title": "The Solar System forms", "description": "A collapsing molecular cloud produces the Sun and a protoplanetary disc.", "start": -4567000000, "precision": "million_years", "era": "Hadean", "importance": 5, "epistemic": "estimate" },
+    { "title": "Pluto reclassified as a dwarf planet", "description": "The IAU adopts a formal definition of 'planet'.", "start": 2006, "precision": "exact", "era": "Modern", "importance": 3 }
+  ],
+
+  "review": { "last_reviewed": "2026-09-06" }
+}

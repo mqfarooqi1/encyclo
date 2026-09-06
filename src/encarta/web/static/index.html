@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Modern Encarta</title>
+  <meta name="description" content="An offline-first, source-grounded educational encyclopaedia.">
+  <meta name="color-scheme" content="light dark">
+  <link rel="stylesheet" href="/css/app.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%230b6a6a'/><text x='16' y='23' font-size='19' text-anchor='middle' fill='white' font-family='Georgia,serif'>E</text></svg>">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="masthead">
+    <div class="masthead-inner">
+      <a class="brand" href="#/" data-link>
+        <span class="brand-mark" aria-hidden="true">E</span>
+        <span>Modern Encarta<em> · World Explorer</em></span>
+      </a>
+
+      <div class="searchbar">
+        <span class="icon" aria-hidden="true">⌕</span>
+        <label class="sr-only" for="q">Search the encyclopaedia</label>
+        <input id="q" type="search" placeholder="Search…" autocomplete="off"
+               role="combobox" aria-expanded="false" aria-controls="suggest" aria-autocomplete="list">
+        <div id="suggest" role="listbox" hidden></div>
+      </div>
+
+      <div class="tools">
+        <button class="chip-btn" id="kids" aria-pressed="false" title="Simplified navigation and age-appropriate content">
+          <span aria-hidden="true">🧒</span> Kids
+        </button>
+        <button class="chip-btn" id="theme" title="Switch between light and dark">
+          <span aria-hidden="true">◐</span><span class="sr-only">Toggle theme</span>
+        </button>
+      </div>
+    </div>
+
+    <nav class="tabs" aria-label="Main">
+      <div class="wrap" id="tabs"></div>
+    </nav>
+  </header>
+
+  <main id="main" tabindex="-1"></main>
+
+  <footer class="site">
+    <div class="wrap">
+      <span id="foot-stats"></span>
+      <span class="offline-flag" id="net-flag"><span class="dot"></span><span>Offline-capable</span></span>
+      <span style="margin-left:auto">Original text, CC&nbsp;BY-SA&nbsp;4.0. Sources credited per article.</span>
+    </div>
+  </footer>
+
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>

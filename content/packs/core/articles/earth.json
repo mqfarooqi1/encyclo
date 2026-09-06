@@ -1,0 +1,239 @@
+{
+  "slug": "earth",
+  "title": "Earth",
+  "type": "planet",
+  "categories": [
+    "space",
+    "geography",
+    "science"
+  ],
+  "primary_category": "space",
+  "aliases": [
+    {
+      "text": "the Earth",
+      "kind": "alternative"
+    },
+    {
+      "text": "planet Earth",
+      "kind": "alternative"
+    },
+    {
+      "text": "Terra",
+      "kind": "alternative"
+    }
+  ],
+  "summary": "The third planet from the Sun and the only place in the universe where life is currently known to exist.",
+  "facts": [
+    {
+      "key": "position",
+      "label": "Position from the Sun",
+      "value": "Third",
+      "group": "Orbit",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "distance_from_sun",
+      "label": "Average distance from the Sun",
+      "value": "About 150 million km",
+      "value_num": 149600000,
+      "unit": "km",
+      "comparable_key": "distance_from_sun",
+      "group": "Orbit",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "orbital_period",
+      "label": "Year length",
+      "value": "365.25 days",
+      "value_num": 365.25,
+      "unit": "days",
+      "comparable_key": "orbital_period",
+      "group": "Orbit",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "day_length",
+      "label": "Day length",
+      "value": "About 24 hours",
+      "value_num": 24,
+      "unit": "hours",
+      "comparable_key": "day_length",
+      "group": "Orbit",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "diameter",
+      "label": "Diameter",
+      "value": "12,742 km",
+      "value_num": 12742,
+      "unit": "km",
+      "comparable_key": "diameter",
+      "group": "Physical",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "mass",
+      "label": "Mass",
+      "value": "5.97 x 10^24 kg",
+      "value_num": 5.97e+24,
+      "unit": "kg",
+      "comparable_key": "mass",
+      "group": "Physical",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "moons",
+      "label": "Moons",
+      "value": "1",
+      "value_num": 1,
+      "comparable_key": "moons",
+      "group": "Physical",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "age",
+      "label": "Age",
+      "value": "About 4.54 billion years",
+      "value_num": 4540000000,
+      "unit": "years",
+      "epistemic": "estimate",
+      "confidence": 0.95,
+      "group": "Physical",
+      "cite": [
+        3
+      ]
+    },
+    {
+      "key": "surface_water",
+      "label": "Surface covered by water",
+      "value": "About 71%",
+      "value_num": 71,
+      "unit": "%",
+      "comparable_key": "surface_water",
+      "group": "Physical",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "atmosphere",
+      "label": "Atmosphere",
+      "value": "78% nitrogen, 21% oxygen",
+      "comparable_key": "atmosphere",
+      "group": "Physical",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "life",
+      "label": "Known life",
+      "value": "Yes - the only known example",
+      "comparable_key": "life",
+      "group": "Physical",
+      "cite": [
+        2
+      ]
+    }
+  ],
+  "content": {
+    "age6_8": {
+      "summary": "The planet we live on. It has air, water, and living things.",
+      "body": "Earth is our home. It is a big round planet [1].\n\nEarth goes around the Sun. One trip around takes a year [1].\n\nEarth also spins. One spin takes a day. When your side faces the Sun it is daytime. When it turns away it is night [1].\n\nMost of Earth is covered in water — much more water than land [2].\n\nEarth has air that we can breathe. So far, Earth is the only place anyone has found where things are alive [2].\n\nEarth has one Moon."
+    },
+    "age9_12": {
+      "summary": "The third planet from the Sun, with liquid water, a protective atmosphere and the only known life.",
+      "body": "Earth is the third planet from the Sun and the only place we know of where life exists [2].\n\n## Size and movement\n\nEarth is about 12,742 kilometres across [1]. It travels around the Sun once every 365.25 days — which is why we add an extra day to February every four years.\n\nIt spins once about every 24 hours, giving us day and night. Earth is also tilted by about 23.5 degrees, and that tilt is what causes the seasons: for part of the year your half of the planet leans towards the Sun and gets more direct sunlight [1].\n\n## Water and air\n\nAbout 71 percent of the surface is covered by water, which is why Earth looks blue from space [2]. Almost all of it is salt water in the oceans.\n\nThe atmosphere is roughly 78 percent nitrogen and 21 percent oxygen [2]. It keeps the planet warm, gives us air to breathe, and burns up most small meteoroids before they reach the ground.\n\n## Inside the Earth\n\nEarth is not solid all the way down. It has a thin rocky crust, a thick hot mantle, and a core of iron and nickel. The outer core is liquid, and its motion generates Earth's magnetic field, which shields the planet from harmful particles streaming off the Sun [3].\n\n## Age\n\nRocks and meteorites tell us Earth formed about 4.54 billion years ago [3]."
+    },
+    "teen": {
+      "summary": "The third planet from the Sun: a differentiated rocky body with liquid surface water, an active magnetic field, plate tectonics and a biosphere.",
+      "body": "Earth is the third planet from the Sun, the largest of the four terrestrial planets, and the only body currently known to host life [2].\n\n## Orbit and rotation\n\nEarth orbits at a mean distance of about 149.6 million kilometres — one astronomical unit — completing an orbit in 365.25 days. Its rotational axis is inclined approximately 23.4 degrees to the orbital plane. This obliquity, not the small variation in orbital distance, is the cause of the seasons [1].\n\n## Structure\n\nEarth is chemically differentiated into layers. A silicate crust overlies a thick mantle that convects slowly over geological time. Beneath lies a liquid outer core and a solid inner core, both dominated by iron and nickel [3].\n\nConvection in the liquid outer core sustains a geodynamo that generates the planetary magnetic field. This magnetosphere deflects much of the solar wind and is a significant factor in the retention of the atmosphere over geological time [3].\n\n## Plate tectonics\n\nEarth's lithosphere is divided into plates that move relative to one another. Plate tectonics recycles crust, drives mountain building, earthquakes and volcanism, and regulates atmospheric carbon dioxide over million-year timescales through the carbonate-silicate cycle. Earth is the only planet known to have active plate tectonics [3].\n\n## Hydrosphere and atmosphere\n\nRoughly 71 percent of the surface is covered by water, overwhelmingly saline ocean [2]. The atmosphere is 78 percent nitrogen and 21 percent oxygen by volume, with trace gases including carbon dioxide and water vapour [2].\n\nThe present oxygen-rich atmosphere is itself a product of life: photosynthetic organisms transformed an anoxic early atmosphere over billions of years. Earth's atmosphere is not a backdrop to biology but a result of it [2].\n\n## Age and origin\n\nRadiometric dating of terrestrial rocks and meteorites places Earth's formation at approximately 4.54 billion years ago, within the collapse of the solar nebula [3]."
+    },
+    "adult": {
+      "summary": "The third planet from the Sun: a differentiated terrestrial body distinguished by surface liquid water, an active geodynamo, plate tectonics and a biologically modified atmosphere.",
+      "body": "Earth is the third planet from the Sun and the largest of the Solar System's terrestrial planets. It remains the only body on which life is known to exist [2].\n\n## Orbital and rotational parameters\n\nEarth orbits the Sun at a semi-major axis of approximately 1.496 x 10^8 km, defining the astronomical unit, with an orbital period of 365.256 days and a low eccentricity of about 0.017. Axial obliquity is approximately 23.44 degrees; this inclination governs the seasonal cycle, while the modest orbital eccentricity contributes only a minor modulation [1].\n\nThe Moon exerts a stabilising influence on obliquity over long timescales, which has plausible implications for long-term climate stability, though the strength of that effect is a matter of ongoing modelling rather than settled fact [1].\n\n## Internal structure and the geodynamo\n\nEarth is chemically and mechanically differentiated. A thin silicate crust — oceanic and continental, differing in composition and thickness — overlies a silicate mantle that convects on geological timescales. Below the core-mantle boundary lies a liquid iron-nickel outer core and a solid inner core [3].\n\nThermal and compositional convection in the outer core, organised by rotation, sustains a self-exciting dynamo that generates Earth's magnetic field. The resulting magnetosphere deflects the bulk of the solar wind. Palaeomagnetic records show the field has reversed polarity many times, and these reversals provide the timescale used to date seafloor spreading [3].\n\n## Plate tectonics\n\nThe lithosphere is fragmented into rigid plates in relative motion, driven substantially by slab pull at subduction zones. Plate tectonics continuously creates and destroys oceanic crust, builds orogenic belts, and concentrates seismicity and volcanism at plate boundaries.\n\nIts climatic significance is considerable: the carbonate-silicate cycle, mediated by weathering, subduction and volcanic outgassing, acts as a long-term thermostat regulating atmospheric CO2 over millions of years. Earth is the only planet known to exhibit active plate tectonics, and why it does while Venus does not remains an open question [3].\n\n## Hydrosphere, atmosphere and biosphere\n\nAbout 71 percent of the surface is covered by water, more than 96 percent of it saline ocean [2]. Earth's surface conditions permit water in all three phases, a circumstance central to its habitability.\n\nThe atmosphere is composed of roughly 78 percent nitrogen and 21 percent oxygen by volume, with argon, carbon dioxide and variable water vapour making up the remainder [2]. The free oxygen is biogenic: the Great Oxidation Event, beginning around 2.4 billion years ago, followed the evolution of oxygenic photosynthesis and progressively transformed an anoxic atmosphere. The composition of Earth's atmosphere is therefore a biosignature, and this reasoning underpins the search for life on exoplanets [2].\n\n## Age and formation\n\nRadiometric dating of the oldest terrestrial minerals and of chondritic meteorites constrains Earth's formation to approximately 4.54 billion years ago [3]. Accretion within the protoplanetary disc was followed by differentiation, and — on the leading model — a giant impact that formed the Moon."
+    }
+  },
+  "citations": [
+    {
+      "marker": 1,
+      "source": "nasa-earth",
+      "claim": "Earth's diameter, orbital distance and period, rotation, and axial tilt as the cause of seasons.",
+      "supports": "supports"
+    },
+    {
+      "marker": 2,
+      "source": "noaa",
+      "claim": "Proportion of Earth's surface covered by water, atmospheric composition, and the biological origin of atmospheric oxygen.",
+      "supports": "supports"
+    },
+    {
+      "marker": 3,
+      "source": "usgs",
+      "claim": "Earth's internal layered structure, the geodynamo and magnetic field, plate tectonics, and the radiometric age of the planet.",
+      "supports": "supports"
+    }
+  ],
+  "relations": [
+    {
+      "to": "moon",
+      "kind": "related",
+      "note": "Earth's only natural satellite"
+    },
+    {
+      "to": "solar-system",
+      "kind": "part_of"
+    },
+    {
+      "to": "mars",
+      "kind": "contrasts_with"
+    },
+    {
+      "to": "volcano",
+      "kind": "related"
+    },
+    {
+      "to": "photosynthesis",
+      "kind": "related",
+      "weight": 0.6
+    }
+  ],
+  "timeline": [
+    {
+      "title": "Earth forms",
+      "description": "Accretion within the solar nebula.",
+      "start": -4540000000,
+      "precision": "million_years",
+      "era": "Hadean",
+      "importance": 5,
+      "epistemic": "estimate"
+    },
+    {
+      "title": "Great Oxidation Event",
+      "description": "Photosynthetic life begins to fill the atmosphere with oxygen.",
+      "start": -2400000000,
+      "end": -2000000000,
+      "precision": "million_years",
+      "era": "Proterozoic",
+      "importance": 5,
+      "epistemic": "estimate"
+    }
+  ],
+  "review": {
+    "last_reviewed": "2026-09-06"
+  }
+}

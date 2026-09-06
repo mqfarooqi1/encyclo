@@ -1,0 +1,268 @@
+{
+  "slug": "tyrannosaurus-rex",
+  "title": "Tyrannosaurus rex",
+  "type": "dinosaur",
+  "categories": [
+    "dinosaurs",
+    "animals"
+  ],
+  "primary_category": "dinosaurs",
+  "aliases": [
+    {
+      "text": "T. rex",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "T-rex",
+      "kind": "misspelling"
+    },
+    {
+      "text": "Tyrannosaurus",
+      "kind": "scientific"
+    },
+    {
+      "text": "tyrant lizard king",
+      "kind": "alternative"
+    }
+  ],
+  "pronunciation_ipa": "/tɪˌrænəˈsɔːrəs ˈrɛks/",
+  "kids_safe": true,
+  "summary": "A very large meat-eating dinosaur that lived in western North America at the very end of the Cretaceous Period, and one of the last dinosaurs before the mass extinction 66 million years ago.",
+  "facts": [
+    {
+      "key": "scientific_name",
+      "label": "Scientific name",
+      "value": "Tyrannosaurus rex",
+      "group": "Classification",
+      "cite": [
+        4
+      ]
+    },
+    {
+      "key": "named",
+      "label": "Named",
+      "value": "1905, by Henry Fairfield Osborn",
+      "group": "Classification",
+      "cite": [
+        4
+      ]
+    },
+    {
+      "key": "period",
+      "label": "Period",
+      "value": "Late Cretaceous",
+      "group": "When and where",
+      "cite": [
+        3
+      ]
+    },
+    {
+      "key": "lived",
+      "label": "Lived",
+      "value": "About 68 to 66 million years ago",
+      "epistemic": "estimate",
+      "confidence": 0.9,
+      "group": "When and where",
+      "cite": [
+        3
+      ]
+    },
+    {
+      "key": "location",
+      "label": "Found in",
+      "value": "Western North America",
+      "group": "When and where",
+      "cite": [
+        3
+      ]
+    },
+    {
+      "key": "length",
+      "label": "Length",
+      "value": "Up to about 12 metres",
+      "value_num": 12.0,
+      "unit": "m",
+      "epistemic": "estimate",
+      "confidence": 0.85,
+      "comparable_key": "body_length",
+      "group": "Size",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "hip_height",
+      "label": "Height at the hip",
+      "value": "About 4 metres",
+      "value_num": 4.0,
+      "unit": "m",
+      "epistemic": "estimate",
+      "confidence": 0.75,
+      "group": "Size",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "weight",
+      "label": "Weight",
+      "value": "Roughly 6,000-9,000 kg",
+      "value_num": 7500,
+      "unit": "kg",
+      "epistemic": "estimate",
+      "confidence": 0.6,
+      "comparable_key": "body_mass",
+      "group": "Size",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "diet",
+      "label": "Diet",
+      "value": "Carnivore",
+      "comparable_key": "diet",
+      "group": "Biology",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "teeth",
+      "label": "Teeth",
+      "value": "About 50-60, the largest over 20 cm including the root",
+      "epistemic": "estimate",
+      "confidence": 0.7,
+      "group": "Biology",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "famous_specimen",
+      "label": "Famous specimen",
+      "value": "\"Sue\" (FMNH PR 2081), Field Museum, Chicago",
+      "group": "Discoveries",
+      "cite": [
+        4
+      ]
+    }
+  ],
+  "content": {
+    "age6_8": {
+      "summary": "A huge dinosaur with enormous teeth that lived a very long time ago.",
+      "body": "Tyrannosaurus rex was a giant dinosaur. People often call it T. rex.\n\nIt walked on two strong back legs. Its head was very big. Its arms were tiny — about as long as your own arms, even though the rest of it was as long as a bus [1].\n\nT. rex ate meat. Its teeth were as long as a banana [2].\n\nT. rex lived about 66 million years ago. That is long, long before there were any people. Then something terrible happened to the Earth, and all the big dinosaurs died out [3].\n\nWe know about T. rex because people dig up its bones and study them. You can see a real T. rex skeleton in some museums [4]."
+    },
+    "age9_12": {
+      "summary": "A large predatory dinosaur from the Late Cretaceous of North America, known from dozens of skeletons.",
+      "body": "Tyrannosaurus rex was one of the largest meat-eating animals ever to walk on land. It lived in western North America between about 68 and 66 million years ago, right at the end of the age of dinosaurs [3].\n\n## What it looked like\n\nA full-grown T. rex was around 12 metres long — longer than a bus — and stood about 4 metres tall at the hips [1]. Scientists estimate it weighed somewhere between 6 and 9 tonnes, but this is an estimate rather than a measurement, because you cannot weigh a fossil [1].\n\nIts skull was over a metre long, packed with around 50 to 60 thick, curved teeth. The biggest teeth were more than 20 centimetres long once you include the root buried in the jaw [2].\n\nIts arms, by contrast, were surprisingly short — only about a metre long. Scientists still argue about what they were for [2].\n\n## How we know\n\nEverything we know comes from fossils. More than 50 T. rex skeletons have been found, which makes it one of the best-known dinosaurs [4]. The most complete is nicknamed \"Sue\", which is displayed at the Field Museum in Chicago [4].\n\n## The end\n\nT. rex was one of the last dinosaurs. About 66 million years ago an asteroid struck the Earth, and in the disaster that followed, all the dinosaurs except birds died out [3]."
+    },
+    "teen": {
+      "summary": "A tyrannosaurid theropod from the Late Cretaceous of Laramidia, notable for its size, bite force and unusually complete fossil record.",
+      "body": "*Tyrannosaurus rex* was a large theropod dinosaur that lived in western North America during the final two million years of the Cretaceous Period, roughly 68 to 66 million years ago [3].\n\n## Anatomy\n\nAdult *T. rex* reached around 12 metres in length and about 4 metres at the hip [1]. Body mass is genuinely uncertain: published estimates cluster between roughly 6 and 9 tonnes, and different modelling methods produce noticeably different answers from the same skeleton [1].\n\nThe skull exceeded a metre in length and was built to withstand enormous forces. Rather than the blade-like teeth of many other predatory dinosaurs, *T. rex* had thick, conical teeth suited to crushing through bone [2]. Its forelimbs were reduced to two-fingered arms roughly a metre long — proportionally tiny, and still debated [2].\n\n## Behaviour and evidence\n\nBecause behaviour does not fossilise, claims about how *T. rex* hunted are interpretations drawn from indirect evidence: tooth marks on prey bones, healed injuries, trackways and comparisons with living animals. Whether it was primarily an active predator or also a scavenger has been argued for decades; most palaeontologists now regard the distinction as artificial, since large modern carnivores do both [4].\n\n## Fossil record\n\n*T. rex* is unusually well represented, with more than 50 recognised specimens [4]. The specimen \"Sue\" (FMNH PR 2081) is among the most complete and has supported a great deal of research on growth, injury and biomechanics [4].\n\n## Extinction\n\n*T. rex* was among the last non-avian dinosaurs. The Cretaceous-Paleogene extinction about 66 million years ago, associated with a major asteroid impact, ended the group [3]. Birds are the only dinosaur lineage that survived."
+    },
+    "adult": {
+      "summary": "A tyrannosaurid theropod of the latest Cretaceous of western North America, and one of the most intensively studied dinosaurs in the fossil record.",
+      "body": "*Tyrannosaurus rex* is a species of large tyrannosaurid theropod dinosaur known from the latest Cretaceous of western North America. It was named in 1905 by Henry Fairfield Osborn, then president of the American Museum of Natural History [4].\n\n## Distribution and age\n\nSpecimens come from the Hell Creek, Lance and equivalent formations of the western interior of North America, a landmass palaeontologists call Laramidia. The species is restricted to approximately the final two million years of the Cretaceous, about 68 to 66 million years ago [3].\n\n## Morphology\n\nLarge individuals approached 12 metres in total length, with a hip height near 4 metres [1]. Mass estimates are model-dependent and should be treated as such: figures between roughly 6 and 9 tonnes appear in the literature for the largest specimens, and the spread reflects genuine methodological disagreement rather than measurement error [1].\n\nThe skull is deep and broadly built, exceeding a metre in length in adults. Dentition is heterodont in size but uniformly robust: teeth are thick and conical rather than laterally compressed blades, a morphology associated with resisting the torsional loads of bone-crushing. The largest teeth exceed 20 centimetres when the root is included [2].\n\nThe forelimbs are strongly reduced, bearing two functional digits and measuring approximately one metre in length. No consensus explanation for this reduction has been established, and proposals ranging from grasping during mating to a simple consequence of cranial specialisation remain under discussion [2].\n\n## Palaeobiology\n\nInferences about behaviour rest on indirect evidence and are interpretations rather than established facts. Bite-force estimates derived from finite-element and lever models are among the highest calculated for any terrestrial animal, though published values vary substantially with method [2]. Growth series assembled from multiple specimens indicate a rapid growth phase in adolescence followed by a plateau at maturity.\n\nThe long-running predator-versus-scavenger debate is now generally regarded as a false dichotomy: large extant carnivores routinely do both, and the fossil evidence — including healed bite injuries on prey animals — is consistent with active predation as well as opportunistic feeding [4].\n\n## Fossil record and research history\n\nWith more than fifty recognised specimens, *T. rex* is among the best-sampled large dinosaurs [4]. FMNH PR 2081, informally \"Sue\", is one of the most complete individuals recovered and has underpinned research on ontogeny, pathology and biomechanics [4].\n\n## Extinction\n\n*Tyrannosaurus rex* was among the last non-avian dinosaurs. The Cretaceous-Paleogene mass extinction approximately 66 million years ago, associated with the Chicxulub bolide impact, eliminated all non-avian dinosaur lineages [3]. Avian dinosaurs — birds — are the surviving branch of the group."
+    }
+  },
+  "citations": [
+    {
+      "marker": 1,
+      "source": "amnh",
+      "claim": "Body length, hip height and the range of published mass estimates for adult Tyrannosaurus rex.",
+      "supports": "supports"
+    },
+    {
+      "marker": 2,
+      "source": "nhm-london",
+      "claim": "Skull and tooth dimensions, dentition shape, forelimb proportions and bite-force research.",
+      "supports": "supports"
+    },
+    {
+      "marker": 3,
+      "source": "si-nmnh",
+      "claim": "Stratigraphic age of Tyrannosaurus rex and the timing of the Cretaceous-Paleogene extinction.",
+      "supports": "supports"
+    },
+    {
+      "marker": 4,
+      "source": "field-museum",
+      "claim": "Number of known specimens, the specimen FMNH PR 2081 (\"Sue\"), and the naming history of the species.",
+      "supports": "supports"
+    }
+  ],
+  "relations": [
+    {
+      "to": "triceratops",
+      "kind": "contrasts_with",
+      "note": "Lived alongside T. rex in the same formations"
+    },
+    {
+      "to": "cretaceous-period",
+      "kind": "lived_during"
+    },
+    {
+      "to": "fossil",
+      "kind": "related"
+    },
+    {
+      "to": "earth",
+      "kind": "located_in",
+      "weight": 0.4
+    }
+  ],
+  "timeline": [
+    {
+      "title": "Tyrannosaurus rex lived",
+      "description": "The species existed for roughly the final two million years of the Cretaceous.",
+      "start": -68000000,
+      "end": -66000000,
+      "precision": "million_years",
+      "era": "Late Cretaceous",
+      "importance": 5,
+      "epistemic": "estimate"
+    },
+    {
+      "title": "Cretaceous-Paleogene extinction",
+      "description": "An asteroid impact ends the age of non-avian dinosaurs.",
+      "start": -66000000,
+      "precision": "million_years",
+      "era": "Late Cretaceous",
+      "importance": 5,
+      "epistemic": "fact"
+    },
+    {
+      "title": "Tyrannosaurus rex named",
+      "description": "Henry Fairfield Osborn describes and names the species.",
+      "start": 1905,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 3,
+      "epistemic": "fact"
+    },
+    {
+      "title": "\"Sue\" discovered",
+      "description": "One of the most complete T. rex skeletons is found in South Dakota.",
+      "start": 1990,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 3,
+      "epistemic": "fact"
+    }
+  ],
+  "places": [
+    {
+      "name": "Hell Creek Formation",
+      "kind": "fossil_site",
+      "lat": 47.5,
+      "lon": -106.9,
+      "country": "US",
+      "from_year": -68000000,
+      "to_year": -66000000
+    }
+  ],
+  "review": {
+    "last_reviewed": "2026-09-06"
+  }
+}

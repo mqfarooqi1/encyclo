@@ -1,0 +1,58 @@
+{
+  "slug": "gravity",
+  "title": "Gravity",
+  "type": "science_concept",
+  "categories": ["science", "space"],
+  "primary_category": "science",
+  "aliases": [{ "text": "gravitation", "kind": "alternative" }, { "text": "gravitational force", "kind": "alternative" }],
+  "summary": "The attraction between anything that has mass or energy, which holds planets in orbit, gives objects weight, and in general relativity is understood as the curvature of spacetime.",
+
+  "facts": [
+    { "key": "earth_g", "label": "Acceleration at Earth's surface", "value": "9.81 m/s²", "value_num": 9.81, "unit": "m/s²", "comparable_key": "gravity", "group": "Numbers", "cite": [1] },
+    { "key": "weakest", "label": "Strength", "value": "By far the weakest of the four fundamental forces", "group": "Numbers", "cite": [3] },
+    { "key": "range", "label": "Range", "value": "Infinite, weakening with the square of distance", "group": "Numbers", "cite": [1] },
+    { "key": "newton", "label": "Described by Newton", "value": "1687, in the Principia", "group": "History", "cite": [2] },
+    { "key": "einstein", "label": "Reinterpreted by Einstein", "value": "1915, general relativity", "group": "History", "cite": [3] },
+    { "key": "waves", "label": "Gravitational waves first detected", "value": "2015, announced 2016", "value_num": 2015, "group": "History", "cite": [3] }
+  ],
+
+  "content": {
+    "age6_8": {
+      "summary": "The pull that makes things fall down and keeps us on the ground.",
+      "body": "Gravity is a pull [1].\n\nIt pulls things down towards the ground. That is why a ball comes back down when you throw it up.\n\nEverything that has stuff in it pulls on everything else. But you only notice when one thing is very big, like the Earth [1].\n\nThe Earth is huge, so it pulls you down hard. That is why you have weight.\n\nGravity also keeps the Moon going around the Earth [1]."
+    },
+    "age9_12": {
+      "summary": "The force of attraction between masses, and why it keeps planets in orbit.",
+      "body": "Gravity is the attraction between things that have mass [1].\n\n## Why you stay on the ground\n\nEarth is enormous, so it pulls you towards its centre. Near the surface, that pull makes falling objects speed up by about 9.81 metres per second, every second [1].\n\nIf you drop a hammer and a feather together on Earth, the hammer lands first — but only because air slows the feather. On the Moon, where there is no air, they land together. Apollo 15 astronauts actually tried it [1].\n\n## Mass and distance\n\nGravity gets stronger when objects are more massive, and weaker as they get further apart. Doubling the distance makes the pull four times weaker [1].\n\n## Orbits\n\nThe Moon is falling towards Earth all the time. It also moves sideways fast enough that it keeps missing. That combination is what an orbit is [2].\n\n## Two big ideas\n\nIsaac Newton worked out the maths of gravity in 1687, and his equations still work well enough to fly spacecraft [2].\n\nIn 1915 Albert Einstein offered a deeper explanation: mass bends space and time, and objects follow the straightest path through the bent shape. Gravity, in this picture, is not a pull at all [3]."
+    },
+    "teen": {
+      "summary": "The mutual attraction of masses, described by Newton's inverse-square law and explained by general relativity as spacetime curvature.",
+      "body": "Gravity is the universal attraction between objects possessing mass or energy [1].\n\n## Newtonian gravitation\n\nNewton's law of universal gravitation states that the force between two point masses is proportional to the product of their masses and inversely proportional to the square of their separation. Published in 1687, it unified terrestrial falling bodies and planetary motion under a single law [2].\n\nNear Earth's surface this yields an acceleration of approximately 9.81 m/s², independent of the falling object's mass. The independence follows from the equivalence of inertial and gravitational mass, verified experimentally to extraordinary precision [1].\n\n## General relativity\n\nNewton's theory is accurate but incomplete. It offers no mechanism, requires instantaneous action at a distance, and fails to predict the observed precession of Mercury's orbit.\n\nEinstein's general theory of relativity, published in 1915, reframes gravity entirely. Mass and energy curve spacetime, and freely falling bodies follow geodesics — the straightest available paths through that curved geometry. What we experience as gravitational force is the effect of that geometry [3].\n\nGeneral relativity has passed every precision test attempted: the deflection of starlight by the Sun, gravitational redshift, the precession of Mercury, and time dilation significant enough that satellite navigation systems must correct for it or accumulate errors of kilometres per day [3].\n\n## Gravitational waves\n\nGeneral relativity predicts that accelerating masses radiate ripples in spacetime. These were detected directly for the first time in September 2015 by the LIGO observatories, from the merger of two black holes, and announced in February 2016 [3].\n\n## Unresolved questions\n\nGravity is by far the weakest of the four fundamental interactions, and the only one not yet described by a quantum theory. Reconciling general relativity with quantum mechanics is among the major open problems in physics; no proposed solution has experimental support [3]."
+    },
+    "adult": {
+      "summary": "The universal interaction of mass-energy: empirically described by Newtonian gravitation and theoretically explained by general relativity as the curvature of spacetime.",
+      "body": "Gravity is the mutual attraction exhibited by all forms of mass and energy. It is the weakest of the four fundamental interactions by many orders of magnitude, yet dominates on astronomical scales because it is long-ranged and, unlike electromagnetism, admits no negative charge to cancel it [3].\n\n## The Newtonian description\n\nNewton's universal law of gravitation, set out in the *Philosophiae Naturalis Principia Mathematica* of 1687, states that the attractive force between two masses varies as the product of the masses and inversely as the square of their separation [2].\n\nIts significance was conceptual as much as computational: it established that terrestrial and celestial mechanics obey the same law, dissolving a distinction that had stood since antiquity. It remains the working framework for most orbital mechanics, including interplanetary mission design [2].\n\nNear Earth's surface the resulting acceleration is approximately 9.81 m/s², independent of the test mass. This universality of free fall reflects the equivalence of inertial and gravitational mass, now confirmed to parts in 10^15 [1].\n\n## General relativity\n\nNewtonian gravity is empirically excellent but structurally unsatisfactory: it posits instantaneous action at a distance, is inconsistent with special relativity, and mispredicts the perihelion precession of Mercury.\n\nGeneral relativity, completed by Einstein in 1915, replaces the force with geometry. The Einstein field equations relate the curvature of spacetime to the stress-energy tensor; freely falling bodies follow geodesics of the resulting geometry. Gravitation is thus not a force acting within spacetime but a property of spacetime itself [3].\n\nThe theory's confirmed predictions include the anomalous precession of Mercury, gravitational deflection of light, gravitational redshift and time dilation, frame dragging, and the existence of black holes. Gravitational time dilation is not a laboratory curiosity: satellite navigation requires relativistic correction, without which positional errors would accumulate at kilometres per day [3].\n\n## Gravitational radiation\n\nAccelerating mass quadrupoles radiate gravitational waves. Indirect evidence came from orbital decay of the Hulse-Taylor binary pulsar; direct detection followed in September 2015, when LIGO observed the merger signal of two black holes, announced in February 2016. This opened gravitational-wave astronomy as an observational field [3].\n\n## Open problems\n\nGeneral relativity is a classical field theory and is not renormalisable as a quantum field theory. A consistent theory of quantum gravity remains unachieved, and candidate frameworks lack experimental discrimination.\n\nSeparately, galactic rotation curves and cosmological observations are inconsistent with the gravitational effect of visible matter alone. The standard interpretation invokes dark matter; modified-gravity alternatives exist but explain the full observational set less successfully. This is an area where the honest description is unresolved rather than settled [3]."
+    }
+  },
+
+  "citations": [
+    { "marker": 1, "source": "nasa-science", "claim": "Surface gravitational acceleration on Earth, the inverse-square dependence on distance, and the universality of free fall.", "supports": "supports" },
+    { "marker": 2, "source": "royal-society", "claim": "Publication of Newton's Principia in 1687 and the content of the law of universal gravitation.", "supports": "supports" },
+    { "marker": 3, "source": "einstein-papers", "claim": "General relativity as spacetime curvature, its experimental confirmations, the 2015 detection of gravitational waves, and the outstanding problem of quantum gravity.", "supports": "partially", "locator": "Volume 6, the field equations of gravitation" }
+  ],
+
+  "relations": [
+    { "to": "albert-einstein", "kind": "discovered_by" },
+    { "to": "solar-system", "kind": "related" },
+    { "to": "black-hole", "kind": "causes" },
+    { "to": "moon", "kind": "related" }
+  ],
+
+  "timeline": [
+    { "title": "Newton publishes the Principia", "description": "The law of universal gravitation is set out mathematically.", "start": 1687, "precision": "exact", "era": "Modern", "importance": 5 },
+    { "title": "Einstein publishes general relativity", "description": "Gravity is reinterpreted as the curvature of spacetime.", "start": 1915, "precision": "exact", "era": "Modern", "importance": 5 },
+    { "title": "Gravitational waves detected", "description": "LIGO observes the merger of two black holes.", "start": 2015, "precision": "exact", "era": "Modern", "importance": 5 }
+  ],
+
+  "review": { "last_reviewed": "2026-09-06", "review_months": 48 }
+}

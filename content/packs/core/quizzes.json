@@ -1,0 +1,178 @@
+[
+  {
+    "key": "trex-basics",
+    "title": "Tyrannosaurus rex",
+    "description": "How well do you know the tyrant lizard king?",
+    "article": "tyrannosaurus-rex",
+    "category": "dinosaurs",
+    "age_band": "age9_12",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "prompt": "When did Tyrannosaurus rex live?",
+        "explanation": "T. rex lived during the final two million years of the Cretaceous, roughly 68 to 66 million years ago. It was one of the last non-avian dinosaurs.",
+        "article": "tyrannosaurus-rex",
+        "source": "si-nmnh",
+        "options": [
+          { "text": "About 66 million years ago", "correct": true },
+          { "text": "About 6 million years ago" },
+          { "text": "About 200 million years ago" },
+          { "text": "At the same time as the first humans" }
+        ]
+      },
+      {
+        "prompt": "Roughly how long was a full-grown Tyrannosaurus rex?",
+        "explanation": "Adults reached around 12 metres. Note that mass estimates vary far more than length, because you cannot weigh a fossil.",
+        "article": "tyrannosaurus-rex",
+        "options": [
+          { "text": "About 12 metres", "correct": true },
+          { "text": "About 3 metres" },
+          { "text": "About 30 metres" },
+          { "text": "About 50 metres" }
+        ]
+      },
+      {
+        "kind": "true_false",
+        "prompt": "Humans and Tyrannosaurus rex lived at the same time.",
+        "explanation": "False, and not remotely close. T. rex died out about 66 million years ago. The earliest Homo sapiens fossils are around 300,000 years old — a gap of more than 65 million years.",
+        "article": "human-evolution",
+        "difficulty": "easy",
+        "options": [
+          { "text": "False", "correct": true },
+          { "text": "True" }
+        ]
+      },
+      {
+        "prompt": "Which animal is larger than Tyrannosaurus rex?",
+        "explanation": "The blue whale is the largest animal known to have existed — larger than any dinosaur, including T. rex.",
+        "article": "blue-whale",
+        "difficulty": "medium",
+        "options": [
+          { "text": "The blue whale", "correct": true },
+          { "text": "The African elephant" },
+          { "text": "Triceratops" },
+          { "text": "Nothing has ever been larger" }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "space-starter",
+    "title": "Our place in space",
+    "description": "Planets, moons and the Sun.",
+    "category": "space",
+    "age_band": "age9_12",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "prompt": "Which planet is third from the Sun?",
+        "explanation": "Earth is the third planet from the Sun, after Mercury and Venus.",
+        "article": "earth",
+        "source": "nasa-earth",
+        "options": [
+          { "text": "Earth", "correct": true },
+          { "text": "Mars" },
+          { "text": "Venus" },
+          { "text": "Jupiter" }
+        ]
+      },
+      {
+        "prompt": "Why does the same side of the Moon always face Earth?",
+        "explanation": "The Moon is tidally locked: it takes the same time to spin once as to orbit Earth once, both 27.3 days. So the same hemisphere always faces us. The far side is not permanently dark — it gets just as much sunlight.",
+        "article": "moon",
+        "source": "nasa-moon",
+        "difficulty": "medium",
+        "options": [
+          { "text": "It spins once in exactly the time it takes to orbit Earth", "correct": true },
+          { "text": "It does not spin at all" },
+          { "text": "The far side is always in shadow" },
+          { "text": "Earth's gravity holds it completely still" }
+        ]
+      },
+      {
+        "prompt": "Roughly how much of the Solar System's mass is in the Sun?",
+        "explanation": "More than 99.8 percent. Everything else — all eight planets, every moon and asteroid — makes up less than 0.2 percent.",
+        "article": "solar-system",
+        "source": "nasa-solar-system",
+        "difficulty": "medium",
+        "options": [
+          { "text": "More than 99%", "correct": true },
+          { "text": "About 75%" },
+          { "text": "About 50%" },
+          { "text": "About 25%" }
+        ]
+      },
+      {
+        "kind": "true_false",
+        "prompt": "Mars once had liquid water flowing on its surface.",
+        "explanation": "True. Dried river valleys, delta-shaped sediment deposits and minerals such as clays and sulfates all require water to form. Mars is dry today, but it was not always.",
+        "article": "mars",
+        "source": "nasa-mars",
+        "options": [
+          { "text": "True", "correct": true },
+          { "text": "False" }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "how-we-know",
+    "title": "How do we know?",
+    "description": "Evidence, uncertainty, and the difference between a fact and a good guess.",
+    "category": "science",
+    "age_band": "teen",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "prompt": "Why are the mass estimates for Tyrannosaurus rex given as a range rather than a single number?",
+        "explanation": "You cannot weigh a fossil. Mass is reconstructed by modelling soft tissue around a skeleton, and different methods give different answers from the same bones. The range reflects genuine methodological disagreement, not sloppy measurement.",
+        "article": "tyrannosaurus-rex",
+        "difficulty": "hard",
+        "options": [
+          { "text": "Mass must be modelled from the skeleton, and methods disagree", "correct": true },
+          { "text": "Scientists have not bothered to measure it precisely" },
+          { "text": "Every T. rex weighed a completely different amount" },
+          { "text": "The fossils are too fragile to put on scales" }
+        ]
+      },
+      {
+        "prompt": "What does it mean that the fossil record is 'biased'?",
+        "explanation": "Fossilisation requires rapid burial in the right conditions. Hard-bodied marine organisms are heavily over-represented; soft-bodied and upland organisms barely appear. So absence from the fossil record is often a statement about preservation, not about existence.",
+        "article": "fossil",
+        "source": "si-nmnh",
+        "difficulty": "hard",
+        "options": [
+          { "text": "Some kinds of organism are far more likely to fossilise than others", "correct": true },
+          { "text": "Palaeontologists only publish results they like" },
+          { "text": "Fossils are usually forgeries" },
+          { "text": "Older rocks contain no fossils at all" }
+        ]
+      },
+      {
+        "prompt": "Archaeological evidence from the Giza workers' settlement indicates the pyramid builders were:",
+        "explanation": "Excavations found large bakeries and breweries, substantial meat rations, healed fractures showing medical care, and prepared tombs for the workers. None of that is consistent with slavery. The evidence points to organised, provisioned Egyptian labour crews.",
+        "article": "ancient-egypt",
+        "source": "british-museum",
+        "difficulty": "medium",
+        "options": [
+          { "text": "Fed, housed and medically treated Egyptian labourers", "correct": true },
+          { "text": "Enslaved foreign captives" },
+          { "text": "Priests working without payment" },
+          { "text": "Unknown - no evidence survives" }
+        ]
+      },
+      {
+        "prompt": "Darwin's theory faced a serious objection he could never answer. What was it?",
+        "explanation": "Darwin had no theory of inheritance. Under the blending inheritance assumed at the time, any new variation would be halved each generation, leaving nothing for selection to act on. Mendel's particulate inheritance resolved this — but only after Darwin's death.",
+        "article": "charles-darwin",
+        "difficulty": "expert",
+        "options": [
+          { "text": "He could not explain how traits were inherited without being diluted away", "correct": true },
+          { "text": "He had no fossil evidence of any kind" },
+          { "text": "He could not explain why species go extinct" },
+          { "text": "He believed the Earth was only a few thousand years old" }
+        ]
+      }
+    ]
+  }
+]

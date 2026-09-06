@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "modern-encarta"
+version = "0.1.0"
+description = "Modern Encarta / World Explorer - an offline-first, source-grounded educational encyclopaedia"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+dependencies = []
+
+[project.optional-dependencies]
+serve = ["waitress>=3.0"]
+dev = ["pytest>=8.0", "ruff>=0.6", "mypy>=1.11"]
+ai = ["httpx>=0.27"]
+
+[project.scripts]
+encarta = "encarta.__main__:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+encarta = ["db/migrations/*.sql", "web/static/**/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+filterwarnings = ["error::DeprecationWarning"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B", "SIM", "C4", "RUF"]
+ignore = ["E501"]
+
+[tool.mypy]
+python_version = "3.11"
+packages = ["encarta"]
+mypy_path = "src"
+strict_optional = true
+warn_unused_ignores = true
+disallow_untyped_defs = true

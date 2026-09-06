@@ -1,0 +1,207 @@
+{
+  "slug": "moon",
+  "title": "The Moon",
+  "type": "astronomical_object",
+  "categories": [
+    "space"
+  ],
+  "primary_category": "space",
+  "aliases": [
+    {
+      "text": "Luna",
+      "kind": "alternative"
+    },
+    {
+      "text": "Earth's Moon",
+      "kind": "alternative"
+    }
+  ],
+  "summary": "Earth's only natural satellite, the fifth largest moon in the Solar System, and the only world beyond Earth that humans have visited.",
+  "facts": [
+    {
+      "key": "diameter",
+      "label": "Diameter",
+      "value": "3,475 km",
+      "value_num": 3475,
+      "unit": "km",
+      "comparable_key": "diameter",
+      "group": "Physical",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "distance",
+      "label": "Average distance from Earth",
+      "value": "384,400 km",
+      "value_num": 384400,
+      "unit": "km",
+      "group": "Orbit",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "orbital_period",
+      "label": "Orbit around Earth",
+      "value": "27.3 days",
+      "value_num": 27.3,
+      "unit": "days",
+      "comparable_key": "orbital_period",
+      "group": "Orbit",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "day_length",
+      "label": "Day length",
+      "value": "29.5 Earth days (about 708 hours)",
+      "value_num": 708.0,
+      "unit": "hours",
+      "comparable_key": "day_length",
+      "group": "Orbit",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "gravity",
+      "label": "Surface gravity",
+      "value": "About one sixth of Earth's",
+      "value_num": 1.62,
+      "unit": "m/s²",
+      "comparable_key": "gravity",
+      "group": "Physical",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "atmosphere",
+      "label": "Atmosphere",
+      "value": "Essentially none",
+      "comparable_key": "atmosphere",
+      "group": "Physical",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "age",
+      "label": "Age",
+      "value": "About 4.5 billion years",
+      "value_num": 4500000000,
+      "unit": "years",
+      "epistemic": "estimate",
+      "confidence": 0.9,
+      "group": "Physical",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "visitors",
+      "label": "People who have walked on it",
+      "value": "12, between 1969 and 1972",
+      "value_num": 12,
+      "group": "Exploration",
+      "cite": [
+        3
+      ]
+    },
+    {
+      "key": "origin",
+      "label": "How it formed",
+      "value": "Probably a giant impact with the early Earth",
+      "epistemic": "interpretation",
+      "confidence": 0.8,
+      "group": "Physical",
+      "cite": [
+        3
+      ]
+    }
+  ],
+  "content": {
+    "age6_8": {
+      "summary": "The bright round object in our night sky. People have walked on it.",
+      "body": "The Moon goes around the Earth [1].\n\nIt looks like it changes shape. It does not really change. We just see different amounts of the sunny side as it moves around us [1].\n\nThe Moon has no air. You could not breathe there [2].\n\nThe Moon is dusty and grey and covered in round holes called craters. Rocks from space crashed into it and made them [2].\n\nTwelve people have walked on the Moon. The first was in 1969 [3]."
+    },
+    "age9_12": {
+      "summary": "Earth's only natural satellite, its phases, its craters, and the missions that landed there.",
+      "body": "The Moon is Earth's only natural satellite. It is about 3,475 kilometres across — roughly a quarter of Earth's width — and orbits at an average distance of 384,400 kilometres [1].\n\n## Phases\n\nThe Moon does not make its own light; it reflects sunlight. As it orbits Earth we see different amounts of its lit half, which gives us the phases from new moon to full moon and back over about 29.5 days [1].\n\n## The same face, always\n\nThe Moon takes 27.3 days to spin once and 27.3 days to orbit Earth once. Because those match, the same side always faces us. The other side is not \"dark\" — it gets just as much sunlight — it is simply hidden from Earth [1].\n\n## A world without air\n\nThe Moon has almost no atmosphere. There is no weather, no sound, and nothing to burn up incoming rocks, which is why the surface is covered in craters that have survived for billions of years [2]. Footprints left by astronauts will stay for a very long time.\n\nGravity is about one sixth of Earth's, so you could jump six times higher [2].\n\n## Going there\n\nTwelve astronauts walked on the Moon during the Apollo missions between 1969 and 1972. They brought back rock samples that scientists still study today [3]."
+    },
+    "teen": {
+      "summary": "Earth's natural satellite: tidally locked, airless, heavily cratered, and central to understanding early Solar System history.",
+      "body": "The Moon is Earth's only natural satellite and the fifth largest moon in the Solar System, with a diameter of 3,475 km and a mean orbital distance of 384,400 km [1].\n\n## Tidal locking and phases\n\nThe Moon's rotation period and orbital period are equal at 27.3 days — a state called tidal locking, produced by tidal forces over billions of years. As a result the same hemisphere permanently faces Earth [1].\n\nThe synodic month, the cycle of phases as seen from Earth, is 29.5 days. It is longer than the orbital period because Earth itself moves along its orbit during the month, so the Moon must travel slightly further to return to the same Sun-Earth-Moon alignment [1].\n\n## Surface and environment\n\nThe Moon's exosphere is so thin it is effectively a vacuum. Without atmosphere there is no weathering by wind or water, so impact craters persist essentially indefinitely; the cratering record is a direct archive of Solar System bombardment history [2].\n\nThe surface divides into bright, heavily cratered highlands and darker maria — basaltic plains flooding ancient impact basins. Surface gravity is 1.62 m/s², about one sixth of Earth's [2].\n\n## Formation\n\nThe leading explanation is the giant-impact hypothesis: a Mars-sized body struck the proto-Earth roughly 4.5 billion years ago, and debris from the collision coalesced into the Moon. This is an interpretation supported by strong evidence — notably the Moon's small iron core and the close isotopic match between lunar and terrestrial material — rather than a directly observed fact, and details of the model are still debated [3].\n\n## Exploration\n\nTwelve people walked on the lunar surface across six Apollo landings between 1969 and 1972, returning 382 kilograms of samples whose analysis underpins much of what is known about lunar and early Earth history [3]."
+    },
+    "adult": {
+      "summary": "Earth's natural satellite: a tidally locked, differentiated, airless body whose cratering record and sample returns constrain early Solar System chronology.",
+      "body": "The Moon is Earth's only natural satellite, with an equatorial diameter of 3,475 km, a mean Earth-Moon distance of 384,400 km, and a mass approximately 1/81 that of Earth [1].\n\n## Orbital dynamics\n\nThe Moon is in 1:1 spin-orbit resonance, its sidereal rotation and orbital periods both 27.32 days. Tidal dissipation drove the system into this state and continues to act: tidal friction transfers angular momentum from Earth's rotation to the lunar orbit, lengthening the terrestrial day and increasing the Earth-Moon separation by approximately 3.8 cm per year, a rate measured directly by lunar laser ranging against retroreflectors emplaced by Apollo missions [1].\n\nThe synodic period of 29.53 days exceeds the sidereal period because of Earth's own orbital motion. Libration — the combined effect of orbital eccentricity, axial tilt and parallax — makes roughly 59 percent of the lunar surface visible from Earth over time, rather than exactly half [1].\n\n## Surface geology\n\nThe surface comprises anorthositic highlands, interpreted as flotation cumulates from a global magma ocean, and mare basalts filling impact basins on the near side. The pronounced near-side/far-side asymmetry in mare coverage and crustal thickness remains incompletely explained [2].\n\nThe absence of a meaningful atmosphere means no aeolian or fluvial erosion; surface modification is dominated by impact gardening and space weathering. Consequently the crater size-frequency distribution provides the calibration standard for dating surfaces throughout the inner Solar System — a chronology anchored directly to radiometrically dated Apollo and Luna samples [2].\n\nVolatiles, including water ice, have been detected in permanently shadowed polar craters, with implications for future surface operations [2].\n\n## Origin\n\nThe canonical giant-impact hypothesis holds that a Mars-sized impactor collided with the proto-Earth around 4.5 Ga, with the resulting debris disc accreting into the Moon. Principal supporting evidence includes the Moon's depletion in iron and volatiles, the high angular momentum of the Earth-Moon system, and near-identical oxygen isotope ratios between lunar and terrestrial samples [3].\n\nThat isotopic similarity is also the model's central difficulty: standard simulations predict the Moon should be dominated by impactor material with a distinct isotopic signature. Variant models invoking a higher-energy impact or extensive post-impact mixing have been proposed. The giant-impact framework is well supported, but its specific parameters are unresolved and should be presented as such [3].\n\n## Human exploration\n\nSix Apollo missions landed crews between 1969 and 1972; twelve individuals walked on the surface. Returned samples totalling 382 kg, together with emplaced geophysical instruments, remain the empirical foundation of lunar science and of the absolute chronology used across planetary geology [3]."
+    }
+  },
+  "citations": [
+    {
+      "marker": 1,
+      "source": "nasa-moon",
+      "claim": "Lunar diameter, orbital distance, sidereal and synodic periods, tidal locking, and the mechanism of lunar phases.",
+      "supports": "supports"
+    },
+    {
+      "marker": 2,
+      "source": "nasa-science",
+      "claim": "Absence of atmosphere, surface gravity, highland and mare terrain, crater preservation, and polar water ice.",
+      "supports": "supports"
+    },
+    {
+      "marker": 3,
+      "source": "nasa-apollo",
+      "claim": "Apollo crewed landings between 1969 and 1972, sample mass returned, and evidence bearing on the giant-impact hypothesis.",
+      "supports": "supports"
+    }
+  ],
+  "relations": [
+    {
+      "to": "earth",
+      "kind": "related"
+    },
+    {
+      "to": "solar-system",
+      "kind": "part_of"
+    },
+    {
+      "to": "gravity",
+      "kind": "example_of",
+      "weight": 0.7
+    }
+  ],
+  "timeline": [
+    {
+      "title": "The Moon forms",
+      "description": "Debris from a giant impact accretes into the Moon.",
+      "start": -4500000000,
+      "precision": "million_years",
+      "era": "Hadean",
+      "importance": 5,
+      "epistemic": "interpretation"
+    },
+    {
+      "title": "Apollo 11 lands",
+      "description": "The first crewed landing on another world.",
+      "start": 1969,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 5
+    },
+    {
+      "title": "Apollo 17, the last crewed landing",
+      "start": 1972,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 4
+    }
+  ],
+  "review": {
+    "last_reviewed": "2026-09-06"
+  }
+}

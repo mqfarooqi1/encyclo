@@ -1,0 +1,202 @@
+{
+  "slug": "triceratops",
+  "title": "Triceratops",
+  "type": "dinosaur",
+  "categories": [
+    "dinosaurs",
+    "animals"
+  ],
+  "primary_category": "dinosaurs",
+  "aliases": [
+    {
+      "text": "Triceratops horridus",
+      "kind": "scientific"
+    }
+  ],
+  "pronunciation_ipa": "/traɪˈsɛrətɒps/",
+  "summary": "A large horned, plant-eating dinosaur from the very end of the Cretaceous Period in western North America, recognisable by its three facial horns and bony neck frill.",
+  "facts": [
+    {
+      "key": "scientific_name",
+      "label": "Scientific name",
+      "value": "Triceratops horridus",
+      "group": "Classification",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "named",
+      "label": "Named",
+      "value": "1889, by Othniel Charles Marsh",
+      "group": "Classification",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "period",
+      "label": "Period",
+      "value": "Late Cretaceous",
+      "group": "When and where",
+      "cite": [
+        3
+      ]
+    },
+    {
+      "key": "lived",
+      "label": "Lived",
+      "value": "About 68 to 66 million years ago",
+      "epistemic": "estimate",
+      "confidence": 0.9,
+      "group": "When and where",
+      "cite": [
+        3
+      ]
+    },
+    {
+      "key": "location",
+      "label": "Found in",
+      "value": "Western North America",
+      "group": "When and where",
+      "cite": [
+        3
+      ]
+    },
+    {
+      "key": "length",
+      "label": "Length",
+      "value": "About 8 to 9 metres",
+      "value_num": 8.5,
+      "unit": "m",
+      "epistemic": "estimate",
+      "confidence": 0.85,
+      "comparable_key": "body_length",
+      "group": "Size",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "weight",
+      "label": "Weight",
+      "value": "Roughly 6,000-12,000 kg",
+      "value_num": 9000,
+      "unit": "kg",
+      "epistemic": "estimate",
+      "confidence": 0.55,
+      "comparable_key": "body_mass",
+      "group": "Size",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "skull",
+      "label": "Skull length",
+      "value": "Up to about 2.5 metres",
+      "value_num": 2.5,
+      "unit": "m",
+      "epistemic": "estimate",
+      "confidence": 0.8,
+      "group": "Size",
+      "cite": [
+        1
+      ]
+    },
+    {
+      "key": "diet",
+      "label": "Diet",
+      "value": "Herbivore",
+      "comparable_key": "diet",
+      "group": "Biology",
+      "cite": [
+        2
+      ]
+    },
+    {
+      "key": "horns",
+      "label": "Horns",
+      "value": "Three: one on the nose, two above the eyes",
+      "group": "Biology",
+      "cite": [
+        1
+      ]
+    }
+  ],
+  "content": {
+    "age6_8": {
+      "summary": "A big dinosaur with three horns and a huge bony collar around its neck.",
+      "body": "Triceratops was a big dinosaur with three horns on its face [1].\n\nTwo horns grew above its eyes. They were long and pointy. One smaller horn grew on its nose.\n\nBehind its head was a wide bony frill, a bit like a shield [1].\n\nTriceratops ate plants, not meat. It had a beak at the front of its mouth, like a parrot, for snipping off tough leaves [2].\n\nIt lived at the same time and in the same place as T. rex [3]."
+    },
+    "age9_12": {
+      "summary": "A horned plant-eating dinosaur that lived alongside Tyrannosaurus rex.",
+      "body": "Triceratops was a large plant-eating dinosaur that lived in western North America about 68 to 66 million years ago — the same time and place as *Tyrannosaurus rex* [3].\n\n## Horns and frill\n\nIts skull was enormous, reaching around 2.5 metres long, which is one of the largest skulls of any land animal ever [1]. It carried three horns: a short one on the nose and two long ones above the eyes.\n\nBehind the horns was a broad frill of bone. People often assume the frill was armour, but scientists are not certain. It may have been used for display, for recognising other Triceratops, or for a mix of reasons [1].\n\n## Eating\n\nTriceratops had a sharp beak at the front of its mouth and rows of teeth behind it that worked like scissors, slicing tough plants rather than grinding them [2].\n\n## How we know\n\nMany Triceratops skulls and skeletons have been found, so it is one of the better-understood dinosaurs [2]."
+    },
+    "teen": {
+      "summary": "A ceratopsid dinosaur of the latest Cretaceous, known for its massive skull, three horns and broad parietal frill.",
+      "body": "*Triceratops* was a ceratopsid dinosaur from the latest Cretaceous of western North America, named by Othniel Charles Marsh in 1889 [2].\n\n## Skull and frill\n\nThe skull is the animal's defining feature, reaching approximately 2.5 metres in the largest specimens — among the largest skulls of any known terrestrial animal [1]. It bears a short nasal horn and two long postorbital horns, behind which extends a solid bony frill formed largely from the parietal and squamosal bones.\n\nThe function of the frill and horns is an interpretation, not a settled fact. Defence, species recognition, display and thermoregulation have all been proposed, and the evidence — including healed puncture wounds on some frills — is consistent with more than one of these at once [1].\n\n## Feeding\n\n*Triceratops* was a low-browsing herbivore. A keratinous beak cropped vegetation, which was then processed by dental batteries: tightly packed columns of teeth that formed continuous shearing surfaces and were replaced throughout life [2].\n\n## Ecology\n\n*Triceratops* is abundant in the Hell Creek Formation, where it coexisted with *Tyrannosaurus rex* [3]. Tooth marks attributable to *T. rex* occur on *Triceratops* bones, though such marks alone cannot distinguish predation from scavenging."
+    },
+    "adult": {
+      "summary": "A chasmosaurine ceratopsid of the Maastrichtian of western North America, characterised by an exceptionally large skull with three horns and a solid parietosquamosal frill.",
+      "body": "*Triceratops* is a genus of chasmosaurine ceratopsid dinosaur known from the uppermost Cretaceous (Maastrichtian) of western North America. It was named by Othniel Charles Marsh in 1889 during the period of intense competitive collecting in the American West [2].\n\n## Morphology\n\nAdults reached roughly 8 to 9 metres in length. Mass estimates span a wide range, commonly cited between about 6 and 12 tonnes; as with other large dinosaurs these are model-dependent reconstructions rather than measurements [1].\n\nThe skull is the genus's most distinctive element, attaining approximately 2.5 metres in large individuals [1]. It bears a short nasal horn and paired postorbital horns that could exceed a metre in length. Unlike many related ceratopsids, the parietosquamosal frill is solid rather than fenestrated.\n\n## Function of the horns and frill\n\nInterpretations of frill and horn function remain actively debated. Proposed roles include intraspecific combat, predator defence, species recognition and visual display. Healed lesions on some frills are consistent with horn-to-horn contact between individuals, but the evidence does not establish a single primary function, and the honest position is that several may have operated together [1].\n\n## Feeding apparatus\n\n*Triceratops* was a low-browsing herbivore equipped with a rhamphotheca-covered beak and dental batteries composed of stacked, continuously replaced teeth. The resulting occlusal surfaces sheared rather than ground plant material, a mechanically distinct solution from the grinding batteries of hadrosaurs [2].\n\n## Palaeoecology and taxonomy\n\n*Triceratops* is among the most abundant large dinosaurs in the Hell Creek Formation and coexisted with *Tyrannosaurus rex* [3]. Whether *Torosaurus* represents a mature growth stage of *Triceratops* rather than a separate genus has been debated since 2010; the question turns on how frill morphology changed with age, and no consensus has been reached [2]."
+    }
+  },
+  "citations": [
+    {
+      "marker": 1,
+      "source": "si-nmnh",
+      "claim": "Skull dimensions, horn and frill anatomy, and the range of proposed functions for the frill.",
+      "supports": "supports"
+    },
+    {
+      "marker": 2,
+      "source": "amnh",
+      "claim": "Naming history, dental battery structure and feeding mechanics, and the Torosaurus synonymy debate.",
+      "supports": "supports"
+    },
+    {
+      "marker": 3,
+      "source": "field-museum",
+      "claim": "Stratigraphic occurrence in the Hell Creek Formation alongside Tyrannosaurus rex.",
+      "supports": "supports"
+    }
+  ],
+  "relations": [
+    {
+      "to": "tyrannosaurus-rex",
+      "kind": "contrasts_with"
+    },
+    {
+      "to": "cretaceous-period",
+      "kind": "lived_during"
+    },
+    {
+      "to": "fossil",
+      "kind": "related"
+    }
+  ],
+  "timeline": [
+    {
+      "title": "Triceratops lived",
+      "start": -68000000,
+      "end": -66000000,
+      "precision": "million_years",
+      "era": "Late Cretaceous",
+      "importance": 4,
+      "epistemic": "estimate",
+      "description": "Abundant in the Hell Creek Formation until the end-Cretaceous extinction."
+    },
+    {
+      "title": "Triceratops named",
+      "start": 1889,
+      "precision": "exact",
+      "era": "Modern",
+      "importance": 2,
+      "description": "Othniel Charles Marsh describes the genus."
+    }
+  ],
+  "review": {
+    "last_reviewed": "2026-09-06"
+  }
+}

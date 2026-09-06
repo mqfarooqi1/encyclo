@@ -1,0 +1,64 @@
+{
+  "slug": "volcano",
+  "title": "Volcano",
+  "type": "science_concept",
+  "categories": ["geography", "science", "environment"],
+  "primary_category": "geography",
+  "aliases": [{ "text": "volcanoes", "kind": "alternative" }, { "text": "volcanic eruption", "kind": "alternative" }],
+  "pronunciation_ipa": "/vɒlˈkeɪnəʊ/",
+  "summary": "An opening in a planet's crust through which molten rock, gas and ash reach the surface, and one of the main ways heat escapes from a planet's interior.",
+
+  "facts": [
+    { "key": "definition", "label": "What it is", "value": "An opening where molten rock reaches the surface", "group": "Basics", "cite": [1] },
+    { "key": "active_count", "label": "Active volcanoes on Earth", "value": "About 1,350 potentially active on land", "value_num": 1350, "epistemic": "estimate", "confidence": 0.7, "group": "Basics", "cite": [1] },
+    { "key": "magma_vs_lava", "label": "Magma or lava", "value": "Magma below ground, lava once it erupts", "group": "Basics", "cite": [1] },
+    { "key": "ring_of_fire", "label": "Ring of Fire", "value": "About 75% of the world's volcanoes", "value_num": 75, "unit": "%", "epistemic": "estimate", "confidence": 0.8, "group": "Where", "cite": [2] },
+    { "key": "main_cause", "label": "Main cause", "value": "Plate tectonics and mantle hotspots", "group": "Where", "cite": [2] },
+    { "key": "temperature", "label": "Lava temperature", "value": "About 700 to 1,200 °C", "value_num": 1000, "unit": "°C", "epistemic": "estimate", "confidence": 0.85, "group": "Basics", "cite": [1] },
+    { "key": "largest_solar_system", "label": "Largest known volcano", "value": "Olympus Mons on Mars", "group": "Where", "cite": [3] }
+  ],
+
+  "content": {
+    "age6_8": {
+      "summary": "A mountain that can open up and pour out hot melted rock.",
+      "body": "Deep under the ground, rock can get so hot that it melts [1].\n\nA volcano is a place where that melted rock comes up to the surface.\n\nWhen it is underground we call it magma. When it comes out we call it lava [1].\n\nLava is incredibly hot — much hotter than an oven.\n\nSome volcanoes pour out runny lava slowly. Others explode and throw out ash and rock [1].\n\nVolcanic ash makes very good soil, so plants grow well near old volcanoes [2]."
+    },
+    "age9_12": {
+      "summary": "How volcanoes form, why they erupt differently, and where they are found.",
+      "body": "A volcano is an opening in Earth's crust where molten rock, gas and ash escape from below [1].\n\n## Magma and lava\n\nRock deep inside Earth is under enormous pressure and heat. Where conditions are right it melts into magma. Magma is less dense than the solid rock around it, so it rises. When it reaches the surface it is called lava [1].\n\n## Why some volcanoes explode\n\nThe difference between a gentle eruption and a violent one is mostly about how runny the magma is.\n\nRunny magma lets gas bubbles escape easily, so lava flows out steadily — like the volcanoes of Hawaii.\n\nThick, sticky magma traps gas. Pressure builds until the volcano bursts, throwing out ash and rock at great speed. Mount St. Helens in 1980 erupted this way [1].\n\n## Where volcanoes are\n\nMost volcanoes sit along the edges of tectonic plates. About three quarters ring the Pacific Ocean in a zone called the Ring of Fire [2].\n\nA few, like Hawaii, sit in the middle of a plate over a hotspot — a plume of hot material rising from deep in the mantle [2].\n\n## Not only dangerous\n\nVolcanoes are hazardous, but they also build land, release gases that formed the early atmosphere, and produce extremely fertile soil [2]."
+    },
+    "teen": {
+      "summary": "A surface expression of magma ascent, whose eruptive style is governed principally by magma viscosity and dissolved gas content.",
+      "body": "A volcano is a rupture in a planetary crust through which magma, volcanic gas and pyroclastic material reach the surface [1].\n\n## Magma generation\n\nContrary to a common assumption, Earth's mantle is largely solid. Melting occurs under specific conditions: decompression as mantle rises beneath spreading ridges, flux melting where water released from a subducting slab lowers the melting point of the overlying wedge, and heat-driven melting above mantle plumes [2].\n\nMagma is buoyant relative to surrounding rock and ascends through fractures, often stalling in crustal reservoirs where it cools, crystallises and changes composition.\n\n## Eruptive style\n\nEruptive behaviour is governed chiefly by viscosity and volatile content, both strongly dependent on silica.\n\nBasaltic magma is silica-poor and low in viscosity. Dissolved gases escape readily, producing effusive eruptions and lava flows, as at Kilauea [1].\n\nAndesitic and rhyolitic magmas are silica-rich and highly viscous. Exsolving gas cannot escape, so pressure accumulates until failure produces explosive eruption, generating ash columns and pyroclastic density currents — the principal cause of volcanic fatalities [1].\n\n## Tectonic setting\n\nVolcanism concentrates at plate boundaries. Convergent margins produce explosive arc volcanoes; the circum-Pacific arc system, the Ring of Fire, accounts for roughly three quarters of subaerial volcanoes [2]. Divergent boundaries produce effusive basaltic volcanism, overwhelmingly submarine at mid-ocean ridges.\n\nIntraplate hotspot volcanism, as in Hawaii, is attributed to mantle plumes. Because the plate moves over a comparatively fixed source, hotspots produce age-progressive island chains [2].\n\n## Beyond Earth\n\nVolcanism is not unique to Earth. Mars hosts Olympus Mons, the largest known volcano in the Solar System, its size generally attributed to the absence of plate tectonics allowing continuous construction at one site. Io, a moon of Jupiter, is the most volcanically active body known, driven by tidal heating [3]."
+    },
+    "adult": {
+      "summary": "The surface manifestation of magma ascent and eruption; eruptive style is controlled by melt viscosity and volatile content, and global distribution by plate tectonics and mantle dynamics.",
+      "body": "A volcano is a rupture in the crust of a planetary body through which magma, exsolved volatiles and fragmental material are erupted. Volcanism is a principal mechanism of planetary heat loss and, on Earth, a primary agent of crustal growth and atmospheric evolution [1].\n\n## Melt generation\n\nThe mantle is predominantly solid; melting requires a specific physical trigger. Three mechanisms dominate:\n\n**Decompression melting** occurs where mantle rises adiabatically, as beneath mid-ocean ridges and plume heads, crossing the solidus without addition of heat.\n\n**Flux melting** occurs at subduction zones, where dehydration of the descending slab releases fluids into the overlying mantle wedge, depressing the peridotite solidus.\n\n**Conductive heating** contributes where mantle-derived melts underplate and partially melt crustal rock, an important process in generating silicic magmas [2].\n\nAscending magma commonly stalls in crustal reservoirs, where fractional crystallisation, assimilation and magma mixing drive compositional evolution toward more silicic, more viscous, more volatile-rich melts.\n\n## Controls on eruptive style\n\nEruptive behaviour is determined largely by viscosity and dissolved volatile content, both correlated with silica.\n\nLow-viscosity basaltic melts permit efficient bubble ascent and coalescence, yielding effusive eruption. High-viscosity silicic melts inhibit bubble escape; as magma decompresses during ascent, volatile exsolution increases internal pressure faster than it can be relieved, culminating in fragmentation and explosive eruption [1].\n\nThe resulting hazards differ fundamentally. Effusive eruptions threaten property but are rarely lethal. Explosive eruptions generate pyroclastic density currents, tephra fall and lahars, and account for the great majority of volcanic deaths. Volcanic Explosivity Index is a logarithmic measure of erupted volume and column height used to compare events [1].\n\n## Distribution\n\nGlobal volcano distribution maps closely onto plate boundaries. Convergent margins host explosive arc volcanism; the circum-Pacific system contains approximately 75 percent of subaerial volcanoes [2]. Divergent boundaries produce effusive basaltic volcanism, the overwhelming majority submarine and hence poorly observed.\n\nIntraplate volcanism is conventionally attributed to mantle plumes, producing age-progressive volcanic chains as lithosphere translates over a comparatively stationary source. The plume hypothesis is well supported for some provinces but has been challenged for others, and should not be presented as universally established [2].\n\n## Climatic and atmospheric role\n\nExplosive eruptions injecting sulfur dioxide into the stratosphere produce sulfate aerosol that raises planetary albedo and cools the surface for one to three years; the 1991 Pinatubo eruption is the best-instrumented example. Over geological time, volcanic outgassing is a principal source of atmospheric CO2 and, with silicate weathering, forms the long-term carbon cycle regulating Earth's climate [2].\n\n## Planetary volcanism\n\nOlympus Mons on Mars is the largest known volcanic construct in the Solar System, its scale plausibly a consequence of stationary lithosphere over a long-lived source. Io exhibits the highest volcanic heat flux of any known body, powered by tidal dissipation. Cryovolcanism, erupting volatile ices rather than silicate melt, is inferred on several outer-Solar-System moons [3]."
+    }
+  },
+
+  "citations": [
+    { "marker": 1, "source": "usgs-volcano", "claim": "Definition of a volcano, magma and lava terminology, lava temperature range, and the control of viscosity and gas content on effusive versus explosive eruption.", "supports": "supports" },
+    { "marker": 2, "source": "usgs", "claim": "Melt generation mechanisms, the tectonic distribution of volcanoes including the Ring of Fire proportion, hotspot volcanism, and volcanic contributions to soil, atmosphere and climate.", "supports": "supports" },
+    { "marker": 3, "source": "nasa-science", "claim": "Olympus Mons as the largest known volcano in the Solar System and volcanic activity on Io.", "supports": "supports" }
+  ],
+
+  "relations": [
+    { "to": "earth", "kind": "part_of" },
+    { "to": "mars", "kind": "related" }
+  ],
+
+  "timeline": [
+    { "title": "Eruption of Mount Vesuvius", "description": "Pompeii and Herculaneum are buried, preserving Roman daily life.", "start": 79, "precision": "exact", "era": "Classical", "importance": 4 },
+    { "title": "Eruption of Mount Tambora", "description": "Followed by the northern hemisphere 'year without a summer'.", "start": 1815, "precision": "exact", "era": "Modern", "importance": 4 },
+    { "title": "Eruption of Mount Pinatubo", "description": "Stratospheric aerosol measurably cools global temperatures.", "start": 1991, "precision": "exact", "era": "Modern", "importance": 3 }
+  ],
+
+  "places": [
+    { "name": "Kilauea", "kind": "site", "lat": 19.42, "lon": -155.29, "country": "US" },
+    { "name": "Mount Vesuvius", "kind": "site", "lat": 40.82, "lon": 14.43, "country": "IT" },
+    { "name": "Mount Pinatubo", "kind": "site", "lat": 15.13, "lon": 120.35, "country": "PH" }
+  ],
+
+  "review": { "last_reviewed": "2026-09-06" }
+}
