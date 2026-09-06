@@ -20,6 +20,7 @@ from ..domain.models import (
 )
 from ..repositories import ArticleRepository, DiscoveryRepository
 from ..services import FactChecker, QualityService, SearchService
+from ..services.progress import TrailService
 from .app import HttpError, Request, Response, Router, WSGIApp
 
 log = logging.getLogger(__name__)
@@ -270,6 +271,46 @@ def create_router(db: Database, config: Config) -> Router:
             raise HttpError(404, "Unknown learning path")
         return Response.json(data)
 
+    # -- Explorer Trail -----------------------------------------------------------------
+
+    @router.get("/api/trails")
+    def trails(req: Request) -> Response:
+        return Response.json(TrailService(db.conn).list_trails(kids_only=req.get_bool("kids")))
+
+    @router.get("/api/trail/{key}")
+    def trail(req: Request) -> Response:
+        data = TrailService(db.conn).get_trail(req.params["key"])
+        if not data:
+            raise HttpError(404, "Unknown trail")
+        return Response.json(data)
+
+    @router.post("/api/trail/{key}/{station}")
+    def record_station(req: Request) -> Response:
+        payload = req.json()
+        try:
+            score = int(payload.get("score", 0))
+            total = int(payload.get("total", 0))
+        except (TypeError, ValueError) as exc:
+            raise HttpError(400, "score and total must be whole numbers") from exc
+        if total <= 0:
+            raise HttpError(400, "total must be greater than zero")
+        try:
+            result = TrailService(db.conn).record_result(
+                req.params["key"], req.params["station"], score, total
+            )
+        except KeyError as exc:
+            raise HttpError(404, str(exc)) from exc
+        return Response.json(result, status=201)
+
+    @router.get("/api/badges")
+    def badges(_: Request) -> Response:
+        return Response.json(TrailService(db.conn).badges())
+
+    @router.delete("/api/progress/trails")
+    def reset_progress(req: Request) -> Response:
+        TrailService(db.conn).reset(req.get("trail"))
+        return Response.json({"ok": True})
+
     @router.get("/api/quiz/{key}")
     def quiz(req: Request) -> Response:
         quiz_row = db.one(
@@ -286,9 +327,13 @@ def create_router(db: Database, config: Config) -> Router:
             (quiz_row["id"],),
         )
         for question in questions:
+            # sort_order carries the answer for ordering questions and match_key
+            # for matching ones, so both are needed client-side. Sending answers
+            # to the client is fine here: the app is local, single-user and
+            # offline, and marking must work with no network round trip.
             question["options"] = db.query(
-                "SELECT id, text, is_correct FROM quiz_option WHERE question_id = ? "
-                "ORDER BY sort_order",
+                "SELECT id, text, is_correct, match_key, sort_order FROM quiz_option "
+                "WHERE question_id = ? ORDER BY sort_order",
                 (question["id"],),
             )
         quiz_row["questions"] = questions

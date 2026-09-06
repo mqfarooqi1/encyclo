@@ -143,6 +143,67 @@ def test_bookmark_roundtrip(app):
     assert not any(r["article_slug"] == "earth" for r in data)
 
 
+def test_trail_endpoints(app):
+    status, trails, _ = call(app, "/api/trails")
+    assert status == 200
+    assert any(t["key"] == "first-steps" for t in trails)
+
+    status, trail, _ = call(app, "/api/trail/first-steps")
+    assert status == 200
+    assert trail["stations"]
+    assert trail["stations"][0]["unlocked"] is True
+
+
+def test_recording_a_station_awards_a_badge_and_unlocks(app):
+    call(app, "/api/progress/trails", "DELETE")
+    status, result, _ = call(
+        app, "/api/trail/first-steps/dino-dig", "POST", {"score": 6, "total": 6}
+    )
+    assert status == 201
+    assert result["passed"] is True
+    assert result["stars"] == 3
+    assert {b["key"] for b in result["badges_awarded"]} >= {"little-palaeontologist"}
+
+    _, trail, _ = call(app, "/api/trail/first-steps")
+    assert trail["stations"][1]["unlocked"] is True
+    call(app, "/api/progress/trails", "DELETE")
+
+
+def test_recording_rejects_nonsense_totals(app):
+    status, _, _ = call(app, "/api/trail/first-steps/dino-dig", "POST", {"score": 1, "total": 0})
+    assert status == 400
+
+
+def test_recording_an_unknown_station_is_404(app):
+    status, _, _ = call(app, "/api/trail/first-steps/nope", "POST", {"score": 1, "total": 1})
+    assert status == 404
+
+
+def test_badges_endpoint_explains_unearned_badges(app):
+    status, badges, _ = call(app, "/api/badges")
+    assert status == 200
+    assert badges
+    for badge in badges:
+        assert badge["title"]
+        assert badge["earned"] or badge["criteria"]
+
+
+def test_quiz_payload_carries_ordering_and_matching_answers(app):
+    """The client marks answers locally, so it needs sort_order and match_key."""
+    _, quiz, _ = call(app, "/api/quiz/junior-space")
+    matching = [q for q in quiz["questions"] if q["kind"] == "matching"]
+    assert matching
+    for option in matching[0]["options"]:
+        assert option["match_key"]
+
+    _, kids, _ = call(app, "/api/quiz/kids-dinosaurs")
+    ordering = [q for q in kids["questions"] if q["kind"] == "ordering"]
+    assert ordering
+    assert [o["sort_order"] for o in ordering[0]["options"]] == list(
+        range(len(ordering[0]["options"]))
+    )
+
+
 def test_admin_dashboard_and_issues(app):
     status, data, _ = call(app, "/api/admin/dashboard")
     assert status == 200

@@ -3,6 +3,7 @@
 import { api, state, setKids, setTheme, applyTheme, onStateChange } from './api.js';
 import { el, clear } from './dom.js';
 import * as views from './views.js';
+import * as game from './game.js';
 
 const main = document.getElementById('main');
 const searchInput = document.getElementById('q');
@@ -20,6 +21,10 @@ const ROUTES = [
   [/^\/paths$/,                   () => views.pathsView()],
   [/^\/path\/([^/]+)$/,           (m) => views.pathView(m[1])],
   [/^\/quiz\/([^/]+)$/,           (m) => views.quizView(m[1])],
+  [/^\/trails$/,                  () => game.trailsView()],
+  [/^\/trail\/([^/]+)$/,          (m) => game.trailView(m[1])],
+  [/^\/station\/([^/]+)\/([^/]+)$/, (m) => game.stationView(m[1], m[2])],
+  [/^\/badges$/,                  () => game.badgesView()],
   [/^\/compare\/(.+)$/,           (m) => views.compareView(decodeURIComponent(m[1]))],
   [/^\/ask(?:\/(.*))?$/,          (m) => views.askView(m[1] ? decodeURIComponent(m[1]) : '')],
   [/^\/library$/,                 () => views.bookmarksView()],
@@ -28,15 +33,20 @@ const ROUTES = [
 
 const TABS = [
   ['#/', 'Home'],
+  ['#/trails', 'Explorer Trails'],
   ['#/categories', 'Browse'],
   ['#/timeline', 'Timeline'],
   ['#/paths', 'Learning paths'],
+  ['#/badges', 'Badges'],
   ['#/ask', 'Ask'],
   ['#/library', 'Library'],
   ['#/admin', 'Editorial'],
 ];
 
-const KIDS_TABS = new Set(['#/', '#/categories', '#/timeline', '#/paths', '#/library']);
+// Kids Mode shows fewer, larger choices, and no unsupervised AI surface.
+const KIDS_TABS = new Set([
+  '#/', '#/trails', '#/categories', '#/timeline', '#/badges', '#/library',
+]);
 
 function renderTabs() {
   const bar = document.getElementById('tabs');
@@ -66,6 +76,7 @@ async function route() {
   }
 
   renderTabs();
+  game.stopSpeech();     // never let one article keep talking over the next
   clear(main).append(views.spinner());
 
   for (const [pattern, handler] of ROUTES) {

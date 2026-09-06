@@ -1,3 +1,4 @@
+from .progress import TrailService, stars_for
 from .quality import FactChecker, QualityBreakdown, QualityService
 from .search import SearchHit, SearchIndexer, SearchResponse, SearchService
 
@@ -9,4 +10,6 @@ __all__ = [
     "SearchIndexer",
     "SearchResponse",
     "SearchService",
+    "TrailService",
+    "stars_for",
 ]

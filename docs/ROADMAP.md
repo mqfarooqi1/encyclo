@@ -14,14 +14,14 @@
 | 7 · Timeline | **Done** | Signed-year axis spanning 4.5 Ga to today, era filters |
 | 8 · Maps | **Partial** | `place` + R-Tree indexing and place data; no offline basemap |
 | 9 · Knowledge graph | **Done** | Typed relations, inverse labels, pan/zoom explorer |
-| 10 · Kids Mode | **Done** | Age-gated content, forced reading level, restricted navigation |
-| 11 · Quiz engine | **Done** | Explanations mandatory, answers grounded in articles |
+| 10 · Kids Mode | **Done** | Own home page, age-gated content, forced reading level, restricted navigation, read-aloud |
+| 11 · Quiz engine | **Done** | 16 quizzes, 89 questions, four question types; Explorer Trails with stations, stars and 15 badges |
 | 12 · AI assistant | **Done** | Grounded RAG, citation verification, honest no-AI mode |
 | 13 · Update pipeline | **Schema and review queue done** | Proposal/diff/audit tables enforced; generating agent not written |
 | 14 · Offline content packs | **Loader done** | Multi-pack loading, versioning, inventory; no distribution format |
 | 15 · Local AI | **Done** | Ollama-compatible provider, no key or internet needed |
 | 16 · Admin CMS | **Read-only dashboard** | Stats, issues, review queue, packs; no editing UI |
-| 17 · Testing, security, performance | **Done** | 100 tests, CSP, traversal guard, redacted logs, indexed queries |
+| 17 · Testing, security, performance | **Done** | 135 tests, CSP, traversal guard, redacted logs, indexed queries |
 | 18 · Packaging and distribution | **Not started** | Needs a desktop shell decision |
 
 ## Next, in order

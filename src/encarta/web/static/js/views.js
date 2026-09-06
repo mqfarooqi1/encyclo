@@ -3,6 +3,8 @@
 import { api, state, setLevel, formatYear, levelLabel, ApiError } from './api.js';
 import { el, frag, coverFor, gradientFor } from './dom.js';
 import { renderMarkdown, renderSnippet, excerpt } from './markdown.js';
+import { quizRunner } from './quiz.js';
+import { readAloudButton, sizeStrip, stopSpeech } from './game.js';
 
 const LEVELS = ['age6_8', 'age9_12', 'teen', 'adult'];
 const KID_LEVELS = ['age6_8', 'age9_12'];
@@ -55,6 +57,7 @@ function epistemicBadge(fact) {
 /* ------------------------------------------------------------------ home -- */
 export async function homeView() {
   const data = await api.home();
+  if (state.kids) return kidsHomeView(data);
   const root = el('div');
 
   root.append(el('section', { class: 'hero' }, wrap(
@@ -179,6 +182,100 @@ export async function homeView() {
 
 function stat(value, label) {
   return el('div', { class: 'stat' }, el('b', {}, value ?? '—'), el('span', {}, label));
+}
+
+/* ------------------------------------------------------------- kids home -- */
+/* A separate page rather than the adult one with bigger type: children need
+   fewer choices, larger targets and a clear first thing to do. */
+
+const KID_TILES = [
+  { href: '#/trails', icon: '🧭', title: 'Explorer Trails', sub: 'Quizzes and badges', pal: 'teal' },
+  { href: '#/random', icon: '🎲', title: 'Surprise me', sub: 'Something random', pal: 'violet' },
+  { href: '#/badges', icon: '🏅', title: 'My badges', sub: 'What you have collected', pal: 'amber' },
+  { href: '#/timeline', icon: '⏳', title: 'Time machine', sub: 'From dinosaurs to today', pal: 'rose' },
+];
+
+async function kidsHomeView(data) {
+  const root = el('div');
+  let trails = [];
+  try { trails = await api.trails(); } catch { /* trails are optional here */ }
+  const next = trails.find((t) => t.completed < t.stations);
+
+  root.append(wrap(
+    el('div', { class: 'kids-hero' },
+      el('h1', {}, 'What shall we find out today?'),
+      el('p', {}, 'Everything here comes from real museums, universities and space agencies. '
+        + 'Pick something that looks interesting.'),
+      el('form', {
+        style: { marginTop: '18px', maxWidth: '460px' },
+        onsubmit: (event) => {
+          event.preventDefault();
+          const value = event.target.elements.kq.value.trim();
+          if (value) go(`#/search/${encodeURIComponent(value)}`);
+        },
+      }, el('input', {
+        name: 'kq', type: 'search', placeholder: 'Try “dinosaur” or “moon”',
+        'aria-label': 'Search',
+        style: { width: '100%', padding: '14px 18px', fontSize: '16px',
+          borderRadius: 'var(--r-lg)', border: '1px solid var(--line-strong)',
+          background: 'var(--surface)', color: 'var(--ink)' },
+      })),
+    ),
+
+    el('section', { class: 'band' },
+      el('div', { class: 'big-tiles' }, KID_TILES.map((t) =>
+        el('a', { class: `tile pal-${t.pal}`, href: t.href, 'data-link': '' },
+          el('span', { class: 't-ico', 'aria-hidden': 'true' }, t.icon),
+          el('strong', {}, t.title),
+          el('span', {}, t.sub)))),
+    ),
+
+    next ? el('section', { class: 'band' },
+      el('div', { class: 'band-head' }, el('h2', {}, 'Carry on where you left off')),
+      el('a', { class: 'feature', href: `#/trail/${next.key}`, 'data-link': '',
+        style: { textDecoration: 'none', color: 'inherit' } },
+        el('div', { class: 'feature-art', 'aria-hidden': 'true',
+          style: { background: gradientFor(next.key), display: 'grid', placeItems: 'center',
+            fontSize: '64px' } }, next.icon || '🧭'),
+        el('div', { class: 'feature-text' },
+          el('div', { class: 'eyebrow' }, `${next.completed} of ${next.stations} stations done`),
+          el('h2', {}, next.title),
+          el('p', {}, next.description),
+          el('span', { class: 'btn', style: { alignSelf: 'flex-start', marginTop: '10px' } },
+            'Keep going'))),
+    ) : null,
+
+    data.discovery ? el('section', { class: 'band' },
+      el('div', { class: 'band-head' }, el('h2', {}, 'Today’s discovery')),
+      el('a', { class: 'card', href: `#/article/${data.discovery.slug}`, 'data-link': '',
+        style: { maxWidth: '520px' } },
+        coverFor(data.discovery.slug, data.discovery.icon || '✨'),
+        el('div', { class: 'card-body' },
+          el('h3', { style: { fontSize: '21px' } }, data.discovery.title),
+          el('p', { class: 'desc' }, excerpt(data.discovery.summary, 170)))),
+    ) : null,
+
+    data.did_you_know?.length ? el('section', { class: 'band' },
+      el('div', { class: 'band-head' }, el('h2', {}, 'Did you know?')),
+      el('div', { class: 'grid cols-3' }, data.did_you_know.slice(0, 3).map((f) =>
+        el('a', { class: 'card', href: `#/article/${f.slug}`, 'data-link': '' },
+          el('div', { class: 'card-body' },
+            el('div', { class: 'eyebrow' }, f.label),
+            el('h3', { style: { fontSize: '18px' } }, f.value_text + (f.unit ? ` ${f.unit}` : '')),
+            el('div', { class: 'meta' }, el('span', {}, f.title)))))),
+    ) : null,
+
+    el('section', { class: 'band' },
+      el('div', { class: 'band-head' }, el('h2', {}, 'Explore')),
+      el('div', { class: 'big-tiles' }, data.categories
+        .filter((c) => c.article_count > 0)
+        .map((c) => el('a', { class: 'tile', href: `#/category/${c.key}`, 'data-link': '' },
+          el('span', { class: 't-ico', 'aria-hidden': 'true' }, c.icon || '📚'),
+          el('strong', {}, c.label),
+          el('span', {}, `${c.article_count} to read`)))),
+    ),
+  ));
+  return root;
 }
 
 /* ---------------------------------------------------------------- search -- */
@@ -359,6 +456,9 @@ export async function articleView(slug) {
 
   rail.append(actionsPanel(data));
 
+  const strip = sizeStrip(data.facts, data.title);
+  if (strip) rail.append(strip);
+
   if (data.related.length) {
     rail.append(el('div', { class: 'panel' },
       el('header', {}, 'Connected topics'),
@@ -429,9 +529,21 @@ function actionsPanel(data) {
       refresh();
     } catch { button.textContent = 'Could not save'; }
   });
+  // Read-aloud speaks the level the reader is actually on, so a six-year-old
+  // hears the six-year-old text, not the adult article.
+  const readable = () => {
+    const heading = `${data.title}. `;
+    const body = (data.content?.body_md || data.summary || '')
+      .replace(/^#{1,6}\s+/gm, '')
+      .replace(/\*\*?/g, '')
+      .replace(/\[\d{1,3}\]/g, '');
+    return heading + body;
+  };
+
   return el('div', { class: 'panel' }, el('div', { class: 'body',
     style: { display: 'flex', flexDirection: 'column', gap: '8px' } },
     button,
+    readAloudButton(readable, 'Read this to me'),
     el('a', { class: 'btn ghost', href: `#/ask/${encodeURIComponent(data.title)}`, 'data-link': '',
       style: { width: '100%', justifyContent: 'center' } }, '💬 Ask about this'),
   ));
@@ -696,64 +808,9 @@ export async function pathView(key) {
 
 /* ------------------------------------------------------------------ quiz -- */
 export async function quizView(key) {
-  const data = await api.quiz(key);
-  const root = wrap(el('div', { style: { padding: '34px 0 60px' } }));
-  const body = root.firstChild;
-  let index = 0, score = 0;
-
-  const render = () => {
-    body.replaceChildren();
-    if (index >= data.questions.length) {
-      body.append(el('div', { class: 'quiz-card' },
-        el('h1', { style: { fontSize: '28px', marginBottom: '10px' } }, 'Finished'),
-        el('p', { style: { fontSize: '19px' } },
-          `You scored ${score} out of ${data.questions.length}.`),
-        el('div', { style: { display: 'flex', gap: '10px', marginTop: '18px' } },
-          el('button', { class: 'btn', onclick: () => { index = 0; score = 0; render(); } }, 'Try again'),
-          el('a', { class: 'btn ghost', href: '#/', 'data-link': '' }, 'Back to home')),
-      ));
-      return;
-    }
-
-    const question = data.questions[index];
-    const card = el('div', { class: 'quiz-card' },
-      el('div', { class: 'quiz-progress' },
-        `Question ${index + 1} of ${data.questions.length} · ${question.difficulty}`),
-      el('h2', { class: 'quiz-q' }, question.prompt),
-    );
-
-    const buttons = [];
-    // Options are shuffled per render so the correct answer is not positional.
-    const options = [...question.options].sort(() => Math.random() - 0.5);
-    for (const option of options) {
-      const button = el('button', { class: 'opt' }, option.text);
-      button.addEventListener('click', () => {
-        for (const other of buttons) other.disabled = true;
-        if (option.is_correct) { button.classList.add('correct'); score += 1; }
-        else {
-          button.classList.add('wrong');
-          const right = buttons.find((b, i) => options[i].is_correct);
-          right?.classList.add('correct');
-        }
-        card.append(el('div', { class: 'explain' }, question.explanation));
-        if (question.article_slug) {
-          card.append(el('p', { style: { marginTop: '12px', fontSize: '13.5px' } },
-            'Read more: ',
-            el('a', { href: `#/article/${question.article_slug}`, 'data-link': '' },
-              question.article_slug.replace(/-/g, ' '))));
-        }
-        card.append(el('button', { class: 'btn', style: { marginTop: '16px' },
-          onclick: () => { index += 1; render(); } },
-          index + 1 < data.questions.length ? 'Next question' : 'See result'));
-      });
-      buttons.push(button);
-      card.append(button);
-    }
-    body.append(el('h1', { style: { fontSize: '28px', marginBottom: '16px' } }, data.title), card);
-  };
-
-  render();
-  return root;
+  const quiz = await api.quiz(key);
+  return wrap(el('div', { style: { padding: '30px 0 60px' } },
+    quizRunner(quiz, { subtitle: quiz.description })));
 }
 
 /* --------------------------------------------------------------- compare -- */

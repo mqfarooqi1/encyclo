@@ -61,6 +61,8 @@ class LoadReport:
     places: int = 0
     quizzes: int = 0
     paths: int = 0
+    badges: int = 0
+    trails: int = 0
     findings: list[Finding] = field(default_factory=list)
 
     @property
@@ -73,7 +75,8 @@ class LoadReport:
             f"{self.articles_created} new, {self.articles_revised} revised, "
             f"{self.articles_unchanged} unchanged | "
             f"{self.sources} sources, {self.media} media, {self.relations} relations, "
-            f"{self.timeline_events} events, {self.quizzes} quizzes, {self.paths} paths"
+            f"{self.timeline_events} events, {self.quizzes} quizzes, {self.paths} paths, "
+            f"{self.trails} trails, {self.badges} badges"
         )
 
 
@@ -646,6 +649,9 @@ class PackLoader:
             report.quizzes = self._load_quizzes(_read_json(pack_dir / "quizzes.json", []))
             report.paths = self._load_paths(_read_json(pack_dir / "paths.json", []))
             self._load_synonyms(_read_json(pack_dir / "synonyms.json", []))
+            report.badges, report.trails = self._load_trails(
+                _read_json(pack_dir / "trails.json", {})
+            )
 
             # Persist non-fatal findings as reviewable issues.
             for finding in report.findings:
@@ -756,18 +762,128 @@ class PackLoader:
                     ),
                 )
                 question_id = int(cur.lastrowid or 0)
-                for opt_order, option in enumerate(question.get("options", [])):
+                kind = question.get("kind", "multiple_choice")
+                options = question.get("options", [])
+                if not options:
+                    raise LoaderError(f"quiz {quiz['key']!r}: question has no options")
+
+                # For ordering and matching there is no single "correct option" —
+                # the answer is the sequence, or the pairing. Every option is part
+                # of the correct response, so all are flagged correct and the
+                # answer itself lives in sort_order / match_key.
+                sequence_kind = kind in ("ordering", "timeline", "matching")
+                if not sequence_kind and not any(o.get("correct") for o in options):
+                    raise LoaderError(
+                        f"quiz {quiz['key']!r}: question {question['prompt'][:40]!r} "
+                        "has no correct option"
+                    )
+                if kind == "matching" and any("match" not in o for o in options):
+                    raise LoaderError(
+                        f"quiz {quiz['key']!r}: every matching option needs a 'match' partner"
+                    )
+
+                for opt_order, option in enumerate(options):
                     self.conn.execute(
-                        "INSERT INTO quiz_option (question_id, text, is_correct, sort_order) "
-                        "VALUES (?,?,?,?)",
+                        "INSERT INTO quiz_option (question_id, text, is_correct, match_key, "
+                        "sort_order) VALUES (?,?,?,?,?)",
                         (
                             question_id,
                             option["text"],
-                            1 if option.get("correct") else 0,
+                            1 if (sequence_kind or option.get("correct")) else 0,
+                            option.get("match"),
                             opt_order,
                         ),
                     )
         return len(quizzes)
+
+    def _load_trails(self, data: dict[str, Any]) -> tuple[int, int]:
+        """Badges and the Explorer Trail board.
+
+        Trails are content, not code: the game board renders whatever the data
+        describes, so adding a station is a JSON edit.
+        """
+        for badge in data.get("badges", []):
+            self.conn.execute(
+                "INSERT INTO badge (key, title, description, icon, criteria, sort_order) "
+                "VALUES (?,?,?,?,?,?) ON CONFLICT(key) DO UPDATE SET title=excluded.title, "
+                "description=excluded.description, icon=excluded.icon, "
+                "criteria=excluded.criteria, sort_order=excluded.sort_order",
+                (
+                    badge["key"],
+                    badge["title"],
+                    badge.get("description", ""),
+                    badge.get("icon", "★"),
+                    badge.get("criteria", ""),
+                    int(badge.get("sort_order", 0)),
+                ),
+            )
+
+        trails = data.get("trails", [])
+        for trail in trails:
+            completion = self.conn.execute(
+                "SELECT id FROM badge WHERE key = ?", (trail.get("completion_badge", ""),)
+            ).fetchone()
+            self.conn.execute(
+                "INSERT INTO trail (key, title, description, icon, age_band, "
+                "completion_badge_id, sort_order) VALUES (?,?,?,?,?,?,?) "
+                "ON CONFLICT(key) DO UPDATE SET title=excluded.title, "
+                "description=excluded.description, icon=excluded.icon, "
+                "age_band=excluded.age_band, "
+                "completion_badge_id=excluded.completion_badge_id, "
+                "sort_order=excluded.sort_order",
+                (
+                    trail["key"],
+                    trail["title"],
+                    trail.get("description", ""),
+                    trail.get("icon"),
+                    trail.get("age_band", "age9_12"),
+                    completion["id"] if completion else None,
+                    int(trail.get("sort_order", 0)),
+                ),
+            )
+            row = self.conn.execute(
+                "SELECT id FROM trail WHERE key = ?", (trail["key"],)
+            ).fetchone()
+            self.conn.execute("DELETE FROM trail_station WHERE trail_id = ?", (row["id"],))
+
+            for order, station in enumerate(trail.get("stations", [])):
+                quiz_row = self.conn.execute(
+                    "SELECT id FROM quiz WHERE key = ?", (station.get("quiz", ""),)
+                ).fetchone()
+                if station.get("quiz") and not quiz_row:
+                    raise LoaderError(
+                        f"trail {trail['key']!r}: station {station['key']!r} "
+                        f"references unknown quiz {station['quiz']!r}"
+                    )
+                badge_row = self.conn.execute(
+                    "SELECT id FROM badge WHERE key = ?", (station.get("badge", ""),)
+                ).fetchone()
+                if station.get("badge") and not badge_row:
+                    raise LoaderError(
+                        f"trail {trail['key']!r}: station {station['key']!r} "
+                        f"references unknown badge {station['badge']!r}"
+                    )
+                article_row = self.conn.execute(
+                    "SELECT id FROM article WHERE slug = ?", (station.get("article", ""),)
+                ).fetchone()
+
+                self.conn.execute(
+                    "INSERT INTO trail_station (trail_id, sort_order, key, title, subtitle, "
+                    "icon, palette, quiz_id, badge_id, article_id) VALUES (?,?,?,?,?,?,?,?,?,?)",
+                    (
+                        row["id"],
+                        order,
+                        station["key"],
+                        station["title"],
+                        station.get("subtitle", ""),
+                        station.get("icon", "📍"),
+                        station.get("palette", "teal"),
+                        quiz_row["id"] if quiz_row else None,
+                        badge_row["id"] if badge_row else None,
+                        article_row["id"] if article_row else None,
+                    ),
+                )
+        return len(data.get("badges", [])), len(trails)
 
     def _load_synonyms(self, synonyms: list[dict[str, Any]]) -> int:
         """Query-expansion terms, so a reader can find an article without knowing

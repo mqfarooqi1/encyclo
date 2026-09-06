@@ -1,0 +1,257 @@
+/* Explorer Trail, badges, richer quizzes, and Kids Mode.
+   Loaded alongside app.css; all colour comes from the same tokens, so both
+   themes work without a second palette. */
+
+/* ------------------------------------------------------- station palettes -- */
+.pal-teal   { --pal: var(--accent);  --pal-soft: var(--accent-soft); }
+.pal-amber  { --pal: var(--amber);   --pal-soft: var(--amber-soft); }
+.pal-rose   { --pal: var(--rose);    --pal-soft: var(--rose-soft); }
+.pal-violet { --pal: var(--violet);  --pal-soft: var(--violet-soft); }
+.pal-green  { --pal: #2f7d55;        --pal-soft: #e2f2e9; }
+.pal-blue   { --pal: #2a5da8;        --pal-soft: #e3ecf9; }
+
+/* Green and blue are the only palettes not already themed by app.css tokens,
+   so they need their own dark variants to stay legible. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .pal-green { --pal: #63c48d; --pal-soft: #12301f; }
+  :root:not([data-theme="light"]) .pal-blue  { --pal: #7aa9e8; --pal-soft: #16233a; }
+}
+:root[data-theme="dark"] .pal-green { --pal: #63c48d; --pal-soft: #12301f; }
+:root[data-theme="dark"] .pal-blue  { --pal: #7aa9e8; --pal-soft: #16233a; }
+
+/* --------------------------------------------------------------- trail -- */
+.trail-head {
+  display: flex; align-items: center; gap: 18px; flex-wrap: wrap;
+  padding: 30px 0 8px;
+}
+.trail-head .mark {
+  width: 62px; height: 62px; border-radius: 20px; flex: none;
+  display: grid; place-items: center; font-size: 30px;
+  background: var(--surface); border: 1px solid var(--line); box-shadow: var(--shadow-sm);
+}
+.trail-head h1 { font-size: clamp(26px, 4vw, 38px); margin-bottom: 4px; }
+.trail-head p { color: var(--ink-2); margin: 0; }
+
+.trail-meter {
+  display: flex; align-items: center; gap: 12px; margin: 18px 0 6px;
+  flex-wrap: wrap; font-size: 14px;
+}
+.trail-meter .bar {
+  flex: 1; min-width: 160px; height: 10px; border-radius: 999px;
+  background: var(--paper-2); overflow: hidden; border: 1px solid var(--line);
+}
+.trail-meter .bar i {
+  display: block; height: 100%; border-radius: 999px;
+  background: linear-gradient(90deg, var(--accent), var(--violet));
+  transition: width .5s cubic-bezier(.2,.7,.3,1);
+}
+
+/* The board: stations alternate left and right, joined by a drawn path. */
+.trail-board { position: relative; padding: 26px 0 40px; }
+.trail-board::before {
+  content: ""; position: absolute; left: 50%; top: 0; bottom: 0; width: 3px;
+  transform: translateX(-50%);
+  background: repeating-linear-gradient(var(--line-strong) 0 9px, transparent 9px 18px);
+}
+
+/* Width is a plain percentage, not min(46%, 380px): the connector dot is
+   positioned relative to the card, so it can only land on the centre spine if
+   the gap between card edge and spine is a fixed fraction of the card. A pixel
+   cap makes that gap vary with viewport, and the dots drift off the line. */
+.station {
+  position: relative; width: 46%; margin-bottom: 20px;
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: var(--r-lg); padding: 16px 18px; box-shadow: var(--shadow-sm);
+  text-decoration: none; color: inherit; display: block;
+  transition: transform .18s cubic-bezier(.2,.7,.3,1), box-shadow .18s, border-color .18s;
+}
+.station:nth-child(odd)  { margin-right: auto; }
+.station:nth-child(even) { margin-left: auto; }
+
+/* Pull each card up into the previous row's empty half. Odd and even cards are
+   on opposite sides so they never actually collide, and the result reads as one
+   continuous path rather than a column of separated rows. */
+.station + .station { margin-top: -52px; }
+
+a.station:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); border-color: var(--pal); }
+
+/* The connector dot sitting on the dashed spine. */
+.station::after {
+  content: ""; position: absolute; top: 28px; width: 15px; height: 15px;
+  border-radius: 50%; background: var(--pal, var(--accent));
+  border: 3px solid var(--paper); box-shadow: 0 0 0 2px var(--pal, var(--accent));
+}
+/* card edge sits at 46% of the board, the spine at 50%; the 4% difference is
+   8.696% of the card's own width. */
+.station:nth-child(odd)::after  { right: calc(-8.696% - 7.5px); }
+.station:nth-child(even)::after { left: calc(-8.696% - 7.5px); }
+
+.station.locked { opacity: .55; filter: grayscale(.6); cursor: not-allowed; }
+.station.locked::after { background: var(--line-strong); box-shadow: 0 0 0 2px var(--line-strong); }
+.station.done { border-color: var(--pal); }
+
+.station-top { display: flex; align-items: center; gap: 12px; }
+.station-ico {
+  width: 46px; height: 46px; border-radius: 14px; flex: none;
+  display: grid; place-items: center; font-size: 23px;
+  background: var(--pal-soft, var(--accent-soft));
+  border: 1px solid color-mix(in srgb, var(--pal, var(--accent)) 35%, transparent);
+}
+.station h3 { font-size: 17px; margin: 0; }
+.station .sub { font-size: 12.5px; color: var(--ink-3); }
+
+.station-foot {
+  display: flex; align-items: center; gap: 10px; margin-top: 12px;
+  padding-top: 10px; border-top: 1px solid var(--line); font-size: 12.5px; color: var(--ink-3);
+}
+.stars { letter-spacing: 1px; font-size: 14px; color: var(--amber); }
+.stars .off { opacity: .25; }
+
+@media (max-width: 700px) {
+  .trail-board::before { left: 22px; }
+  .station { width: calc(100% - 52px); margin-left: 52px !important; margin-right: 0 !important; }
+  .station::after { left: -38px !important; right: auto !important; }
+}
+
+/* --------------------------------------------------------------- badges -- */
+.badge-grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(158px, 1fr)); }
+.badge-card {
+  text-align: center; padding: 20px 14px; border-radius: var(--r-lg);
+  background: var(--surface); border: 1px solid var(--line);
+}
+.badge-card .b-ico {
+  font-size: 38px; line-height: 1; display: block; margin-bottom: 9px;
+  filter: grayscale(1) opacity(.32);
+}
+.badge-card.earned { border-color: var(--amber); background: var(--amber-soft); }
+.badge-card.earned .b-ico { filter: none; }
+.badge-card strong { display: block; font-size: 14px; margin-bottom: 4px; }
+.badge-card span { font-size: 11.5px; color: var(--ink-3); line-height: 1.4; display: block; }
+
+/* Award pop-up */
+.award-veil {
+  position: fixed; inset: 0; z-index: 120; display: grid; place-items: center;
+  background: color-mix(in srgb, var(--ink) 55%, transparent);
+  backdrop-filter: blur(3px); padding: 20px;
+}
+.award {
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: var(--r-xl); padding: 34px 32px; text-align: center;
+  max-width: 380px; box-shadow: var(--shadow-lg);
+  animation: pop .42s cubic-bezier(.2,1.3,.4,1);
+}
+@keyframes pop { from { transform: scale(.82); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+.award .a-ico { font-size: 62px; line-height: 1; display: block; margin-bottom: 12px; }
+.award h2 { font-size: 24px; margin-bottom: 6px; }
+.award p { color: var(--ink-2); font-size: 14.5px; }
+.award .eyebrow { color: var(--amber); }
+
+/* ---------------------------------------------------------------- quiz -- */
+.quiz-shell { max-width: 700px; }
+
+.qprogress { display: flex; gap: 5px; margin-bottom: 16px; }
+.qprogress i {
+  flex: 1; height: 5px; border-radius: 999px; background: var(--paper-2);
+  border: 1px solid var(--line);
+}
+.qprogress i.done { background: var(--accent); border-color: var(--accent); }
+.qprogress i.wrong { background: var(--rose); border-color: var(--rose); }
+.qprogress i.now { background: var(--ink-3); border-color: var(--ink-3); }
+
+.opt .tick {
+  float: right; font-weight: 700; margin-left: 10px;
+}
+
+/* Ordering */
+.order-pool, .order-slots { display: flex; flex-direction: column; gap: 8px; }
+.order-slots { margin-bottom: 14px; min-height: 8px; }
+.order-item {
+  display: flex; align-items: center; gap: 11px; width: 100%; text-align: left;
+  padding: 12px 15px; border: 1px solid var(--line-strong); border-radius: var(--r-md);
+  background: var(--surface); font-size: 15px; transition: all .14s;
+}
+.order-item:hover:not(:disabled) { border-color: var(--accent); background: var(--surface-2); }
+.order-item .num {
+  width: 24px; height: 24px; flex: none; border-radius: 50%; display: grid; place-items: center;
+  background: var(--accent-soft); color: var(--accent-ink); font-size: 12px; font-weight: 700;
+}
+.order-item.correct { border-color: #2e7d5b; background: color-mix(in srgb, #2e7d5b 12%, var(--surface)); }
+.order-item.wrong { border-color: var(--rose); background: var(--rose-soft); }
+.order-hint { font-size: 13px; color: var(--ink-3); margin-bottom: 10px; }
+
+/* Matching */
+.match-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.match-col { display: flex; flex-direction: column; gap: 8px; }
+.match-item {
+  padding: 11px 13px; border: 1px solid var(--line-strong); border-radius: var(--r-md);
+  background: var(--surface); font-size: 14px; text-align: left; transition: all .14s;
+}
+.match-item:hover:not(:disabled) { border-color: var(--accent); }
+.match-item.picked { border-color: var(--accent); background: var(--accent-soft); }
+.match-item.paired { border-color: var(--accent-line); background: var(--accent-soft); opacity: .75; }
+.match-item.correct { border-color: #2e7d5b; background: color-mix(in srgb, #2e7d5b 12%, var(--surface)); }
+.match-item.wrong { border-color: var(--rose); background: var(--rose-soft); }
+.match-item .pairnum {
+  float: right; font-size: 11px; font-weight: 700; color: var(--accent-ink);
+}
+@media (max-width: 560px) { .match-grid { grid-template-columns: 1fr; } }
+
+/* --------------------------------------------------------------- kids -- */
+.kids-hero {
+  border-radius: var(--r-xl); padding: 34px 32px; margin: 24px 0 10px;
+  background: linear-gradient(135deg, var(--accent-soft), var(--violet-soft));
+  border: 1px solid var(--accent-line);
+}
+.kids-hero h1 { font-size: clamp(28px, 4.6vw, 44px); margin-bottom: 8px; }
+.kids-hero p { color: var(--ink-2); font-size: 16.5px; max-width: 54ch; margin: 0; }
+
+.big-tiles { display: grid; gap: 16px; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); }
+.tile {
+  display: flex; flex-direction: column; gap: 8px; padding: 22px 20px;
+  border-radius: var(--r-lg); text-decoration: none; color: inherit;
+  background: var(--surface); border: 1px solid var(--line);
+  transition: transform .18s cubic-bezier(.2,.7,.3,1), box-shadow .18s, border-color .18s;
+  min-height: 132px;
+}
+.tile:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); border-color: var(--pal, var(--accent)); }
+.tile .t-ico { font-size: 38px; line-height: 1; }
+.tile strong { font-size: 17px; font-family: var(--serif); }
+.tile span { font-size: 13px; color: var(--ink-3); }
+
+.kids-mode .prose { font-size: 19px; line-height: 1.8; }
+.kids-mode .prose > p:first-child::first-letter { font-size: 2.6em; }
+
+/* Read-aloud */
+.aloud {
+  display: inline-flex; align-items: center; gap: 7px; padding: 8px 14px;
+  border-radius: 999px; font-size: 13.5px; font-weight: 600;
+  border: 1px solid var(--line-strong); background: var(--surface); color: var(--ink-2);
+}
+.aloud:hover { border-color: var(--accent); color: var(--accent-ink); }
+.aloud[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+.aloud:disabled { opacity: .5; cursor: not-allowed; }
+
+/* -------------------------------------------------- size comparison bar -- */
+.sizebar { display: flex; flex-direction: column; gap: 10px; }
+.size-row { display: grid; grid-template-columns: 92px 1fr auto; gap: 10px; align-items: center; }
+.size-row .lbl { font-size: 12.5px; color: var(--ink-2); text-align: right; }
+.size-row .track { height: 20px; background: var(--paper-2); border-radius: 6px; overflow: hidden; }
+.size-row .fill {
+  height: 100%; border-radius: 6px; transition: width .6s cubic-bezier(.2,.7,.3,1);
+  background: linear-gradient(90deg, var(--accent), var(--violet));
+}
+.size-row.self .fill { background: linear-gradient(90deg, var(--amber), var(--rose)); }
+.size-row .val { font-size: 12.5px; font-family: var(--mono); color: var(--ink-3); }
+
+/* ------------------------------------------------------------ utilities -- */
+.confetti-dot {
+  position: fixed; width: 9px; height: 9px; border-radius: 2px; pointer-events: none;
+  z-index: 130; animation: fall linear forwards;
+}
+@keyframes fall {
+  to { transform: translateY(105vh) rotate(540deg); opacity: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .confetti-dot { display: none; }
+  .award { animation: none; }
+}

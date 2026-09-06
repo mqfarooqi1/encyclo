@@ -71,7 +71,16 @@ SOURCE → EVIDENCE → ARTICLE → CITATION → VERSION → REVIEW
 - Knowledge graph with pan/zoom exploration, and readable inverse relation labels
 - Deep-time timeline spanning 4.5 billion years to the present
 - Comparison mode built from shared `comparable_key` facts
-- Quiz engine where every question must carry an explanation and a grounding article
+- "How big?" scale strips, generated from any article carrying a comparable size fact
+- Read-aloud at the reader's own level, using on-device speech — no network, no service
+
+**Explorer Trails — quizzing as a journey**
+- Two trails (ages 6–8 and 9–12) on a drawn board of stations that unlock in sequence
+- 16 quizzes, 89 questions across every category, each with a mandatory explanation
+- Four question types: multiple choice, true/false, **ordering** and **matching**
+- 15 badges awarded for finishing stations and trails, stored locally
+- Stars (1–3) per station; replaying and doing worse never takes progress away
+- Deliberately **no** streaks, daily targets or notifications — see below
 
 **Search**
 - SQLite FTS5 with prefix indexes, BM25 column weighting, and trust-weighted ranking
@@ -89,7 +98,8 @@ SOURCE → EVIDENCE → ARTICLE → CITATION → VERSION → REVIEW
 - Structured audit log of every content mutation
 
 **Safety**
-- Kids Mode with restricted navigation, age-gated content and forced reading level
+- Kids Mode: its own home page with fewer, larger choices, age-gated content,
+  a forced children's reading level, and no unsupervised AI surface
 - Strict CSP, no remote assets of any kind, path-traversal guard, secret-redacting logs
 - AI provider abstraction: `none` (default), Anthropic, OpenAI, or a local model.
   Outbound network calls are refused unless explicitly enabled.
@@ -99,13 +109,24 @@ SOURCE → EVIDENCE → ARTICLE → CITATION → VERSION → REVIEW
 ## Current state
 
 **Complete and tested:** database, migrations, content pipeline, validation,
-search, knowledge graph, timeline, quizzes, learning paths, comparison, reading
-levels, quality scoring, fact checking, admin dashboard, HTTP API, frontend, AI
-grounding layer. 100 tests, `ruff` and `mypy` clean.
+search, knowledge graph, timeline, quizzes, Explorer Trails, badges, learning
+paths, comparison, reading levels, read-aloud, quality scoring, fact checking,
+admin dashboard, HTTP API, frontend, AI grounding layer.
+**135 tests, `ruff` and `mypy` clean.**
 
 **Seed content:** 19 articles, 44 sources, 60 graph relations, 54 timeline
-events, 3 quizzes, 5 learning paths. Every article has all four reading levels
-and cited sources.
+events, **16 quizzes with 89 questions**, 2 Explorer Trails with 11 stations,
+15 badges, 5 learning paths. Every article has all four reading levels and
+cited sources.
+
+### A note on rewards
+
+Badges are earned for *finishing* something. There are no streaks, no daily
+goals, no notifications, and nothing that rewards returning tomorrow rather than
+learning today. A child who has understood the material should have no reason to
+be pulled back by the software. Replaying a station and scoring worse never
+takes a star away, because punishing a second attempt discourages the exact
+behaviour the product wants.
 
 **Deliberately not done yet** — these are honest gaps, not hidden ones:
 

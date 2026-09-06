@@ -208,6 +208,102 @@ Set per type in `taxonomy.json`:
 
 ---
 
+## Quizzes
+
+`quizzes.json`. Every question needs an `explanation` — the loader rejects one
+without it — and should name the `article` (and ideally the `source`) that backs
+the answer, so a quiz can never assert something the encyclopaedia does not.
+
+Four question types are implemented:
+
+```jsonc
+// multiple_choice (the default) and true_false
+{
+  "prompt": "Which dinosaur had three horns on its face?",
+  "explanation": "Triceratops had two long horns above its eyes and one on its nose.",
+  "article": "triceratops",
+  "options": [
+    { "text": "Triceratops", "correct": true },
+    { "text": "Tyrannosaurus rex" }
+  ]
+}
+
+// ordering — the array order IS the answer; the UI shuffles it
+{
+  "kind": "ordering",
+  "prompt": "Put these in order — the longest ago first.",
+  "explanation": "The Earth formed first, then dinosaurs, then people.",
+  "options": [
+    { "text": "🌍 The Earth forms" },
+    { "text": "🦕 Dinosaurs live on Earth" },
+    { "text": "🧑 The first people appear" }
+  ]
+}
+
+// matching — each item names its partner
+{
+  "kind": "matching",
+  "prompt": "Match each world to what it is known for.",
+  "explanation": "…",
+  "options": [
+    { "text": "Earth", "match": "About 71% covered in water" },
+    { "text": "Mars",  "match": "The largest known volcano" }
+  ]
+}
+```
+
+For `ordering` and `matching` there is no single correct option — the answer is
+the sequence or the pairing — so the loader flags every option correct and stores
+the answer in `sort_order` / `match_key`. Do not add `"correct": true` to them.
+
+Writing questions:
+
+- Ages 6–8: one idea per question, three options, concrete comparisons.
+- Explanations teach. "No — T. rex ate meat" is weaker than explaining that its
+  thick conical teeth were built for crushing bone.
+- Use questions to correct misconceptions directly: whether people lived
+  alongside dinosaurs, who built the pyramids, whether humans came from
+  chimpanzees.
+- Ask about *evidence*, not just facts. "Why are T. rex weight estimates given
+  as a range?" teaches more than "How heavy was T. rex?"
+
+## Explorer Trails
+
+`trails.json` defines badges and trails. A trail is an ordered list of stations;
+each names a quiz, a badge and an article to read first.
+
+```jsonc
+{
+  "badges": [
+    { "key": "bone-hunter", "title": "Bone Hunter", "icon": "🦕",
+      "description": "You can tell what fossils prove from what they suggest.",
+      "criteria": "Finish Dinosaur Valley" }
+  ],
+  "trails": [{
+    "key": "explorer-trail", "title": "The Explorer Trail", "icon": "🧭",
+    "age_band": "age9_12",
+    "stations": [
+      { "key": "dinosaur-valley", "title": "Dinosaur Valley",
+        "subtitle": "Evidence from deep time", "icon": "🦕", "palette": "amber",
+        "quiz": "junior-dinosaurs", "badge": "bone-hunter",
+        "article": "cretaceous-period" }
+    ],
+    "completion_badge": "master-explorer"
+  }]
+}
+```
+
+`criteria` is required on every badge: the UI shows it *before* the badge is
+earned, so a child can see what they are working towards rather than being
+surprised by an unexplained reward.
+
+`palette` is a name (`teal`, `amber`, `rose`, `violet`, `green`, `blue`), not a
+colour value, so the theme decides the actual shade in light and dark mode.
+
+Stations unlock in order. Clearing one (half marks or better) opens the next and
+awards its badge. Adding a station is a JSON edit — the board renders whatever
+the data describes.
+
 ## Media
 
 Only add media whose licence you have verified.
