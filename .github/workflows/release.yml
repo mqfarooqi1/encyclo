@@ -1,0 +1,103 @@
+name: Build the desktop app
+
+# Builds a standalone executable for each platform and attaches them to a
+# GitHub Release, so the download link is a real application rather than a zip
+# of source that expects Python and two terminal commands.
+#
+# Triggered by pushing a tag:  git tag v0.2.0 && git push origin v0.2.0
+# Or manually from the Actions tab.
+
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: windows-latest
+            asset: ModernEncarta-windows.exe
+            built: dist/ModernEncarta.exe
+          - os: macos-latest
+            asset: ModernEncarta-macos
+            built: dist/ModernEncarta
+          - os: ubuntu-latest
+            asset: ModernEncarta-linux
+            built: dist/ModernEncarta
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install PyInstaller
+        run: python -m pip install --upgrade pip pyinstaller
+
+      - name: Build
+        run: python scripts/build_app.py
+
+      # A build that produces a binary which cannot start is worse than a failed
+      # build, because it ships. This runs the real thing: it builds the whole
+      # 13,703-article database from the bundled packs, serves it, and is only
+      # considered good if the API answers.
+      - name: Smoke test the built application
+        shell: bash
+        run: python scripts/smoke_test_app.py "${{ matrix.built }}"
+
+      - name: Name the asset
+        shell: bash
+        run: |
+          mkdir -p out
+          cp "${{ matrix.built }}" "out/${{ matrix.asset }}"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.asset }}
+          path: out/${{ matrix.asset }}
+          if-no-files-found: error
+
+  release:
+    needs: build
+    runs-on: ubuntu-latest
+    if: startsWith(github.ref, 'refs/tags/')
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          path: assets
+          merge-multiple: true
+
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: assets/*
+          generate_release_notes: true
+          body: |
+            **Download the one for your machine, then open it.** No installer, no
+            Python, no internet connection, nothing to configure.
+
+            | Machine | File |
+            |---|---|
+            | Windows | `ModernEncarta-windows.exe` |
+            | macOS | `ModernEncarta-macos` |
+            | Linux | `ModernEncarta-linux` |
+
+            The first launch takes about twenty seconds: it builds a
+            13,703-article database and a full-text search index on your machine.
+            Every launch after that is immediate. Your browser opens
+            automatically at `http://127.0.0.1:8000`.
+
+            Your bookmarks, notes and progress are stored separately from the
+            library, so updating the app never touches them.
+
+            The binaries are not code-signed. Windows SmartScreen will say the
+            publisher is unknown: choose **More info -> Run anyway**. On macOS,
+            right-click the file and choose **Open**, or run
+            `chmod +x ModernEncarta-macos` first. On Linux,
+            `chmod +x ModernEncarta-linux` then run it.

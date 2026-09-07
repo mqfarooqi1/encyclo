@@ -10,6 +10,7 @@ silently failing or, worse, faking a result.
 from __future__ import annotations
 
 import os
+import sys
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Literal
@@ -34,9 +35,46 @@ def _load_dotenv(path: Path) -> None:
             os.environ[key] = value
 
 
+def is_frozen() -> bool:
+    """True when running from a PyInstaller bundle rather than a checkout."""
+    return getattr(sys, "frozen", False) and hasattr(sys, "_MEIPASS")
+
+
 def project_root() -> Path:
-    """Repository root, resolved from this file's location."""
+    """Where the application's *read-only* files live.
+
+    In a source checkout this is the repository root. In a packaged build it is
+    the bundle's extraction directory, which is read-only and thrown away when
+    the process exits — so nothing may be written here.
+    """
+    if is_frozen():
+        return Path(sys._MEIPASS)  # type: ignore[attr-defined]
     return Path(__file__).resolve().parents[2]
+
+
+def default_data_dir() -> Path:
+    """Where the databases belong when nobody has said otherwise.
+
+    A checkout keeps `data/` beside the code, which is convenient and easy to
+    delete. An installed or packaged build must not: the bundle directory is
+    read-only, and `site-packages` is the wrong place for a person's bookmarks
+    and notes. Those go to the platform's own per-user location, so a reinstall
+    or an upgrade leaves them untouched.
+    """
+    if not is_frozen():
+        root = project_root()
+        # An editable checkout has its content packs alongside; an installed
+        # wheel does not, and should use the per-user location instead.
+        if (root / "content" / "packs").is_dir():
+            return root / "data"
+
+    if sys.platform == "win32":
+        base = Path(os.environ.get("LOCALAPPDATA") or Path.home() / "AppData" / "Local")
+        return base / "ModernEncarta"
+    if sys.platform == "darwin":
+        return Path.home() / "Library" / "Application Support" / "ModernEncarta"
+    base = Path(os.environ.get("XDG_DATA_HOME") or Path.home() / ".local" / "share")
+    return base / "modern-encarta"
 
 
 @dataclass(frozen=True, slots=True)
@@ -78,7 +116,7 @@ class Config:
         root = project_root()
         _load_dotenv(root / ".env")
         resolved_data = Path(
-            data_dir or os.environ.get("ENCARTA_DATA_DIR") or (root / "data")
+            data_dir or os.environ.get("ENCARTA_DATA_DIR") or default_data_dir()
         ).expanduser()
         provider = os.environ.get("ENCARTA_AI_PROVIDER", "none").strip().lower()
         if provider not in ("none", "anthropic", "openai", "local"):

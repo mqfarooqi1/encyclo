@@ -30,7 +30,17 @@ class RedactingFilter(logging.Filter):
         return True
 
 
-def setup_logging(level: str = "INFO", log_dir: Path | None = None) -> None:
+def setup_logging(
+    level: str = "INFO", log_dir: Path | None = None, *, console_level: str | None = None
+) -> None:
+    """Configure logging for the process.
+
+    `console_level` raises the bar for the screen only, leaving the file at full
+    detail. The desktop application uses it: someone who has opened an app wants
+    to see the four progress lines it prints, not thirty migration and loader
+    records scrolling past them. The same records still go to the log file,
+    which is where an error message tells them to look.
+    """
     root = logging.getLogger()
     if root.handlers:
         return
@@ -40,6 +50,8 @@ def setup_logging(level: str = "INFO", log_dir: Path | None = None) -> None:
     stream = logging.StreamHandler()
     stream.setFormatter(fmt)
     stream.addFilter(RedactingFilter())
+    if console_level is not None:
+        stream.setLevel(getattr(logging, console_level.upper(), logging.WARNING))
     root.addHandler(stream)
 
     if log_dir is not None:

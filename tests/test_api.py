@@ -290,3 +290,35 @@ def test_unknown_frontend_route_serves_the_shell(app):
     status, _body, headers = call(app, "/article/earth")
     assert status == 200
     assert headers["Content-Type"].startswith("text/html")
+
+
+def test_packaged_app_keeps_user_data_outside_the_bundle(monkeypatch, tmp_path):
+    """A frozen build must never try to write beside its own code.
+
+    PyInstaller extracts the bundle to a temporary directory that is read-only
+    in practice and deleted on exit. Defaulting the data directory there would
+    lose every bookmark and note on close; defaulting it into site-packages for
+    an installed wheel is only marginally better.
+    """
+    import sys
+
+    from encarta import config as config_module
+
+    monkeypatch.setattr(sys, "frozen", True, raising=False)
+    monkeypatch.setattr(sys, "_MEIPASS", str(tmp_path / "bundle"), raising=False)
+
+    root = config_module.project_root()
+    data = config_module.default_data_dir()
+
+    assert root == tmp_path / "bundle", "read-only files come from the bundle"
+    assert not str(data).startswith(str(root)), (
+        f"user data {data} must not live inside the bundle {root}"
+    )
+    assert data.name in ("ModernEncarta", "modern-encarta")
+
+
+def test_source_checkout_still_keeps_data_beside_the_code(tmp_path):
+    """The developer workflow must not change: ./data next to the checkout."""
+    from encarta import config as config_module
+
+    assert config_module.default_data_dir() == config_module.project_root() / "data"
