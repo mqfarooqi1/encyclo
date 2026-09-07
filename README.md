@@ -9,8 +9,11 @@ application runs locally with no internet connection and no cloud account.
 
 > **Download:** [get the app](https://github.com/mqfarooqi1/encyclo/archive/refs/heads/main.zip)
 > · needs only Python 3.11+ · then `python run.py setup` and `python run.py serve`.
-> The landing page lives in [`site/`](site/) and is published to GitHub Pages by
-> [`.github/workflows/pages.yml`](.github/workflows/pages.yml).
+> Live at **<https://mqfarooqi1.github.io/encyclo/>**. The landing page lives in
+> [`site/`](site/); the root [`index.html`](index.html) redirects to it so the
+> site works with Pages set to *Deploy from a branch*. Setting Pages to
+> *GitHub Actions* instead makes [`.github/workflows/pages.yml`](.github/workflows/pages.yml)
+> publish `site/` at the root directly, and the redirect stops being used.
 
 ---
 
