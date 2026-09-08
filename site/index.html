@@ -49,14 +49,13 @@
         no tracking, nothing to pay.
       </p>
       <div class="cta">
-        <a class="btn big" href="https://github.com/mqfarooqi1/encyclo/archive/refs/heads/main.zip"
-           download="modern-encarta.zip">
-          <span aria-hidden="true">↓</span> Download (.zip)
+        <a class="btn big" href="https://github.com/mqfarooqi1/encyclo/releases/latest/download/ModernEncarta-windows.exe">
+          <span aria-hidden="true">↓</span> Download for Windows
         </a>
-        <a class="btn big ghost" href="#get">How to run it</a>
+        <a class="btn big ghost" href="#get">macOS, Linux &amp; source</a>
       </div>
       <p class="fineprint">
-        Needs Python 3.11 or newer — nothing else. Works on Windows, macOS and Linux.
+        A single file. No installer, no Python, no internet connection needed.
       </p>
     </div>
 
@@ -242,7 +241,7 @@
   <div class="wrap">
     <h2>Download and run</h2>
     <p class="section-lede">
-      Three commands. There is no installer, no build step and nothing to
+      One file. Open it. There is no installer, no build step and nothing to
       configure.
     </p>
 
@@ -250,13 +249,17 @@
       <div class="step">
         <b>1</b>
         <div>
-          <h3>Get the files</h3>
-          <p>Download the archive and unzip it anywhere you like.</p>
-          <a class="btn" href="https://github.com/mqfarooqi1/encyclo/archive/refs/heads/main.zip"
-             download="modern-encarta.zip">↓ Download .zip</a>
+          <h3>Get the app for your machine</h3>
+          <p>A single self-contained file. Python is not required.</p>
+          <p>
+            <a class="btn" href="https://github.com/mqfarooqi1/encyclo/releases/latest/download/ModernEncarta-windows.exe">↓ Windows</a>
+            <a class="btn" href="https://github.com/mqfarooqi1/encyclo/releases/latest/download/ModernEncarta-macos">↓ macOS</a>
+            <a class="btn" href="https://github.com/mqfarooqi1/encyclo/releases/latest/download/ModernEncarta-linux">↓ Linux</a>
+          </p>
           <p class="muted small">
-            Or, if you use git:
-            <code>git clone https://github.com/mqfarooqi1/encyclo.git</code>
+            Not code-signed: Windows SmartScreen says the publisher is unknown, so
+            choose <b>More info → Run anyway</b>. On macOS, right-click and choose
+            <b>Open</b>. On macOS and Linux, <code>chmod +x</code> the file first.
           </p>
         </div>
       </div>
@@ -264,25 +267,33 @@
       <div class="step">
         <b>2</b>
         <div>
-          <h3>Build the encyclopaedia</h3>
-          <p>This creates the database, loads the articles, builds the search index and checks everything.</p>
-          <div class="cmd"><code>python run.py setup</code><button class="copy" type="button" data-copy="python run.py setup">Copy</button></div>
+          <h3>Open it</h3>
+          <p>
+            The first launch takes about twenty seconds while it builds the
+            13,703-article database and search index on your machine, showing
+            progress as it goes. Then your browser opens at
+            <code>http://127.0.0.1:8000</code>. Every launch after that is immediate.
+          </p>
         </div>
       </div>
 
       <div class="step">
         <b>3</b>
         <div>
-          <h3>Open it</h3>
-          <p>Then visit <code>http://127.0.0.1:8000</code> in any browser.</p>
-          <div class="cmd"><code>python run.py serve</code><button class="copy" type="button" data-copy="python run.py serve">Copy</button></div>
+          <h3>Or run it from source</h3>
+          <p>Needs Python 3.11 or newer, and nothing else.</p>
+          <div class="cmd"><code>python desktop.py</code><button class="copy" type="button" data-copy="python desktop.py">Copy</button></div>
+          <p class="muted small">
+            <code>git clone https://github.com/mqfarooqi1/encyclo.git</code>
+          </p>
         </div>
       </div>
     </div>
 
     <div class="req">
-      <b>Requirements:</b> Python 3.11 or newer. No other downloads, no package
-      installs, no internet connection after this point.
+      <b>Where your things are kept:</b> bookmarks, notes and reading progress
+      live in a separate file from the library, so replacing the app never
+      touches them. Nothing is sent anywhere &mdash; there is nowhere to send it to.
     </div>
   </div>
 </section>
@@ -344,7 +355,7 @@
     </div>
     <div class="foot-links">
       <a href="https://github.com/mqfarooqi1/encyclo">Source code</a>
-      <a href="https://github.com/mqfarooqi1/encyclo/archive/refs/heads/main.zip">Download</a>
+      <a href="https://github.com/mqfarooqi1/encyclo/releases/latest/download/ModernEncarta-windows.exe">Download</a>
       <a href="https://github.com/mqfarooqi1/encyclo/blob/main/docs/SOURCE_POLICY.md">Source policy</a>
       <a href="https://github.com/mqfarooqi1/encyclo/blob/main/docs/CONTENT_GUIDE.md">Contribute an article</a>
     </div>

@@ -2,25 +2,55 @@
 
 An offline-first, source-grounded educational encyclopaedia.
 
-Every article names the sources behind its claims, distinguishes an established
-fact from an estimate or a contested interpretation, is written independently at
-four reading levels, and keeps a full append-only revision history. The whole
-application runs locally with no internet connection and no cloud account.
-
-> **Download:** [get the app](https://github.com/mqfarooqi1/encyclo/archive/refs/heads/main.zip)
-> · needs only Python 3.11+ · then `python run.py setup` and `python run.py serve`.
-> Live at **<https://mqfarooqi1.github.io/encyclo/>**. The landing page lives in
-> [`site/`](site/); the root [`index.html`](index.html) redirects to it so the
-> site works with Pages set to *Deploy from a branch*. Setting Pages to
-> *GitHub Actions* instead makes [`.github/workflows/pages.yml`](.github/workflows/pages.yml)
-> publish `site/` at the root directly, and the redirect stops being used.
+**13,703 articles.** Every one names the sources behind its claims, is labelled
+with where its text came from, and keeps a full append-only revision history.
+The 57 written for this project go further: four independently written reading
+levels, structured facts that distinguish an established fact from an estimate
+or a contested interpretation, and citations to the institution that produced
+the data. The whole application runs locally with no internet connection and no
+cloud account.
 
 ---
 
-## Quick start
+## Download the app
+
+No installer, no Python, no internet connection, nothing to configure. Download
+the file for your machine and open it.
+
+| Machine | Download |
+|---|---|
+| **Windows** | [ModernEncarta-windows.exe](https://github.com/mqfarooqi1/encyclo/releases/latest/download/ModernEncarta-windows.exe) |
+| **macOS** | [ModernEncarta-macos](https://github.com/mqfarooqi1/encyclo/releases/latest/download/ModernEncarta-macos) |
+| **Linux** | [ModernEncarta-linux](https://github.com/mqfarooqi1/encyclo/releases/latest/download/ModernEncarta-linux) |
+
+The first launch takes about twenty seconds: it builds the 13,703-article
+database and the search index on your machine, reporting progress as it goes.
+Every launch after that is immediate, and your browser opens automatically at
+<http://127.0.0.1:8000>.
+
+Your bookmarks, notes and progress live separately from the library
+(`%LOCALAPPDATA%\ModernEncarta`, `~/Library/Application Support/ModernEncarta`,
+or `~/.local/share/modern-encarta`), so replacing the app never touches them.
+
+The binaries are not code-signed. Windows SmartScreen will say the publisher is
+unknown — choose **More info → Run anyway**. On macOS, right-click and choose
+**Open**. On macOS and Linux, `chmod +x` the file first.
+
+Landing page: **<https://mqfarooqi1.github.io/encyclo/>**.
+
+---
+
+## Running from source
 
 Requires **Python 3.11+** and nothing else. No Node, no build step, no
 compilation, no third-party packages.
+
+```bash
+python desktop.py
+```
+
+That does everything the packaged app does: builds the library if needed, serves
+it, and opens a browser. To drive the steps yourself:
 
 ```bash
 python run.py setup
